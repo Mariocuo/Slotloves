@@ -1,0 +1,43 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b9d;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7f5cff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00c6fb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="heartGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6b9d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sfondo circolare -->
+  <circle cx="16" cy="16" r="14" fill="url(#bgGradient)" stroke="#fff" stroke-width="1"/>
+  
+  <!-- Cuore centrale -->
+  <path d="M12,10 C12,6 14,4 16,6 C18,4 20,6 20,10 C20,14 16,18 16,18 C16,18 12,14 12,10 Z" 
+        fill="url(#heartGradient)"/>
+  
+  <!-- Simboli slot machine -->
+  <g transform="translate(16, 16)">
+    <g transform="rotate(0)">
+      <rect x="-2" y="-8" width="4" height="4" rx="1" fill="#fff" opacity="0.9"/>
+      <text x="0" y="-6" text-anchor="middle" fill="#7f5cff" font-size="3" font-weight="bold">♥</text>
+    </g>
+    
+    <g transform="rotate(90)">
+      <rect x="-2" y="-8" width="4" height="4" rx="1" fill="#fff" opacity="0.9"/>
+      <text x="0" y="-6" text-anchor="middle" fill="#ff6b9d" font-size="3" font-weight="bold">♦</text>
+    </g>
+    
+    <g transform="rotate(180)">
+      <rect x="-2" y="-8" width="4" height="4" rx="1" fill="#fff" opacity="0.9"/>
+      <text x="0" y="-6" text-anchor="middle" fill="#00c6fb" font-size="3" font-weight="bold">♠</text>
+    </g>
+    
+    <g transform="rotate(270)">
+      <rect x="-2" y="-8" width="4" height="4" rx="1" fill="#fff" opacity="0.9"/>
+      <text x="0" y="-6" text-anchor="middle" fill="#7f5cff" font-size="3" font-weight="bold">♣</text>
+    </g>
+  </g>
+</svg> 

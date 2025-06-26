@@ -5,6 +5,10 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 <title>SlotLove</title>
 
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="icon" type="image/png" href="favicon.svg" />
+
 <!-- Google Font elegante -->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
@@ -22,19 +26,23 @@
   }
 
   .main-title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin: 2rem 0 1.8rem;
-    background: linear-gradient(90deg, #ff4081, #7f5cff, #00c6fb);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    letter-spacing: 1.5px;
-    text-shadow: 0 4px 24px rgba(127,92,255,0.12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1.8rem;
     text-align: center;
     transition: all 0.3s;
-    text-transform: uppercase;
+  }
+
+  .main-title img {
+    filter: drop-shadow(0 8px 24px rgba(127,92,255,0.15));
+    transition: all 0.3s ease;
+  }
+
+  .main-title img:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 12px 32px rgba(127,92,255,0.25));
   }
 
   #cards {
@@ -571,7 +579,10 @@
 </style>
 </head>
 <body>
-  <div class="main-title">SlotLove</div>
+  <div class="main-title">
+    <img src="logo.svg" alt="SlotLove" style="width: 120px; height: 120px; margin-bottom: 1rem;">
+    <div style="font-size: 2.5rem; font-weight: 700; background: linear-gradient(90deg, #ff4081, #7f5cff, #00c6fb); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-fill-color: transparent; letter-spacing: 1.5px; text-shadow: 0 4px 24px rgba(127,92,255,0.12); text-align: center; transition: all 0.3s; text-transform: uppercase;">SlotLove</div>
+  </div>
   <select id="levelSel" style="margin-bottom:1.2rem;max-width:220px;">
     <option value="">Qualsiasi</option>
     <option value="L1">1 Vanilla</option>
