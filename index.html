@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<title>SlotLove</title>
+
+<!-- Google Font elegante -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(120deg, #f8d5ff 0%, #ffe5ec 50%, #e0e7ff 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem 1rem 3rem;
+  }
+
+  .main-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 2rem 0 1.8rem;
+    background: linear-gradient(90deg, #ff4081, #7f5cff, #00c6fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    letter-spacing: 1.5px;
+    text-shadow: 0 4px 24px rgba(127,92,255,0.12);
+    text-align: center;
+    transition: all 0.3s;
+    text-transform: uppercase;
+  }
+
+  #cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 2rem;
+    justify-items: center;
+    align-items: start;
+    margin: 0.5rem auto 1.5rem;
+    width: 100%;
+    max-width: 800px;
+    padding: 0 1rem;
+  }
+
+  .card {
+    width: 200px;
+    aspect-ratio: 1;
+    padding: 1.25rem;
+    border-radius: 18px;
+    background: rgba(255,255,255,0.32);
+    backdrop-filter: blur(10px) saturate(1.1);
+    box-shadow: 0 4px 16px rgba(127,92,255,0.08), 0 2px 8px rgba(0,0,0,0.06);
+    text-align: center;
+    position: relative;
+    transition: transform 0.25s, box-shadow 0.25s;
+    border: 1.2px solid rgba(127,92,255,0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .card:hover {
+    transform: translateY(-8px) scale(1.04);
+    box-shadow: 0 16px 36px rgba(127,92,255,0.16), 0 4px 16px rgba(0,0,0,0.12);
+  }
+
+  .card.locked {
+    outline: 2.5px solid #4caf50;
+    box-shadow: 0 0 0 4px rgba(76,175,80,0.13), 0 8px 18px rgba(127,92,255,0.08);
+  }
+
+  .card h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin: 0 0 0.6rem;
+    letter-spacing: 0.5px;
+    color: #7f5cff;
+    text-transform: capitalize;
+  }
+
+  .card p {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .lock-btn {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    user-select: none;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.5);
+    transition: all 0.2s;
+  }
+
+  .lock-btn:hover {
+    background: rgba(255,255,255,0.8);
+    transform: scale(1.1);
+  }
+
+  .card-heart {
+    position: absolute;
+    bottom: 0.75rem;
+    right: 0.75rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.2s;
+    background: none;
+    border: none;
+    padding: 0;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.5);
+  }
+
+  .card-heart:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    background: rgba(255,255,255,0.8);
+  }
+
+  .card-heart.liked {
+    opacity: 1;
+    color: #ff4081;
+    background: rgba(255,255,255,0.8);
+  }
+
+  .info-btn {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.2s;
+    background: rgba(255,255,255,0.5);
+    border: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .info-btn:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    background: rgba(255,255,255,0.8);
+  }
+
+  .explanation-box {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    left: -0.5rem;
+    right: -0.5rem;
+    background: linear-gradient(135deg, #fff3cd, #fff9e6);
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    font-size: 0.92rem;
+    color: #856404;
+    z-index: 10;
+    display: none;
+    animation: fadeIn 0.3s ease-out;
+    line-height: 1.5;
+    text-align: left;
+    border: 1px solid rgba(133,100,4,0.1);
+  }
+
+  button.spin {
+    margin: 1rem 0 2rem;
+    padding: 0.8rem 2.2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #ff4081, #7f5cff, #00c6fb);
+    color: #fff;
+    letter-spacing: 0.7px;
+    box-shadow: 0 6px 18px rgba(127,92,255,0.15);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s, background 0.3s;
+    outline: none;
+  }
+
+  button.spin:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 12px 28px rgba(127,92,255,0.2);
+    background: linear-gradient(90deg, #7f5cff, #ff4081, #00c6fb);
+  }
+
+  button.spin:active {
+    transform: translateY(0) scale(1);
+    box-shadow: 0 6px 18px rgba(127,92,255,0.15);
+  }
+
+  button.spin:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
+  }
+
+  #feedback {
+    margin: 3rem 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7rem;
+    position: relative;
+  }
+
+  .feedback-row {
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+  }
+
+  .feedback-row::after {
+    content: '';
+    position: absolute;
+    bottom: -3.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgba(127,92,255,0.2), transparent);
+  }
+
+  .fb-btn {
+    font-size: 1.35rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 1.5px solid #7f5cff;
+    border-radius: 50%;
+    background: #fff;
+    padding: 0;
+    box-shadow: 0 2px 6px rgba(127,92,255,0.1);
+    outline: none;
+    user-select: none;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fb-btn:hover {
+    transform: scale(1.13);
+    box-shadow: 0 4px 12px rgba(127,92,255,0.15);
+    background: #f8d5ff;
+    border-color: #ff4081;
+  }
+
+  .fb-btn.osare {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(90deg, #ff4081, #7f5cff, #00c6fb);
+    border: none;
+    border-radius: 999px;
+    padding: 1rem 2.5rem;
+    margin-top: 1rem;
+    box-shadow: 0 2px 8px rgba(127,92,255,0.15);
+    letter-spacing: 0.5px;
+    transition: all 0.2s;
+    width: auto;
+    height: auto;
+  }
+
+  .fb-btn.osare:hover {
+    background: linear-gradient(90deg, #7f5cff, #ff4081, #00c6fb);
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(127,92,255,0.2);
+  }
+
+  #ai-suggestion {
+    margin: 2rem auto 0;
+    padding: 1.2rem 1.8rem;
+    background: linear-gradient(90deg, #fffbe7 60%, #e0e7ff 100%);
+    border-radius: 14px;
+    color: #856404;
+    font-size: 1rem;
+    box-shadow: 0 2px 8px rgba(127,92,255,0.08);
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid rgba(133,100,4,0.1);
+    max-width: 600px;
+    line-height: 1.5;
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    #cards {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, auto);
+      gap: 1.5rem;
+    }
+    
+    .card {
+      max-width: 170px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    #cards {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    
+    .card {
+      max-width: 200px;
+    }
+
+    #feedback {
+      gap: 5rem;
+      margin-top: 2rem;
+    }
+
+    .feedback-row::after {
+      bottom: -2.5rem;
+      width: 60px;
+    }
+
+    .fb-btn {
+      width: 46px;
+      height: 46px;
+      font-size: 1.2rem;
+    }
+
+    .fb-btn.osare {
+      padding: 0.8rem 1.6rem;
+      font-size: 0.9rem;
+    }
+  }
+
+  /* Stili per l'animazione slot machine */
+  @keyframes spinText {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+
+  .slot-container {
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .slot-reel {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    will-change: transform;
+    transition: none;
+  }
+
+  .slot-item {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.4;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+  }
+
+  .card p.spinning {
+    transition: transform 0.1s linear;
+  }
+
+  #levelSel {
+    display: block;
+    margin: 0 auto 1.2rem auto;
+    padding: 0.7rem 2.2rem 0.7rem 1.1rem;
+    font-size: 1.08rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #7f5cff;
+    background: linear-gradient(90deg, #ffe5ec 60%, #e0e7ff 100%);
+    border: 2px solid #e0e7ff;
+    border-radius: 999px;
+    box-shadow: 0 2px 8px rgba(127,92,255,0.08);
+    outline: none;
+    transition: border 0.2s, box-shadow 0.2s;
+    appearance: none;
+    position: relative;
+    cursor: pointer;
+    max-width: 220px;
+    min-width: 180px;
+  }
+  #levelSel:focus, #levelSel:hover {
+    border: 2px solid #ff4081;
+    box-shadow: 0 4px 16px rgba(127,92,255,0.13);
+    background: linear-gradient(90deg, #f8d5ff 60%, #e0e7ff 100%);
+    color: #ff4081;
+  }
+  #levelSel option {
+    color: #7f5cff;
+    font-weight: 500;
+    background: #fff;
+  }
+  /* Custom dropdown arrow */
+  #levelSel {
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%237f5cff" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M7.293 8.293a1 1 0 011.414 0L10 9.586l1.293-1.293a1 1 0 111.414 1.414l-2 2a1 1 0 01-1.414 0l-2-2a1 1 0 010-1.414z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 1.1rem center;
+    background-size: 1.2em;
+  }
+  @media (max-width: 480px) {
+    #levelSel {
+      font-size: 0.98rem;
+      min-width: 120px;
+      padding: 0.6rem 2rem 0.6rem 0.8rem;
+    }
+  }
+
+  .switch-label {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    margin: 0 auto 1.2rem auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #7f5cff;
+    font-size: 1.08rem;
+    cursor: pointer;
+    user-select: none;
+    justify-content: center;
+  }
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 28px;
+    margin-right: 0.3rem;
+  }
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(90deg, #ffe5ec 60%, #e0e7ff 100%);
+    border-radius: 999px;
+    transition: background 0.3s;
+    box-shadow: 0 2px 8px rgba(127,92,255,0.08);
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: 3px;
+    bottom: 3px;
+    background: linear-gradient(90deg, #ff4081, #7f5cff, #00c6fb);
+    border-radius: 50%;
+    transition: transform 0.3s, background 0.3s;
+    box-shadow: 0 2px 8px rgba(127,92,255,0.13);
+  }
+  .switch input:checked + .slider {
+    background: linear-gradient(90deg, #f8d5ff 60%, #e0e7ff 100%);
+  }
+  .switch input:checked + .slider:before {
+    transform: translateX(20px);
+    background: linear-gradient(90deg, #7f5cff, #ff4081, #00c6fb);
+  }
+  .switch-label .switch {
+    margin-bottom: 0;
+  }
+  @media (max-width: 480px) {
+    .switch-label {
+      font-size: 0.98rem;
+    }
+    .switch {
+      width: 38px;
+      height: 22px;
+    }
+    .slider:before {
+      height: 16px;
+      width: 16px;
+      left: 3px;
+      bottom: 3px;
+    }
+  }
+
+  /* Aggiungi stile CSS per effetto illuminato su cuoricino e cacchina */
+  .card-heart.active {
+    color: #ff1a1a;
+    filter: drop-shadow(0 0 12px #ff1a1a) saturate(2);
+    transform: scale(1.35);
+    transition: all 0.15s;
+    z-index: 2;
+  }
+  .card-heart:hover {
+    color: #e74c3c;
+    filter: drop-shadow(0 0 6px #e74c3c);
+    transform: scale(1.2);
+    transition: all 0.15s;
+  }
+  .card-dislike.active {
+    color: #a0522d;
+    filter: drop-shadow(0 0 12px #a0522d) saturate(2);
+    transform: scale(1.35);
+    transition: all 0.15s;
+    z-index: 2;
+  }
+  .card-dislike:hover {
+    color: #8d5524;
+    filter: drop-shadow(0 0 6px #8d5524);
+    transform: scale(1.2);
+    transition: all 0.15s;
+  }
+</style>
+</head>
+<body>
+  <div class="main-title">SlotLove</div>
+  <select id="levelSel" style="margin-bottom:1.2rem;max-width:220px;">
+    <option value="">Qualsiasi</option>
+    <option value="L1">1 Vanilla</option>
+    <option value="L2">2 Sensuale</option>
+    <option value="L3">3 Piccante</option>
+    <option value="L4">4 Intenso</option>
+    <option value="L5">5 Estremo</option>
+  </select>
+  <label class="switch-label">
+    <span style="font-size:1.18em;">👫</span>
+    <span>Con altri</span>
+    <span class="switch">
+      <input type="checkbox" id="partChk">
+      <span class="slider"></span>
+    </span>
+  </label>
+  <button class="spin" id="spinBtn">Spin</button>
+  <div id="cards"></div>
+  <div id="feedback" style="display:none;">
+    <div class="feedback-row">
+      <span class="fb-btn" id="like" title="Mi piace">❤️</span>
+      <span class="fb-btn" id="dislike" title="Non mi piace">💩</span>
+    </div>
+    <button class="fb-btn osare" id="osareBtn" title="Questa scelta è osare!">QUESTO È OSARE</button>
+  </div>
+
+<script>
+const cardsDiv=document.getElementById('cards');
+const feedbackDiv=document.getElementById('feedback');
+let currentCodes={},locked={};
+let allOptions = null;
+let lastSpinData = null;
+let mapping = null;
+let mappingReady = false;
+
+// Mapping corretto tra i nomi delle categorie in inglese e italiano
+const categories = [
+  'azione',
+  'outfit',
+  'luogo',
+  'energia',
+  'oggetto',
+  'extra'
+];
+
+// Carica mapping.json all'avvio
+async function loadMapping() {
+  try {
+    const response = await fetch('/static/data/mapping.json');
+    mapping = await response.json();
+    mappingReady = true;
+    document.getElementById('spinBtn').disabled = false;
+    document.getElementById('spinBtn').style.opacity = '1';
+  } catch (e) {
+    mapping = {};
+    mappingReady = false;
+    document.getElementById('spinBtn').disabled = true;
+    document.getElementById('spinBtn').style.opacity = '0.7';
+  }
+}
+
+// Funzione per caricare tutte le opzioni all'avvio
+async function loadAllOptions() {
+  try {
+    const response = await fetch('/spin');
+    const data = await response.json();
+    console.log('Loaded options:', data.options); // Debug log
+    allOptions = data.options || {};
+    renderEmptyCards();
+  } catch (error) {
+    console.error('Error loading options:', error);
+    renderEmptyCards();
+  }
+}
+
+function renderEmptyCards() {
+  cardsDiv.innerHTML = '';
+  categories.forEach(cat => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.setAttribute('data-backend', cat);
+    card.innerHTML = `<div class="lock-btn">🔓</div>
+                    <button class="info-btn" style="display: none;">❓</button>
+                    <h3>${cat}</h3><p>...</p>
+                    <button class="card-heart" style="display: none;">❤️</button>
+                    <div class="explanation-box"></div>`;
+    card.querySelector('.lock-btn').style.visibility = 'hidden';
+    card.querySelector('.info-btn').style.visibility = 'hidden';
+    cardsDiv.appendChild(card);
+  });
+  feedbackDiv.style.display = 'none';
+}
+
+// Funzione universale per ottenere la label dal mapping
+function getLabel(code) {
+  if (!mapping) return code;
+  const val = mapping[code];
+  if (val === undefined) {
+    console.warn('Codice non trovato in mapping:', code);
+    return code;
+  }
+  if (typeof val === 'object' && val.label) return val.label;
+  if (typeof val === 'string') return val;
+  return code;
+}
+
+// AGGIUNGI overlay modale per explanation box
+const modalHtml = `
+  <div id="explanation-modal" style="display:none;position:fixed;z-index:1000;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.25);align-items:center;justify-content:center;">
+    <div id="explanation-content" style="background:linear-gradient(135deg,#fff3cd,#fff9e6);padding:2rem 1.5rem 1.5rem 1.5rem;border-radius:18px;box-shadow:0 8px 32px rgba(127,92,255,0.18);max-width:350px;width:90vw;position:relative;">
+      <button id="close-explanation" style="position:absolute;top:0.7rem;right:0.7rem;font-size:1.3em;background:none;border:none;cursor:pointer;opacity:0.7;">✖</button>
+      <div id="explanation-text" style="font-size:1.05em;color:#856404;line-height:1.5;text-align:left;"></div>
+    </div>
+  </div>`;
+if (!document.getElementById('explanation-modal')) {
+  document.body.insertAdjacentHTML('beforeend', modalHtml);
+}
+const modal = document.getElementById('explanation-modal');
+const modalText = document.getElementById('explanation-text');
+const modalClose = document.getElementById('close-explanation');
+modalClose.onclick = () => { modal.style.display = 'none'; };
+modal.onclick = (e) => { if (e.target === modal) modal.style.display = 'none'; };
+
+function showExplanation(text) {
+  modalText.innerHTML = text;
+  modal.style.display = 'flex';
+}
+
+// Aggiungi funzione per attivare i listener sui bottoni di lock
+function activateLockListeners() {
+  document.querySelectorAll('.card').forEach(card => {
+    const lockBtn = card.querySelector('.lock-btn');
+    if (!lockBtn) return;
+    lockBtn.style.visibility = 'visible';
+    lockBtn.onclick = (e) => {
+      e.stopPropagation();
+      const cat = card.getAttribute('data-backend');
+      const code = (lastSpinData && lastSpinData.codes && lastSpinData.codes[cat]) || null;
+      if (code) {
+        toggleLock(cat, code);
+      }
+    };
+  });
+}
+
+function activateExplanationListeners() {
+  document.querySelectorAll('.card').forEach(card => {
+    const infoBtn = card.querySelector('.info-btn');
+    if (!infoBtn) return;
+    infoBtn.style.display = 'block';
+    infoBtn.onclick = (e) => {
+      e.stopPropagation();
+      // Prendi il codice della card
+      const cat = card.getAttribute('data-backend');
+      const code = (lastSpinData && lastSpinData.codes && lastSpinData.codes[cat]) || null;
+      let explanation = '';
+      if (mapping && mapping[code] && typeof mapping[code] === 'object' && mapping[code].explanation) {
+        explanation = mapping[code].explanation;
+      } else {
+        explanation = 'Ops, ci hai beccati: qui manca la spiegazione!';
+      }
+      showExplanation(explanation);
+    };
+  });
+}
+
+function renderCards(data){
+  lastSpinData = data;
+  cardsDiv.innerHTML='';
+  const showPartecipanti = document.getElementById('partChk').checked;
+  Object.entries(data.codes).forEach(([cat,code])=>{
+    if (cat === "partecipanti" && !showPartecipanti) return;
+    let label = getLabel(code);
+    let explanation = '';
+    if (mapping && mapping[code] && typeof mapping[code] === 'object' && mapping[code].explanation) {
+      explanation = mapping[code].explanation;
+    } else {
+      explanation = 'Ops, ci hai beccati: qui manca la spiegazione!';
+    }
+    // Bottoni feedback: cuoricino in basso a destra, cacchina in basso a sinistra
+    let feedbackBtns = `
+      <button class=\"card-dislike\" style=\"position:absolute;bottom:8px;left:8px;font-size:1.4em;background:none;border:none;cursor:pointer;\">💩</button>
+      <button class=\"card-heart\" style=\"position:absolute;bottom:8px;right:8px;font-size:1.4em;background:none;border:none;cursor:pointer;\">❤️</button>
+    `;
+    // Card HTML: info-btn e explanation-box sono SEMPRE presenti
+    const card=document.createElement('div');
+    card.className='card'+(locked[cat]?' locked':'');
+    card.setAttribute('data-backend', cat);
+    card.style.position = 'relative';
+    card.innerHTML=`<div class=\"lock-btn\">${locked[cat]?'🔒':'🔓'}<\/div>
+                    <button class=\"info-btn\">❓<\/button>
+                    <h3>${cat}<\/h3><p>${label}<\/p>
+                    ${feedbackBtns}
+                    <div class=\"explanation-box\">${explanation}<\/div>`;
+    cardsDiv.appendChild(card);
+    // Attiva stato feedback
+    const fb = getFeedback(code);
+    if (fb.like > 0) card.querySelector('.card-heart').classList.add('active');
+    if (fb.dislike > 0) card.querySelector('.card-dislike').classList.add('active');
+    if (fb.osare > 0) card.querySelector('.card-dare').classList.add('active');
+    // ContextKey per combinazioni: per luogo passo azione, per altre categorie puoi estendere
+    let contextKey = null;
+    if (cat === 'luogo' && data.codes['azione']) contextKey = data.codes['azione'];
+    attachFeedbackButtons(card, code, contextKey);
+  });
+  activateExplanationListeners();
+  activateLockListeners(); // Attiva i listener sui bottoni di lock
+  feedbackDiv.style.display='block';
+}
+
+function toggleLock(cat,code){
+  if(locked[cat]) delete locked[cat]; else locked[cat]=code;
+  document.querySelectorAll('.card').forEach(c=>{
+    if(c.getAttribute('data-backend')===cat){
+      c.classList.toggle('locked');
+      c.querySelector('.lock-btn').innerText=locked[cat]?'🔒':'🔓';
+    }
+  });
+}
+
+function easeOutBack(t) {
+  const c1 = 1.70158;
+  const c3 = c1 + 1;
+  return 1 + c3 * Math.pow(t - 1, 3) + c1 * Math.pow(t - 1, 2);
+}
+
+async function startSpinningAnimation(finalChoices) {
+  if (!allOptions) return;
+  const cards = document.querySelectorAll('.card');
+  const spinDuration = 3000; // 3 secondi totali
+  const itemHeight = 40;
+  const repeat = 4; // quante volte ripetere le opzioni per effetto rullo
+  const animationPromises = [];
+  cards.forEach((card, index) => {
+    const backendCategory = card.getAttribute('data-backend');
+    // Se la card è bloccata, salta l'animazione
+    if (locked[backendCategory]) {
+      animationPromises.push(Promise.resolve()); // Promise già risolta per card bloccate
+      return;
+    }
+    
+    // Pulisci la card
+    let oldSlot = card.querySelector('.slot-container');
+    if (oldSlot) oldSlot.remove();
+    let oldP = card.querySelector('p');
+    if (oldP) oldP.remove();
+    // Dati
+    const options = allOptions[backendCategory] || [];
+    const finalChoice = finalChoices.codes[backendCategory];
+    // Crea la sequenza del rullo (usa label del mapping)
+    let sequence = [];
+    for (let i = 0; i < repeat; i++) sequence = sequence.concat(options);
+    sequence.push(finalChoice);
+    // Crea DOM
+    const slotContainer = document.createElement('div');
+    slotContainer.className = 'slot-container';
+    const reel = document.createElement('div');
+    reel.className = 'slot-reel';
+    sequence.forEach(option => {
+      const item = document.createElement('div');
+      item.className = 'slot-item';
+      let label = getLabel(option);
+      item.textContent = label;
+      reel.appendChild(item);
+    });
+    slotContainer.appendChild(reel);
+    card.appendChild(slotContainer);
+    // Forza reflow
+    reel.offsetHeight;
+    // Animazione
+    animationPromises.push(new Promise(resolve => {
+      setTimeout(() => {
+        reel.style.transition = 'transform 1s linear';
+        reel.style.transform = `translateY(-${(sequence.length - 6) * itemHeight}px)`;
+        setTimeout(() => {
+          reel.style.transition = 'transform 2s cubic-bezier(0.1, 0.7, 0.1, 1)';
+          reel.style.transform = `translateY(-${(sequence.length - 1) * itemHeight}px)`;
+          setTimeout(() => {
+            slotContainer.remove();
+            const p = document.createElement('p');
+            let label = getLabel(finalChoice);
+            p.textContent = label;
+            card.appendChild(p);
+            // Aggiorna explanation box
+            let explanation = '';
+            if (mapping && mapping[finalChoice] && typeof mapping[finalChoice] === 'object' && mapping[finalChoice].explanation) {
+              explanation = mapping[finalChoice].explanation;
+            } else {
+              explanation = 'Ops, ci hai beccati: qui manca la spiegazione!';
+            }
+            let explanationBox = card.querySelector('.explanation-box');
+            if (explanationBox) explanationBox.innerHTML = explanation;
+            activateExplanationListeners();
+            activateLockListeners(); // Riapplica anche i listener dei lock
+            resolve();
+          }, 2000);
+        }, 1000);
+      }, 0);
+    }));
+  });
+  await Promise.all(animationPromises);
+}
+
+// Gestione feedback locale
+function getFeedbackStore() {
+  return JSON.parse(localStorage.getItem('feedbackStore') || '{}');
+}
+function setFeedbackStore(store) {
+  localStorage.setItem('feedbackStore', JSON.stringify(store));
+}
+function saveFeedback(code, type) {
+  const store = getFeedbackStore();
+  if (!store[code]) store[code] = {like:0, dislike:0, osare:0};
+  store[code][type] = (store[code][type]||0) + 1;
+  setFeedbackStore(store);
+}
+function getFeedback(code) {
+  const store = getFeedbackStore();
+  return store[code] || {like:0, dislike:0, osare:0};
+}
+
+// Weighted choice che tiene conto dei feedback
+function weightedChoice(options, contextKey=null) {
+  if (!options.length) return null;
+  // 10% di probabilità di "osare" (scegliere tra le meno gradite)
+  const dareToDare = Math.random() < 0.10;
+  // Calcola i pesi
+  let weights = options.map(opt => {
+    let fb = getFeedback(opt);
+    // Se combinazione, somma feedback della combinazione e della singola scelta
+    if (contextKey) {
+      const comboFb = getFeedback(contextKey + '|' + opt);
+      fb = {
+        like: (fb.like||0) + (comboFb.like||0),
+        dislike: (fb.dislike||0) + (comboFb.dislike||0),
+        osare: (fb.osare||0) + (comboFb.osare||0)
+      };
+    }
+    // Peso base
+    let w = 1 + fb.like*2 + fb.osare;
+    w -= fb.dislike*2;
+    if (w < 0.1) w = 0.1; // mai zero
+    return w;
+  });
+  // Se "osare", scegli tra le meno gradite (peso minore)
+  if (dareToDare) {
+    let minW = Math.min(...weights);
+    let daringOpts = options.filter((_,i)=>weights[i]===minW);
+    return daringOpts[Math.floor(Math.random()*daringOpts.length)];
+  }
+  // Altrimenti estrai pesato
+  let sum = weights.reduce((a,b)=>a+b,0);
+  let r = Math.random()*sum;
+  for(let i=0;i<options.length;i++){
+    if(r<weights[i]) return options[i];
+    r-=weights[i];
+  }
+  return options[0];
+}
+
+// Modifica i bottoni like/dislike/osare per salvare feedback
+function attachFeedbackButtons(card, code, contextKey) {
+  const likeBtn = card.querySelector('.card-heart');
+  const dislikeBtn = card.querySelector('.card-dislike');
+  // Like
+  if (likeBtn) likeBtn.onclick = ()=>{
+    const isActive = likeBtn.classList.contains('active');
+    if (isActive) {
+      likeBtn.classList.remove('active');
+      removeFeedback(code, 'like');
+      if(contextKey) removeFeedback(contextKey+'|'+code, 'like');
+    } else {
+      likeBtn.classList.add('active');
+      if (dislikeBtn) dislikeBtn.classList.remove('active');
+      saveFeedback(code, 'like');
+      if(contextKey) saveFeedback(contextKey+'|'+code, 'like');
+      removeFeedback(code, 'dislike');
+      if(contextKey) removeFeedback(contextKey+'|'+code, 'dislike');
+    }
+  };
+  // Dislike
+  if (dislikeBtn) dislikeBtn.onclick = ()=>{
+    const isActive = dislikeBtn.classList.contains('active');
+    if (isActive) {
+      dislikeBtn.classList.remove('active');
+      removeFeedback(code, 'dislike');
+      if(contextKey) removeFeedback(contextKey+'|'+code, 'dislike');
+    } else {
+      dislikeBtn.classList.add('active');
+      if (likeBtn) likeBtn.classList.remove('active');
+      saveFeedback(code, 'dislike');
+      if(contextKey) saveFeedback(contextKey+'|'+code, 'dislike');
+      removeFeedback(code, 'like');
+      if(contextKey) removeFeedback(contextKey+'|'+code, 'like');
+    }
+  };
+}
+
+// Funzione per rimuovere feedback
+function removeFeedback(code, type) {
+  const store = getFeedbackStore();
+  if (store[code] && store[code][type] > 0) {
+    store[code][type]--;
+    setFeedbackStore(store);
+  }
+}
+
+function isCompatible(actionCode, luogoCode) {
+  function getList(code, key) {
+    const val = mapping && mapping[code];
+    if (val && typeof val === 'object') return val[key] || [];
+    return [];
+  }
+  const needs = getList(actionCode, 'needs');
+  const supports = getList(luogoCode, 'supports');
+  return needs.every(n => supports.includes(n));
+}
+
+// Modifica la funzione spin per applicare il filtro del livello a tutte le categorie
+async function spin() {
+  if (!mappingReady) {
+    alert('Attendi il caricamento delle etichette...');
+    return;
+  }
+  const spinBtn = document.getElementById('spinBtn');
+  spinBtn.disabled = true;
+  spinBtn.style.opacity = '0.7';
+  feedbackDiv.style.display = 'none';
+  cardsDiv.style.animation = 'slotShake .4s ease-in-out';
+  setTimeout(() => cardsDiv.style.animation = '', 400);
+  try {
+    const level = document.getElementById('levelSel').value;
+    const spinPart = document.getElementById('partChk').checked;
+    
+    // Funzione per filtrare opzioni per livello
+    function filterByLevel(options, category) {
+      if (!level) return options; // Se nessun livello selezionato, mostra tutto
+      return options.filter(code => {
+        const mappingEntry = mapping[code];
+        if (!mappingEntry || typeof mappingEntry !== 'object') return true; // Se non c'è mapping, include
+        const codeLevel = mappingEntry.level;
+        return codeLevel === level; // Solo codici del livello selezionato
+      });
+    }
+    
+    // --- LOGICA COMPATIBILITÀ ---
+    // 1. Estrai azione
+    const actionCodes = allOptions['azione'] || [];
+    const filteredActionCodes = filterByLevel(actionCodes, 'azione');
+    let actionChoice = locked['azione'] && filteredActionCodes.includes(locked['azione']) ? locked['azione'] : weightedChoice(filteredActionCodes);
+    
+    // 2. Estrai luogo compatibile
+    const luogoCodes = allOptions['luogo'] || [];
+    const filteredLuogoCodes = filterByLevel(luogoCodes, 'luogo');
+    let luogoChoice;
+    if (locked['luogo'] && filteredLuogoCodes.includes(locked['luogo'])) {
+      luogoChoice = locked['luogo'];
+      if (!isCompatible(actionChoice, luogoChoice)) {
+        const compatibili = filteredLuogoCodes.filter(l => isCompatible(actionChoice, l));
+        luogoChoice = compatibili[0] || filteredLuogoCodes[0] || null;
+      }
+    } else {
+      const compatibili = filteredLuogoCodes.filter(l => isCompatible(actionChoice, l));
+      luogoChoice = compatibili.length ? weightedChoice(compatibili) : weightedChoice(filteredLuogoCodes);
+    }
+    
+    // 3. Estrai le altre categorie normalmente
+    let codes = { azione: actionChoice, luogo: luogoChoice };
+    Object.keys(allOptions).forEach(cat => {
+      if (cat === 'azione' || cat === 'luogo') return;
+      const opts = allOptions[cat] || [];
+      const filtered = filterByLevel(opts, cat);
+      codes[cat] = locked[cat] && filtered.includes(locked[cat]) ? locked[cat] : weightedChoice(filtered);
+    });
+    
+    // Simula la risposta del backend
+    const data = {
+      codes,
+      readable: codes, // verrà tradotto da renderCards con mapping
+      options: allOptions
+    };
+    await startSpinningAnimation(data);
+    currentCodes = data.codes;
+    renderCards(data);
+  } catch (error) {
+    console.error('Error during spin:', error);
+  } finally {
+    spinBtn.disabled = false;
+    spinBtn.style.opacity = '1';
+  }
+}
+
+document.getElementById('spinBtn').onclick=spin;
+document.getElementById('like').onclick=()=>sendFeedback(true);
+document.getElementById('dislike').onclick=()=>sendFeedback(false);
+document.getElementById('osareBtn').onclick=()=>sendFeedback('osare');
+
+function saveHistory(codes, like) {
+  let history = JSON.parse(localStorage.getItem('slotlove_history') || '[]');
+  history.push({ codes, like, ts: Date.now() });
+  if (history.length > 20) history = history.slice(-20);
+  localStorage.setItem('slotlove_history', JSON.stringify(history));
+}
+
+async function sendFeedback(like){
+  saveHistory(currentCodes, like);
+}
+
+document.getElementById('partChk').onchange = () => {
+  if (lastSpinData) renderCards(lastSpinData);
+};
+
+// Show empty cards initially
+(function(){
+  document.getElementById('spinBtn').disabled = true;
+  document.getElementById('spinBtn').style.opacity = '0.7';
+  loadMapping().then(loadAllOptions);
+})();
+
+// Aggiungi il listener per chiudere le explanation box quando si clicca fuori dalla card
+document.addEventListener('click', (e) => {
+  document.querySelectorAll('.explanation-box').forEach(box => {
+    if (!box.parentElement.contains(e.target)) {
+      box.style.display = 'none';
+      box.parentElement.classList.remove('showing-explanation');
+    }
+  });
+});
+</script>
+</body>
+</html> 

@@ -1,0 +1,80 @@
+{
+  "azione":  [
+    "azione_001","azione_002","azione_003","azione_004","azione_005","azione_006","azione_007","azione_008","azione_009","azione_010",
+    "azione_011","azione_012","azione_013","azione_014","azione_015","azione_016","azione_017","azione_018","azione_019","azione_020",
+    "azione_021","azione_022","azione_023","azione_024","azione_025","azione_026","azione_027","azione_028","azione_029","azione_030",
+    "azione_031","azione_032","azione_033","azione_034","azione_035","azione_036","azione_037","azione_038","azione_039","azione_040",
+    "azione_041","azione_042","azione_043","azione_044","azione_045","azione_046","azione_047","azione_048","azione_049","azione_050",
+    "azione_051","azione_052","azione_053","azione_054","azione_055","azione_056","azione_057","azione_058","azione_059","azione_060",
+    "azione_061","azione_062","azione_063","azione_064","azione_065","azione_066","azione_067","azione_068","azione_069","azione_070",
+    "azione_071","azione_072","azione_073","azione_074","azione_075","azione_076","azione_077","azione_078","azione_079","azione_080",
+    "azione_081","azione_082","azione_083","azione_084","azione_085","azione_086","azione_087","azione_088","azione_089","azione_090",
+    "azione_091","azione_092","azione_093","azione_094","azione_095","azione_096","azione_097","azione_098","azione_099","azione_100",
+    "azione_null"
+  ],
+  "outfit":  [
+    "outfit_001","outfit_002","outfit_003","outfit_004","outfit_005","outfit_006","outfit_007","outfit_008","outfit_009","outfit_010",
+    "outfit_011","outfit_012","outfit_013","outfit_014","outfit_015","outfit_016","outfit_017","outfit_018","outfit_019","outfit_020",
+    "outfit_021","outfit_022","outfit_023","outfit_024","outfit_025","outfit_026","outfit_027","outfit_028","outfit_029","outfit_030",
+    "outfit_031","outfit_032","outfit_033","outfit_034","outfit_035","outfit_036","outfit_037","outfit_038","outfit_039","outfit_040",
+    "outfit_041","outfit_042","outfit_043","outfit_044","outfit_045","outfit_046","outfit_047","outfit_048","outfit_049","outfit_050",
+    "outfit_051","outfit_052","outfit_053","outfit_054","outfit_055","outfit_056","outfit_057","outfit_058","outfit_059","outfit_060",
+    "outfit_061","outfit_062","outfit_063","outfit_064","outfit_065","outfit_066","outfit_067","outfit_068","outfit_069","outfit_070",
+    "outfit_071","outfit_072","outfit_073","outfit_074","outfit_075","outfit_076","outfit_077","outfit_078","outfit_079","outfit_080",
+    "outfit_081","outfit_082","outfit_083","outfit_084","outfit_085","outfit_086","outfit_087","outfit_088","outfit_089","outfit_090",
+    "outfit_091","outfit_092","outfit_093","outfit_094","outfit_095","outfit_096","outfit_097","outfit_098","outfit_099","outfit_100",
+    "outfit_null"
+  ],
+  "luogo":   [
+    "luogo_001","luogo_002","luogo_003","luogo_004","luogo_005","luogo_006","luogo_007","luogo_008","luogo_009","luogo_010",
+    "luogo_011","luogo_012","luogo_013","luogo_014","luogo_015","luogo_016","luogo_017","luogo_018","luogo_019","luogo_020",
+    "luogo_021","luogo_022","luogo_023","luogo_024","luogo_025","luogo_026","luogo_027","luogo_028","luogo_029","luogo_030",
+    "luogo_031","luogo_032","luogo_033","luogo_034","luogo_035","luogo_036","luogo_037","luogo_038","luogo_039","luogo_040",
+    "luogo_041","luogo_042","luogo_043","luogo_044","luogo_045","luogo_046","luogo_047","luogo_048","luogo_049","luogo_050",
+    "luogo_051","luogo_052","luogo_053","luogo_054","luogo_055","luogo_056","luogo_057","luogo_058","luogo_059","luogo_060",
+    "luogo_061","luogo_062","luogo_063","luogo_064","luogo_065","luogo_066","luogo_067","luogo_068","luogo_069","luogo_070",
+    "luogo_071","luogo_072","luogo_073","luogo_074","luogo_075","luogo_076","luogo_077","luogo_078","luogo_079","luogo_080",
+    "luogo_081","luogo_082","luogo_083","luogo_084","luogo_085","luogo_086","luogo_087","luogo_088","luogo_089","luogo_090",
+    "luogo_091","luogo_092","luogo_093","luogo_094","luogo_095","luogo_096","luogo_097","luogo_098","luogo_099","luogo_100",
+    "luogo_null"
+  ],
+  "energia": [
+    "energia_001","energia_002","energia_003","energia_004","energia_005","energia_006","energia_007","energia_008","energia_009","energia_010",
+    "energia_011","energia_012","energia_013","energia_014","energia_015","energia_016","energia_017","energia_018","energia_019","energia_020",
+    "energia_021","energia_022","energia_023","energia_024","energia_025","energia_026","energia_027","energia_028","energia_029","energia_030",
+    "energia_031","energia_032","energia_033","energia_034","energia_035","energia_036","energia_037","energia_038","energia_039","energia_040",
+    "energia_041","energia_042","energia_043","energia_044","energia_045","energia_046","energia_047","energia_048","energia_049","energia_050",
+    "energia_051","energia_052","energia_053","energia_054","energia_055","energia_056","energia_057","energia_058","energia_059","energia_060",
+    "energia_061","energia_062","energia_063","energia_064","energia_065","energia_066","energia_067","energia_068","energia_069","energia_070",
+    "energia_071","energia_072","energia_073","energia_074","energia_075","energia_076","energia_077","energia_078","energia_079","energia_080",
+    "energia_081","energia_082","energia_083","energia_084","energia_085","energia_086","energia_087","energia_088","energia_089","energia_090",
+    "energia_091","energia_092","energia_093","energia_094","energia_095","energia_096","energia_097","energia_098","energia_099","energia_100",
+    "energia_null"
+  ],
+  "oggetto": [
+    "oggetto_001","oggetto_002","oggetto_003","oggetto_004","oggetto_005","oggetto_006","oggetto_007","oggetto_008","oggetto_009","oggetto_010",
+    "oggetto_011","oggetto_012","oggetto_013","oggetto_014","oggetto_015","oggetto_016","oggetto_017","oggetto_018","oggetto_019","oggetto_020",
+    "oggetto_021","oggetto_022","oggetto_023","oggetto_024","oggetto_025","oggetto_026","oggetto_027","oggetto_028","oggetto_029","oggetto_030",
+    "oggetto_031","oggetto_032","oggetto_033","oggetto_034","oggetto_035","oggetto_036","oggetto_037","oggetto_038","oggetto_039","oggetto_040",
+    "oggetto_041","oggetto_042","oggetto_043","oggetto_044","oggetto_045","oggetto_046","oggetto_047","oggetto_048","oggetto_049","oggetto_050",
+    "oggetto_051","oggetto_052","oggetto_053","oggetto_054","oggetto_055","oggetto_056","oggetto_057","oggetto_058","oggetto_059","oggetto_060",
+    "oggetto_061","oggetto_062","oggetto_063","oggetto_064","oggetto_065","oggetto_066","oggetto_067","oggetto_068","oggetto_069","oggetto_070",
+    "oggetto_071","oggetto_072","oggetto_073","oggetto_074","oggetto_075","oggetto_076","oggetto_077","oggetto_078","oggetto_079","oggetto_080",
+    "oggetto_081","oggetto_082","oggetto_083","oggetto_084","oggetto_085","oggetto_086","oggetto_087","oggetto_088","oggetto_089","oggetto_090",
+    "oggetto_091","oggetto_092","oggetto_093","oggetto_094","oggetto_095","oggetto_096","oggetto_097","oggetto_098","oggetto_099","oggetto_100",
+    "oggetto_null"
+  ],
+  "extra":   [
+    "extra_001","extra_002","extra_003","extra_004","extra_005","extra_006","extra_007","extra_008","extra_009","extra_010",
+    "extra_011","extra_012","extra_013","extra_014","extra_015","extra_016","extra_017","extra_018","extra_019","extra_020",
+    "extra_021","extra_022","extra_023","extra_024","extra_025","extra_026","extra_027","extra_028","extra_029","extra_030",
+    "extra_031","extra_032","extra_033","extra_034","extra_035","extra_036","extra_037","extra_038","extra_039","extra_040",
+    "extra_041","extra_042","extra_043","extra_044","extra_045","extra_046","extra_047","extra_048","extra_049","extra_050",
+    "extra_051","extra_052","extra_053","extra_054","extra_055","extra_056","extra_057","extra_058","extra_059","extra_060",
+    "extra_061","extra_062","extra_063","extra_064","extra_065","extra_066","extra_067","extra_068","extra_069","extra_070",
+    "extra_071","extra_072","extra_073","extra_074","extra_075","extra_076","extra_077","extra_078","extra_079","extra_080",
+    "extra_081","extra_082","extra_083","extra_084","extra_085","extra_086","extra_087","extra_088","extra_089","extra_090",
+    "extra_091","extra_092","extra_093","extra_094","extra_095","extra_096","extra_097","extra_098","extra_099","extra_100",
+    "extra_null"
+  ]
+} 
