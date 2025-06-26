@@ -887,7 +887,58 @@ function saveFeedback(code, type) {
   if (!store[code]) store[code] = {like:0, dislike:0, osare:0};
   store[code][type] = (store[code][type]||0) + 1;
   setFeedbackStore(store);
+  
+  // Invia anche al backend
+  sendFeedbackToBackend(code, type);
 }
+
+// Funzione per inviare feedback al backend
+async function sendFeedbackToBackend(code, type) {
+  try {
+    // Trova la categoria del codice
+    let category = '';
+    for (const [cat, codes] of Object.entries(allOptions)) {
+      if (codes.includes(code)) {
+        category = cat;
+        break;
+      }
+    }
+    
+    // Crea la combinazione completa per il contesto
+    let combination = '';
+    if (currentCodes) {
+      for (const [cat, catCode] of Object.entries(currentCodes)) {
+        if (catCode && cat !== 'partecipanti') {
+          const label = mapping && mapping[catCode] ? 
+            (typeof mapping[catCode] === 'object' ? mapping[catCode].label : mapping[catCode]) : 
+            catCode;
+          combination += `${cat}: ${label}\n`;
+        }
+      }
+    }
+    
+    // Invia al backend
+    const response = await fetch('/card-feedback', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        category: category,
+        code: code,
+        like: type === 'like',
+        combination: combination
+      })
+    });
+    
+    if (!response.ok) {
+      console.error('Errore nell\'invio feedback al backend');
+    }
+  } catch (error) {
+    console.error('Errore nell\'invio feedback:', error);
+  }
+}
+
 function getFeedback(code) {
   const store = getFeedbackStore();
   return store[code] || {like:0, dislike:0, osare:0};

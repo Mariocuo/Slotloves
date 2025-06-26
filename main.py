@@ -1,11 +1,20 @@
 import os
 import json
 import random
+import requests
+from datetime import datetime
 from typing import List, Dict, Optional
 from fastapi import FastAPI, Request, Body
 from fastapi.responses import JSONResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
+
+# Importa configurazione
+try:
+    from config import GOOGLE_SHEETS_URL, ENABLE_GOOGLE_SHEETS
+except ImportError:
+    GOOGLE_SHEETS_URL = "https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec"
+    ENABLE_GOOGLE_SHEETS = True
 
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(PROJECT_ROOT, 'data')
@@ -160,6 +169,21 @@ async def spin_post(body: Dict = Body(...)):
 
     mapping = get_mapping()
     options = load_json(OPTIONS_PATH, {})
+    
+    # Crea la combinazione completa per Google Sheets
+    combination_text = ""
+    if mapping:
+        for cat, code in result.items():
+            if code and cat != "partecipanti":
+                label = get_label(mapping, code)
+                combination_text += f"{cat}: {label}\n"
+    
+    # Invia ogni carta a Google Sheets
+    for cat, code in result.items():
+        if code and cat != "partecipanti":
+            label = get_label(mapping, code) if mapping else code
+            send_to_google_sheets(cat, code, label, "Generated", combination_text)
+    
     return {
         "codes": result,
         "readable": {cat: get_label(mapping, code) if mapping and code is not None else (code if code is not None else "") for cat, code in result.items()},
@@ -182,6 +206,7 @@ async def card_feedback_post(body: Dict = Body(...)):
     category = body.get("category")
     code = body.get("code")
     like = body.get("like", True)
+    combination = body.get("combination", "")  # Aggiungo il campo combinazione
     
     if not category or not code:
         return JSONResponse({"error": "Missing category or code"}, status_code=400)
@@ -189,7 +214,52 @@ async def card_feedback_post(body: Dict = Body(...)):
     scores = load_json(SCORES_PATH, {})
     scores[code] = scores.get(code, 0) + (1 if like else -1)
     save_json(SCORES_PATH, scores)
+    
+    # Invia a Google Sheets
+    label = get_label(get_mapping(), code)
+    feedback_text = "Like" if like else "Dislike"
+    send_to_google_sheets(category, code, label, feedback_text, combination)
+    
     return {"ok": True, "score": scores[code]}
+
+def send_to_google_sheets(category: str, code: str, label: str, feedback: str, combination: str = ""):
+    """
+    Invia dati a Google Sheets tramite Apps Script
+    """
+    if not ENABLE_GOOGLE_SHEETS:
+        return True  # Se disabilitato, ritorna sempre successo
+        
+    try:
+        # URL del tuo Google Apps Script (da sostituire con quello reale)
+        script_url = GOOGLE_SHEETS_URL
+        
+        # Prepara i dati
+        data = {
+            "category": category,
+            "code": code,
+            "label": label,
+            "feedback": feedback,
+            "combination": combination
+        }
+        
+        # Invia la richiesta
+        response = requests.post(script_url, json=data, timeout=10)
+        
+        if response.status_code == 200:
+            result = response.json()
+            if result.get("success"):
+                print(f"Dati inviati a Google Sheets: {category} - {code} - {feedback}")
+                return True
+            else:
+                print(f"Errore Google Sheets: {result.get('error', 'Unknown error')}")
+                return False
+        else:
+            print(f"Errore HTTP Google Sheets: {response.status_code}")
+            return False
+            
+    except Exception as e:
+        print(f"Errore nell'invio a Google Sheets: {e}")
+        return False
 
 # Serve index.html at root
 @app.get("/")
