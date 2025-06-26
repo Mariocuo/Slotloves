@@ -1129,6 +1129,41 @@ function saveHistory(codes, like) {
 
 async function sendFeedback(like){
   saveHistory(currentCodes, like);
+  
+  // Invia anche al backend per Google Sheets
+  try {
+    // Crea la combinazione completa per il contesto
+    let combination = '';
+    if (currentCodes) {
+      for (const [cat, catCode] of Object.entries(currentCodes)) {
+        if (catCode && cat !== 'partecipanti') {
+          const label = mapping && mapping[catCode] ? 
+            (typeof mapping[catCode] === 'object' ? mapping[catCode].label : mapping[catCode]) : 
+            catCode;
+          combination += `${cat}: ${label}\n`;
+        }
+      }
+    }
+    
+    // Invia al backend
+    const response = await fetch('/combination-feedback', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        codes: currentCodes,
+        like: like,
+        combination: combination
+      })
+    });
+    
+    if (!response.ok) {
+      console.error('Errore nell\'invio feedback combinazione al backend');
+    }
+  } catch (error) {
+    console.error('Errore nell\'invio feedback combinazione:', error);
+  }
 }
 
 document.getElementById('partChk').onchange = () => {

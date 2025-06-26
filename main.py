@@ -222,7 +222,40 @@ async def card_feedback_post(body: Dict = Body(...)):
     
     return {"ok": True, "score": scores[code]}
 
-def send_to_google_sheets(category: str, code: str, label: str, feedback: str, combination: str = ""):
+@app.post("/combination-feedback")
+async def combination_feedback_post(body: Dict = Body(...)):
+    codes = body.get("codes", {})
+    like = body.get("like", True)
+    combination_text = body.get("combination", "")
+    
+    if not codes:
+        return JSONResponse({"error": "Missing codes"}, status_code=400)
+        
+    # Salva nel file scores.json locale
+    scores = load_json(SCORES_PATH, {})
+    for code in codes.values():
+        if code is not None:
+            scores[code] = scores.get(code, 0) + (1 if like else -1)
+    save_json(SCORES_PATH, scores)
+    
+    # Invia ogni carta della combinazione a Google Sheets
+    mapping = get_mapping()
+    for category, code in codes.items():
+        if code and category != "partecipanti":
+            label = get_label(mapping, code) if mapping else code
+            feedback_text = "Like" if like else "Dislike"
+            send_to_google_sheets(
+                category, 
+                code, 
+                label, 
+                feedback_text, 
+                combination_text,
+                "combination"  # Indica che è feedback di combinazione
+            )
+    
+    return {"ok": True, "scores": scores}
+
+def send_to_google_sheets(category: str, code: str, label: str, feedback: str, combination: str = "", feedback_type: str = "card"):
     """
     Invia dati a Google Sheets tramite Apps Script
     """
@@ -239,7 +272,8 @@ def send_to_google_sheets(category: str, code: str, label: str, feedback: str, c
             "code": code,
             "label": label,
             "feedback": feedback,
-            "combination": combination
+            "combination": combination,
+            "feedback_type": feedback_type
         }
         
         # Invia la richiesta
@@ -268,6 +302,66 @@ async def root():
     if os.path.exists(index_path):
         return FileResponse(index_path)
     return JSONResponse({"error": "index.html not found"}, status_code=404)
+
+@app.get("/statistics")
+async def get_statistics():
+    """
+    Calcola le statistiche e percentuali di uscita basate sui feedback
+    """
+    options = load_json(OPTIONS_PATH, {})
+    scores = load_json(SCORES_PATH, {})
+    mapping = get_mapping() or {}
+    
+    statistics = {}
+    
+    for category, codes in options.items():
+        category_stats = {}
+        total_feedback = 0
+        
+        for code in codes:
+            score = scores.get(code, 0)
+            label = get_label(mapping, code)
+            
+            # Calcola peso basato sui feedback
+            if score > 0:
+                weight = 3
+            elif score < 0:
+                weight = 0.5
+            else:
+                weight = 1
+                
+            category_stats[code] = {
+                "label": label,
+                "score": score,
+                "weight": weight,
+                "feedback_count": abs(score)
+            }
+            total_feedback += abs(score)
+        
+        # Calcola percentuali
+        total_weight = sum(item["weight"] for item in category_stats.values())
+        
+        for code, stats in category_stats.items():
+            if total_weight > 0:
+                percentage = (stats["weight"] / total_weight) * 100
+            else:
+                percentage = 100 / len(codes) if codes else 0
+                
+            category_stats[code]["percentage"] = round(percentage, 2)
+        
+        statistics[category] = {
+            "items": category_stats,
+            "total_feedback": total_feedback,
+            "total_items": len(codes)
+        }
+    
+    return {
+        "statistics": statistics,
+        "summary": {
+            "total_categories": len(statistics),
+            "total_feedback": sum(cat["total_feedback"] for cat in statistics.values())
+        }
+    }
 
 if __name__ == "__main__":
     import uvicorn

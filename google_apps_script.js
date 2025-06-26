@@ -14,7 +14,8 @@ function doPost(e) {
       data.code || '',
       data.label || '',
       data.feedback || '',
-      data.combination || ''
+      data.combination || '',
+      data.feedbackType || '' // Nuovo campo per distinguere feedback carta vs combinazione
     ];
     
     // Inserisci la riga
