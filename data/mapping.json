@@ -1,569 +1,1112 @@
 {
+  
     "azione_001": {
       "label": "Bacio sulle labbra",
-      "explanation": "Un bacio lento, senza fretta, dove ogni secondo è un invito. Le labbra si sfiorano, si trovano, si riconoscono.",
+      "explanation": "Avvicinati lentamente, posa le mani ai lati del suo viso e dai un bacio morbido soffermandoti a sentirne il respiro.",
       "level": "L1",
-      "tips": "Chiudi gli occhi un istante prima, avvicinati lentamente e lascia che siano le labbra a parlare. Prova a fermarti a millimetri da quelle del partner prima di toccarle, solo per assaporare l’attesa. A volte un bacio può accendere più di mille carezze."
+      "tips": "Lascia che il primo bacio sia una miccia: guardalo negli occhi prima di sfiorargli le labbra, poi allontanati appena per farti inseguire ancora. Rendilo un gioco di tensione e desiderio."
     },
     "azione_002": {
-      "label": "Sfiorare il collo",
-      "explanation": "Passa delicatamente le dita sul collo del partner, seguendo la linea che scende dietro l’orecchio fino alla clavicola.",
+      "label": "Carezza dolce",
+      "explanation": "Con il dorso delle dita sfiora la guancia del partner seguendo la linea del mento e scendendo sul collo con piccoli cerchi.",
       "level": "L1",
-      "tips": "Il collo è una delle zone più elettriche del corpo: avvicinati da dietro, senza dire nulla, e inizia a esplorare con tocchi leggeri. Soffia appena dopo aver sfiorato: l’effetto brivido è assicurato."
+      "tips": "Fallo mentre gli parli, quasi per distrarlo. Una carezza apparentemente innocente può accendere molto di più se arriva nei momenti inaspettati, come una promessa sussurrata alla pelle."
     },
     "azione_003": {
-      "label": "Abbraccio a pelle",
-      "explanation": "Stringetevi in un abbraccio con il corpo nudo, lasciando che il calore e il battito raccontino il desiderio.",
+      "label": "Abbraccio nudo",
+      "explanation": "Spogliati dell’essenziale, stringilo a petto nudo e restate fermi per percepire il battito reciproco che rallenta.",
       "level": "L1",
-      "needs": ["superficie"],
-      "tips": "Fallo in piedi, appena svegli, oppure sdraiatɜ su un tappeto. Non serve parlare: basta respirare insieme. È un abbraccio che scioglie, predispone, risveglia qualcosa di profondo."
+      "tips": "Chiudi gli occhi, inspira il suo odore, senti la pelle che si riscalda punto dopo punto. Più stai ferma, più lo carichi di desiderio: è un abbraccio che parla senza parole."
     },
     "azione_004": {
-      "label": "Sguardo fisso",
-      "explanation": "Sedetevi uno di fronte all’altro e guardatevi negli occhi per almeno un minuto, senza dire nulla.",
+      "label": "Massaggio sensuale",
+      "explanation": "Accarezzagli le spalle e la schiena con movimenti lenti e profondi, concentrandoti sul respiro e il ritmo del tocco.",
       "level": "L1",
-      "tips": "Può sembrare semplice, ma è potente. Prova ad aggiungere un sorriso appena accennato, o a far scivolare una mano verso la gamba del partner mentre lo sguardo continua. È un gioco silenzioso che prepara l'intimità."
+      "tips": "Usa un olio tiepido e abbassa le luci. Inizia dal collo, ma lascia che le mani scivolino pian piano verso zone più intime, senza mai arrivarci. Il potere sta nell’attesa."
     },
     "azione_005": {
-      "label": "Accarezzare la schiena",
-      "explanation": "Con le dita o con il palmo della mano, segui lentamente la colonna vertebrale del partner.",
+      "label": "Gioco con gli sguardi",
+      "explanation": "Mantieni lo sguardo su di lui mentre fai qualcosa di quotidiano, aggiungendo piccoli sorrisi o morsi alle labbra.",
       "level": "L1",
-      "tips": "Fallo da dietro, mentre è sedutɜ o sdraiatɜ. Ogni tocco deve essere lento, quasi impercettibile. Prova a cambiare ritmo o usare le unghie con leggerezza per provocare una scossa."
+      "tips": "Fallo quando meno se lo aspetta: mentre cucini, mentre ti sistemi i capelli. Gli occhi parlano di più se giocano, se sfidano, se invitano senza dire una parola."
     },
     "azione_006": {
-      "label": "Bacio sulla spalla",
-      "explanation": "Avvicinati lentamente e lascia un bacio sulla spalla scoperta, con le labbra morbide e un tempo sospeso.",
+      "label": "Sfioramenti sotto il tavolo",
+      "explanation": "Durante una cena o un incontro, accavalla le gambe e lascia che il tuo piede cerchi il suo, lentamente.",
       "level": "L1",
-      "tips": "Scegli un momento inaspettato, come mentre sta facendo qualcosa. Solleva lentamente la maglietta o sposta la spallina, baciala, poi allontanati senza dire nulla. L’effetto sorpresa resta sotto pelle."
+      "tips": "Non fermarti subito. Prosegui con la punta del piede fino al suo polpaccio o interno coscia. Un gesto semplice può incendiare se fatto nel contesto più inaspettato."
     },
     "azione_007": {
-      "label": "Mano nella mano",
-      "explanation": "Intreccia le dita alla sua mano e stringi con intenzione, come a dire ‘ti voglio qui ora’.",
+      "label": "Sussurro all'orecchio",
+      "explanation": "Avvicinati al suo orecchio e digli qualcosa di dolce, oppure qualcosa di appena piccante, sussurrandolo con intenzione.",
       "level": "L1",
-      "tips": "Non limitarti al gesto: gioca con le dita, accarezza il palmo, esplora ogni curva. Anche solo una mano può diventare un intero preliminare, se ci metti attenzione e lentezza."
+      "tips": "Non è importante cosa dici, ma come. Anche un 'non vedo l’ora di essere sola con te' può scatenare un temporale, se lo accompagni con un respiro caldo e lento sul collo."
     },
     "azione_008": {
-      "label": "Testa sul petto",
-      "explanation": "Appoggia la testa sul petto del partner e resta lì in silenzio, sentendo il battito rallentare.",
+      "label": "Danza lenta",
+      "explanation": "Metti una canzone lenta e invitalo a ballare anche senza motivo, solo per stringervi e muovervi piano.",
       "level": "L1",
-      "tips": "Fallo sul divano, in un momento di calma. Aggiungi una mano che accarezza la schiena o le gambe. Questo gesto trasmette fiducia, e prepara la pelle all’intimità che arriva dopo."
+      "tips": "Poggia la testa sul suo petto e lasciati andare. Lascia che senta il tuo corpo seguire la musica, come se il tuo respiro si fosse fuso col suo."
     },
     "azione_009": {
-      "label": "Massaggio delicato",
-      "explanation": "Usa i polpastrelli per sciogliere le tensioni nelle spalle, nel collo o nella schiena.",
+      "label": "Bacio sulla nuca",
+      "explanation": "Appena ti passa vicino, chinati e bacialo dolcemente sulla nuca o tra collo e spalla.",
       "level": "L1",
-      "tips": "Inizia con delicatezza, senza fretta. Puoi usare una crema profumata o un olio leggero. Concentrati su un punto alla volta, e poi resta in silenzio a sentire il corpo che si rilassa sotto le mani."
+      "tips": "Fallo mentre è distratto, magari mentre si lava i denti o si veste. Quei baci silenziosi, rubati, restano più a lungo nella pelle e nella mente."
     },
     "azione_010": {
-      "label": "Parole sussurrate",
-      "explanation": "Avvicina le labbra all’orecchio del partner e sussurra qualcosa di dolce, o di appena malizioso.",
+      "label": "Gioco con le dita",
+      "explanation": "Prendi la sua mano e inizia a giocare con le sue dita, accarezzandole, baciandole o mordicchiandole piano.",
       "level": "L1",
-      "tips": "Può essere un ricordo, un desiderio, o una promessa. L’importante è il tono: basso, lento, con il respiro che accarezza. Le parole dette all’orecchio restano addosso per ore."  
-  },
-  "azione_011": {
-    "label": "Respiri sincronizzati",
-    "explanation": "Sdraiati faccia a faccia, appoggia la mano sul suo petto e chiedi di respirare al tuo ritmo finché inspirate all’unisono.",
-    "level": "L1"
-  },
-  "azione_012": {
-    "label": "Bacio sul dorso della mano",
-    "explanation": "Porta la sua mano alle labbra, mantieni lo sguardo e sfiora la pelle con un bacio fermo per un gesto di adorazione.",
-    "level": "L1"
-  },
-  "azione_013": {
-    "label": "Coccole sul divano",
-    "explanation": "Sedetevi vicini, intreccia le gambe alle sue e esplora braccia e schiena con tocchi leggeri senza fretta.",
-    "level": "L1",
-    "needs": ["superficie"]
-  },
-  "azione_014": {
-    "label": "Bacio farfalla",
-    "explanation": "Avvicina il tuo viso al suo e sfiora le ciglia con le tue: un gioco innocente che scioglie la tensione iniziale.",
-    "level": "L1"
-  },
-  "azione_015": {
-    "label": "Preparare tè insieme",
-    "explanation": "Scegliete un infuso, bollite l’acqua e versatela insieme: il vapore caldo crea complicità prima di tornare alle coccole.",
-    "level": "L1"
-  },
-  "azione_016": {
-    "label": "Doccia insieme",
-    "explanation": "Entrate nella cabina uno di fronte all’altro; insapona il partner lentamente e risciacqualo seguendo l’acqua con le mani.",
-    "level": "L1",
-    "needs": ["doccia", "acqua"]
-  },
-  "azione_017": {
-    "label": "Carezza interno braccio",
-    "explanation": "Sfiora con la punta delle dita la pelle tra polso e ascella: è una zona sensibile che provoca brividi inaspettati.",
-    "level": "L1"
-  },
-  "azione_018": {
-    "label": "Ascoltare musica abbracciati",
-    "explanation": "Sedete schiena-contro-petto con cuffie condivise; lasciate che il ritmo calmi il respiro mentre vi accarezzate.",
-    "level": "L1"
-  },
-  "azione_019": {
-    "label": "Bacio sulla spalla",
-    "explanation": "Scosta la spallina, posa un bacio lento sul deltoide e assapora il sussulto che segue.",
-    "level": "L1"
-  },
-  "azione_020": {
-    "label": "Passeggiata mano nella mano",
-    "explanation": "Uscite per qualche minuto d’aria fresca camminando allo stesso passo con le dita intrecciate.",
-    "level": "L1"
-  },
-  "azione_021": {
-    "label": "Penetrazione lenta",
-    "explanation": "Sistematevi in missionario e guida l’ingresso con calma; mantieni un ritmo profondo e dolce, sincronizzando i respiri per percepire ogni movimento.",
-    "level": "L2",
-    "needs": ["superficie"]
-  },
-  "azione_022": {
-    "label": "Frottage con vestiti",
-    "explanation": "Strusciatevi corpo a corpo lasciando parte dei vestiti addosso; il contrasto dei tessuti sui punti caldi aumenta l’attesa prima di spogliarsi del tutto.",
-    "level": "L2"
-  },
-  "azione_023": {
-    "label": "Sesso orale soft",
-    "explanation": "Posizionati tra le cosce del partner, usa la punta della lingua per cerchi lenti alternati a succhi delicati; calibra la pressione in base ai suoi gemiti.",
-    "level": "L2"
-  },
-  "azione_024": {
-    "label": "Posizione cucchiaio sensuale",
-    "explanation": "Penetrazione laterale con corpi aderenti; una mano esplora il petto o il clitoride mentre il bacino spinge con dolce costanza.",
-    "level": "L2",
-    "needs": ["superficie"]
-  },
-  "azione_025": {
-    "label": "Lingua e capezzoli",
-    "explanation": "Solleva il seno e disegna piccoli cerchi sull’areola con la lingua, alternando succhi per stimolare il capezzolo.",
-    "level": "L2"
-  },
-  "azione_026": {
-    "label": "Spanking leggero",
-    "explanation": "Dai colpetti con la mano aperta sulle natiche; dopo ogni schiaffo carezza la zona per diffondere il calore e intensificare il piacere.",
-    "level": "L2",
-    "needs": ["pain"]
-  },
-  "azione_027": {
-    "label": "Bacio profondo con lingua",
-    "explanation": "Inizia con labbra socchiuse, poi esplora lentamente la sua bocca; alterna movimenti circolari a succhi languidi del labbro inferiore.",
-    "level": "L2"
-  },
-  "azione_028": {
-    "label": "Sedersi sulle ginocchia",
-    "explanation": "Fai sedere il partner e accomodati a cavalcioni: controlla ritmo e profondità mantenendo lo sguardo fisso per amplificare l’intimità.",
-    "level": "L2",
-    "needs": ["superficie"]
-  },
-  "azione_029": {
-    "label": "Quickie dolce",
-    "explanation": "Appoggiati a una parete o tavolo per pochi minuti di penetrazione rapida, accompagnata da baci e carezze continue.",
-    "level": "L2",
-    "needs": ["superficie"]
-  },
-  "azione_030": {
-    "label": "Stimolazione manuale clitoridea",
-    "explanation": "Disegna un otto rovesciato sul clitoride con due dita; varia pressione e pause per aumentare la sensibilità e costruire l’orgasmo.",
-    "level": "L2"
-  },
-  "azione_031": {
-    "label": "Tirare leggero i capelli",
-    "explanation": "Afferra una ciocca vicino alle radici, solleva la testa del partner mentre lo baci per enfatizzare il controllo.",
-    "level": "L2"
-  },
-  "azione_032": {
-    "label": "Succhiare il lobo",
-    "explanation": "Avvolgi il lobo tra labbra e denti, alternando un morso leggero a carezze con la lingua; il contrasto genera brividi immediati.",
-    "level": "L2"
-  },
-  "azione_033": {
-    "label": "Lingua sul basso ventre",
-    "explanation": "Parti dall’ombelico e scendi lentamente verso l’inguine senza toccare i genitali; la suspense farà fremere il partner.",
-    "level": "L2"
-  },
-  "azione_034": {
-    "label": "Orgasmo guidato a parole",
-    "explanation": "Dai istruzioni precise durante la stimolazione: quando respirare, contrarre i muscoli e lasciarsi andare; la voce diventa comando.",
-    "level": "L2"
-  },
-  "azione_035": {
-    "label": "Penetrazione seduti fronte a fronte",
-    "explanation": "Sedetevi a gambe incrociate uno di fronte all’altra; la penetrazione avviene tenendovi per le spalle, favorendo contatto visivo costante.",
-    "level": "L2",
-    "needs": ["superficie"]
-  },
-  "azione_036": {
-    "label": "Gioco capezzoli mani e bocca",
-    "explanation": "Pinza delicatamente un capezzolo tra due dita mentre l’altro viene leccato; alterna i ruoli per raddoppiare la stimolazione.",
-    "level": "L2"
-  },
-  "azione_037": {
-    "label": "Palpeggiare i fianchi",
-    "explanation": "Afferra i fianchi del partner durante baci o penetrazione, guidandone ritmo e profondità per trasmettere desiderio.",
-    "level": "L2"
-  },
-  "azione_038": {
-    "label": "Teasing con punta lingua",
-    "explanation": "Sfiora con la punta della lingua la pelle sopra i genitali senza mai toccarli; arretra ogni volta che il partner avanza.",
-    "level": "L2"
-  },
-  "azione_039": {
-    "label": "Cuscino sotto bacino",
-    "explanation": "Posiziona un cuscino sotto la zona lombare per sollevare il bacino; l’angolo rende la penetrazione più profonda.",
-    "level": "L2",
-    "needs": ["superficie"]
-  },
-  "azione_040": {
-    "label": "Bacio umido sul seno",
-    "explanation": "Riscalda il capezzolo con il fiato, poi avvolgilo con la bocca umida alternando succhi e movimenti circolari della lingua.",
-    "level": "L2"
-  },
-  "azione_041": {
-    "label": "Doggy style vigoroso",
-    "explanation": "Fai piegare il partner a quattro zampe, afferra i fianchi e spingi con ritmo deciso alternando colpi profondi a carezze sulla schiena.",
-    "level": "L3",
-    "needs": ["superficie"]
-  },
-  "azione_042": {
-    "label": "Spanking medio con mano",
-    "explanation": "Colpisci le natiche con la mano aperta finché la pelle diventa calda, quindi massaggia per far diffondere il bruciore piacevole.",
-    "level": "L3",
-    "needs": ["pain"]
-  },
-  "azione_043": {
-    "label": "Facesitting deciso",
-    "explanation": "Siediti sul viso del partner controllando il ritmo del respiro; usa le mani per guidare la testa mentre ricevi piacere orale.",
-    "level": "L3",
-    "needs": ["superficie"]
-  },
-  "azione_044": {
-    "label": "Dirty-talk esplicito",
-    "explanation": "Racconta al partner cosa desideri in dettaglio, usando parole crude che descrivono ogni gesto; la verbalizzazione aumenta la tensione.",
-    "level": "L3"
-  },
-  "azione_045": {
-    "label": "Bondage base con foulard",
-    "explanation": "Lega i polsi del partner sopra la testa con un foulard morbido, mantenendo libertà di movimento limitata ma confortevole.",
-    "level": "L3",
-    "needs": ["bondage"]
-  },
-  "azione_046": {
-    "label": "Penetrazione profonda",
-    "explanation": "Spingiti fino al limite ad ogni affondo, fermandoti qualche secondo per far percepire la pienezza, poi riprendi con ritmo costante.",
-    "level": "L3",
-    "needs": ["superficie"]
-  },
-  "azione_047": {
-    "label": "Edging ripetuto",
-    "explanation": "Porta il partner vicino all’orgasmo tre volte interrompendo la stimolazione all’ultimo momento; il culmine finale sarà esplosivo.",
-    "level": "L3"
-  },
-  "azione_048": {
-    "label": "Vibratore durante sesso",
-    "explanation": "Appoggia un bullet sul clitoride o sul frenulo mentre penetri: la doppia stimolazione amplifica le sensazioni di entrambi.",
-    "level": "L3",
-    "needs": ["oggetto"]
-  },
-  "azione_049": {
-    "label": "Frottage nudi lubrificato",
-    "explanation": "Coprite di olio i vostri corpi e strusciatevi pelle contro pelle, scivolando l’uno sull’altro senza penetrare subito.",
-    "level": "L3",
-    "needs": ["lubrificante"]
-  },
-  "azione_050": {
-    "label": "Morsi marcati sul collo",
-    "explanation": "Afferra la pelle tra i denti e lascia un segno visibile; lenisci con la lingua per trasformare il dolore in brivido.",
-    "level": "L3",
-    "needs": ["pain"]
-  },
-  "azione_051": {
-    "label": "Gioco di potere con ordini",
-    "explanation": "Dai comandi chiari su posizioni e movimenti; il partner obbedisce immediatamente aumentando la tensione erotica.",
-    "level": "L3"
-  },
-  "azione_052": {
-    "label": "Penetrazione contro il muro",
-    "explanation": "Sollevando una gamba del partner, spingi contro la parete per colpi rapidi e profondi; l’appoggio verticale cambia l’angolazione.",
-    "level": "L3",
-    "needs": ["superficie"]
-  },
-  "azione_053": {
-    "label": "Stimolazione anale soft",
-    "explanation": "Usa un dito o un piccolo plug con abbondante lubrificante, massaggiando lentamente lo sfintere per abituarlo alla sensazione.",
-    "level": "L3",
-    "needs": ["anal", "lubrificante"]
-  },
-  "azione_054": {
-    "label": "Cowgirl invertita energica",
-    "explanation": "Il partner si siede sopra rivolto verso i tuoi piedi; controlla profondità e ritmo con movimenti circolari dei fianchi.",
-    "level": "L3",
-    "needs": ["superficie"]
-  },
-  "azione_055": {
-    "label": "Succhiare le dita",
-    "explanation": "Prendi due dita del partner e succhiale lentamente, mantenendo il contatto visivo per suggerire ciò che potresti fare altrove.",
-    "level": "L3"
-  },
-  "azione_056": {
-    "label": "Sesso in piedi",
-    "explanation": "Penetrazione verticale con il partner spinto contro una parete, alternando colpi veloci e profondi a pause con baci intensi.",
-    "level": "L3",
-    "needs": ["superficie"]
-  },
-  "azione_057": {
-    "label": "Stimolazione prostatica manuale",
-    "explanation": "Introduci un dito ben lubrificato e massaggia la parete anteriore a piccoli movimenti circolari per stimolare il punto P.",
-    "level": "L3",
-    "needs": ["anal", "lubrificante"]
-  },
-  "azione_058": {
-    "label": "Penetrazione rapida",
-    "explanation": "Accordatevi per un ritmo molto veloce; il partner respira a colpi brevi mentre tu mantieni costante la velocità.",
-    "level": "L3",
-    "needs": ["superficie"]
-  },
-  "azione_059": {
-    "label": "Facesitting prolungato",
-    "explanation": "Siediti sul viso del partner e muoviti a tuo piacimento, controllando pressione e accesso; regola il respiro dell’altro con cenni.",
-    "level": "L3",
-    "needs": ["superficie"]
-  },
-  "azione_060": {
-    "label": "Orgasm control a comando",
-    "explanation": "Il partner può venire solo quando glielo concedi; mantieni il controllo con parole ferme e una mano che impone il ritmo.",
-    "level": "L3"
-  },
-  "azione_061": {
-    "label": "Bondage shibari base",
-    "explanation": "Esegui una legatura estetica su torace e braccia limitando i movimenti; la costrizione aumenta la resa dei sensi.",
+      "tips": "Le mani sono uno dei punti più sottovalutati per far salire la tensione. Sii lenta, concentrata, lasciagli immaginare dove potresti usare quella bocca dopo."
+    },
+    "azione_011": {
+      "label": "Sguardo allo specchio",
+      "explanation": "Mentre ti sistemi davanti allo specchio, incrocia il suo sguardo nel riflesso e mantienilo qualche secondo.",
+      "level": "L1",
+      "tips": "Gioca con il riflesso. Mostrati, ma in modo parziale, con un gesto che sembri distratto. Fargli desiderare quello che non ha ancora toccato è già seduzione pura."
+    },
+    "azione_012": {
+      "label": "Accarezzalo mentre guida",
+      "explanation": "Durante un tragitto in auto, appoggia la tua mano sulla sua coscia e sfiorala lentamente.",
+      "level": "L1",
+      "tips": "Cerca la tensione, non il risultato. Basta un tocco, uno sfioramento prolungato e un sorriso malizioso. L’attesa sarà il tuo alleato più potente."
+    },
+    "azione_013": {
+      "label": "Parla con doppio senso",
+      "explanation": "Usa frasi ambigue e doppi sensi durante una conversazione normale per creare una tensione erotica.",
+      "level": "L1",
+      "tips": "Un 'mi piace quando affondi bene' detto mentre cucini o lavi qualcosa, può far impazzire. Il gioco è rendere tutto erotico senza mai nominarlo davvero."
+    },
+    "azione_014": {
+      "label": "Sfilati lentamente un capo",
+      "explanation": "Togliti lentamente un capo d’abbigliamento davanti a lui, come se fosse casuale, ma con intenzione.",
+      "level": "L1",
+      "tips": "Fallo con calma, senza fretta. Lascia che ogni gesto sia consapevole, come se danzassi solo per lui. Anche sfilarsi un maglione può diventare ipnotico."
+    },
+    "azione_015": {
+      "label": "Dormi solo con una maglietta",
+      "explanation": "Vai a letto con solo una sua maglietta addosso, magari leggermente ampia, lasciando intuire il resto.",
+      "level": "L1",
+      "tips": "Fai finta di niente. Sporgiti, allunga le gambe, stiracchiati. L’ambiguità è potente: il desiderio nasce più forte da ciò che si intravede che da ciò che si mostra."
+    },
+      "azione_016": {
+        "label": "Toccalo sopra i pantaloni",
+        "explanation": "Siediti vicino a lui, appoggia la mano tra le sue gambe e sfioralo sopra i pantaloni con movimenti lenti, come se niente fosse.",
+        "level": "L2",
+        "tips": "Fallo mentre siete a cena da amici o durante una pausa al lavoro. Lascia che il palmo della tua mano resti lì, premendo piano. Se riuscite a restare seri mentre lo fai, il brivido raddoppia. E lui scoppia.",
+        "needs": ["public"]
+      },
+      "azione_017": {
+        "label": "Sussurragli all’orecchio",
+        "explanation": "Avvicinati con disinvoltura e, con voce bassa, sussurragli qualcosa di sporco senza che nessuno se ne accorga.",
+        "level": "L2",
+        "tips": "Fallo mentre siete in mezzo agli altri. Dì esattamente dove lo vuoi, come lo vuoi. Usa parole crude, ma lente. Poi fai finta di niente e guardalo come se non fosse successo nulla. Goditi quel fuoco negli occhi.",
+        "needs": ["public"]
+      },
+      "azione_018": {
+        "label": "Fagli toccare sotto la gonna",
+        "explanation": "Siediti accanto a lui e guida la sua mano sotto la tua gonna. Non dire nulla. Solo il tuo sguardo.",
+        "level": "L2",
+        "tips": "Non indossare biancheria e portalo lì dove sei già bagnata. Fallo in macchina, in salotto, in cucina. Accompagnalo con la tua mano e poi fermala lì. Lascia che senta quanto sei pronta.",
+        "needs": []
+      },
+      "azione_019": {
+        "label": "Stuzzicalo con una foto",
+        "explanation": "Scatta una foto audace, inviala senza contesto e lascia che la sua mente completi il resto.",
+        "level": "L2",
+        "tips": "Non servono nudi. Solo il dettaglio di una mano che si infila tra le gambe, o un reggiseno slacciato. Accompagna con un messaggio come: 'Sono così da stamattina.' E poi sparisci per qualche ora.",
+        "needs": []
+      },
+      "azione_020": {
+        "label": "Spogliati lentamente davanti a lui",
+        "explanation": "Guardalo fisso negli occhi e inizia a toglierti i vestiti, pezzo per pezzo, senza fretta.",
+        "level": "L2",
+        "tips": "Non farlo in camera. Scegli un posto casuale: la cucina, il corridoio. Lascia la musica accesa, togli una calza alla volta, poi fermati in biancheria e digli solo: 'Volevo distrarti un attimo.'",
+        "needs": []
+      },
+      "azione_021": {
+        "label": "Accarezzalo mentre guida",
+        "explanation": "Appoggia la mano sulla sua coscia mentre è al volante e inizia a risalire, lentamente.",
+        "level": "L2",
+        "tips": "Scegli una strada lunga, senza distrazioni. Vestiti comoda, mettiti di lato e guardalo negli occhi mentre le tue dita salgono. Non arrivare fino in fondo. Fatti fermare. Il suo desiderio farà il resto.",
+        "needs": ["public"]
+      },
+      "azione_022": {
+        "label": "Usa un sex toy su di te davanti a lui",
+        "explanation": "Prendi un toy e inizia a usarlo su di te mentre lui guarda. Niente mani su di lui, solo sguardi.",
+        "level": "L2",
+        "tips": "Sdraiati sul letto, accendi una luce soffusa. Digli solo: 'Guarda e non toccare.' Tocca piano il clitoride, poi scendi. Fermati quando vuoi. Il solo vederti lo farà impazzire.",
+        "needs": []
+      },
+      "azione_023": {
+        "label": "Mandagli un messaggio sporco a sorpresa",
+        "explanation": "Scrivigli in modo diretto cosa vorresti che ti facesse. Senza filtri.",
+        "level": "L2",
+        "tips": "Mandalo mentre è impegnato, tipo in riunione. 'Voglio che mi prendi per i capelli e mi scopi contro il muro.' Poi silenzio radio. Nessuna risposta. Solo immaginazione e voglia.",
+        "needs": []
+      },
+      "azione_024": {
+        "label": "Siediti sopra di lui con solo una camicia",
+        "explanation": "Indossa solo una camicia e sali sulle sue gambe, guardandolo fisso negli occhi.",
+        "level": "L2",
+        "tips": "Usa una sua camicia, nulla sotto. Avvicinati, spingi il bacino contro il suo e digli: 'Ho bisogno di attenzioni.' Poi resta lì. Niente mani, niente baci. Solo tensione.",
+        "needs": []
+      },
+      "azione_025": {
+        "label": "Accarezzalo con i piedi sotto il tavolo",
+        "explanation": "Sfioralo con il piede durante una cena o un incontro, senza che gli altri se ne accorgano.",
+        "level": "L2",
+        "tips": "Togliti le scarpe, sfiora la sua caviglia, poi risali piano. Quando arriva il cameriere, non fermarti. Se vi guarda, sorridi. Il tuo piede diventa il tuo messaggero. Lui esploderà dentro senza far vedere nulla fuori.",
+        "needs": ["public"]
+      },    
+        "azione_026": {
+          "label": "Baciagli l'interno coscia",
+          "explanation": "Fallo sedere, inginocchiati davanti a lui e inizia a baciargli lentamente l’interno coscia, senza mai toccare il resto.",
+          "level": "L2",
+          "tips": "Prenditi il tuo tempo. Ogni bacio dev’essere lento, caldo, bagnato. Passa vicino al suo cazzo ma non toccarlo. Fagli sentire la frustrazione del desiderio che cresce senza controllo.",
+          "needs": []
+        },
+        "azione_027": {
+          "label": "Masturbalo con i piedi",
+          "explanation": "Sdraiati di fronte a lui, prendi il controllo con i piedi e inizia a toccarlo lentamente.",
+          "level": "L2",
+          "tips": "Gioca con le dita dei piedi, accarezzalo sulla punta, poi avvolgilo e inizia a muoverti. Guardalo dritto negli occhi mentre lo fai. Il contatto insolito lo stuzzicherà ancora di più.",
+          "needs": []
+        },
+        "azione_028": {
+          "label": "Mandagli un vocale mentre ti tocchi",
+          "explanation": "Registra un audio con il tuo respiro affannato, sospiri e qualche parola sporca mentre ti stai toccando.",
+          "level": "L2",
+          "tips": "Non parlare troppo. Lascia che siano i suoni a raccontare tutto. Alla fine digli solo: 'Questo è per te.' Poi scompari per un po’. Lo lascerai acceso per ore.",
+          "needs": []
+        },
+        "azione_029": {
+          "label": "Toccati davanti a lui sotto le coperte",
+          "explanation": "Siete a letto. Inizia a toccarti sotto le coperte lentamente, senza dirgli niente, solo guardandolo.",
+          "level": "L2",
+          "tips": "Fagli sentire i tuoi movimenti, il ritmo che accelera. Ogni tanto lascia sfuggire un sospiro o un gemito. Non lasciarlo toccarti. Il tuo piacere lo accenderà più di qualsiasi cosa.",
+          "needs": []
+        },
+        "azione_030": {
+          "label": "Siediti sul suo viso e muoviti piano",
+          "explanation": "Salilo sopra, mettiti a cavalcioni sul suo viso e comincia a muoverti con dolcezza.",
+          "level": "L2",
+          "tips": "Fagli solo leccare. Usa il tuo corpo per guidarlo, tieni le mani nei suoi capelli. Ogni tanto fermati, poi riprendi. Il potere nelle tue mani lo farà impazzire.",
+          "needs": []
+        },
+        "azione_031": {
+          "label": "Mettigli le manette e domina tu",
+          "explanation": "Bloccalo con manette morbide e prendi tu il controllo della situazione. Fai tu le regole.",
+          "level": "L2",
+          "tips": "Digli cosa può e cosa non può fare. Toccalo dove e quando vuoi. Fermati di colpo. Riprendi. Gioca con la sua voglia e tienilo tuo finché non cede completamente.",
+          "needs": []
+        },
+        "azione_032": {
+          "label": "Toccalo mentre finge di dormire",
+          "explanation": "Lui è sdraiato, magari con gli occhi chiusi. Inizia a toccarlo piano come se volessi svegliarlo così.",
+          "level": "L2",
+          "tips": "Accarezzalo piano sul petto, poi scendi. Toccalo senza fretta, come se stessi studiando ogni reazione. Quando si sveglia, baciagli l’addome e sorridi. Non dire nulla. Continua.",
+          "needs": []
+        },
+        "azione_033": {
+          "label": "Prendilo in bocca al mattino",
+          "explanation": "Appena sveglia, senza dire niente, spostati su di lui e comincia a succhiarlo con lentezza.",
+          "level": "L2",
+          "tips": "Senza svegliarlo del tutto. Gioca con la punta, poi affondalo lentamente. Ogni tanto fermati, guarda se apre gli occhi. La sorpresa sarà il tuo regalo più potente.",
+          "needs": []
+        },
+        "azione_034": {
+          "label": "Fatti trovare nuda e bagnata",
+          "explanation": "Quando rientra, fatti trovare nuda in una posizione invitante, magari già toccandoti.",
+          "level": "L2",
+          "tips": "Accendi una luce calda, metti musica sensuale, sdraiati sul letto o sul divano. Quando entra, guardalo dritto negli occhi e continua a toccarti. Digli: 'Sei arrivato giusto in tempo.'",
+          "needs": []
+        },
+        "azione_035": {
+          "label": "Fagli un massaggio intimo",
+          "explanation": "Comincia con un massaggio normale, poi concentrati sulle sue zone più sensibili.",
+          "level": "L2",
+          "tips": "Usa un olio caldo. Parti dalle spalle, scendi lungo la schiena e poi passa alle cosce. Sfiora il cazzo, ma non soffermarti subito. Tienilo in tensione. Fagli capire che stai per prenderlo tutto.",
+          "needs": []
+        },
+      "azione_036": {
+        "label": "Sfioralo mentre parli con altri",
+        "explanation": "Durante una conversazione con altre persone, trova il modo di sfiorarlo tra le gambe, senza che nessuno se ne accorga.",
+        "level": "L3",
+        "tips": "Mentre parlate con amici o colleghi, lascia che la tua mano scivoli sotto il tavolo e tocchi il suo pacco sopra i pantaloni. Guarda qualcuno negli occhi mentre lo fai, resta seria, continua a parlare come se nulla fosse. Dentro di lui sarà esploso il caos.",
+        "needs": ["public"]
+    },
+    "azione_037": {
+        "label": "Masturbati davanti a lui ma non farti toccare",
+        "explanation": "Sdraiati, guardalo e inizia a toccarti senza mai lasciargli avvicinare le mani.",
+        "level": "L3",
+        "tips": "Fallo sedere e digli: 'Guarda e non toccare.' Poi inizia a giocare con il tuo corpo lentamente. Gemiti bassi, dita che accarezzano, niente vergogna. Fermati poco prima dell’orgasmo e resta in silenzio. Lo avrai fatto impazzire.",
+        "needs": []
+    },
+    "azione_038": {
+        "label": "Fagli un pompino solo con la lingua",
+        "explanation": "Usa solo la lingua, senza avvolgerlo con la bocca. Lenta, insistente, concentrata sulla punta.",
+        "level": "L3",
+        "tips": "Fatti trovare in ginocchio, occhi negli occhi. Usa solo la lingua: circonda, accarezza, pizzica appena. Trattieniti, non prenderlo in bocca. Digli che dovrà meritarselo. L’attesa diventerà tortura.",
+        "needs": []
+    },
+    "azione_039": {
+        "label": "Scrivigli qualcosa di sporco sulla pelle",
+        "explanation": "Con un rossetto o un pennarello, scrivigli qualcosa di molto esplicito sul petto o sul basso ventre.",
+        "level": "L3",
+        "tips": "Usa il tuo rossetto preferito e scrivigli sul petto: 'Questa bocca è mia.' Oppure sul basso ventre: 'Riservato alla mia lingua.' Scatta una foto, mandagliela più tardi. Magari quando è in giro con amici. Vedrai il suo messaggio arrivare in 3, 2, 1...",
+        "needs": []
+    },
+    "azione_040": {
+        "label": "Accarezzalo da dietro mentre sta in piedi",
+        "explanation": "Avvicinati da dietro, bacialo sul collo e scendi con le mani verso il suo inguine.",
+        "level": "L3",
+        "tips": "Fallo mentre è distratto: che stia cucinando, sistemando qualcosa o anche solo guardando il cellulare. Le tue mani lo raggiungono da dietro, lo spogliano con naturalezza. Un bacio caldo sul collo, un sussurro sporco all’orecchio. Si scioglierà.",
+        "needs": []
+    },
+    "azione_041": {
+        "label": "Mandagli un audio mentre ti tocchi",
+        "explanation": "Registra la tua voce mentre ti masturbi e mandaglielo senza spiegazioni.",
+        "level": "L3",
+        "tips": "Chiudi la porta, togli le mutandine, fai partire la registrazione. Fagli solo sentire il tuo respiro che cambia, i sospiri che aumentano, magari qualche parola sporca detta sottovoce. Quando gliela mandi, scrivigli solo 'Questo è per te'. E poi sparisci. Lo farai impazzire.",
+        "needs": []
+    },
+    "azione_042": {
+        "label": "Siediti sul suo viso",
+        "explanation": "Mettiti sopra la sua bocca e guida tu il ritmo. Lascia che ti assaggi come e quanto vuoi.",
+        "level": "L3",
+        "tips": "Guardalo negli occhi e digli: 'Resta lì'. Poi sali lentamente sul suo viso e prendi il controllo. Muoviti al tuo ritmo, goditi ogni reazione. Afferragli i capelli se serve. Fagli capire che lì, comandi tu.",
+        "needs": []
+    },
+    "azione_043": {
+        "label": "Spogliati e resta nuda mentre fa altro",
+        "explanation": "Senza dirgli nulla, spogliati completamente e continua a fare le tue cose normalmente davanti a lui.",
+        "level": "L3",
+        "tips": "Fallo mentre lui lavora, cucina o è al telefono. Spogliati lentamente, resta nuda e siediti a leggere o a sistemare qualcosa. Nessun invito diretto. Solo presenza nuda, disinvolta. Lo sguardo che lancerà parlerà per lui.",
+        "needs": []
+    },
+    "azione_044": {
+        "label": "Toccagli l’erezione in pubblico e sorridi",
+        "explanation": "Sfioralo lentamente tra le gambe mentre siete in un luogo pubblico, mantenendo un’espressione serena.",
+        "level": "L3",
+        "tips": "Mentre siete in fila o seduti vicini, allunga la mano con naturalezza e toccalo sopra i pantaloni. Sorridi, digli qualcosa di banale come 'Che bella giornata' e continua. Lui non saprà se baciarti o scappare.",
+        "needs": ["public"]
+    },
+    "azione_045": {
+        "label": "Legalo con qualcosa che hai addosso",
+        "explanation": "Togliti una cintura, una sciarpa o le mutandine e usala per legargli i polsi o gli occhi.",
+        "level": "L3",
+        "tips": "Usa ciò che indossi: la tua cintura, il foulard, o le mutandine. Prendigli i polsi e legali al letto, o benda i suoi occhi. Digli solo: 'Da qui in poi, decido io.' Poi lascialo lì per un attimo, a tremare nell'attesa.",
+        "needs": []
+    },
+    "azione_046": {
+        "label": "Provoca una reazione durante una call",
+        "explanation": "Accarezzalo o mostrati in modo esplicito mentre è in videochiamata.",
+        "level": "L3",
+        "tips": "Apparigli davanti in intimo, oppure inginocchiati fuori dall’inquadratura e infilati sotto la scrivania. Toccalo piano, poi mandagli un messaggio: 'Mantieni la calma'. La sua voce che si incrina sarà la tua vittoria.",
+        "needs": ["public"]
+    },
+    "azione_047": {
+        "label": "Fatti trovare con un toy già dentro",
+        "explanation": "Quando si avvicina a te, fargli scoprire che hai già un sex toy inserito.",
+        "level": "L3",
+        "tips": "Siediti accanto a lui, prendi la sua mano e guidala tra le tue gambe. Digli solo: 'C'è qualcosa che ti aspetta'. Lascia che lo senta, che lo tocchi. Lo shock lo farà eccitare più di ogni altra cosa.",
+        "needs": []
+    },
+    "azione_048": {
+        "label": "Costringilo a restare fermo mentre lo provochi",
+        "explanation": "Dagli l’ordine di non muoversi mentre lo baci, lo tocchi e lo provochi.",
+        "level": "L3",
+        "tips": "Guardalo e digli: 'Non muoverti. Non toccarmi.' Poi inizia a baciarlo, a leccarlo, a sfiorarlo. Se si muove, ti fermi. Fagli sudare ogni secondo. Il controllo è tuo, il desiderio anche.",
+        "needs": []
+    },
+    "azione_049": {
+        "label": "Inviagli una foto mentre sei in un bagno pubblico",
+        "explanation": "Scatta una foto in uno spazio pubblico, magari un bagno, e mandagliela senza dirgli nulla.",
+        "level": "L3",
+        "tips": "Togliti le mutandine in un bagno pubblico, siediti con le gambe aperte e scatta. Solo un dettaglio, niente di esplicito. Poi inviala con scritto: 'Indovina dove sono?' L’idea di te eccitata fuori casa lo consumerà.",
+        "needs": ["public"]
+    },
+    "azione_050": {
+        "label": "Dagli ordini mentre lo masturbi",
+        "explanation": "Toccandolo, digli cosa deve fare: cosa guardare, dove mettere le mani, come respirare.",
+        "level": "L3",
+        "tips": "Prendilo in mano e guidalo. Digli: 'Tienimi lo sguardo. Non chiudere gli occhi. Non venire finché non te lo dico.' La tua voce ferma sarà la sua droga. E quando finalmente gli darai il permesso, esploderà come mai prima.",
+        "needs": []
+      },
+      "azione_051": {
+        "label": "Faglielo leccare sporco",
+        "explanation": "Mentre lo masturbi, prendi un po’ dei tuoi fluidi con le dita e portaglieli alla bocca. Guardalo e digli: 'Assaggia quanto mi vuoi'.",
+        "level": "L3",
+        "tips": "Non serve che tutto sia perfetto. Anzi. Dopo un po’ di gioco, prendilo alla sprovvista: porta le dita alla tua bocca, poi alla sua. Fagli sentire il sapore del vostro desiderio mescolato. Dirgli: 'Ti piace il mio sapore?' mentre lo guardi fisso negli occhi può essere il detonatore di qualcosa di indimenticabile.",
+        "needs": []
+    },
+    "azione_052": {
+        "label": "Masturbalo solo con i piedi",
+        "explanation": "Fallo stendere e siediti ai suoi piedi. Usa le piante, le dita, i talloni. Tutto il gioco è con i tuoi piedi.",
+        "level": "L3",
+        "tips": "Fagli togliere tutto, fallo sdraiare e non usare le mani. Inizia piano: le punte dei piedi, poi un po’ più forte. Alterna la pressione e i movimenti. Guardalo mentre lo fai, sorridi. Fagli capire che può solo guardare. È il tuo spettacolo.",
+        "needs": ["superficie"]
+    },
+    "azione_053": {
+        "label": "Fallo venire senza toccarlo",
+        "explanation": "Seduta di fronte a lui, toccati lentamente e sussurragli cosa ti piacerebbe che ti facesse. Guardalo fisso e non toccarlo mai.",
+        "level": "L3",
+        "tips": "È un gioco mentale. Prenditi lo spazio, siediti comoda e inizia piano a toccarti, con lentezza. Sussurragli frasi crude e dolci insieme, descrivendo le fantasie più sporche. Il tuo obiettivo è farlo esplodere solo con la mente. Se ce la fai, saprai quanto potere hai.",
+        "needs": []
+    },
+    "azione_054": {
+        "label": "Prendilo in bocca all’improvviso",
+        "explanation": "Senza dirgli nulla, inginocchiati e inizia a succhiarlo lentamente, guardandolo dal basso.",
+        "level": "L3",
+        "tips": "Scegli un momento casuale ma inaspettato. Quando è sul divano, appena sveglio, mentre chiude la porta. Inginocchiati e fai tutto con calma. Niente parole. Solo occhi e bocca. Lui capirà esattamente quanto lo desideri.",
+        "needs": []
+    },
+    "azione_055": {
+        "label": "Fatti venire sopra",
+        "explanation": "Mentre sei sdraiata o seduta, invitalo a venire su di te, sul tuo corpo, sul viso o sul petto. Scegli tu dove.",
+        "level": "L3",
+        "tips": "Guardalo negli occhi e digli dove vuoi che venga. Può essere sulla pancia, tra i seni, sul viso. Ma diglielo tu. Chiedilo con desiderio, come se fosse un regalo. E quando lo fa, non distogliere lo sguardo.",
+        "needs": ["superficie"]
+    },
+    "azione_056": {
+        "label": "Masturbati sopra di lui",
+        "explanation": "Mettiti sopra di lui, completamente nuda, e inizia a toccarti mentre senti il suo corpo sotto il tuo.",
+        "level": "L3",
+        "tips": "Fagli restare le mani ferme. Siediti sopra di lui e inizia a muoverti piano, ma senza farlo entrare. Tocca il tuo clitoride e guardalo negli occhi. Usa le sue cosce, il suo petto, la sua pelle per accenderti. Lui sarà immobile, ma dentro starà impazzendo.",
+        "needs": ["superficie"]
+    },
+    "azione_057": {
+        "label": "Fallo venire in bocca e deglutisci",
+        "explanation": "Prendilo in bocca con passione, senza staccarti. Quando viene, resta lì, assapora e poi guardalo mentre deglutisci.",
+        "level": "L3",
+        "tips": "Quando senti che sta per venire, affondalo ancora di più. Non fermarti. Chiudi gli occhi, oppure guardalo fisso. Poi mostra che hai inghiottito, magari con un bacio subito dopo. Non c’è gesto più potente per farlo sentire desiderato.",
+        "needs": []
+    },
+    "azione_058": {
+        "label": "Legalo e gioca con lui",
+        "explanation": "Con delle manette o una sciarpa, legagli i polsi e inizia a provocarlo con carezze, baci, parole e giochi erotici.",
+        "level": "L3",
+        "tips": "Puoi legarlo al letto, a una sedia, o semplicemente tenergli le mani legate. Poi inizia piano: bacialo, toccalo, mordilo. Ma non dargli tutto subito. Lascia che implori. Il potere ce l’hai tu.",
+        "needs": ["superficie"]
+    },
+    "azione_059": {
+        "label": "Scrivigli sul corpo",
+        "explanation": "Con il rossetto o con un dito bagnato, scrivigli parole erotiche sul petto, sulla pancia, all’inguine.",
+        "level": "L3",
+        "tips": "Non scrivere solo parole dolci. Usa anche frasi spinte, promesse oscene, cose che vorresti fare. Poi bacia ogni parola. Oppure cancellale con la lingua. Fagli sentire che ogni lettera è un anticipo di quello che sta per succedere.",
+        "needs": []
+    },
+    "azione_060": {
+        "label": "Portalo a un passo dal venire",
+        "explanation": "Masturbalo con intensità crescente, poi fermati proprio quando sta per venire. Ripeti il gioco più volte.",
+        "level": "L3",
+        "tips": "Questo è un gioco da maestra. Portalo lì, al limite. Quando inizia a tremare o trattenere il respiro, fermati. Aspetta. Poi ricomincia. Tre volte. Quattro. Fallo impazzire. Quando lo libererai, sarà come un’esplosione.",
+        "needs": []
+    },
+    "azione_061": {
+        "label": "Gira un video mentre ti tocchi",
+        "explanation": "Riprenditi mentre ti masturbi con luce soffusa. Non mostrare tutto: lascia spazio alla fantasia. Poi mandaglielo.",
+        "level": "L3",
+        "tips": "Scegli una luce calda, usa il telefono in orizzontale e mostra poco: un seno, le dita che scivolano, il tuo viso. Gemiti appena accennati, respiri veri. Alla fine scrivigli solo: 'Era per te'.",
+        "needs": []
+    },
+    "azione_062": {
+        "label": "Mettigli un dito dentro",
+        "explanation": "Durante un momento intenso, accarezzalo dietro e chiedigli se puoi esplorarlo con un dito.",
+        "level": "L3",
+        "tips": "Usa delicatezza e rispetto. Parti da carezze leggere e chiedi il permesso con uno sguardo o una frase dolce e sporca insieme. Se dice sì, fallo con lentezza, lubrificato, e guarda la sua reazione. Scoprirai nuovi punti di piacere insieme.",
+        "needs": []
+    },
+    "azione_063": {
+        "label": "Fatti toccare davanti a uno specchio",
+        "explanation": "Mettiti davanti a uno specchio con lui alle spalle. Guardatevi mentre ti tocca e si riflette tutto.",
+        "level": "L3",
+        "tips": "Gli specchi moltiplicano il desiderio. Mettiti in piedi o su una superficie. Lascia che ti tocchi mentre vi guardate riflessi. Sussurra: 'Guarda cosa mi fai'. E poi goditi la scena come se foste in un film vietato.",
+        "needs": ["superficie"]
+    },
+    "azione_064": {
+        "label": "Masturbalo in un luogo pubblico",
+        "explanation": "Mentre siete in un posto appartato ma pubblico, infilagli la mano nei pantaloni e inizia a masturbarlo piano.",
+        "level": "L3",
+        "tips": "In macchina, in un angolo buio, o persino a cena se siete abbastanza nascosti. Fallo mentre parlate con altri, mentre nessuno se lo aspetta. Il brivido del rischio renderà tutto più eccitante.",
+        "needs": ["public"]
+    },
+    "azione_065": {
+        "label": "Siediti su di lui e comandalo",
+        "explanation": "Mettiti sopra di lui e prendi il controllo. Muoviti come vuoi tu, guida il ritmo e digli esattamente cosa deve fare.",
+        "level": "L3",
+        "tips": "Siediti a cavalcioni e guardalo fisso. Dì: 'Ora comandi tu solo se te lo permetto'. Muoviti con decisione, cambia ritmo quando vuoi. Puoi persino tappare la sua bocca o dirgli di non toccarti. È il tuo show.",
+        "needs": ["superficie"]
+    },
+    "azione_066": {
+    "label": "Scopalo all'aperto sotto le stelle",
+    "explanation": "Durante una passeggiata notturna, fermalo, spogliati quel tanto che basta e sali su di lui con decisione.",
     "level": "L4",
-    "needs": ["bondage", "sospensione"]
-  },
-  "azione_062": {
-    "label": "Choking leggero",
-    "explanation": "Applica una mano sul collo del partner esercitando pressione controllata per pochi secondi, poi rilascia ma resta in contatto.",
-    "level": "L4",
-    "needs": ["pain"]
-  },
-  "azione_063": {
-    "label": "Anal profondo",
-    "explanation": "Usa dildo o penetrazione con abbondante lubrificante; procedi lentamente fino alla profondità desiderata, mantenendo respiro calmo.",
-    "level": "L4",
-    "needs": ["anal", "lubrificante"]
-  },
-  "azione_064": {
-    "label": "Spanking paddle forte",
-    "explanation": "Impugna un paddle in cuoio e colpisci le natiche con colpi decisi a ritmo costante; alterna colpi su entrambe le guance.",
-    "level": "L4",
-    "needs": ["pain"]
-  },
-  "azione_065": {
-    "label": "Dominazione dura",
-    "explanation": "Stabilisci regole rigide, usa tono autoritario e non accettare esitazioni; la fermezza crea un’eccitante dinamica di potere.",
-    "level": "L4"
-  },
-  "azione_066": {
-    "label": "Edge & denial estremo",
-    "explanation": "Porta il partner all’orlo dell’orgasmo cinque o più volte, fermandoti ogni volta per prolungare la frustrazione erotica.",
-    "level": "L4"
+    "tips": "Scegli un posto dove le stelle siano le uniche testimoni: spiaggia, collina o bosco. Arrivaci camminando mano nella mano. Poi prendilo di sorpresa, cavalcalo lenta sotto la luna. Il silenzio rotto dai vostri respiri sarà la vostra colonna sonora.",
+    "needs": ["outdoor"]
   },
   "azione_067": {
-    "label": "Double penetration toy",
-    "explanation": "Combina penetrazione vaginale con dildo anale o viceversa; usa molto lubrificante e coordina i movimenti per stimolazione simultanea.",
+    "label": "Fatti guardare mentre ti masturbi",
+    "explanation": "Mettiti davanti a lui, nuda o vestita a metà, e inizia a toccarti senza mai distogliere lo sguardo dai suoi occhi.",
     "level": "L4",
-    "needs": ["oggetto", "lubrificante"]
+    "tips": "Digli di sedersi. Tu resta in piedi, le gambe divaricate, e inizia. Sussurra cosa provi. Puoi descrivergli passo passo cosa stai facendo, o restare in silenzio totale. Il tuo corpo è lo spettacolo, i suoi occhi il tuo specchio.",
+    "needs": []
   },
   "azione_068": {
-    "label": "Faceslapping consensuale",
-    "explanation": "Dai schiaffi leggeri sul volto del partner, subito seguiti da carezze; mantieni il contatto visivo per assicurarti del consenso.",
+    "label": "Fallo godere con i piedi",
+    "explanation": "Usa i piedi per stimolarlo lentamente finché non viene. Fallo sedere comodo e prendi il controllo.",
     "level": "L4",
-    "needs": ["pain"]
+    "tips": "Piedi nudi o in calze velate. Stuzzicalo prima con carezze leggere, poi concentrati. Ogni movimento deve essere lento, preciso. Guardalo in faccia, sorridi appena. Quando geme, spingi ancora. Diventa il suo tabù preferito.",
+    "needs": []
   },
   "azione_069": {
-    "label": "Electro-play base",
-    "explanation": "Collega elettrodi TENS a bassa intensità su capezzoli o cosce; aumenta lentamente il voltaggio finché il partner reagisce con brividi.",
+    "label": "Fatti scopare addosso alla parete",
+    "explanation": "Giragli le spalle, piegati e guida il suo corpo contro il tuo, lasciandoti prendere con forza contro il muro.",
     "level": "L4",
-    "needs": ["oggetto"]
+    "tips": "Cerca una parete solida, magari in corridoio, o nel bagno. Spingiti contro, alza i fianchi, scosta l’intimo. Digli solo 'prendimi'. Il suono dei colpi contro il muro, i tuoi gemiti sommessi, e il rischio che qualcuno senta: tutto eccita.",
+    "needs": ["public"]
   },
   "azione_070": {
-    "label": "Wax-play caldo/freddo",
-    "explanation": "Fai gocciolare cera calda a distanza moderata, poi passa un cubetto di ghiaccio sulla stessa zona creando un contrasto termico.",
+    "label": "Scopalo mentre ti guarda in uno specchio",
+    "explanation": "Mettiti davanti allo specchio e piegati, lascia che entri dentro di te mentre entrambi guardate il riflesso.",
     "level": "L4",
-    "needs": ["oggetto", "pain"]
+    "tips": "Luci soffuse, magari una lampada accesa. Guardate ogni dettaglio: le mani che stringono, il tuo volto che cambia. Puoi anche descrivere ciò che vedi allo specchio, renderlo parte del gioco. È un triplice sguardo: il tuo, il suo, il riflesso.",
+    "needs": []
   },
   "azione_071": {
-    "label": "Penetrazione rough",
-    "explanation": "Usa movimenti forti e rapidi, afferrando i fianchi del partner per guidare la profondità; mantieni l’intensità costante.",
+    "label": "Chiedigli di guardarti mentre ti fai scopare da un altro",
+    "explanation": "Organizza un incontro in cui lui sia solo spettatore. Fallo sedere e costringilo a guardare senza intervenire.",
     "level": "L4",
-    "needs": ["superficie"]
+    "tips": "Prima chiarite tutto. Poi rendilo testimone silenzioso. Gioca con i tuoi sguardi, tieni sempre il contatto visivo. Descrivi ciò che senti, oppure restate immersi nel silenzio. Ogni gesto sarà più carico, ogni sospiro più tagliente.",
+    "needs": ["group"]
   },
   "azione_072": {
-    "label": "Immobilizzazione completa",
-    "explanation": "Lega polsi e caviglie ai quattro angoli del letto; il corpo esposto è suscettibile a carezze, baci o colpi a tua discrezione.",
+    "label": "Mettiti sopra di lui legata",
+    "explanation": "Fatti legare i polsi o le gambe e poi sali sopra di lui, muovendoti con libertà anche se sei legata.",
     "level": "L4",
-    "needs": ["bondage", "superficie"]
+    "tips": "Puoi essere legata ma libera. Il contrasto è tutto. Guidalo con il bacino, gioca con l’equilibrio. Lascia che ti guardi mentre prendi il controllo anche da sottomessa. Ogni movimento diventa simbolico, potente, irresistibile.",
+    "needs": []
   },
   "azione_073": {
-    "label": "Orgasm forzato con wand",
-    "explanation": "Applica un wand vibrante sul clitoride o glande e mantienilo fermo finché il partner raggiunge orgasmi ripetuti incontrollabili.",
+    "label": "Usa un toy su di lui davanti a un'altra persona",
+    "explanation": "Stimolalo con un toy mentre un'altra persona guarda. Coinvolgila solo se volete, altrimenti che resti solo spettatrice.",
     "level": "L4",
-    "needs": ["oggetto"]
+    "tips": "La presenza silenziosa può essere più eccitante di mille parole. Guardate entrambi quella terza persona mentre il piacere sale. Il toy è il mezzo, il desiderio è il messaggio. A volte uno sguardo che osserva vale più di un tocco.",
+    "needs": ["group"]
   },
   "azione_074": {
-    "label": "Punizione flogger",
-    "explanation": "Usa un flogger in suede o cuoio per sferzare spalle e natiche con serie di colpi crescenti; alterna carezze per modulare la sensazione.",
+    "label": "Fatti scopare sul cofano dell’auto",
+    "explanation": "Appoggiati al cofano, alza la gonna o abbassa i pantaloni e lasciati prendere con decisione.",
     "level": "L4",
-    "needs": ["pain"]
+    "tips": "Scegli bene il momento. Notte, silenzio, un luogo isolato. Il freddo del metallo sulla pelle, il cielo sopra di voi, il rumore del mondo lontano. Spingiti indietro, piegati e guardalo negli occhi: sei tu a dominare la scena.",
+    "needs": ["outdoor"]
   },
   "azione_075": {
-    "label": "Gioco respiro controllato",
-    "explanation": "Copri parzialmente la bocca del partner o usa una mano sul naso per brevi pause di respiro, sempre con segnali di sicurezza concordati.",
+    "label": "Fatti venire addosso mentre lo guardi",
+    "explanation": "Chiedigli di venire sul tuo corpo, sul viso o sul petto mentre lo guardi negli occhi e resti ferma a goderti il momento.",
     "level": "L4",
-    "needs": ["pain"]
+    "tips": "Resta immobile, ma presente. Ogni espressione, ogni goccia, ogni sguardo deve raccontare la tua voglia. Guardalo con fierezza. Non è sottomissione, è scelta. Puoi anche accarezzarti piano mentre lo fai: sei la sua ossessione.",
+    "needs": []
   },
   "azione_076": {
-    "label": "Inserti anali larghi",
-    "explanation": "Inserisci plug di diametro generoso con tanto lubrificante; lascia che il partner si abitui prima di iniziare movimenti delicati.",
+    "label": "Fatti penetrare mentre parli con qualcun altro al telefono",
+    "explanation": "Inizia una conversazione normale, poi fai segno a lui di entrare in te. Mantieni la calma mentre lui ti scopa lentamente.",
     "level": "L4",
-    "needs": ["anal", "oggetto", "lubrificante"]
+    "tips": "Il contrasto è tutto. Sorridi, rispondi, fai domande normali mentre senti lui dentro di te. Il rischio di lasciarti sfuggire un gemito, di tremare nella voce, rende tutto pericolosamente eccitante. Se riesci, chiudi la chiamata venendo.",
+    "needs": []
   },
   "azione_077": {
-    "label": "Dominazione verbale estrema",
-    "explanation": "Usa un tono duro e termini espliciti per impartire ordini; il linguaggio crudo rinforza la dinamica dominante-sottomesso.",
-    "level": "L4"
+    "label": "Fatti usare senza preamboli",
+    "explanation": "Spogliati, metti il preservativo su di lui, girati e digli solo: 'Ora'. Nessun bacio. Nessuna coccola. Solo desiderio.",
+    "level": "L4",
+    "tips": "Fallo sentire che è desiderato, non amato. Lascialo entrare dentro di te come un bisogno. Nessuna dolcezza, solo urgenza. Puoi restare in piedi, in ginocchio, su un mobile. Ogni tanto, essere crudi è la forma più intensa di intimità.",
+    "needs": []
   },
   "azione_078": {
-    "label": "Sottomissione totale",
-    "explanation": "Il partner sottomesso accetta ogni comando senza parlare; stabilisci un gesto-safe-word per sicurezza e conduci l’intera sessione.",
-    "level": "L4"
+    "label": "Scopate davanti a una finestra",
+    "explanation": "Fatti prendere in piedi o da dietro, proprio davanti a una finestra, senza chiudere le tende.",
+    "level": "L4",
+    "tips": "Scegli un orario strategico: sera con luci accese, mattina con tende leggere. Appoggia le mani al vetro, guarda fuori, lasciati andare. Anche se nessuno guarda, il pensiero che qualcuno possa farlo accende tutto.",
+    "needs": ["public"]
   },
   "azione_079": {
-    "label": "Punizione orgasmo negato",
-    "explanation": "Vieta al partner di raggiungere l’orgasmo per tutta la sessione; ogni tentativo viene interrotto o seguito da lieve punizione.",
-    "level": "L4"
+    "label": "Fatti masturbare da un’altra persona davanti a lui",
+    "explanation": "Lascia che un’altra persona ti tocchi mentre lui guarda. Può intervenire quando vuole, o restare a osservare.",
+    "level": "L4",
+    "tips": "Tu sei al centro. Chi ti tocca e chi ti guarda ruotano intorno al tuo piacere. Puoi guidare entrambi, oppure lasciare che l’istinto prenda il sopravvento. Decidi solo tu fino a dove spingerti.",
+    "needs": ["group"]
   },
   "azione_080": {
-    "label": "Penetrazione multipla straps",
-    "explanation": "Usa straps o toy doppi per stimolare più orifizi; coordina i movimenti per evitare disagi e massimizzare il riempimento.",
+    "label": "Fatti scopare in piedi contro un albero",
+    "explanation": "Appoggiati a un tronco, alza il bacino e lascia che ti entri lentamente da dietro.",
     "level": "L4",
-    "needs": ["oggetto", "lubrificante"]
+    "tips": "Scegli bene l’albero, la posizione, l’altezza. Può essere un momento improvviso durante una passeggiata, o un piano segreto da giorni. L’odore della corteccia, l’erba sotto i piedi, il vento tra i capelli: sei parte del paesaggio, viva e nuda.",
+    "needs": ["outdoor"]
   },
-  "azione_081": {
-    "label": "Fisting lento",
-    "explanation": "Inserisci la mano in modo graduale con abbondante lubrificante, rispettando i segnali del partner e fermandoti appena avverti resistenza.",
-    "level": "L5",
-    "needs": ["anal", "lubrificante"]
+      "azione_081": {
+      "label": "Fatti scopare mentre ti abbassi a raccogliere qualcosa",
+      "explanation": "Chinati lentamente per raccogliere un oggetto, senza mutandine, e lasciati penetrare da dietro senza voltarti.",
+      "level": "L4",
+      "tips": "Un gesto quotidiano che diventa invito: chinati con lentezza, fallo guardare, fallo avvicinare. Nessuna parola, solo l’urgenza dei corpi. Può succedere in casa, in giardino, dietro una porta chiusa a metà.",
+      "needs": []
+    },
+    "azione_082": {
+      "label": "Scopate seduti su una panchina",
+      "explanation": "Siediti sopra di lui, spingi le anche e muoviti lentamente mentre restate seduti all’aperto.",
+      "level": "L4",
+      "tips": "Una panchina nascosta, magari di sera. Siediti sopra di lui con naturalezza, come fosse un abbraccio. Copritevi con una giacca, usa il suo collo come punto d’appoggio. Ogni movimento può sembrare un bacio profondo.",
+      "needs": ["outdoor"]
+    },
+    "azione_083": {
+     "label": "Fallo venire sotto il tavolo durante una cena",
+      "explanation": "Seduta accanto a lui, apri le gambe, infilati sotto al tavolo e fagli un pompino lento, fino a farlo venire senza farsi scoprire.",
+      "level": "L4",
+      "tips": "Scegli una cena con amici, magari un ristorante un po’ rumoroso. Sguardo d’intesa, un cenno e tu scivoli sotto il tavolo. La sfida è restare silenziosa, il gioco è fargli restare la faccia impassibile. Ogni parola scambiata con gli altri sarà più carica.",
+      "needs": ["public"]
+    },
+    "azione_084": {
+      "label": "Scopate nella doccia aperta di una struttura sportiva",
+      "explanation": "Entrate insieme nella doccia, resta in piedi e lasciati penetrare tra l’acqua che scorre.",
+      "level": "L4",
+      "tips": "Può essere una piscina, una palestra, una spa. L’importante è il tempo contato e il rumore dell’acqua che copre i vostri gemiti. Tenete gli occhi aperti. La porta può aprirsi in ogni momento.",
+      "needs": ["public"]
+    },
+    "azione_085": {
+      "label": "Fallo venire in bocca mentre sei inginocchiata all’aperto",
+      "explanation": "Mettiti in ginocchio davanti a lui, prendi il controllo e non staccare lo sguardo fino all’ultimo istante.",
+      "level": "L4",
+      "tips": "Che sia nel bosco o su un sentiero poco battuto, inginocchiati come fosse un rito. Sii lenta, precisa, affamata. Quando arriva, resta lì. Il sapore del rischio, del silenzio, della notte. Sei tu a decidere.",
+      "needs": ["outdoor"]
+    },
+    "azione_086": {
+      "label": "Masturbati in cam live per lui",
+      "explanation": "Avvia una videochiamata e inizia a toccarti lentamente davanti alla fotocamera, mentre lui ti guarda e ti guida.",
+      "level": "L4",
+      "tips": "Puoi farlo quando sei lontana, oppure per gioco anche dalla stessa casa. Chiedigli cosa vuole vedere, lasciati guidare, oppure prenditi la scena. Il riflesso dello schermo sul tuo viso, i suoi respiri in cuffia, il tuo orgasmo in diretta: pura tensione.",
+      "needs": ["digital"]
+    },
+    "azione_087": {
+      "label": "Fatti penetrare dietro un telo o una tenda leggera",
+      "explanation": "Nascondetevi dietro una tenda sottile e fate l’amore in silenzio, lasciando intravedere solo le sagome.",
+      "level": "L4",
+      "tips": "Potrebbe essere una tenda da campeggio, una tenda leggera sul balcone o nella doccia. Il vedo-non vedo è tutto. Se c’è qualcuno oltre, sentirete il brivido dell’ombra che vi tradisce.",
+      "needs": ["public"]
+    },
+    "azione_088": {
+      "label": "Scopate in piedi nell’acqua bassa",
+      "explanation": "Avvicinati nuda o quasi, alzati sulle punte e lasciati penetrare mentre l’acqua lambisce le cosce.",
+      "level": "L4",
+      "tips": "Al mare, in un fiume, in una piscina abbandonata. L’equilibrio è tutto: reggiti al suo collo, muoviti piano. Il contrasto tra il freddo dell’acqua e il calore dei corpi sarà il vostro orgasmo liquido.",
+      "needs": ["outdoor"]
+    },
+    "azione_089": {
+      "label": "Fatti guardare mentre ti fai scopare con una benda sugli occhi",
+      "explanation": "Indossa una benda e lasciati penetrare lentamente. Sapere che ti sta guardando rende tutto più intenso.",
+      "level": "L4",
+      "tips": "Nessuna vista, solo sensi. Ogni respiro, ogni tocco, ogni suono è amplificato. Sai che ti sta guardando, forse anche sorridendo. Puoi chiedergli cosa vede o restare nel buio della tua eccitazione.",
+      "needs": []
+    },
+    "azione_090": {
+      "label": "Scopate in cima a una salita o su una roccia panoramica",
+      "explanation": "Arrivate in un punto alto, spogliati quel tanto che basta e prendilo in un abbraccio selvaggio.",
+      "level": "L4",
+      "tips": "Il panorama è la vostra platea. Il fiato corto della camminata si confonde con i sospiri. Mettiti a cavalcioni, lascia che il vento vi tocchi. Sei in cima al mondo, e anche dentro di te c’è un picco.",
+      "needs": ["outdoor"]
+    },
+    "azione_091": {
+      "label": "Scopate in un bagno pubblico durante un evento",
+      "explanation": "Entrate nello stesso bagno durante un concerto o una festa affollata, chiudete la porta e fatelo in piedi, veloci e silenziosi.",
+      "level": "L4",
+      "tips": "La fila fuori, la musica che vibra, le voci a pochi passi. Tieniti al muro, alzati la gonna e lascialo entrare senza dire una parola. Ogni secondo è rubato. Quando uscite, guardatevi come due ladri che hanno appena fatto il colpo perfetto.",
+      "needs": ["public"]
+    },
+    "azione_092": {
+      "label": "Fatti legare e usata in mezzo alla natura",
+      "explanation": "Lascia che ti leghi a un albero o ti immobilizzi tra due punti e ti prenda lentamente, senza possibilità di fuga.",
+      "level": "L4",
+      "tips": "Il contatto con la terra, il legno contro la pelle, il senso di esposizione: tutto amplifica. Chiudi gli occhi, senti la tensione delle corde. Sei nuda, viva, nelle sue mani e nella natura.",
+      "needs": ["outdoor"]
+    },
+    "azione_093": {
+      "label": "Fatti masturbare in un posto affollato",
+      "explanation": "Lui infila una mano sotto il tuo vestito o costume e inizia a toccarti senza che nessuno se ne accorga.",
+      "level": "L4",
+      "tips": "Perfetto su una spiaggia affollata, una festa, un parco. Tu devi restare calma, magari chiacchierando con altri o fingendo di guardare il panorama. La sua mano è discreta, ma decisa. Se vieni mentre parli con qualcuno, hai vinto tutto.",
+      "needs": ["public", "outdoor"]
+    },
+    "azione_094": {
+      "label": "Fatti guardare mentre ti scopi un dildo",
+      "explanation": "Sdraiati e usalo davanti a lui, guardandolo negli occhi. Può toccarsi, ma non intervenire.",
+      "level": "L4",
+      "tips": "Tu sei l’attrice e la regista. Muoviti con lentezza, raccontagli cosa provi. Guardalo mentre geme. Il toy è un pretesto: ciò che eccita davvero è il potere che hai su di lui.",
+      "needs": []
+    },
+    "azione_095": {
+      "label": "Scopate dentro una cabina o camerino",
+      "explanation": "Chiudetevi in un camerino o una cabina, baci intensi e poi fallo entrare senza togliere tutto.",
+      "level": "L4",
+      "tips": "Spazi stretti, respiri corti. Magari in un negozio, in una cabina in spiaggia. Tenete i vestiti a metà, spingetevi contro la parete. L’eco dei vostri gemiti è il ritmo. Il pericolo di essere scoperti, la spinta.",
+      "needs": ["public"]
+    },
+    
+      "azione_096": {
+        "label": "Fatti scopare davanti a lui da uno sconosciuto",
+        "explanation": "Lui sceglie un uomo, tu lo lasci fare. Poi ti pieghi, ti fai scopare davanti ai suoi occhi.",
+        "level": "L5",
+        "tips": "Rendilo partecipe: fallo sedere, guardarti, toccarsi. Tu sei il suo regalo perverso. Ogni colpo è una dichiarazione di potere e fiducia. I tuoi gemiti sono solo per lui.",
+        "needs": ["group", "public"]
+      },
+      "azione_097": {
+        "label": "Succhiane due all’aperto senza farti scoprire",
+        "explanation": "Inginocchiati e prendili in bocca uno per volta, poi insieme. Senza mai guardarti intorno.",
+        "level": "L5",
+        "tips": "Tu sei il centro del loro desiderio. La lingua danza, le mani li accarezzano. Non parlare, guarda. Dove sborreranno? Sul viso? In gola? Sii tu a decidere.",
+        "needs": ["group", "outdoor"]
+      },
+      "azione_098": {
+        "label": "Fatti una doppia con scambio tra bocca e figa",
+        "explanation": "Uno ti scopa, l’altro lo aspetta in bocca. Poi si scambiano senza parlare.",
+        "level": "L5",
+        "tips": "Il ritmo lo decidi tu. Cambia posizioni, alterna suoni e sguardi. Sei il punto di equilibrio del loro piacere. Fai capire che è la tua fantasia, e che loro ne sono solo ospiti.",
+        "needs": ["group"]
+      },
+      "azione_099": {
+        "label": "Portagli un’amica e scopatelo insieme senza avvisarlo",
+        "explanation": "Preparate tutto voi. Quando lui apre la porta, siete già nude. Nessuna spiegazione.",
+        "level": "L5",
+        "tips": "Prendetelo insieme. Baci, mani ovunque, comandi sussurrati. Fatevi guardare mentre vi toccate. Poi lasciate che vi scopra entrambe. Nessun copione, solo voglia.",
+        "needs": ["group"]
+      },
+      "azione_100": {
+        "label": "Masturbati finché due uomini ti vengono addosso",
+        "explanation": "Tu sul letto, loro in piedi a guardarti. Si toccano finché esplodono su di te.",
+        "level": "L5",
+        "tips": "Sei il loro porno vivo. Gemiti, dita bagnate, sguardi che implorano. Chiedi loro dove venire: faccia, tette, pancia. E goditi ogni goccia come un trofeo.",
+        "needs": ["group"]
+      },
+      "azione_101": {
+        "label": "Fatti penetrare in doppia mentre un terzo guarda",
+        "explanation": "Uno dietro, uno davanti. Il terzo si masturba osservando ogni movimento.",
+        "level": "L5",
+        "tips": "Fatti sentire. Alterna ritmo lento a momenti furiosi. Guardalo mentre si tocca. Ogni gemito è per lui. Ogni spinta è un invito a unirsi, o a restare punito fuori dal gioco.",
+        "needs": ["group"]
+      },
+      "azione_102": {
+        "label": "Scambiatevi i partner sotto i vostri occhi",
+        "explanation": "Tu col suo, lui con la tua. Ma sempre vicini, occhi negli occhi.",
+        "level": "L5",
+        "tips": "Guardalo mentre gode con un’altra. Fatti guardare mentre vieni con un altro. Nessuna gelosia, solo potere. I corpi si intrecciano, ma il legame resta negli sguardi.",
+        "needs": ["group", "swap"]
+      },
+      "azione_103": {
+        "label": "Lasciati scopare mentre lui ti tiene ferma",
+        "explanation": "Un altro entra in te, ma è il tuo lui a bloccarti e guidare il ritmo.",
+        "level": "L5",
+        "tips": "Lui ti tiene per i fianchi, ti sussurra che sei sua, anche mentre un altro ti prende. Tu gemi per entrambi. Ma l’unico nome che gridi è il suo.",
+        "needs": ["group"]
+      },
+      "azione_104": {
+        "label": "Fatti venire in faccia da due uomini insieme",
+        "explanation": "Inginocchiati tra loro. Quando sono pronti, chiudi gli occhi e aspetta.",
+        "level": "L5",
+        "tips": "Sussurra: 'Sborrate su di me'. Accarezzali mentre si avvicinano. Una mano per uno. Sei tu che li hai portati fin lì, ora reclamane ogni goccia. Sorridi sporca, appagata.",
+        "needs": ["group"]
+      },
+      "azione_105": {
+        "label": "Fatti scopare da un guardone nel parcheggio",
+        "explanation": "Mostrati, invitalo con lo sguardo. Poi girati e lasciati prendere.",
+        "level": "L5",
+        "tips": "Parcheggio buio, macchina aperta, seno nudo. Lui ti vede, si avvicina, tu non dici nulla. Ti pieghi. Fatti scopare in silenzio, mentre il tuo lui guarda o guida il gioco.",
+        "needs": ["public", "group"]
+      },
+      "azione_106": {
+        "label": "Succhialo insieme a un’amica davanti a lui",
+        "explanation": "Inginocchiatevi insieme e prendetevelo in bocca, alternandovi o insieme.",
+        "level": "L5",
+        "tips": "Una lo bacia, l’altra lo prende. Le lingue si sfiorano, le mani si muovono. Ogni goccia è guadagnata. Tu sei la regista, lei l’alleata. Godetelo, lentamente.",
+        "needs": ["group"]
+      },
+      "azione_107": {
+        "label": "Fatti leccare da un’amica mentre lui guarda",
+        "explanation": "Stenditi e apri le gambe. Lascia che sia lei a dare il ritmo.",
+        "level": "L5",
+        "tips": "Chiudi gli occhi, ma pensa a lui. Ogni leccata è un messaggio. Muoviti piano, guida la sua testa se vuoi. I suoi occhi vedranno te venire per un’altra. Poi sarà il suo turno.",
+        "needs": ["group"]
+      },
+      "azione_108": {
+        "label": "Masturbati mentre due si leccano davanti a te",
+        "explanation": "Guardali scoparsi con la lingua, mentre ti tocchi senza pudore.",
+        "level": "L5",
+        "tips": "Tu comandi. Puoi dare indicazioni, o restare in silenzio. Tocca i capezzoli, poi la figa, poi vieni. Guardali mentre si divorano. Sei dentro il tuo porno perfetto.",
+        "needs": ["group"]
+      },
+      "azione_109": {
+        "label": "Fatti penetrare lentamente davanti a uno specchio",
+        "explanation": "Guardati mentre lui entra in te. Fallo lentamente, fino in fondo.",
+        "level": "L5",
+        "tips": "Metti lo specchio basso, inginocchiati. Guarda tutto: l’ingresso, le espressioni, le gocce. Puoi raccontargli cosa vedi. Il tuo riflesso ti rende più vera. Più porca.",
+        "needs": []
+      },
+      "azione_110": {
+        "label": "Scopate davanti a una webcam per sconosciuti",
+        "explanation": "Aprite la webcam e fate sesso mentre qualcuno vi guarda online.",
+        "level": "L5",
+        "tips": "Scegliete chi guarda, o lasciate che il caso decida. Voi fate l’amore come volete, ma ogni mossa ora ha testimoni. Godetevi il potere di essere desiderati da chi non conoscete.",
+        "needs": ["public", "group"]
+    },
+    "azione_111": {
+        "label": "Succhialo in due fino a farlo venire su entrambe",
+        "explanation": "Inginocchiati accanto a un’amica e condividete il suo piacere fino alla fine.",
+        "level": "L5",
+        "tips": "Guardatevi negli occhi mentre lo leccate. Lascia che vi usi, che decida su quale viso finire. Il piacere è nel gioco.",
+        "needs": ["3P", "cumplay", "oral"]
+    },
+    "azione_112": {
+        "label": "Fatti scopare mentre lo guardi negli occhi e lo tradisci con un altro",
+        "explanation": "Lascia che un altro ti prenda mentre fissi il tuo partner. Fallo lentamente, senza vergogna.",
+        "level": "L5",
+        "tips": "Ogni sguardo è una sfida. Ogni colpo dentro di te è un gesto di potere condiviso. Il desiderio si trasforma in dominio.",
+        "needs": ["3P", "eye_contact", "indoor"]
+    },
+    "azione_113": {
+        "label": "Scambiatevi i partner davanti a tutti",
+        "explanation": "In una situazione privata ma condivisa, cambiate partner e scopate senza nascondervi.",
+        "level": "L5",
+        "tips": "I corpi si intrecciano, le emozioni si confondono. Osservali mentre godono: siete una cosa sola.",
+        "needs": ["swing", "public", "group"]
+    },
+    "azione_114": {
+        "label": "Scopate con un altro davanti al vostro specchio",
+        "explanation": "Invita un terzo e fate tutto davanti allo specchio: ogni movimento moltiplicato, ogni espressione amplificata.",
+        "level": "L5",
+        "tips": "Guardati mentre godi. Il riflesso svela verità che nemmeno pensavi di cercare.",
+        "needs": ["3P", "mirror", "indoor"]
+    },
+    "azione_115": {
+        "label": "Fatti scopare a pecora mentre un’amica ti lecca",
+        "explanation": "Mentre vieni presa da dietro, lascia che una lei ti stimoli con la lingua.",
+        "level": "L5",
+        "tips": "Apriti tutta per loro. Lascia che entrambi trovino spazio tra le tue gambe.",
+        "needs": ["3P", "anal", "lesbo"]
+    },
+    "azione_116": {
+        "label": "Portagli un’amica e scopatelo insieme senza avvisarlo",
+        "explanation": "Organizza tutto con una complice e sorprendilo. Nessuna spiegazione, solo piacere.",
+        "level": "L5",
+        "tips": "Divertitevi a stuzzicarlo, poi colpite insieme. Lui sarà tuo, ma anche suo.",
+        "needs": ["3P", "surprise", "indoor"]
+    },
+    "azione_117": {
+        "label": "Scopate sul divano mentre un amico guarda e si masturba",
+        "explanation": "Non parlate, non fermatevi. Solo sguardi, sospiri e movimenti sempre più intensi.",
+        "level": "L5",
+        "tips": "Ignoratelo… o guardatelo mentre gode di voi. Il confine tra spettatore e protagonista è sottile.",
+        "needs": ["3P", "voyeur", "indoor"]
+    },
+    "azione_118": {
+        "label": "Fatti masturbare da due uomini che si alternano",
+        "explanation": "Sdraiati, apriti e lascia che si passino il compito di farti impazzire.",
+        "level": "L5",
+        "tips": "Lasciati manipolare, esplorare. Non guidarli, lasciati condurre.",
+        "needs": ["3P", "manual", "indoor"]
+    },
+    "azione_119": {
+        "label": "Scopate con lui mentre succhi il cazzo di un altro",
+        "explanation": "Mettiti sopra il tuo partner e, mentre cavalchi, abbassati per succhiare un altro.",
+        "level": "L5",
+        "tips": "Tre corpi, tre ritmi. Tu sei il centro, loro i tuoi strumenti.",
+        "needs": ["3P", "oral", "riding"]
+    },
+    "azione_120": {
+        "label": "Fatti penetrare in due mentre ti guardano negli occhi",
+        "explanation": "Uno davanti, uno dietro. Lascia che ti tengano aperta e ti penetrino alternandosi.",
+        "level": "L5",
+        "tips": "Ogni movimento è per te. Respira e lascia che ti attraversino. Il tuo piacere è il loro.",
+        "needs": ["3P", "dp", "eye_contact"]
+    },
+    "azione_121": {
+        "label": "Porta uno sconosciuto a casa e scopatelo con lui",
+        "explanation": "Esci da sola, scegli un uomo, portalo a casa e coinvolgilo in un rapporto a tre con il tuo partner.",
+        "level": "L5",
+        "tips": "Sii tu a condurre il gioco. La sorpresa sarà il vero afrodisiaco.",
+        "needs": ["3P", "indoor", "dominance"]
+    },
+    "azione_122": {
+        "label": "Gioca alla visita medica con due uomini",
+        "explanation": "Spogliati e fatti esaminare da due uomini. Uno ti tiene aperta, l’altro ti visita ovunque.",
+        "level": "L5",
+        "tips": "Guanti, dita lente, sguardi seri. Sentiti oggetto delle loro attenzioni.",
+        "needs": ["3P", "roleplay", "indoor"]
+    },
+    "azione_123": {
+        "label": "Fatti venire in faccia in un luogo isolato all’aperto",
+        "explanation": "Scegli un posto nascosto, inginocchiati e lascia che ti venga sul viso.",
+        "level": "L5",
+        "tips": "Occhi chiusi, bocca aperta. L’aria fresca e il calore della sborra ti faranno impazzire.",
+        "needs": ["outdoor", "cumplay"]
+    },
+    "azione_124": {
+        "label": "Scopate all’aperto mentre qualcuno vi guarda da lontano",
+        "explanation": "Fate sesso sapendo che qualcuno potrebbe vedervi… o sta già guardando.",
+        "level": "L5",
+        "tips": "Non fermarti se senti un fruscio. L’adrenalina amplifica tutto.",
+        "needs": ["public", "outdoor", "voyeur"]
+    },
+    "azione_125": {
+        "label": "Fatti scopare mentre ti masturbi con un toy",
+        "explanation": "Usa un vibratore mentre lui ti penetra. Controlla tu il ritmo.",
+        "level": "L5",
+        "tips": "Mostragli quanto godi da sola… e quanto lo vuoi dentro.",
+        "needs": ["toys", "indoor", "control"]
+    },
+    "azione_126": {
+        "label": "Fatti leccare da un’amica mentre ti masturbi davanti a lui",
+        "explanation": "Sdraiati, masturba il clitoride mentre lei ti lecca. Lui guarda.",
+        "level": "L5",
+        "tips": "Tre ruoli diversi, tre desideri. Il tuo piacere li guida tutti.",
+        "needs": ["lesbo", "3P", "indoor"]
+    },
+    "azione_127": {
+        "label": "Vestiti da zoccola e accoglilo con un altro già dentro di te",
+        "explanation": "Fatti trovare a pecora con un altro dentro, e invitalo a unirsi.",
+        "level": "L5",
+        "tips": "Shock, rabbia o desiderio? Il suo sguardo ti dirà tutto.",
+        "needs": ["3P", "shock", "anal"]
+    },
+    "azione_128": {
+        "label": "Fatti legare e usa la bocca con due uomini",
+        "explanation": "Braccia legate dietro, inginocchiata. Uno ti tiene, l’altro ti usa la bocca.",
+        "level": "L5",
+        "tips": "Tu sei il loro gioco. E sai che lo vuoi.",
+        "needs": ["oral", "3P", "bondage"]
+    },
+    "azione_129": {
+        "label": "Fatti penetrare lentamente davanti a uno specchio",
+        "explanation": "Guardati mentre ti entra dentro, osserva ogni espressione.",
+        "level": "L5",
+        "tips": "Ogni immagine riflessa è parte del desiderio.",
+        "needs": ["mirror", "indoor"]
+    },
+    "azione_130": {
+        "label": "Fatti masturbare in un bagno pubblico da un altro mentre parli con lui al telefono",
+        "explanation": "Chiamalo, parla normalmente mentre un altro ti tocca sotto i vestiti.",
+        "level": "L5",
+        "tips": "Controlla la voce, non i brividi.",
+        "needs": ["public", "bathroom", "cheating"]
+    },
+    "azione_131": {
+        "label": "Inginocchiati e succhia quattro cazzi uno dopo l’altro senza fermarti",
+        "explanation": "Fatti circondare, guardali in faccia e comincia a prenderli in bocca uno per uno. Niente pause, niente scuse.",
+        "level": "L6",
+        "tips": "Sbattiti tra una bocca e l’altra come una troia affamata. La tua lingua è il loro piacere, le tue mani devono tenerli duri. Fatti venire addosso, poi guarda il casino che hai creato e sorridi. Sei fatta per questo.",
+        "needs": ["group", "oral", "public", "cum"]
+      },
+      "azione_132": {
+        "label": "Fatti scopare nuda contro la porta di casa lasciandola aperta",
+        "explanation": "Apri la porta, togliti tutto e girati di spalle. Lui entra e ti prende lì, dove chiunque potrebbe vederti.",
+        "level": "L6",
+        "tips": "Il battito del tuo cuore copre solo a metà il rumore dell’ascensore. Sei sua, sei aperta, sei esposta. Senti l’aria fresca sulla pelle, le voci nel corridoio. Più sei vista, più ti bagni. Non fermarti.",
+        "needs": ["public", "outdoor", "submission"]
+      },
+      "azione_133": {
+        "label": "Fatti sporcare la faccia da tre uomini davanti a uno specchio",
+        "explanation": "Inginocchiati davanti a loro, guardati nello specchio mentre ti vengono addosso uno dopo l’altro.",
+        "level": "L6",
+        "tips": "Ogni goccia sul viso è un segno del tuo potere. Toccati, sorridi, mostra quanto ti piace. Guardarti venire imbrattata è la loro droga. Sei la loro pornostar personale, lo specchio non mente.",
+        "needs": ["group", "cum", "show"]
+      },
+      "azione_134": {
+        "label": "Fatti scopare al buio da sconosciuti incappucciati che si alternano su di te",
+        "explanation": "Sdraiati, apriti, accoglili uno dopo l’altro senza sapere chi siano. Ti toccano, ti prendono, scompaiono.",
+        "level": "L6",
+        "tips": "Il buio copre tutto tranne i gemiti. Chi è dentro di te ora? Il collega? Un amico di lui? Non sai, non chiedi. Ogni passaggio è un brivido. Sei un mistero da usare, un piacere da condividere.",
+        "needs": ["group", "dominance", "submission", "blind"]
+      },
+      "azione_135": {
+        "label": "Lascia che lui ti leghi e poi guardalo mentre un altro ti scopa davanti ai suoi occhi",
+        "explanation": "Stenditi e fatti immobilizzare. Poi resta ferma mentre un altro uomo ti prende senza chiedere nulla.",
+        "level": "L6",
+        "tips": "Lui non può fare niente, solo guardare. Ogni colpo ti fa gemere più forte. Ogni sguardo che incroci è un invito a venire. Sei la troia che domina entrambi, anche da legata.",
+        "needs": ["group", "submission", "dominance", "cum"]
+      },
+      "azione_136": {
+    "label": "Fatti scopare da quattro uomini mentre lui ti guarda",
+    "explanation": "Concediti a un gruppo e costringilo a restare a guardare tutto, senza poter intervenire.",
+    "level": "L6",
+    "tips": "Puoi legarlo o solo immobilizzarlo con lo sguardo. Il tuo corpo è il suo tormento, il tuo piacere la sua condanna. In un luogo appartato all’aperto tutto è ancora più teso.",
+    "needs": ["group", "outdoor", "cuckold"]
   },
-  "azione_082": {
-    "label": "Electro-play avanzato",
-    "explanation": "Applica elettrodi a pinza su genitali o capezzoli e usa un controller pulsato con pattern complessi per stimolazioni a più frequenze.",
-    "level": "L5",
-    "needs": ["oggetto"]
+  "azione_137": {
+    "label": "Fatti leccare da due uomini inginocchiati",
+    "explanation": "Mettiti comoda, spalancati e ordinagli come toccarti con lingua e mani. Comanda tu.",
+    "level": "L6",
+    "tips": "Sei la dea e loro i tuoi servi. Alterna dolcezza e schiaffi, frasi sporche e silenzi che parlano da soli. Scegli tu dove farli finire.",
+    "needs": ["group", "dominance"]
   },
-  "azione_083": {
-    "label": "Gangbang consensuale",
-    "explanation": "Organizza più partner che si alternano a stimolare la stessa persona; definisci confini e segnale di stop chiaro prima di iniziare.",
-    "level": "L5"
+  "azione_138": {
+    "label": "Fatti scopare in auto mentre lui ti guarda legato",
+    "explanation": "Portalo con te, legalo al sedile e lasciagli vedere tutto. Ogni tuo gemito lo consuma.",
+    "level": "L6",
+    "tips": "Puoi raccontargli cosa provi o guardarlo in silenzio mentre vieni. La macchina è un teatro chiuso dove solo tu decidi chi gode davvero.",
+    "needs": ["outdoor", "cuckold"]
   },
-  "azione_084": {
-    "label": "Humiliation play hardcore",
-    "explanation": "Usa parole degradanti e pose sottomesse; assicurati che il partner trovi eccitante la dinamica di umiliazione consensuale.",
-    "level": "L5"
+  "azione_139": {
+    "label": "Fatti venire in faccia da tre uomini in un luogo isolato",
+    "explanation": "Prendili in bocca, con le mani, coi seni. Guidali tu e lasciati sporcare dove vuoi.",
+    "level": "L6",
+    "tips": "Ogni goccia sul tuo viso è una firma del tuo potere. Il verde intorno amplifica ogni suono. Se vuoi, guardalo mentre succede.",
+    "needs": ["group", "outdoor"]
   },
-  "azione_085": {
-    "label": "Vac-bed latex",
-    "explanation": "Sigilla il partner in un sacco di lattice aspirando l’aria; la pressione costante immobilizza completamente lasciando solo fori essenziali.",
-    "level": "L5",
-    "needs": ["bondage", "sospensione"]
+  "azione_140": {
+    "label": "Dominalo mentre un altro ti scopa",
+    "explanation": "Fatti prendere da un amante e intanto dai ordini al tuo uomo su come toccarsi o parlarti.",
+    "level": "L6",
+    "tips": "La vera scena non è quella del tuo corpo che si muove, ma degli occhi che si incrociano mentre comandi. L'altro è solo uno strumento.",
+    "needs": ["cuckold", "dominance"]
   },
-  "azione_086": {
-    "label": "Suspension bondage",
-    "explanation": "Sospendi il corpo con corde e supporti adeguati; alterna rotazioni leggere a stimolazioni dei punti esposti.",
-    "level": "L5",
-    "needs": ["bondage", "sospensione"]
+  "azione_141": {
+    "label": "Scegli due uomini e guidali mentre ti scopano",
+    "explanation": "Prendili per mano, decidi tu come e dove. Sii tu a dire chi entra per primo e cosa vuole da te.",
+    "level": "L6",
+    "tips": "Fagli sentire che il loro piacere dipende dal tuo. Alterna comandi, provocazioni e pause strategiche. Il tuo corpo è un campo di gioco e tu sei la regola.",
+    "needs": ["group", "dominance"]
   },
-  "azione_087": {
-    "label": "Needle play light",
-    "explanation": "Inserisci aghi sterili superficialmente su petto o cosce formando un motivo estetico; rimuovili lentamente per intensificare la sensazione.",
-    "level": "L5",
-    "needs": ["pain"]
+  "azione_142": {
+    "label": "Fatti scopare all’aperto da uno mentre ne succhi un altro",
+    "explanation": "Mettiti in ginocchio, alterna la bocca alla posizione. Falli venire entrambi, ovunque tu voglia.",
+    "level": "L6",
+    "tips": "Sporcati le ginocchia, tieni lo sguardo acceso. Può essere nel retro di un’auto, in un campo nascosto o dietro un capanno. Tu scegli dove e come.",
+    "needs": ["group", "outdoor"]
   },
-  "azione_088": {
-    "label": "Choking profondo",
-    "explanation": "Applica pressione più intensa sul collo del partner per qualche secondo; rilascia e lascia che il sangue ritorni per euforia naturale.",
-    "level": "L5",
-    "needs": ["pain"]
+  "azione_143": {
+    "label": "Costringilo a masturbarsi mentre ti fai scopare",
+    "explanation": "Prenditi un amante e obbliga il tuo uomo a toccarsi senza intervenire.",
+    "level": "L6",
+    "tips": "Guardalo mentre geme, digli quanto sei bagnata e che non è per lui. Se ti chiede di fermarti, sorridi e vai più forte.",
+    "needs": ["cuckold"]
   },
-  "azione_089": {
-    "label": "Spanking estremo cane bamboo",
-    "explanation": "Usa una canna di bambù per colpire glutei e cosce lasciando segni evidenti; passa una crema lenitiva tra una serie e l’altra.",
-    "level": "L5",
-    "needs": ["pain"]
+  "azione_144": {
+    "label": "Fatti legare e usa solo la bocca con tre uomini",
+    "explanation": "Fatti immobilizzare e lasciali godere solo della tua bocca. Niente mani, niente vista, solo piacere puro.",
+    "level": "L6",
+    "tips": "La benda amplifica ogni goccia, ogni gemito. Alterna il ritmo, senti chi trema di più. Tre corpi, una regina cieca.",
+    "needs": ["group", "submission"]
   },
-  "azione_090": {
-    "label": "Orgia kink privata",
-    "explanation": "Partecipa con più partner a scene varie in un ambiente controllato; definisci limiti, safe-word e igiene prima di iniziare.",
-    "level": "L5"
+  "azione_145": {
+    "label": "Sottomettiti a uno mentre il tuo uomo ti guarda",
+    "explanation": "Fatti trattare come una troia, mentre lui assiste impotente.",
+    "level": "L6",
+    "tips": "Il tuo sguardo può essere sfida o implorazione. Lasciati tirare i capelli, fatti usare come vuole. E fagli vedere quanto ti piace.",
+    "needs": ["cuckold", "submission"]
   },
-  "azione_091": {
-    "label": "Pegging strap-on prolungato",
-    "explanation": "Indossa uno strap-on e penetra il partner anale con ritmo che varia da lento a martellante, aggiungendo gioco verbale dominante.",
-    "level": "L5",
-    "needs": ["anal", "oggetto", "lubrificante"]
+  "azione_146": {
+    "label": "Siediti sul volto del tuo uomo mentre un altro ti prende",
+    "explanation": "Lascia che ti lecchi mentre vieni con un altro dentro. Falli godere entrambi.",
+    "level": "L6",
+    "tips": "Il suo viso diventa il tuo trono. Controlla ogni respiro, ogni vibrazione. Fai in modo che nessuno dimentichi chi comanda.",
+    "needs": ["group", "cuckold"]
   },
-  "azione_092": {
-    "label": "Macchina del sesso",
-    "explanation": "Posiziona il partner su una macchina a spinta alternata regolando velocità e profondità; sorveglia costantemente il comfort.",
-    "level": "L5",
-    "needs": ["oggetto", "lubrificante"]
+  "azione_147": {
+    "label": "Prendi in bocca due uomini in auto e falli venire su di te",
+    "explanation": "Siediti tra loro, in ginocchio, e gioca con entrambi finché esplodono.",
+    "level": "L6",
+    "tips": "La stretta dell’abitacolo, i vetri appannati, i corpi caldi. Succhiali insieme, guardali negli occhi. La tua pelle sarà la loro tela.",
+    "needs": ["group", "outdoor"]
   },
-  "azione_093": {
-    "label": "CBT intenso",
-    "explanation": "Applica corde, pesi o pinze sui genitali maschili alternando tensione e rilascio controllati per massimizzare la sensibilità.",
-    "level": "L5",
-    "needs": ["pain"]
+  "azione_148": {
+    "label": "Fatti usare da tre uomini bendata",
+    "explanation": "Non devi sapere chi ti prende. Abbandonati al buio e lascia che decidano loro.",
+    "level": "L6",
+    "tips": "Ogni tocco è una sorpresa, ogni sussurro un brivido. Lascia che siano loro a muoverti, a sceglierti. Tu puoi solo godere.",
+    "needs": ["group", "submission"]
   },
-  "azione_094": {
-    "label": "Chastity lock 24h",
-    "explanation": "Chiudi il partner in una gabbia di castità e trattieni la chiave per un giorno intero per un gioco di controllo prolungato.",
-    "level": "L5",
-    "needs": ["oggetto"]
+  "azione_149": {
+    "label": "Scopati uno mentre un altro ti viene in faccia",
+    "explanation": "Mettiti sopra uno e guarda l’altro mentre si libera su di te.",
+    "level": "L6",
+    "tips": "Unisci gli sguardi, il ritmo, il piacere. Quando vieni, fallo con la bocca aperta e il cuore che batte ovunque.",
+    "needs": ["group"]
   },
-  "azione_095": {
-    "label": "Edge denial 1h",
-    "explanation": "Stimola il partner quasi fino all’orgasmo per un’ora intera senza lasciarlo venire, poi decidi se concedere o prolungare ancora.",
-    "level": "L5"
+  "azione_150": {
+    "label": "Comanda tu un trio con due sconosciuti",
+    "explanation": "Trova due uomini e decidi tutto: ritmi, ruoli, dove e come vogliono godere.",
+    "level": "L6",
+    "tips": "Sii la regista e l’attrice. Scegli il setting, le regole, i giochi. I loro orgasmi sono il tuo trofeo.",
+    "needs": ["group", "dominance"]
   },
-  "azione_096": {
-    "label": "Double fisting toy",
-    "explanation": "Utilizza due grossi toy o mani con abbondante lubrificante, procedendo in modo graduale e monitorando costantemente il comfort.",
-    "level": "L5",
-    "needs": ["anal", "oggetto", "lubrificante"]
-  },
-  "azione_097": {
-    "label": "Dominare schiavi multipli",
-    "explanation": "Gestisci due o più sottomessi impartendo ordini differenti; coordina le azioni per mantenere alta la tensione su tutti.",
-    "level": "L5"
-  },
-  "azione_098": {
-    "label": "Streaming live privato",
-    "explanation": "Trasmetti la sessione a un pubblico selezionato online, impostando angoli di ripresa che mostrino solo ciò che desiderate condividere.",
-    "level": "L5"
-  },
-  "azione_099": {
-    "label": "Croce di Sant'Andrea",
-    "explanation": "Fissa il partner sulla croce X con polsi e caviglie legati; il corpo esposto è pronto per flogging, cera o semplici carezze.",
-    "level": "L5",
-    "needs": ["bondage", "superficie"]
-  },
-  "azione_100": {
-    "label": "Vacuum pumping estremo",
-    "explanation": "Applica una pompa a vuoto su zona erogena (pene, capezzoli o vulva) e aumenta gradualmente la pressione per vasodilatazione intensa.",
-    "level": "L5",
-    "needs": ["oggetto"]
-  },
-  "azione_null": {
+      "azione_151": {
+      "label": "Succhia 3 cazzi uno dopo l’altro senza pause",
+      "explanation": "Inginocchiati e prendili in bocca a turno, senza fermarti finché non si vengono addosso.",
+      "level": "L6",
+      "tips": "Non scegliere: prendili tutti. Guarda negli occhi quello che aspetta il suo turno. Leccali, alternali, decidi tu dove dovranno venire.",
+      "needs": ["group"]
+    },
+    "azione_152": {
+      "label": "Fatti scopare da due uomini mentre il tuo lui ti guarda legato",
+      "explanation": "Prepara la scena, legalo bene e fai entrare i due uomini. Scopati davanti a lui senza mai distogliere lo sguardo.",
+      "level": "L6",
+      "tips": "È tuo. Ma ora guarda come ti desidera mentre altri ti usano. Provocarlo con parole sporche e uno sguardo fisso lo consumerà di desiderio.",
+      "needs": ["group"]
+    },
+    "azione_153": {
+      "label": "Guidali: inginocchia due uomini e fallo succhiare a turno",
+      "explanation": "Fai inginocchiare due uomini davanti a lui e ordina loro di succhiartelo mentre lui guarda.",
+      "level": "L6",
+      "tips": "Tu comandi. Alternali, spingili, costringili a guardarti mentre godono del tuo corpo. Usa la voce: è il tuo potere più eccitante.",
+      "needs": ["group"]
+    },
+    "azione_154": {
+      "label": "Spogliati in macchina e fatti scopare mentre lui guida",
+      "explanation": "Togliti i vestiti sul sedile del passeggero e cavalcalo con lentezza, lasciando i fari accesi.",
+      "level": "L6",
+      "tips": "Il rischio, il rumore del motore, il vetro appannato. Scopare così è come fuggire insieme da tutto. E tu sei il suo premio lungo la strada.",
+      "needs": ["outdoor"]
+    },
+    "azione_155": {
+      "label": "Fatti legare nuda in giardino e scopare lì",
+      "explanation": "Lascia che ti leghi in uno spazio esterno privato e ti prenda come vuole, sotto le stelle.",
+      "level": "L6",
+      "tips": "Le corde ti tengono ferma, ma il vento ti accarezza la pelle. Ogni rumore può essere qualcuno che arriva. Tu non puoi muoverti, ma puoi godere.",
+      "needs": ["outdoor"]
+    },
+    "azione_156": {
+      "label": "Succhialo mentre un altro ti scopa da dietro all’aperto",
+      "explanation": "Chiedi a due uomini di prenderti insieme: uno in bocca, uno dietro, in un luogo isolato.",
+      "level": "L6",
+      "tips": "L'odore dell'erba, la pelle che sfiora la terra, i loro gemiti che ti attraversano. Il tuo corpo al centro, il piacere che esplode ai margini del mondo.",
+      "needs": ["group", "outdoor"]
+    },
+    "azione_157": {
+      "label": "Scopate in 4 con ruoli che cambiano",
+      "explanation": "Organizzate un incontro a 4 in cui ognuno può prendere e dare piacere, alternandovi nei ruoli.",
+      "level": "L6",
+      "tips": "Inizia piano, con carezze. Poi mescolate i corpi, i respiri, i ruoli. Ogni sguardo è consenso. Ogni tocco può cambiare tutto.",
+      "needs": ["group"]
+    },
+    "azione_158": {
+      "label": "Fatti venire addosso da tre uomini e mostrati a lui subito dopo",
+      "explanation": "Organizza un incontro in cui tre uomini ti vengono addosso, poi torna da lui coperta di piacere.",
+      "level": "L6",
+      "tips": "Ogni goccia sul tuo corpo racconta una storia. Mostragliela. Fai che ti lecchi via tutto mentre gli racconti cosa hai fatto.",
+      "needs": ["group"]
+    },
+    "azione_159": {
+      "label": "Sottoponiti al suo gioco di controllo completo",
+      "explanation": "Affidati totalmente a lui: decide dove, come, quando e chi può toccarti.",
+      "level": "L6",
+      "tips": "La vera sottomissione è fidarsi. Anche bendata, anche legata, senti il suo respiro e sai che stai per esplodere. Sei sua, e ti piace così.",
+      "needs": []
+    },
+    "azione_160": {
+      "label": "Fatti sculacciare nuda mentre ti masturbi sul balcone",
+      "explanation": "Spogliati sul balcone e inizia a toccarti mentre lui ti sculaccia e ti incita.",
+      "level": "L6",
+      "tips": "Ogni schiaffo è un’eco nel buio. Qualcuno potrebbe guardare. Forse lo stanno già facendo. Ma non riesci a fermarti.",
+      "needs": ["outdoor"]
+    },
+    "azione_null": {
     "label": "qui non devi fare nulla",
     "explanation": "",
     "level": ""
@@ -1075,607 +1618,850 @@
     "explanation": "",
     "level": ""
   },
-
-  "luogo_001": {
-    "label": "Letto matrimoniale",
-    "explanation": "Il classico intramontabile: morbido, stabile e sempre pronto a nuove lenzuola da sgualcire.",
-    "level": "L1",
-    "supports": ["superficie"]
-  },
-  "luogo_002": {
-    "label": "Divano del salotto",
-    "explanation": "Cuscini abbondanti, schienale per inclinazioni audaci; comfort informale per coccole estese.",
-    "level": "L1",
-    "supports": ["superficie"]
-  },
-  "luogo_003": {
-    "label": "Doccia calda",
-    "explanation": "Getto d’acqua avvolgente, pareti scivolose; perfetta per saponi profumati e mani che esplorano.",
-    "level": "L1",
-    "supports": ["doccia", "acqua"]
-  },
-  "luogo_004": {
-    "label": "Tappeto del salotto",
-    "explanation": "Morbido sotto le ginocchia, spazio sufficiente a stendersi e rotolare tra risate e carezze.",
-    "level": "L1",
-    "supports": ["superficie", "spazio_minimo"]
-  },
-  "luogo_005": {
-    "label": "Sedia robusta",
-    "explanation": "Schienale alto e seduta stabile: ideale per baci da seduti o per legare i polsi con foulard.",
-    "level": "L1",
-    "supports": ["superficie"]
-  },
-  "luogo_006": {
-    "label": "Vasca da bagno",
-    "explanation": "Acqua calda, bolle e pelle che scivola: invita a massaggi sotto il livello dell’acqua.",
-    "level": "L1",
-    "supports": ["acqua", "doccia"]
-  },
-  "luogo_007": {
-    "label": "Balcone al tramonto",
-    "explanation": "Aria tiepida e luce dorata; ottimo per un bacio lento con vista.",
-    "level": "L1",
-    "supports": ["public"]
-  },
-  "luogo_008": {
-    "label": "Poltrona reclinabile",
-    "explanation": "Si inclina quanto basta per un massaggio o un abbraccio da dietro.",
-    "level": "L1",
-    "supports": ["superficie"]
-  },
-  "luogo_009": {
-    "label": "Tenda da campeggio",
-    "explanation": "Spazio ridotto che costringe i corpi a toccarsi in ogni movimento; romanticismo sotto le stelle.",
-    "level": "L1",
-    "supports": ["spazio_minimo"]
-  },
-  "luogo_010": {
-    "label": "Amaca in giardino",
-    "explanation": "Oscilla dolcemente cullando i corpi; perfetta per baci lenti e mani che esplorano.",
-    "level": "L1",
-    "supports": ["superficie"]
-  },
-  "luogo_011": {
-    "label": "Pavimento con cuscini",
-    "explanation": "Un nido di cuscini sparsi: libertà di muoversi senza paura di cadere.",
-    "level": "L1",
-    "supports": ["superficie", "spazio_minimo"]
-  },
-  "luogo_012": {
-    "label": "Libreria di casa",
-    "explanation": "Tra scaffali di libri e il profumo di carta: baci silenziosi dal sapore proibito.",
-    "level": "L1",
-    "supports": ["superficie"]
-  },
-  "luogo_013": {
-    "label": "Tappeto yoga",
-    "explanation": "Spessore giusto per posizioni a terra, ideale per stretching sensuale a due.",
-    "level": "L1",
-    "supports": ["superficie"]
-  },
-  "luogo_014": {
-    "label": "Finestra socchiusa",
-    "explanation": "Una brezza leggera che rinfresca la pelle nuda mentre ci si sfiora in punta di piedi.",
-    "level": "L1",
-    "supports": ["public"]
-  },
-  "luogo_015": {
-    "label": "Camera degli ospiti",
-    "explanation": "Letto extra ma intimità invariata: il fascino di sentirsi clandestini in casa propria.",
-    "level": "L1",
-    "supports": ["superficie"]
-  },
-  "luogo_016": {
-    "label": "Studio di casa",
-    "explanation": "Scrivania libera e sedia girevole: un invito a idee creative lontano dal letto.",
-    "level": "L1",
-    "supports": ["superficie"]
-  },
-  "luogo_017": {
-    "label": "Terrazza chiusa",
-    "explanation": "Pareti di vetro che mostrano il cielo ma proteggono dagli sguardi: voyeurismo soft garantito.",
-    "level": "L1",
-    "supports": ["public"]
-  },
-  "luogo_018": {
-    "label": "Sedile posteriore auto",
-    "explanation": "Cuscini raccolti, finestrini appannati: un ritorno ai limiti adolescenziali.",
-    "level": "L1",
-    "supports": ["public", "superficie"]
-  },
-  "luogo_019": {
-    "label": "Piscina privata",
-    "explanation": "Acqua tiepida per carezze subacquee, bordo piscina per appoggi rapidi.",
-    "level": "L1",
-    "supports": ["acqua", "doccia"]
-  },
-  "luogo_020": {
-    "label": "Corridoio semibuio",
-    "explanation": "Lunga parete su cui premere il partner per un bacio improvviso.",
-    "level": "L1",
-    "supports": ["public", "superficie"]
-  },
-  "luogo_021": {
-    "label": "Tavolo cucina",
-    "explanation": "Superficie solida all’altezza giusta; farina e passione inclusi.",
-    "level": "L2",
-    "supports": ["superficie"]
+    "luogo_001": {
+      "label": "Letto di casa",
+      "explanation": "Materasso ampio e lenzuola morbide, un rifugio privato dove ogni movimento si vive in totale intimità.",
+      "level": "L1",
+      "tips": "Usa il bordo del letto per far sporgere la testa: inginocchiati e concediti un deepthroat improvviso, poi coricati di fianco e lascia che ti esplori con mani lente, aspettando il momento per rialzarti e dominare il ritmo."
+    },
+    "luogo_002": {
+      "label": "Divano con coperte",
+      "explanation": "Un abbraccio di stoffa e imbottiture, perfetto per trasformare un momento di relax in un gioco di tensione erotica.",
+      "level": "L1",
+      "tips": "Avvolgiti in una coperta e siediti sul suo petto, poi abbassati sulla sua bocca come in un’onda lenta. Alterna carezze sul collo a piccoli morso sulle spalle, facendoti desiderare nel buio tra i tessuti."
+    },
+    "luogo_003": {
+      "label": "Vasca da bagno",
+      "explanation": "Acqua tiepida che avvolge la pelle, bolle profumate e luci soffuse per un’atmosfera di puro relax sensuale.",
+      "level": "L1",
+      "tips": "Sdraiati a pancia in su appoggiata al bordo, le gambe sospese: lascialo baciare ogni centimetro di gamba e glutei, poi girati e cavalcalo sul fondo, lasciando cadere gocce d’acqua simbolo del piacere condiviso."
+    },
+    "luogo_004": {
+      "label": "Doccia in due",
+      "explanation": "Getti d’acqua che scivolano sui corpi, pavimento piastrellato e vapore denso che confonde i contorni.",
+      "level": "L1",
+      "tips": "Appoggiati al vetro appannato e solleva una gamba: fallo penetrare dietro mentre scivoli sulle mattonelle. Usa il getto caldo per massaggiare il basso ventre e riprendi il contatto con spostate lentezze."
+    },
+    "luogo_005": {
+      "label": "Corridoio stretto",
+      "explanation": "Spazio angusto e pareti ravvicinate, dove ogni sfioramento si fa amplificatore di desiderio.",
+      "level": "L1",
+      "tips": "Stringiti al muro e lascia che le sue mani esplorino dietro la cintura: solleva la gonna per farlo lavorare con la tua bocca senza scendere. Respira forte, sentilo vicino, e goditi il rischio di essere scoperti."
+    },
+    "luogo_006": {
+      "label": "Tappeto davanti al camino",
+      "explanation": "Fiammelle danzanti, camino acceso, una distesa di morbidezza scura davanti al fuoco.",
+      "level": "L1",
+      "tips": "Sdraiati a pancia in giù guardando le fiamme: spingi il sedere verso l’alto e lascia che ti prenda da dietro, usando la fiamma come teatro del vostro ritmo, ogni crepitio un battito di piacere."
+    },
+    "luogo_007": {
+      "label": "Lavandino del bagno",
+      "explanation": "Ceramica lucida e fredda, specchio che cattura ogni tua espressione e rubinetto che gocciola come un metronomo.",
+      "level": "L1",
+      "tips": "Accovacciati sul bordo e lascia che ti guardi dallo specchio mentre lo succhi: solleva il bacino per entrare più in profondità e stendi i capelli a cascata sul lavandino."
+    },
+    "luogo_008": {
+      "label": "Sedia in cucina",
+      "explanation": "Legno o imbottitura, un oggetto quotidiano che diventa palco per il desiderio inaspettato.",
+      "level": "L1",
+      "tips": "Siediti con le gambe larghe e abbassa le mutandine: lascia che ti penetri seduto, appoggiando le mani sui braccioli per prendere slancio e guardarlo mentre fa entrare e uscire."
+    },
+    "luogo_009": {
+      "label": "Balcone al tramonto",
+      "explanation": "Aria calda, luce dorata che sfuma sul cielo e una ringhiera che guarda l’orizzonte.",
+      "level": "L1",
+      "tips": "Appoggiati alla ringhiera con il corpo inarcato, gambe leggermente divaricate: lascialo prendere da dietro mentre il sole scende, sentendo il vento che vi scompiglia."
+    },
+    "luogo_010": {
+      "label": "Camera degli ospiti",
+      "explanation": "Letto pulito, profumo di lenzuola nuove e un’atmosfera di estraneità che libera dalle abitudini.",
+      "level": "L1",
+      "tips": "Fai finta di non conoscerlo: guardalo entrare, poi siedi sul bordo del letto e lascia che ti sfili le mutandine con lo sguardo, costringendolo a inginocchiarsi."
+    },
+    "luogo_011": {
+      "label": "Scrivania di casa",
+      "explanation": "Superficie di legno, documenti e tastiera: un ambiente di lavoro trasformato in set erotico.",
+      "level": "L1",
+      "tips": "Sdraiati sulla scrivania a pancia in giù, gambe che penzolano: lascialo esplorare il tuo corpo in piedi, spingendo la tua schiena contro il bordo per un’angolazione profonda."
+    },
+    "luogo_012": {
+      "label": "Cabina armadio",
+      "explanation": "Tessuti appesi, luci soffuse e specchi che riflettono ogni tuo movimento.",
+      "level": "L1",
+      "tips": "Indossa solo un kimono aperto, poi lascialo sbottonarlo pezzo dopo pezzo: quando rimani nuda, girati e chiedigli un bacio sul collo mentre lo guardi negli specchi."
+    },
+    "luogo_013": {
+      "label": "Poltrona con vista finestra",
+      "explanation": "Seduta comoda, vista esterna e luce naturale che filtra fra le tende leggere.",
+      "level": "L1",
+      "tips": "Prova a sederti a cavalcioni, schiena dritta e braccia attorno al suo collo: oscillate piano e ascolta il battito del cuore mentre ti penetra."
+    },
+    "luogo_014": {
+      "label": "Sottoscala domestico",
+      "explanation": "Angolo nascosto, pareti inclinate e uno spazio segreto sotto le scale.",
+      "level": "L1",
+      "tips": "Girati di spalle e appoggia le mani al muro: solleva una gamba accanto al fianco e fatti penetrar dall’alto, godendoti la pressione delle mattonelle."
+    },
+    "luogo_015": {
+      "label": "Amaca in giardino",
+      "explanation": "Fili di tela sospesi, leggeri dondolii e aria aperta fra le fronde degli alberi.",
+      "level": "L1",
+      "tips": "Sdraiati sulla schiena, gambe piegate: fai in modo che ti cavalchi lentamente sopra l’amaca oscillante, lasciando che il dondolio amplifichi ogni movimento."
+    },
+    "luogo_016": {
+      "label": "Cinema vuoto",
+      "explanation": "Sedili morbidi disposti in file, schermo gigante che proietta luce soffusa e audio lontano.",
+      "level": "L2",
+      "supports": ["public"],
+      "tips": "Seduta sull’ultima fila, gambe larghe: lascialo sedersi dietro di te e a occhi chiusi guidarlo a baciare ogni curva delle tue gambe, fino a farti gemere sotto il telo del sedile."
+    },
+    "luogo_017": {
+      "label": "Palestra privata vuota",
+      "explanation": "Specchi a tutta parete, tappetini elasticizzati e attrezzi silenziosi.",
+      "level": "L2",
+      "tips": "Scegli uno step o una panca: sali sopra con il volto coperto dal suo maglione e lascia che ti prenda da dietro mentre la tua mano scivola fra le sue cosce."
+    },
+    "luogo_018": {
+      "label": "Bagno di casa con porta socchiusa",
+      "explanation": "Piastrelle lucide, profumo di shampoo e un’apertura discreta sulla stanza accanto.",
+      "level": "L2",
+      "tips": "Apri leggermente la porta, metti un piede fuori e lascia che ti baci il collo: poi girati e prendilo sulla vasca mentre ascolti voci lontane."
+    },
+    "luogo_019": {
+      "label": "Automobile parcheggiata",
+      "explanation": "Sedili in pelle, finestrini appannati e un abitacolo che isola dal mondo esterno.",
+      "level": "L2",
+      "supports": ["outdoor"],
+      "tips": "Distenditi sul sedile passeggero a pancia in giù, gonna risvoltata: lascialo penetrare da dietro mentre il motore spento risuona silenzioso intorno."
+    },
+    "luogo_020": {
+      "label": "Ristorante affollato",
+      "explanation": "Tavoli vicini, luci calde e un brusio di conversazioni che cela ogni tuo sospiro.",
+      "level": "L2",
+      "supports": ["public"],
+      "tips": "Vai in bagno e togliti le mutandine: torna al tavolo, appoggia la gonna sulle ginocchia e fai in modo che la tua mano si perda sotto il tavolo nel suo pantalone."
+    },
+    "luogo_021": {
+      "label": "Festa in casa con musica alta",
+      "explanation": "Casse che vibrano muri e pavimento, luci intermittenti e gente impegnata a ballare.",
+      "level": "L2",
+      "tips": "Resta vicina al muro, abbassati e lascia che ti penetri mentre tutti ballano intorno: ogni tuo sospiro si confonderà con la musica."
+    },
+    "luogo_022": {
+      "label": "Terrazzo condominiale",
+      "explanation": "Lastre di cemento e ringhiere metalliche, una vista urbane decentrata e aria fresca.",
+      "level": "L2",
+      "supports": ["outdoor"],
+      "tips": "Piegati in avanti sulla ringhiera con le mani davanti a te: piega una gamba e lascialo prenderla da dietro mentre guardi il paesaggio."
+    },
+    "luogo_023": {
+      "label": "Aula universitaria vuota",
+      "explanation": "Banchi in legno, lavagna alle spalle e un silenzio rarefatto dopo le lezioni.",
+      "level": "L2",
+      "supports": ["public"],
+      "tips": "Sali sul banco con una gamba, fai sedere il professore immaginario lì, e lascialo penetrare davanti ai banchi vuoti: senti il legno sotto di te ad ogni spinta."
+    },
+    "luogo_024": {
+      "label": "Biblioteca poco frequentata",
+      "explanation": "Scaffali ordinati, odore di carta antica e un silenzio che muore solo con le pagine sfogliate.",
+      "level": "L2",
+      "supports": ["public"],
+      "tips": "Metti un libro sul volto e abbassati accovacciata fra gli scaffali: lascialo penetrare da dietro mentre senti il suo respiro."
+    },
+    "luogo_025": {
+      "label": "Parco al crepuscolo",
+      "explanation": "Sentieri di ghiaia, alberi fitti e un’aria che si raffredda mentre il sole scompare.",
+      "level": "L2",
+      "supports": ["outdoor"],
+      "tips": "Sdraiati sul prato con le gambe divaricate e indica lui dove prendere posto: lascia che ti penetri lentamente mentre uccelli volano al tramonto."
+    },
+    "luogo_021": {
+      "label": "Letto di casa",
+      "explanation": "Il regno dell’intimità, ma anche il palcoscenico perfetto per sperimentare.",
+      "level": "L2",
+      "tips": "Stenditi a pancia in giù col busto sul bordo, lascia che ti prenda da dietro tenendoti per i fianchi e guardandoti allo specchio. Più profondo, più intenso."
   },
   "luogo_022": {
-    "label": "Lavatrice ferma",
-    "explanation": "Piano vibrante leggero, perfetto per un quickie un po’ scomodo e molto divertente.",
-    "level": "L2",
-    "supports": ["superficie"]
+      "label": "Doccia con vetri trasparenti",
+      "explanation": "Gocce sul vetro, vapore e corpi scivolosi: il desiderio non chiede il permesso.",
+      "level": "L2",
+      "tips": "Spingiti contro il vetro con le mani, gambe divaricate e schiena arcuata. Fatti penetrare mentre l'acqua vi rimbalza addosso."
   },
   "luogo_023": {
-    "label": "Box doccia vetro",
-    "explanation": "Pareti trasparenti che mostrano ciò che l’acqua scorre a coprire.",
-    "level": "L2",
-    "supports": ["doccia", "acqua"]
+      "label": "Balcone al tramonto",
+      "explanation": "Aria tiepida e luce dorata; ottimo per un bacio lento con vista.",
+      "level": "L2",
+      "tips": "Appoggiati alla ringhiera, gambe leggermente aperte. Mettiti a 90 col mare davanti: ogni spinta è un’onda.",
+      "supports": ["outdoor"]
   },
   "luogo_024": {
-    "label": "Scala interna",
-    "explanation": "Gradini come sedili improvvisati, corrimano utile per afferrare fianchi.",
-    "level": "L2",
-    "supports": ["superficie"]
+      "label": "Sedile posteriore dell’auto",
+      "explanation": "Un classico intramontabile, tra finestrini appannati e sospiri trattenuti.",
+      "level": "L2",
+      "tips": "Sali sopra di lui a gambe larghe, e cavalcalo mentre ti tiene stretta. Ogni curva della strada sarà un colpo in più.",
+      "supports": ["outdoor"]
   },
   "luogo_025": {
-    "label": "Panca palestra domestica",
-    "explanation": "Schienale regolabile e morsetti… ma per allenare altri muscoli.",
-    "level": "L2",
-    "supports": ["superficie"]
+      "label": "Ufficio vuoto dopo l’orario",
+      "explanation": "Scrivanie spoglie, neon tremolanti, e la tensione rimasta nell’aria.",
+      "level": "L2",
+      "tips": "Siediti sulla scrivania, slaccia la camicetta lentamente. Poi apri le gambe e lascia che ti usi come la presentazione più convincente.",
+      "supports": ["public"]
   },
-    "luogo_026": {
-      "label": "Terrazza notte",
-      "explanation": "Sotto le stelle, con vento tiepido che accarezza pelle nuda: brividi garantiti.",
+  "luogo_026": {
+      "label": "Scala antincendio",
+      "explanation": "Metallo freddo e il cielo sopra: ogni passo è un rintocco metallico che fa tremare.",
       "level": "L2",
+      "tips": "Sali due gradini, solleva la gonna e aggrappati alla ringhiera. Lascia che ti entri da dietro con tutta la città ai vostri piedi.",
+      "supports": ["outdoor"]
+  },
+  "luogo_027": {
+      "label": "Altalena nel parco",
+      "explanation": "Gambe che oscillano, mani sulle corde: l’equilibrio si perde, la voglia no.",
+      "level": "L2",
+      "tips": "Siediti sull’altalena e lascia che ti penetri tenendoti per i fianchi. Ogni spinta è una vertigine nuova.",
+      "supports": ["outdoor"]
+  },
+  "luogo_028": {
+      "label": "Panchina nascosta dal verde",
+      "explanation": "Foglie che coprono lo sguardo, ma non i desideri. Il legno è freddo, ma il corpo no.",
+      "level": "L2",
+      "tips": "Siediti sulle sue ginocchia, affrontalo e abbassa piano gli slip. Poi cavalcalo lenta, mentre i rami coprono i vostri sospiri.",
+      "supports": ["outdoor"]
+  },
+  "luogo_029": {
+      "label": "Parabrezza dell’auto",
+      "explanation": "Vista panoramica, sedili reclinati e vetri che si appannano.",
+      "level": "L2",
+      "tips": "Sdraiati sul sedile e poggia i piedi sul cruscotto. Lascialo entrare mentre ti guarda, e il parabrezza diventa uno schermo per il vostro film.",
+      "supports": ["outdoor"]
+  },
+  "luogo_030": {
+      "label": "Parco giochi di notte",
+      "explanation": "Deserto, silenzioso, con il cigolio lontano di un'altalena mossa dal vento.",
+      "level": "L2",
+      "tips": "Sali sullo scivolo e apri le gambe. Lascialo salire da sotto e prenderti con la luna che vi osserva.",
+      "supports": ["outdoor"]
+  },
+  "luogo_031": {
+      "label": "Dietro un chiosco chiuso",
+      "explanation": "Serrande abbassate, odore di zucchero filato svanito e buio sufficiente.",
+      "level": "L2",
+      "tips": "Appoggiati alla parete con le mani e lascia che ti sollevi una gamba. Il profumo di trasgressione è più forte del ricordo dei gelati.",
+      "supports": ["outdoor"]
+  },
+  "luogo_032": {
+      "label": "Bagno pubblico elegante",
+      "explanation": "Piastrelle lucide, specchi e l’eco di respiri trattenuti.",
+      "level": "L2",
+      "tips": "Chiuditi nella toilette, siediti sul lavandino e allarga le gambe. Lascia che ti lecchi davanti allo specchio, tra marmi e gemiti silenziati.",
       "supports": ["public"]
-    },
-    "luogo_027": {
-      "label": "Spogliatoio casa",
-      "explanation": "Specchio a figura intera e sedile basso: perfetto per un cambio d’abito piccante.",
+  },
+  "luogo_033": {
+      "label": "Dietro le tende in salotto",
+      "explanation": "La luce filtra appena, il profumo del tessuto si mescola al tuo.",
       "level": "L2",
-      "supports": ["superficie"]
-    },
-    "luogo_028": {
-      "label": "Sauna domestica",
-      "explanation": "Calore umido che apre i pori e accende i sensi; sudore condiviso is the new lingerie.",
+      "tips": "Inginocchiati dietro la tenda, spingi il sedere all’indietro e lascia che ti penetri mentre la luce del giorno ti disegna il profilo."
+  },
+  "luogo_034": {
+      "label": "Biblioteca vuota",
+      "explanation": "Silenzio assoluto, scaffali pieni di storie e voglia di scriverne una nuova.",
       "level": "L2",
-      "supports": ["superficie", "acqua"]
-    },
-    "luogo_029": {
-      "label": "Bagno singolo pubblico",
-      "explanation": "Porta chiusa a chiave e luce al neon: rischio minimo, adrenalina massima.",
-      "level": "L2",
-      "supports": ["public", "superficie", "doccia"]
-    },
-    "luogo_030": {
-      "label": "Letto ad acqua",
-      "explanation": "Onde che amplificano ogni spinta: attenzione alla coordinazione… o al naufragio.",
-      "level": "L2",
-      "supports": ["superficie"]
-    },
-    "luogo_031": {
-      "label": "Poltrona reclinabile ufficio",
-      "explanation": "Schienale basculante perfetto per inginocchiarsi davanti o dietro.",
-      "level": "L2",
-      "supports": ["superficie"]
-    },
-    "luogo_032": {
-      "label": "Tappeto palestra",
-      "explanation": "Denso, antiurto: ottimo per posizioni acrobatiche senza lividi.",
-      "level": "L2",
-      "supports": ["superficie"]
-    },
-    "luogo_033": {
-      "label": "Camerino negozio",
-      "explanation": "Tenda che non chiude mai del tutto: audio ovattato, rischio scoperta crescente.",
-      "level": "L2",
-      "supports": ["public", "superficie"]
-    },
-    "luogo_034": {
-      "label": "Balcone hotel alto",
-      "explanation": "Vista mozzafiato e parapetto alto: esibizionismo sicuro, brivido reale.",
-      "level": "L2",
+      "tips": "Chinati sul tavolo con un libro in mano e il culo alzato. Lascia che ti prenda piano, in silenzio, mentre leggi a voce bassa.",
       "supports": ["public"]
-    },
-    "luogo_035": {
-      "label": "Panca parco notte",
-      "explanation": "Luogo quasi deserto: grilli, vento tra gli alberi e mani esploratrici.",
+  },
+  "luogo_035": {
+      "label": "Spogliatoio palestra",
+      "explanation": "Vapore e specchi, odore di sudore e voglia accumulata.",
       "level": "L2",
-      "supports": ["public", "superficie"]
-    },
-    "luogo_036": {
-      "label": "Jacuzzi hotel",
-      "explanation": "Idromassaggio e luci soffuse: bolle coprono i movimenti più audaci.",
-      "level": "L2",
-      "supports": ["acqua", "doccia"]
-    },
-    "luogo_037": {
-      "label": "Sedile conducente auto",
-      "explanation": "Volante che ostruisce e stimola creatività di movimento.",
-      "level": "L2",
-      "supports": ["public", "superficie"]
-    },
-    "luogo_038": {
-      "label": "Balcone vista città",
-      "explanation": "Vetri a tutta altezza: resti coperto solo se vuoi; la città è testimone silente.",
-      "level": "L2",
+      "tips": "Siediti sulla panca, spalanca le gambe e invita con lo sguardo. Ogni colpo risuonerà tra le piastrelle.",
       "supports": ["public"]
-    },
-    "luogo_039": {
-      "label": "Camera hotel lusso",
-      "explanation": "Letto king, specchio soffitto, room service post-sesso incluso.",
+  },
+  "luogo_036": {
+      "label": "Parcheggio sotterraneo",
+      "explanation": "Buio, cemento e motori spenti. Ogni passo rimbomba e ogni ansimo vibra.",
       "level": "L2",
-      "supports": ["superficie"]
-    },
-    "luogo_040": {
-      "label": "Sedile posteriore taxi",
-      "explanation": "Corsa lunga, vetro divisorio: per mani sotto la giacca e sorrisi trattenuti.",
+      "tips": "In piedi contro la portiera, tira giù tutto tranne i tacchi. Appoggiati e lascia che ti usi come una sfida ai sensi.",
+      "supports": ["outdoor"]
+  },
+  "luogo_037": {
+      "label": "Ingresso scale condominiali",
+      "explanation": "Portone chiuso alle spalle, passi lontani e odore di pietra.",
       "level": "L2",
-      "supports": ["public", "superficie"]
+      "tips": "Siediti sul primo gradino con la schiena al muro. Togliti solo l’intimo, allarga le gambe e guardalo negli occhi.",
+      "supports": ["public"]
+  },
+  "luogo_038": {
+      "label": "Dietro le quinte di un palco",
+      "explanation": "Tendaggi scuri, odore di legno e il brivido di essere scoperti.",
+      "level": "L2",
+      "tips": "Appoggiati a un fondale e fatti penetrare veloce, senza parlare. Solo sospiri e applausi in lontananza.",
+      "supports": ["public"]
+  },
+  "luogo_039": {
+      "label": "Cucina di casa",
+      "explanation": "Profumo di cibo e tavoli pieni di possibilità.",
+      "level": "L2",
+      "tips": "Sali sul tavolo, apri le gambe e tieni un mestolo tra i denti. Lascia che ti assaggi prima di servirti con tutto."
+  },
+  "luogo_040": {
+      "label": "Stanza d’albergo",
+      "explanation": "Nuove lenzuola, nuova identità. Siete chi volete essere, almeno per una notte.",
+      "level": "L2",
+      "tips": "Fatti trovare già pronta, in ginocchio sul letto con lo sguardo sfacciato. Lascia che ti prenda senza troppe domande."
     },
     "luogo_041": {
-      "label": "Corridoio condominio",
-      "explanation": "Eco di passi può farsi imminente: gioco di silenzi e sospiri trattenuti.",
-      "level": "L3",
-      "supports": ["public", "superficie"]
+        "label": "Sala riunioni di un hotel",
+        "explanation": "Tavoli eleganti, sedie vuote e silenzio ovattato: un luogo nato per decisioni importanti, ma anche per trasgressioni taciute.",
+        "level": "L3",
+        "tips": "Sali sul tavolo, alza il vestito e guarda verso la porta. Lascia che ti scopi lentamente, con l’eco dei gemiti tra le pareti insonorizzate.",
+        "supports": ["public"]
     },
     "luogo_042": {
-      "label": "Scale antincendio deserte",
-      "explanation": "Metallo freddo, vista città tra grate: urban kink al volo.",
-      "level": "L3",
-      "supports": ["public", "superficie"]
+        "label": "Spogliatoio abbandonato",
+        "explanation": "Armadi in ferro, luci spente e odore di polvere: un'ombra di sudore e desiderio tra gli oggetti lasciati indietro.",
+        "level": "L3",
+        "tips": "Appoggiati alla panca e piegati in avanti. Lascia che ti scopi forte tra gli armadietti, come se fosse la vostra ultima partita.",
+        "supports": ["public"]
     },
     "luogo_043": {
-      "label": "Bagno pubblico singolo",
-      "explanation": "Porta chiusa, specchio neon, atmosfera borderline: vietato starci troppo.",
-      "level": "L3",
-      "supports": ["public", "superficie", "doccia"]
+        "label": "Duna isolata in spiaggia",
+        "explanation": "Sabbia calda sotto i piedi e il rumore del mare: una trincea di vento e voglia nascosta al mondo.",
+        "level": "L3",
+        "tips": "Sdraiati sulla sabbia con le gambe aperte e guardalo mentre si inginocchia tra le cosce. Ogni onda sarà un colpo in più dentro di te.",
+        "supports": ["outdoor"]
     },
     "luogo_044": {
-      "label": "Parco serale appartato",
-      "explanation": "Fruscio foglie, luce lampione distante: abbastanza buio per osare, abbastanza luce per farsi vedere.",
-      "level": "L3",
-      "supports": ["public"]
+        "label": "Bagno di un centro commerciale",
+        "explanation": "Porte chiuse, specchi appannati e luci bianche: un tempio di consumismo e segreti.",
+        "level": "L3",
+        "tips": "Siediti sul lavandino, abbassa le spalline e apri le gambe. Fatti prendere in fretta mentre il mondo fuori ignora tutto.",
+        "supports": ["public"]
     },
     "luogo_045": {
-      "label": "Spiaggia isolata notte",
-      "explanation": "Onde che coprono gemiti e sabbia fresca sotto i piedi nudi.",
-      "level": "L3",
-      "supports": ["public", "superficie", "acqua"]
+        "label": "Dietro al maxischermo di un concerto",
+        "explanation": "La folla urla, ma lì dietro c’è solo il battito del tuo cuore e il suo corpo.",
+        "level": "L3",
+        "tips": "Poggiati al metallo e fatti sollevare una gamba. Mentre il basso vibra, lascia che ti entri e che il ritmo vi faccia perdere ogni controllo.",
+        "supports": ["public"]
     },
     "luogo_046": {
-      "label": "Ascensore fermo",
-      "explanation": "Pochi metri quadri, specchio e luci di emergenza: tempo sospeso ideale per un quickie adrenalinico.",
-      "level": "L3",
-      "supports": ["public", "spazio_minimo", "superficie"]
+        "label": "Giardino botanico dopo l’orario",
+        "explanation": "Piante esotiche, profumi intensi e percorsi silenziosi. Il paradiso diventa più carnale.",
+        "level": "L3",
+        "tips": "Nasconditi tra le fronde, inginocchiati tra le radici e lascia che ti prenda piano, come se foste gli unici esseri viventi.",
+        "supports": ["outdoor"]
     },
     "luogo_047": {
-      "label": "Garage aperto",
-      "explanation": "Odore di benzina, cemento fresco: vibrazioni meccaniche e rischio scoperta reale.",
-      "level": "L3",
-      "supports": ["public", "superficie"]
+        "label": "Terrazza dell'attico di un amico",
+        "explanation": "Luci della città, calici mezzi pieni e vento che accarezza la pelle: eleganza e trasgressione a un passo dal cielo.",
+        "level": "L3",
+        "tips": "Appoggiati alla balaustra e tirati su la gonna. Guardalo mentre ti entra da dietro e la città diventa un tappeto di luci.",
+        "supports": ["outdoor"]
     },
     "luogo_048": {
-      "label": "Pannello davanti al camino",
-      "explanation": "Fuoco vivo illumina corpi sudati; calore che invita a spogliarsi ancora di più.",
-      "level": "L3",
-      "supports": ["superficie"]
+        "label": "Corridoio buio di un ostello",
+        "explanation": "Passi ovattati, porte chiuse e l’odore incerto di mille storie. Un teatro di occasioni rubate.",
+        "level": "L3",
+        "tips": "Spingiti contro il muro e tieniti alle spalle. Lascia che ti prenda veloce, con l’adrenalina che corre più del piacere.",
+        "supports": ["public"]
     },
     "luogo_049": {
-      "label": "Bosco appartato",
-      "explanation": "Profumo di resina, muschio soffice: natura complice di morsi e graffi.",
-      "level": "L3",
-      "supports": ["public", "superficie"]
+        "label": "Sdraio in un lido chiuso",
+        "explanation": "Stabilimento deserto, legno sbiadito e ricordi estivi appiccicati alle dita.",
+        "level": "L3",
+        "tips": "Sdraia su e togli il costume. Fatti penetrare mentre guardi il mare, con il rumore delle onde e le sdraio come spettatori.",
+        "supports": ["outdoor"]
     },
     "luogo_050": {
-      "label": "Sauna pubblica semi-vuota",
-      "explanation": "Vapore denso, accappatoi stretti sul corpo nudo: chi entra potrebbe vedere ma non troppo.",
-      "level": "L3",
-      "supports": ["public", "acqua", "superficie"]
+        "label": "Finestra aperta di notte",
+        "explanation": "Luce di luna sul letto, tende che si muovono e una città che ascolta in silenzio.",
+        "level": "L3",
+        "tips": "Mettiti a carponi rivolgendoti verso l’esterno. Lascia che ti scopi forte mentre osservi il buio fuori e ti chiedi chi potrebbe vedervi."
     },
-  
     "luogo_051": {
-      "label": "Jacuzzi party",
-      "explanation": "Acqua gorgogliante in mezzo a sconosciuti: mani sotto la superficie sono un segreto condiviso.",
+      "label": "Sottoscala di un edificio",
+      "explanation": "Muri grezzi, umidità e silenzio denso: perfetto per i giochi segreti.",
       "level": "L3",
-      "supports": ["public", "acqua", "doccia"]
-    },
-    "luogo_052": {
-      "label": "Balcone vista città alta",
-      "explanation": "Ringhiera trasparente e vento forte: vestiti che svolazzano, adrenalina che sale.",
-      "level": "L3",
+      "tips": "Siediti sugli scalini, apri le gambe e lascia che ti scopi mentre ti copre la bocca. Il brivido di essere scoperta farà il resto.",
       "supports": ["public"]
-    },
-    "luogo_053": {
-      "label": "Ascensore panoramico",
-      "explanation": "Pareti di vetro, luci della città: ogni piano salito un bacio più profondo.",
+  },
+  "luogo_052": {
+      "label": "Gondola a Venezia di notte",
+      "explanation": "Acqua scura, luci tremolanti e il suono dei remi: poesia e desiderio che galleggiano.",
       "level": "L3",
-      "supports": ["public", "spazio_minimo"]
-    },
-    "luogo_054": {
-      "label": "Playground notturno",
-      "explanation": "Altalena che diventa sedile, scivolo come piano d’appoggio: infanzia rimixata hot.",
+      "tips": "Siediti sulle sue gambe e inizia a muoverti piano mentre scivolate nell’oscurità. Nessuno sentirà i tuoi sospiri tra i canali.",
+      "supports": ["outdoor"]
+  },
+  "luogo_053": {
+      "label": "Camerino di un teatro chiuso",
+      "explanation": "Specchi incorniciati, costumi appesi e silenzio drammatico: ogni movimento diventa scena.",
       "level": "L3",
-      "supports": ["public", "superficie"]
-    },
-    "luogo_055": {
-      "label": "Cabina fotografica",
-      "explanation": "Tenda semiaperta, flash che cattura espressioni, seduta strettissima da condividere.",
+      "tips": "Siediti sul tavolo da trucco, gambe divaricate, e guardalo negli occhi mentre ti prende. La luce dei riflettori spenti vi osserva.",
+      "supports": ["public"]
+  },
+  "luogo_054": {
+      "label": "Tetto di una scuola",
+      "explanation": "Vista aperta, strutture basse e una brezza complice: ideale per piccole follie adolescenziali.",
       "level": "L3",
-      "supports": ["public", "spazio_minimo", "superficie"]
-    },
-    "luogo_056": {
-      "label": "Molo sul lago",
-      "explanation": "Legno umido, onde leggere che battono contro: suoni naturali coprono gemiti bassi.",
+      "tips": "Stenditi sulle tegole tiepide e lascia che ti scopi guardando il cielo. Ogni stella sarà un sussurro.",
+      "supports": ["outdoor"]
+  },
+  "luogo_055": {
+      "label": "Magazzino in disuso",
+      "explanation": "Casse impolverate e luci fioche: uno spazio dimenticato perfetto per non dimenticare il piacere.",
       "level": "L3",
-      "supports": ["public", "superficie", "acqua"]
-    },
-    "luogo_057": {
-      "label": "Tetto edificio",
-      "explanation": "Vista 360°, vento che spazza, rischio zero se si resta bassi (o quasi).",
+      "tips": "Piegati su una scatola robusta e lascia che ti prenda con forza, mentre il vuoto intorno amplifica ogni suono.",
+      "supports": ["public"]
+  },
+  "luogo_056": {
+      "label": "Balcone dell’appartamento di amici",
+      "explanation": "Una sigaretta, un drink e la tentazione di farlo a due passi dalla sala affollata.",
       "level": "L3",
-      "supports": ["public", "superficie"]
-    },
-    "luogo_058": {
-      "label": "Studio fotografico nudo",
-      "explanation": "Fondali bianchi, luci calde: ogni posa un click, ogni pausa un bacio.",
+      "tips": "Mettiti di spalle appoggiata al parapetto, solleva la gonna e lascialo entrare mentre il chiacchiericcio dentro continua ignaro.",
+      "supports": ["outdoor"]
+  },
+  "luogo_057": {
+      "label": "Piattaforma panoramica",
+      "explanation": "Vista mozzafiato, vento tra i capelli e un senso di libertà che spinge oltre.",
       "level": "L3",
-      "supports": ["superficie"]
-    },
-    "luogo_059": {
-      "label": "Pista da ballo after-hours",
-      "explanation": "Musica bassa, luci lampeggianti residue, pavimento appiccicoso e corpi stanchi ma caldi.",
+      "tips": "Appoggiati alla ringhiera, alzati il vestito e fatti penetrare da dietro, guardando l’orizzonte. Ogni colpo sarà un respiro d’aria nuova.",
+      "supports": ["outdoor"]
+  },
+  "luogo_058": {
+      "label": "Centro benessere di notte",
+      "explanation": "Luci basse, profumo di oli e il rumore dell’acqua: un paradiso riservato.",
       "level": "L3",
-      "supports": ["public", "superficie"]
-    },
-    "luogo_060": {
-      "label": "Bagagliaio SUV",
-      "explanation": "Sedili abbattuti, tappetino morbido e portellone socchiuso: privacy improvvisata on the road.",
+      "tips": "Sdraiati nuda sul lettino e lascia che ti spalmi l’olio ovunque. Poi fatti prendere lentamente, con i gemiti mescolati agli aromi.",
+      "supports": ["public"]
+  },
+  "luogo_059": {
+      "label": "Parcheggio sul tetto",
+      "explanation": "Asfalto caldo, auto abbandonate e la luna sopra: il posto meno romantico che diventa perfetto.",
       "level": "L3",
-      "supports": ["public", "superficie"]
-    },
+      "tips": "Appoggiati al cofano e spingi indietro il sedere. Ogni colpo rimbomberà tra le lamiere e le stelle.",
+      "supports": ["outdoor"]
+  },
+  "luogo_060": {
+      "label": "Camera di un ostello condiviso",
+      "explanation": "Letti a castello, pareti sottili e regole scritte da ignorare.",
+      "level": "L3",
+      "tips": "Sali sul letto di sopra, tirati via le mutandine e lascia che ti prenda con forza, cercando di non svegliare nessuno.",
+      "supports": ["public"]
+  },
     "luogo_061": {
-      "label": "Club privato",
-      "explanation": "Luci rosse, gabbia in sala: regole soft, libertà hard.",
-      "level": "L4",
-      "supports": ["public", "superficie"]
+        "label": "Sedile posteriore dell’auto in sosta",
+        "explanation": "Abitacolo ristretto, vetri appannati e ogni sussurro che rimbalza tra i finestrini.",
+        "level": "L4",
+        "tips": "Sali a cavalcioni, lascia i vestiti sulle ginocchia e inizia a muoverti lenta mentre il mondo fuori scorre ignaro.",
+        "supports": ["outdoor"]
     },
     "luogo_062": {
-      "label": "Backstage concerto",
-      "explanation": "Cavi, casse e un divano sfondato: vibra ancora l’eco della musica mentre i corpi trovano un nuovo ritmo.",
-      "level": "L4",
-      "supports": ["public", "superficie"]
+        "label": "Deposito biciclette condominiale",
+        "explanation": "Ruote accatastate e luci al neon, silenzioso come un segreto custodito tra le cantine.",
+        "level": "L4",
+        "tips": "Appoggiati al manubrio di una bici e piegati un po’ in avanti, lasciandoti scopare tra l’odore di gomma e adrenalina.",
+        "supports": ["public"]
     },
     "luogo_063": {
-      "label": "Parcheggio sotterraneo",
-      "explanation": "L’eco dei passi rimbalza tra colonne e portiere semiaperte: motore spento, adrenalina accesa.",
-      "level": "L4",
-      "supports": ["public", "superficie"]
+        "label": "Sedia di un vecchio cinema chiuso",
+        "explanation": "Schermo spento, poltrone consumate e silenzi densi di memorie proibite.",
+        "level": "L4",
+        "tips": "Siediti sulle sue gambe e fai piano, una spinta alla volta, con la polvere che danza nella luce dei neon rotti.",
+        "supports": ["public"]
     },
     "luogo_064": {
-      "label": "Localino kink serata soft",
-      "explanation": "Croce, altalena, catene: attrezzatura light per iniziare esplorazioni BDSM.",
-      "level": "L4",
-      "supports": ["superficie", "bondage"]
+        "label": "Prato di notte in periferia",
+        "explanation": "Erba alta, nessuna luce artificiale, solo le stelle come testimoni.",
+        "level": "L4",
+        "tips": "Sdraiati a terra con le gambe aperte e lo sguardo verso il cielo. Ogni colpo sarà un sussulto che ti collega all’universo.",
+        "supports": ["outdoor"]
     },
     "luogo_065": {
-      "label": "Dungeon privato",
-      "explanation": "Arredi in pelle, supporti di acciaio: la fantasia diventa realtà sotto luci soffuse.",
-      "level": "L4",
-      "supports": ["superficie", "bondage", "sospensione"]
+        "label": "Garage seminterrato di un centro commerciale",
+        "explanation": "Cemento nudo, neon intermittenti e un’eco inquieta: perfetto per chi ama rischiare.",
+        "level": "L4",
+        "tips": "Appoggiati a una colonna, alza il vestito e lascia che ti penetri velocemente mentre il rumore dei carrelli si avvicina.",
+        "supports": ["public"]
     },
     "luogo_066": {
-      "label": "Stanza con specchi ovunque",
-      "explanation": "Ogni angolo riflette corpi intrecciati, moltiplicando la scena sotto ogni prospettiva.",
-      "level": "L4",
-      "supports": ["superficie"]
+        "label": "Tenda in campeggio tra i boschi",
+        "explanation": "Tessuto sottile, suoni della natura e vibrazioni a ogni movimento.",
+        "level": "L4",
+        "tips": "Sdraiati sul sacco a pelo, con le gambe sulle sue spalle. Ogni gemito dovrai soffocarlo col dorso della mano.",
+        "supports": ["outdoor"]
     },
     "luogo_067": {
-      "label": "Stanza sauna gay affollata",
-      "explanation": "Vapore spesso, corpi che si sfiorano: anonimato bollente e opportunità infinite.",
-      "level": "L4",
-      "supports": ["public", "acqua", "superficie"]
+        "label": "Ponte sospeso in montagna",
+        "explanation": "Altitudine, vento teso e solo il suono dei passi sulla passerella traballante.",
+        "level": "L4",
+        "tips": "Fermati al centro, girati di schiena e appoggiati alla corda. Fatti scopare mentre guardi il mondo sotto di te.",
+        "supports": ["outdoor"]
     },
     "luogo_068": {
-      "label": "Playroom a tema medical",
-      "explanation": "Lettino ginecologico, lampade fredde: atmosfera clinica che amplifica ogni palpito.",
-      "level": "L4",
-      "supports": ["superficie", "bondage"]
+        "label": "Archivio di una biblioteca",
+        "explanation": "Mensole altissime, libri impolverati e silenzi obbligati: puro tabù.",
+        "level": "L4",
+        "tips": "Sali su una scaletta e abbassati le mutandine. Lui entra mentre tieni una mano sugli scaffali e l’altra sulla bocca.",
+        "supports": ["public"]
     },
     "luogo_069": {
-      "label": "Croce di Sant'Andrea",
-      "explanation": "Salda al muro, pronta a ospitare polsi e caviglie in X: corpo esposto a gioco di potere.",
-      "level": "L4",
-      "supports": ["superficie", "bondage"]
+        "label": "Zona relax di un coworking",
+        "explanation": "Divanetti, cuscini e l'odore del caffè freddo: quando la pausa diventa brama.",
+        "level": "L4",
+        "tips": "Mettiti seduta a gambe larghe sul divano, tira su la gonna e lascia che ti penetri mentre fingi una call.",
+        "supports": ["public"]
     },
     "luogo_070": {
-      "label": "Stanza gomma pressurizzata",
-      "explanation": "Pareti latex, pavimento che appiccica, pompa per creare pressione: sensazione avvolgente totale.",
-      "level": "L4",
-      "supports": ["superficie", "bondage"]
+        "label": "Altalena in un parco deserto",
+        "explanation": "Catene fredde e il cigolio del metallo: innocenza persa tra ombre e desideri.",
+        "level": "L4",
+        "tips": "Siediti sull’altalena e inizia a dondolare con lui dietro che ti entra piano. Ogni spinta sarà anche un’oscillazione.",
+        "supports": ["outdoor"]
     },
     "luogo_071": {
-      "label": "Studio tatuaggi chiuso",
-      "explanation": "Odore di inchiostro e alcool, pelle nuda su lettino sterile: peccato e arte si fondono.",
-      "level": "L4",
-      "supports": ["superficie"]
+        "label": "Spogliatoio di una palestra",
+        "explanation": "Armadietti in fila, odore di sapone e pelle sudata: l'ultimo sforzo prima del piacere.",
+        "level": "L4",
+        "tips": "Mettiti davanti allo specchio e piegati sul lavandino, guardandoti mentre ti prende forte da dietro.",
+        "supports": ["public"]
     },
     "luogo_072": {
-      "label": "Altalena sex sospesa",
-      "explanation": "Struttura in acciaio e cinghie regolabili: perfetta per penetrazioni profonde oscillanti.",
-      "level": "L4",
-      "supports": ["superficie", "sospensione"]
+        "label": "Parco giochi abbandonato",
+        "explanation": "Scivoli arrugginiti, erbacce e il ricordo di voci lontane: un luogo diventato selvaggio.",
+        "level": "L4",
+        "tips": "Appoggiati a uno scivolo inclinato e spingi indietro il sedere. Il metallo freddo sotto ti farà tremare di più.",
+        "supports": ["outdoor"]
     },
     "luogo_073": {
-      "label": "Playroom luci UV",
-      "explanation": "Corpi dipinti che brillano al neon: ogni tocco lascia scia luminosa sulla pelle.",
-      "level": "L4",
-      "supports": ["superficie"]
+        "label": "Ascensore in un edificio vuoto",
+        "explanation": "Pareti di metallo, vibrazioni leggere e l'attesa del ‘ding’ al piano sbagliato.",
+        "level": "L4",
+        "tips": "Appoggiati agli specchi laterali, tira su la gonna e lascia che ti prenda veloce, trattenendo il fiato a ogni sosta.",
+        "supports": ["public"]
     },
     "luogo_074": {
-      "label": "Salotto gomma gonfiabile",
-      "explanation": "Mobili PVC ad aria: ogni movimento produce scricchiolio che amplifica tensione.",
-      "level": "L4",
-      "supports": ["superficie"]
+        "label": "Zona picnic in montagna",
+        "explanation": "Tavoli grezzi, aria pura e l’eco dei tuoi gemiti tra le cime.",
+        "level": "L4",
+        "tips": "Sdraiati sul tavolo in legno, con le gambe aperte e lo sguardo fisso sulle nuvole mentre ti prende.",
+        "supports": ["outdoor"]
     },
     "luogo_075": {
-    "label": "Sauna gay affollata",
-    "explanation": "Vapore, occhi curiosi e mani anonime: confidare nel buio e nel caldo.",
-    "level": "L4",
-    "supports": ["public", "superficie", "acqua"]
-  },
-  "luogo_076": {
-    "label": "Pedana club fetish",
-    "explanation": "Barre per bondage, specchi a pavimento: performance al centro dell’attenzione.",
-    "level": "L4",
-    "supports": ["public", "superficie", "bondage"]
-  },
-  "luogo_077": {
-    "label": "Bagno discoteca",
-    "explanation": "Porta chiudibile, musica che pompa fuori: battiti cardiaci e bassi si confondono.",
-    "level": "L4",
-    "supports": ["public", "superficie"]
-  },
-  "luogo_078": {
-    "label": "Camera streaming live",
-    "explanation": "Webcam in ogni angolo, luce ring: lo show è sempre in onda per chi ha il link.",
-    "level": "L4",
-    "supports": ["superficie", "public"]
-  },
-  "luogo_079": {
-    "label": "Locale dark room",
-    "explanation": "Buio totale, corpi che si incontrano a tatto; ciò che conta è sentire, non vedere.",
-    "level": "L4",
-    "supports": ["public"]
-  },
-  "luogo_080": {
-    "label": "Capsula trasparente",
-    "explanation": "Una bolla di plexiglass sospesa: ogni gesto è in vetrina ma protetto dal suono esterno.",
-    "level": "L4",
-    "supports": ["public", "sospensione", "superficie"]
-  },
-  "luogo_081": {
-    "label": "Dungeon BDSM completo",
-    "explanation": "Arredi professionali: gabbie, suspension frame, tavolo di tortura.",
-    "level": "L5",
-    "supports": ["bondage", "sospensione", "superficie"]
+        "label": "Stanza degli ospiti a casa di amici",
+        "explanation": "Letto rifatto, silenzio imbarazzante e pareti sottili: l’arte del contenersi.",
+        "level": "L4",
+        "tips": "Siediti su di lui in silenzio, copriti la bocca con un cuscino e fai movimenti lenti. Il rischio è parte del gioco."
+    },
+    "luogo_076": {
+        "label": "Capanno da pesca",
+        "explanation": "Legno marcio, odore di alghe e una barca legata fuori: la calma prima dell’onda.",
+        "level": "L4",
+        "tips": "Mettiti carponi vicino alla finestra aperta, così puoi guardare il lago mentre lui ti prende forte.",
+        "supports": ["outdoor"]
+    },
+    "luogo_077": {
+        "label": "Scalinata di un palazzo antico",
+        "explanation": "Pietra liscia, archi alti e passi che rimbombano: lussuria travestita da storia.",
+        "level": "L4",
+        "tips": "Siediti su uno scalino, apri le gambe e lascia che si inginocchi davanti a te. Ogni eco sarà un invito.",
+        "supports": ["public"]
+    },
+    "luogo_078": {
+        "label": "Zona industriale dismessa",
+        "explanation": "Cemento, graffiti e un silenzio pieno di memoria: ribellione e desiderio si fondono.",
+        "level": "L4",
+        "tips": "Poggiati a un muro sbrecciato, tira su il vestito e lasciati prendere mentre il rumore dei tuoi gemiti sfida il silenzio.",
+        "supports": ["outdoor"]
+    },
+    "luogo_079": {
+        "label": "Deposito di una scuola chiusa",
+        "explanation": "Vecchi banchi impilati, odore di gesso e finestre opache: l’adrenalina dell’infrazione.",
+        "level": "L4",
+        "tips": "Sali su una cattedra, apri le gambe e lascia che ti prenda davanti a un’aula muta che ascolta.",
+        "supports": ["public"]
+    },
+    "luogo_080": {
+        "label": "Terrazza condominiale al crepuscolo",
+        "explanation": "Cemento ruvido, vasi abbandonati e uno scorcio sulla città: la quiete prima della notte.",
+        "level": "L4",
+        "tips": "Poggiati alla ringhiera con le mani, tira su il vestito e lasciati penetrare lentamente mentre la città si illumina sotto di te.",
+        "supports": ["outdoor"]
+    },
+    "luogo_081": {
+      "label": "Trenino panoramico di una località turistica",
+      "explanation": "Sedili stretti, finestrini aperti e il paesaggio che corre accanto: eccitante e rischioso.",
+      "level": "L5",
+      "tips": "Siediti sulle sue ginocchia, alza appena la gonna e muoviti piano sotto la giacca. Nessuno si accorgerà se resti zitta.",
+      "supports": ["public"]
   },
   "luogo_082": {
-    "label": "Dark room club hardcore",
-    "explanation": "Buio quasi totale, corridoi angusti, mani sconosciute che esplorano senza volto.",
-    "level": "L5",
-    "supports": ["public"]
+      "label": "Cabina abbandonata in montagna",
+      "explanation": "Legno scricchiolante, odore di resina e isolamento assoluto: la natura come unica testimone.",
+      "level": "L5",
+      "tips": "Stenditi sul tavolo grezzo, gambe allargate e schiena nuda sul legno freddo. La sensazione primitiva farà impazzire entrambi.",
+      "supports": ["outdoor"]
   },
   "luogo_083": {
-    "label": "Stanza specchi soffitto e pavimento",
-    "explanation": "Ogni angolo riflette corpi intrecciati, zero privacy totale esibizione.",
-    "level": "L5",
-    "supports": ["superficie", "public"]
+      "label": "Torretta di un castello medievale",
+      "explanation": "Pietre antiche, vento che sibila e un panorama mozzafiato: storia e desiderio si fondono.",
+      "level": "L5",
+      "tips": "Appoggiati al merlo della torre, tira via l’intimo e fatti prendere da dietro mentre guardi l’orizzonte.",
+      "supports": ["outdoor"]
   },
   "luogo_084": {
-    "label": "Palco show privato",
-    "explanation": "Lucernari sopra, pubblico selezionato sotto: ogni atto diventa performance.",
-    "level": "L5",
-    "supports": ["public", "superficie"]
+      "label": "Retro di un fast food h24",
+      "explanation": "Cassonetti, luci fredde e odore di fritto: lo sporco che diventa tentazione.",
+      "level": "L5",
+      "tips": "Piegati contro il muro, scosta la tuta e fatti scopare veloce. L’odore grasso dell’olio renderà tutto ancora più animalesco.",
+      "supports": ["public"]
   },
   "luogo_085": {
-    "label": "Croce sospensione acciaio",
-    "explanation": "Fissata al soffitto: il corpo resta appeso pronto a qualsiasi stimolazione.",
-    "level": "L5",
-    "supports": ["bondage", "sospensione", "superficie"]
+      "label": "Baita affittata per il weekend",
+      "explanation": "Legna che arde, finestre appannate e solo silenzio attorno: il tempo si ferma per godere.",
+      "level": "L5",
+      "tips": "Nuda con solo un maglione, siediti davanti al camino e fatti prendere lentamente con lo sguardo fisso sulle fiamme."
   },
   "luogo_086": {
-    "label": "Stanza vacuum latex",
-    "explanation": "Sacchi di lattice e pompe d’aria che immobilizzano in totale sottomissione sensoriale.",
-    "level": "L5",
-    "supports": ["bondage", "superficie"]
+      "label": "Tunnel pedonale abbandonato",
+      "explanation": "Eco metallica, graffiti e senso di vuoto: il pericolo come afrodisiaco.",
+      "level": "L5",
+      "tips": "Spingiti contro la parete, lascia che ti spinga le gambe contro il muro e ti scopi forte mentre l’eco amplifica ogni colpo.",
+      "supports": ["public"]
   },
   "luogo_087": {
-    "label": "Studio film hard",
-    "explanation": "Telecamere, luci da set, regista che guida le scene: professional porn vibes.",
-    "level": "L5",
-    "supports": ["public", "superficie"]
+      "label": "Pontile sul lago all’alba",
+      "explanation": "Acqua immobile, silenzio sospeso e luce rosa: ogni cosa sembra possibile.",
+      "level": "L5",
+      "tips": "Siediti con i piedi a penzoloni sull’acqua, alzati la gonna e lascia che lui ti entri da dietro mentre il sole vi scalda la pelle.",
+      "supports": ["outdoor"]
   },
   "luogo_088": {
-    "label": "Stanza gabbia esposizione",
-    "explanation": "Gabbia di metallo al centro: il corpo è visibile a 360° ma impossibilitato a muoversi.",
-    "level": "L5",
-    "supports": ["bondage", "superficie", "public"]
+      "label": "Laboratorio scolastico di notte",
+      "explanation": "Banchi ordinati, odore di reagenti e luci al neon spente: il sapere incontra la carne.",
+      "level": "L5",
+      "tips": "Stenditi sul banco di chimica e lascia che ti lecchi tra i becher, tra il freddo del marmo e il caldo del corpo.",
+      "supports": ["public"]
   },
   "luogo_089": {
-    "label": "Spazio bondage sospensione",
-    "explanation": "Anelli al soffitto e trave portante: perfetto per shibari sospesi full-body.",
-    "level": "L5",
-    "supports": ["sospensione", "bondage", "superficie"]
+      "label": "Cava dismessa",
+      "explanation": "Polvere, rocce e un silenzio assordante: l’eco del piacere amplificato nella pietra.",
+      "level": "L5",
+      "tips": "Appoggiati a un macchinario arrugginito, alzati il vestito e fatti scopare forte mentre la polvere sale attorno a voi.",
+      "supports": ["outdoor"]
   },
   "luogo_090": {
-    "label": "Letto girevole palco",
-    "explanation": "Piattaforma motorizzata che ruota lentamente mostrando ogni angolazione ai presenti.",
-    "level": "L5",
-    "supports": ["public", "superficie"]
+      "label": "Vano ascensore bloccato",
+      "explanation": "Spazio stretto, pareti metalliche e un tabù architettonico: il tempo si ferma davvero.",
+      "level": "L5",
+      "tips": "Poggiati contro lo specchio, gambe intorno alla sua vita, e lascia che ti alzi e ti prenda senza uscire mai dal tuo sguardo.",
+      "supports": ["public"]
   },
   "luogo_091": {
-    "label": "Stanza gomma pressurizzata totale",
-    "explanation": "Pareti e pavimento in latex teso; pressione d’aria regolabile che stringe e massaggia il corpo.",
-    "level": "L5",
-    "supports": ["bondage", "superficie"]
+        "label": "Stanza insonorizzata di uno studio di registrazione",
+        "explanation": "Pareti foderate, suoni ovattati e privacy totale: qui ogni gemito è permesso.",
+        "level": "L5",
+        "tips": "Mettiti le cuffie, chiudi gli occhi e lasciati sussurrare oscenità mentre ti prende piano ma deciso sopra il mixer."
+    },
+    "luogo_092": {
+        "label": "Sottopasso ferroviario a notte fonda",
+        "explanation": "Umido, deserto e vagamente sinistro: il proibito prende forma.",
+        "level": "L5",
+        "tips": "Appoggiati al muro, tira giù i pantaloni e restagli addosso mentre senti i vagoni passare sopra la testa.",
+        "supports": ["public"]
+    },
+    "luogo_093": {
+        "label": "Piscina di un hotel chiusa al pubblico",
+        "explanation": "Acqua immobile, cloro nell’aria e luci soffuse: un set perfetto per sguardi e corpi nudi.",
+        "level": "L5",
+        "tips": "Sali sul bordo bagnato, spalanca le gambe e lascia che ti lecchi mentre le mani ti reggono sui fianchi."
+    },
+    "luogo_094": {
+        "label": "Serra botanica",
+        "explanation": "Umidità, odore di terra e piante carnose ovunque: la natura diventa lussuria.",
+        "level": "L5",
+        "tips": "Togliti lentamente i vestiti tra le felci, stenditi tra le foglie e lascia che ti penetri come una pianta rampicante.",
+        "supports": ["public"]
+    },
+    "luogo_095": {
+        "label": "Osservatorio astronomico",
+        "explanation": "Buio, silenzio assoluto e un cielo pieno di stelle: una notte da immortalare.",
+        "level": "L5",
+        "tips": "Mettiti sopra di lui davanti al telescopio, con la gonna alzata. Ogni spinta farà tremare le costellazioni.",
+        "supports": ["public"]
+    },
+    "luogo_096": {
+        "label": "Zona rovine archeologiche poco sorvegliata",
+        "explanation": "Pietre millenarie, tempo sospeso e nessuno intorno: eccitante come una profanazione.",
+        "level": "L5",
+        "tips": "Poggiati a una colonna antica, tirati su la veste come una dea greca e lasciati adorare tra storia e carne.",
+        "supports": ["outdoor"]
+    },
+    "luogo_097": {
+        "label": "Garage privato con luci soffuse",
+        "explanation": "Olio, cemento e odore di pneumatici: un luogo ruvido, caldo, intimo.",
+        "level": "L5",
+        "tips": "Sali sul cofano, gambe divaricate, mani sporche di grasso: lasciati penetrare con forza mentre l’eco rimbalza tra le pareti."
+    },
+    "luogo_098": {
+        "label": "Sedia a rotelle in un corridoio vuoto d’ospedale",
+        "explanation": "Il silenzio, il freddo, le luci bianche: il desiderio irrompe in uno spazio sospeso.",
+        "level": "L5",
+        "tips": "Siediti lentamente, spalanca le gambe sulla sedia e fatti leccare mentre il tuo respiro si mescola all’odore di disinfettante.",
+        "supports": ["public"]
+    },
+    "luogo_099": {
+        "label": "Tetto accessibile con vista sulla città",
+        "explanation": "Il mondo sotto di voi, l’aria sottile e i battiti accelerati: libertà e rischio si fondono.",
+        "level": "L5",
+        "tips": "Sporgiti appena, afferra la ringhiera e fatti scopare da dietro con la città che osserva silenziosa.",
+        "supports": ["outdoor"]
+    },
+    "luogo_100": {
+        "label": "Piattaforma galleggiante ancorata al largo",
+        "explanation": "Isolamento totale, acqua sotto e cielo sopra: un orgasmo nell'infinito.",
+        "level": "L5",
+        "tips": "Stenditi a pancia in giù sulla tavola, alza il sedere, lascia che le onde vi cullino mentre lui ti penetra con lentezza oceanica.",
+        "supports": ["outdoor"]
+    },
+    "luogo_101": {
+        "label": "Tettoia di un treno in corsa (fantasia adrenalinica)",
+        "explanation": "Velocità, vento in faccia, equilibrio precario: pura fantasia estrema.",
+        "level": "L6",
+        "tips": "Immagina di cavalcarlo a cavalcioni sopra il tetto, con il vento che ti spettina e l’orgasmo che arriva insieme alla prossima stazione.",
+        "supports": ["outdoor"]
+    },
+    "luogo_102": {
+        "label": "Interno di una giostra in movimento (tipo ruota panoramica)",
+        "explanation": "Altezze vertiginose, sospensione e luci intermittenti: un palco segreto tra le stelle.",
+        "level": "L6",
+        "tips": "Siediti sopra di lui quando siete in cima, muovendoti piano mentre guardi il mondo ruotare attorno.",
+        "supports": ["public"]
+    },
+    "luogo_103": {
+        "label": "Cima di un faro abbandonato",
+        "explanation": "Panorama aperto, silenzio e vento salmastro: qui domina solo la voglia.",
+        "level": "L6",
+        "tips": "Spogliati piano mentre salite le scale, poi inginocchiati con vista sull’orizzonte e prendilo tutto in gola.",
+        "supports": ["outdoor"]
+    },
+    "luogo_104": {
+        "label": "Labirinto di siepi",
+        "explanation": "Percorsi nascosti, svolte improvvise e nessuno che guarda: ogni curva è una trappola erotica.",
+        "level": "L6",
+        "tips": "Nasconditi tra le foglie e aspettalo in ginocchio. Quando ti trova, fagli perdere l’orientamento con la bocca.",
+        "supports": ["outdoor"]
+    },
+    "luogo_105": {
+        "label": "Teatro vuoto con luci accese sul palco",
+        "explanation": "Sedie vuote, silenzio teso, riflettori puntati: l’orgasmo come atto finale.",
+        "level": "L6",
+        "tips": "Spogliati lentamente al centro della scena, poi inginocchiati e lasciati dirigere da lui come un’opera erotica.",
+        "supports": ["public"]
+    },
+    "luogo_106": {
+        "label": "Parco giochi chiuso di notte",
+        "explanation": "Altalene ferme, scivoli bagnati e oscurità complice: il proibito ha l’odore dell’infanzia tradita.",
+        "level": "L6",
+        "tips": "Sali sull’altalena senza mutandine, lascia che ti spinga e ti prenda tra uno slancio e l’altro.",
+        "supports": ["public"]
+    },
+    "luogo_107": {
+        "label": "Cavità naturale in una grotta",
+        "explanation": "Buio assoluto, pareti umide e suoni amplificati: l’eco del piacere primordiale.",
+        "level": "L6",
+        "tips": "Siediti sul bordo roccioso, bagnata, pronta. Lascia che il buio vi avvolga mentre lui ti esplora con la lingua.",
+        "supports": ["outdoor"]
+    },
+    "luogo_108": {
+        "label": "Funivia in movimento tra le montagne",
+        "explanation": "Silenzio sospeso, vetri appannati e paesaggi che scorrono: l’orgasmo prende quota.",
+        "level": "L6",
+        "tips": "Appoggia le mani sui vetri freddi, piegati in avanti e lascia che ti prenda da dietro mentre i pini scorrono sotto.",
+        "supports": ["public"]
+    },
+    "luogo_109": {
+        "label": "Campeggio deserto fuori stagione",
+        "explanation": "Tende vuote, natura ferma, libertà assoluta: una vacanza solo per corpi nudi.",
+        "level": "L6",
+        "tips": "Stenditi nuda sul materassino, apri le gambe al sole del mattino e fatti scivolare dentro piano piano.",
+        "supports": ["outdoor"]
+    },
+    "luogo_110": {
+        "label": "Soffitta polverosa e dimenticata",
+        "explanation": "Ombre dense, odore di legno e segreti chiusi da anni: un tempio erotico dimenticato.",
+        "level": "L6",
+        "tips": "Sdraiati tra i vecchi bauli, con le ragnatele sopra, e apriti solo per lui come un ricordo nascosto."
+    },
+    "luogo_111": {
+      "label": "Ponte tibetano tra le montagne",
+      "explanation": "Instabile, sospeso, adrenalinico: il brivido dell’equilibrio tra piacere e caduta.",
+      "level": "L6",
+      "tips": "Fermati al centro e piegati contro la fune: il vento ti scuote mentre ti fa tremare da dentro.",
+      "supports": ["outdoor"]
   },
-  "luogo_092": {
-    "label": "Vac-bed sospeso",
-    "explanation": "Sacco a vuoto appeso: il partner resta immobilizzato e sollevato.",
-    "level": "L5",
-    "supports": ["sospensione", "bondage", "superficie"]
+  "luogo_112": {
+      "label": "Piscina pubblica chiusa in notturna",
+      "explanation": "Silenzio liquido, risonanze sensuali, odore di cloro e pelle nuda.",
+      "level": "L6",
+      "tips": "Scivola dentro l’acqua e avvicinati a lui: stringigli i fianchi con le gambe e muoviti lenta in galleggiamento.",
+      "supports": ["public"]
   },
-  "luogo_093": {
-    "label": "Altalena sex industriale",
-    "explanation": "Struttura in metallo, catene robuste: swing penetrativo in tutte le direzioni.",
-    "level": "L5",
-    "supports": ["sospensione", "superficie", "bondage"]
+  "luogo_113": {
+      "label": "Cupola di un osservatorio astronomico",
+      "explanation": "Sotto le stelle, sopra le regole: tutto il cosmo a fare da testimone.",
+      "level": "L6",
+      "tips": "Mettiti a quattro sotto la lente del telescopio, così mentre ti prende guardate l’infinito insieme.",
+      "supports": ["public"]
   },
-  "luogo_094": {
-    "label": "Gabbia metallica grande",
-    "explanation": "Spazio sufficiente per stare in piedi o in ginocchio: il suono delle sbarre amplifica la sensazione di prigionia.",
-    "level": "L5",
-    "supports": ["bondage", "public"]
+  "luogo_114": {
+      "label": "Vecchia serra invasa dalla vegetazione",
+      "explanation": "Vetri rotti, piante selvatiche, calore umido e corpi intrecciati come radici.",
+      "level": "L6",
+      "tips": "Spingilo sul tavolo di terra, salici sopra e fai crescere il piacere tra rami e muschio.",
+      "supports": ["outdoor"]
   },
-  "luogo_095": {
-    "label": "Palco show pubblico kink",
-    "explanation": "Lucidatrici luci stroboscopiche, pubblico urlante: la scena non è per timidi.",
-    "level": "L5",
-    "supports": ["public", "superficie"]
+  "luogo_115": {
+      "label": "Spogliatoio di una palestra chiusa",
+      "explanation": "Sudore, specchi e panche di legno: il tuo corpo come attrezzo erotico.",
+      "level": "L6",
+      "tips": "Mettiti sul banco degli addominali, gambe aperte e sguardo fisso nello specchio mentre ti allena lui.",
+      "supports": ["public"]
   },
-  "luogo_096": {
-    "label": "Stanza gomma sottovuoto",
-    "explanation": "Camera depressurizzata che comprime il corpo contro membrane di latex.",
-    "level": "L5",
-    "supports": ["bondage", "superficie"]
+  "luogo_116": {
+      "label": "Gondola veneziana a mezzanotte",
+      "explanation": "Onde leggere, silenzio d’acqua e complicità notturna: Venezia come alcova mobile.",
+      "level": "L6",
+      "tips": "Appoggiati sul bordo, piegata in avanti con la laguna come sfondo mentre ti affonda lento e profondo.",
+      "supports": ["public"]
   },
-  "luogo_097": {
-    "label": "Capsula trasparente sospesa",
-    "explanation": "Bolla plexiglass appesa a catene: ogni movimento visibile a 360°.",
-    "level": "L5",
-    "supports": ["public", "sospensione", "superficie"]
+  "luogo_117": {
+      "label": "Deposito di treni dismesso",
+      "explanation": "Binari vuoti, ferraglia arrugginita e adrenalina: l’abbandono è desiderio crudo.",
+      "level": "L6",
+      "tips": "Salta su un vagone e abbassati lentamente, poi cavalcalo come se fossi in corsa contro il tempo.",
+      "supports": ["public"]
   },
-  "luogo_098": {
-    "label": "Altalena sex ceiling-mount",
-    "explanation": "Fissata a trave robusta: penetrazioni profondissime mentre il partner oscilla.",
-    "level": "L5",
-    "supports": ["sospensione", "superficie"]
+  "luogo_118": {
+      "label": "Baita isolata nel bosco",
+      "explanation": "Legno scricchiolante, camino acceso e fuori il gelo: l’interno brucia di voglia.",
+      "level": "L6",
+      "tips": "Sdraiati nuda davanti al fuoco e chiamalo con lo sguardo: fallo scaldare tra le tue cosce.",
+      "supports": ["outdoor"]
   },
-  "luogo_099": {
-    "label": "Tavolo croce rovesciata",
-    "explanation": "Corpo legato in posizione inversa X, accessibile da tutti i lati per punizioni e carezze.",
-    "level": "L5",
-    "supports": ["bondage", "superficie"]
+  "luogo_119": {
+      "label": "Sedile posteriore di un’auto in corsa su una strada deserta",
+      "explanation": "Strade buie, sospensioni tremolanti e rischio costante: il viaggio diventa orgasmo.",
+      "level": "L6",
+      "tips": "Striscia dietro senza dire nulla, sali su di lui e inizia a muoverti con la musica al massimo.",
+      "supports": ["public"]
   },
-  "luogo_100": {
-    "label": "Carrozza treno notturno aperta",
-    "explanation": "Vagone con tendina semiaperta: rumoroso e vibrante, un set perfetto per esibizionisti esperti.",
-    "level": "L5",
-    "supports": ["public", "superficie"]
+  "luogo_120": {
+      "label": "Punto panoramico su una scogliera",
+      "explanation": "Silenzio abissale, vento tra i capelli e orizzonte sconfinato: il corpo vibra come l’oceano.",
+      "level": "L6",
+      "tips": "Mettiti a cavalcioni sulla ringhiera, guardando il vuoto, e lascia che ti tenga per i fianchi mentre ondeggi sopra di lui.",
+      "supports": ["outdoor"]
   },
   "luogo_null": {
     "label": "qui non devi fare nulla",

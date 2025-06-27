@@ -173,12 +173,18 @@
   }
 
   .card h3 {
-    font-size: 1.05rem;
-    font-weight: 600;
-    margin: 0 0 0.6rem;
-    letter-spacing: 0.5px;
+    font-size: 1.18rem;
+    font-weight: 700;
+    margin: 0 0 0.25rem 0;
+    letter-spacing: 1.2px;
     color: #7f5cff;
-    text-transform: capitalize;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0.7rem;
+    left: 0.7rem;
+    right: 0.7rem;
+    text-align: center;
+    z-index: 10;
   }
 
   .card p {
@@ -529,17 +535,9 @@
   }
 
   /* Stili per l'animazione slot machine */
-  @keyframes spinText {
-    0% {
-      transform: translateY(0);
-    }
-    100% {
-      transform: translateY(-100%);
-    }
-  }
-
   .slot-container {
-    height: 40px;
+    min-height: 120px;
+    height: 120px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -564,18 +562,20 @@
   }
 
   .slot-item {
-    height: 40px;
-    width: 100%;
+    font-size: 1.18rem;
+    font-weight: 700;
+    color: #222;
+    background: none;
+    padding: 0.2rem 0.5rem;
+    text-align: center;
+    transition: color 0.2s;
+    white-space: pre-line;
+    line-height: 1.25;
+    min-height: 120px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.1rem;
-    color: #333;
-    font-weight: 500;
-    line-height: 1.4;
-    background: transparent;
-    margin: 0;
-    padding: 0;
   }
 
   .card p.spinning {
@@ -839,6 +839,131 @@
       border-radius: 12px;
     }
   }
+
+  #mode-switch-bar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: linear-gradient(120deg, #f8d5ff 0%, #ffe5ec 50%, #e0e7ff 100%);
+    padding: 0.5rem 0 0.5rem 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.2rem;
+  }
+  .mode-switch-label {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #7f5cff;
+    font-size: 1.08rem;
+    cursor: pointer;
+    user-select: none;
+    justify-content: center;
+  }
+  .mode-label {
+    min-width: 110px;
+    text-align: center;
+    opacity: 0.6;
+    transition: color 0.2s, opacity 0.2s;
+    color: #7f5cff;
+    font-weight: 500;
+  }
+  .mode-label.active {
+    color: #ff4081;
+    opacity: 1;
+    font-weight: 700;
+  }
+  .mode-switch {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 28px;
+    margin: 0 0.3rem;
+  }
+  .mode-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .mode-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(90deg, #ffe5ec 60%, #e0e7ff 100%);
+    border-radius: 999px;
+    transition: background 0.3s;
+    box-shadow: 0 2px 8px rgba(127,92,255,0.08);
+  }
+  .mode-slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: 3px;
+    bottom: 3px;
+    background: linear-gradient(90deg, #ff4081, #7f5cff, #00c6fb);
+    border-radius: 50%;
+    transition: transform 0.3s, background 0.3s;
+    box-shadow: 0 2px 8px rgba(127,92,255,0.13);
+  }
+  .mode-switch input:checked + .mode-slider {
+    background: linear-gradient(90deg, #f8d5ff 60%, #e0e7ff 100%);
+  }
+  .mode-switch input:checked + .mode-slider:before {
+    transform: translateX(20px);
+    background: linear-gradient(90deg, #7f5cff, #ff4081, #00c6fb);
+  }
+  .mode-switch-label .mode-switch {
+    margin-bottom: 0;
+  }
+  @media (max-width: 480px) {
+    .mode-switch-label {
+      font-size: 0.98rem;
+    }
+    .mode-label {
+      min-width: 80px;
+      font-size: 0.98rem;
+    }
+    .mode-switch {
+      width: 38px;
+      height: 22px;
+    }
+    .mode-slider:before {
+      height: 16px;
+      width: 16px;
+      left: 3px;
+      bottom: 3px;
+    }
+  }
+  /* Centra le card quando sono solo 2 */
+  #cards.centered-2 {
+    display: flex !important;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 0.5rem auto 1.5rem;
+    width: 100%;
+    max-width: 800px;
+    padding: 0 1rem;
+  }
+  @media (max-width: 768px) {
+    #cards.centered-2 {
+      gap: 1.5rem;
+    }
+  }
+  @media (max-width: 480px) {
+    #cards.centered-2 {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      padding: 0 0.3rem;
+    }
+  }
 </style>
 </head>
 <body>
@@ -846,13 +971,24 @@
     <img src="logo.svg" alt="SlotLove" style="width: 120px; height: 120px; margin-bottom: 1rem;">
     <div style="font-size: 2.5rem; font-weight: 700; background: linear-gradient(90deg, #ff4081, #7f5cff, #00c6fb); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-fill-color: transparent; letter-spacing: 1.5px; text-shadow: 0 4px 24px rgba(127,92,255,0.12); text-align: center; transition: all 0.3s; text-transform: uppercase;">SlotLove</div>
   </div>
+  <div id="mode-switch-bar">
+    <label class="mode-switch-label">
+      <span id="mode-label-base" class="mode-label active">Modalità base</span>
+      <span class="mode-switch">
+        <input type="checkbox" id="expertSwitch">
+        <span class="mode-slider"></span>
+      </span>
+      <span id="mode-label-expert" class="mode-label">Modalità esperto</span>
+    </label>
+  </div>
   <select id="levelSel" style="margin-bottom:1.2rem;max-width:220px;">
     <option value="">Qualsiasi</option>
-    <option value="L1">1 Vanilla</option>
-    <option value="L2">2 Sensuale</option>
-    <option value="L3">3 Piccante</option>
-    <option value="L4">4 Intenso</option>
-    <option value="L5">5 Estremo</option>
+    <option value="L1">L1 – Soft Vanilla</option>
+    <option value="L2">L2 – Public Tease</option>
+    <option value="L3">L3 – Rough Romance</option>
+    <option value="L4">L4 – Daring Play</option>
+    <option value="L5">L5 – Bold Taboo</option>
+    <option value="L6">L6 – Wild Extreme</option>
   </select>
   <label class="switch-label">
     <span style="font-size:1.18em;">👫</span>
@@ -891,6 +1027,30 @@ const categories = [
   'extra'
 ];
 
+// Modalità expert flag
+let expertMode = false;
+
+// Aggiorna lo switch modalità
+const expertSwitch = document.getElementById('expertSwitch');
+const modeLabelBase = document.getElementById('mode-label-base');
+const modeLabelExpert = document.getElementById('mode-label-expert');
+expertSwitch.checked = false;
+expertSwitch.onchange = () => {
+  expertMode = expertSwitch.checked;
+  if (expertMode) {
+    modeLabelBase.classList.remove('active');
+    modeLabelExpert.classList.add('active');
+  } else {
+    modeLabelBase.classList.add('active');
+    modeLabelExpert.classList.remove('active');
+  }
+  if (lastSpinData) {
+    renderCards(lastSpinData);
+  } else {
+    renderEmptyCards();
+  }
+};
+
 // Carica mapping.json all'avvio
 async function loadMapping() {
   try {
@@ -912,7 +1072,7 @@ async function loadAllOptions() {
   try {
     const response = await fetch('/spin');
     const data = await response.json();
-    console.log('Loaded options:', data.options); // Debug log
+    console.log('Loaded options:', data.options); // Debug
     allOptions = data.options || {};
     // Non chiamare più renderEmptyCards qui
     document.getElementById('spinBtn').disabled = false;
@@ -928,7 +1088,14 @@ async function loadAllOptions() {
 
 function renderEmptyCards() {
   cardsDiv.innerHTML = '';
-  categories.forEach(cat => {
+  // Mostra solo 2 card se non expert
+  const catsToShow = expertMode ? categories : ['azione', 'luogo'];
+  if (!expertMode && catsToShow.length === 2) {
+    cardsDiv.classList.add('centered-2');
+  } else {
+    cardsDiv.classList.remove('centered-2');
+  }
+  catsToShow.forEach(cat => {
     const card = document.createElement('div');
     card.className = 'card';
     card.setAttribute('data-backend', cat);
@@ -1028,9 +1195,15 @@ function activateExplanationListeners() {
 function renderCards(data){
   lastSpinData = data;
   cardsDiv.innerHTML='';
-  const showPartecipanti = document.getElementById('partChk').checked;
+  // Mostra solo 2 card se non expert
+  const catsToShow = expertMode ? categories : ['azione', 'luogo'];
+  if (!expertMode && catsToShow.length === 2) {
+    cardsDiv.classList.add('centered-2');
+  } else {
+    cardsDiv.classList.remove('centered-2');
+  }
   Object.entries(data.codes).forEach(([cat,code])=>{
-    if (cat === "partecipanti" && !showPartecipanti) return;
+    if (!catsToShow.includes(cat)) return;
     let label = getLabel(code);
     let explanation = '';
     let tips = '';
@@ -1120,12 +1293,15 @@ function easeOutBack(t) {
   return 1 + c3 * Math.pow(t - 1, 3) + c1 * Math.pow(t - 1, 2);
 }
 
+// Altezza fissa generosa per tutte le slot (gestisce label su 3 righe)
+const SLOT_ITEM_HEIGHT = 120;
+
 async function startSpinningAnimation(finalChoices) {
   if (!allOptions) return;
   const cards = document.querySelectorAll('.card');
-  const spinDuration = 2000; // durata totale animazione (ms)
+  const spinDuration = 3000; // Durata maggiore per animazione più fluida
   const cycles = 18; // numero di "giri" minimi prima di fermarsi
-  const itemHeight = 40; // deve corrispondere a .slot-item height
+  const itemHeight = SLOT_ITEM_HEIGHT; // Usa la costante corretta
   const animationPromises = [];
   cards.forEach((card, index) => {
     const backendCategory = card.getAttribute('data-backend');
@@ -1140,55 +1316,62 @@ async function startSpinningAnimation(finalChoices) {
     const finalChoice = finalChoices.codes[backendCategory];
     // Costruisci la sequenza: tutte le opzioni ripetute + la finale
     let sequence = [];
-    for (let i = 0; i < cycles; i++) sequence.push(options[i % options.length]);
-    sequence.push(finalChoice);
+    let slotCycles = 40; // più cicli per effetto slot più lungo
+    for (let i = 0; i < slotCycles; i++) sequence.push(options[i % options.length]);
+    // Buffer zone: 5 copie della scelta finale per rallentamento naturale
+    for (let i = 0; i < 5; i++) {
+      sequence.push(finalChoice);
+    }
     // Popola la slot-reel con gli elementi
     slotReel.innerHTML = '';
     sequence.forEach(code => {
       const div = document.createElement('div');
       div.className = 'slot-item';
       div.textContent = getLabel(code);
+      div.style.minHeight = SLOT_ITEM_HEIGHT + 'px';
+      div.style.height = SLOT_ITEM_HEIGHT + 'px';
       slotReel.appendChild(div);
     });
-    // Animazione fluida con requestAnimationFrame
+    // Animazione fluida con transizione CSS controllata
     let start = null;
-    let totalDistance = itemHeight * (sequence.length - 1);
-    let currentY = 0;
-    let lastFrame = 0;
-    function easeOutCubic(t) { return 1 - Math.pow(1 - t, 3); }
+    // La posizione finale deve fermarsi sulla PRIMA delle 5 copie della scelta finale
+    let totalDistance = itemHeight * (sequence.length - 5);
+    
+    // Imposta la posizione iniziale
+    slotReel.style.transform = 'translateY(0px)';
+    slotReel.style.transition = 'none';
+    
+    // Forza un reflow per assicurarsi che la posizione iniziale sia applicata
+    slotReel.offsetHeight;
+    
     animationPromises.push(new Promise(resolve => {
-      function animateSlotReel(ts) {
-        if (!start) { start = ts; lastFrame = ts; }
-        let elapsed = ts - start;
-        let t = Math.min(elapsed / spinDuration, 1);
-        let eased = easeOutCubic(t);
-        let y = eased * totalDistance;
-        slotReel.style.transform = `translateY(-${y}px)`;
-        if (t < 1) {
-          requestAnimationFrame(animateSlotReel);
+      // Imposta la transizione per l'animazione
+      slotReel.style.transition = `transform ${spinDuration}ms cubic-bezier(0.25, 0.46, 0.45, 0.94)`;
+      
+      // Avvia l'animazione
+      requestAnimationFrame(() => {
+        slotReel.style.transform = `translateY(-${totalDistance}px)`;
+      });
+      
+      // Aspetta che l'animazione finisca
+      setTimeout(() => {
+        // Assicurati che la posizione finale sia esatta
+        slotReel.style.transition = 'none';
+        slotReel.style.transform = `translateY(-${totalDistance}px)`;
+        
+        // Aggiorna explanation box
+        let explanation = '';
+        if (mapping && mapping[finalChoice] && typeof mapping[finalChoice] === 'object' && mapping[finalChoice].explanation) {
+          explanation = mapping[finalChoice].explanation;
         } else {
-          // Fine animazione: mostra solo la scelta estratta
-          slotReel.innerHTML = '';
-          const div = document.createElement('div');
-          div.className = 'slot-item';
-          div.textContent = getLabel(finalChoice);
-          slotReel.appendChild(div);
-          slotReel.style.transform = 'translateY(0)';
-          // Aggiorna explanation box
-          let explanation = '';
-          if (mapping && mapping[finalChoice] && typeof mapping[finalChoice] === 'object' && mapping[finalChoice].explanation) {
-            explanation = mapping[finalChoice].explanation;
-          } else {
-            explanation = 'Ops, ci hai beccati: qui manca la spiegazione!';
-          }
-          let explanationBox = card.querySelector('.explanation-box');
-          if (explanationBox) explanationBox.innerHTML = explanation;
-          activateExplanationListeners();
-          activateLockListeners();
-          resolve();
+          explanation = 'Ops, ci hai beccati: qui manca la spiegazione!';
         }
-      }
-      requestAnimationFrame(animateSlotReel);
+        let explanationBox = card.querySelector('.explanation-box');
+        if (explanationBox) explanationBox.innerHTML = explanation;
+        activateExplanationListeners();
+        activateLockListeners();
+        resolve();
+      }, spinDuration + 50); // Piccolo margine per sicurezza
     }));
   });
   await Promise.all(animationPromises);
@@ -1386,26 +1569,102 @@ async function spin() {
         return codeLevel === level; // Solo codici del livello selezionato
       });
     }
+    // Funzione per filtrare azioni di gruppo se richiesto
+    function filterByGroup(options, category) {
+      if (category !== 'azione' || !spinPart) return options;
+      return options.filter(code => {
+        const mappingEntry = mapping[code];
+        if (!mappingEntry || typeof mappingEntry !== 'object') return false;
+        const needs = mappingEntry.needs || [];
+        // Include azioni che hanno group, 3p o dp nei needs
+        return Array.isArray(needs) && (needs.includes('group') || needs.includes('3p') || needs.includes('dp'));
+      });
+    }
+    // --- LOGICA COMPATIBILITÀ MIGLIORATA ---
+    // 1. Estrai azione (con compatibilità inversa se luogo è bloccato)
+    let actionCodes = allOptions['azione'] || [];
+    actionCodes = filterByLevel(actionCodes, 'azione');
+    actionCodes = filterByGroup(actionCodes, 'azione');
     
-    // --- LOGICA COMPATIBILITÀ ---
-    // 1. Estrai azione
-    const actionCodes = allOptions['azione'] || [];
-    const filteredActionCodes = filterByLevel(actionCodes, 'azione');
-    let actionChoice = locked['azione'] && filteredActionCodes.includes(locked['azione']) ? locked['azione'] : weightedChoice(filteredActionCodes);
+    // Se il luogo è bloccato, filtra le azioni per compatibilità
+    if (locked['luogo']) {
+      const lockedLuogo = locked['luogo'];
+      actionCodes = actionCodes.filter(actionCode => 
+        isActionLocationCompatible(actionCode, lockedLuogo)
+      );
+      
+      // Mostra info sulla compatibilità inversa
+      const luogoEntry = mapping[lockedLuogo];
+      if (luogoEntry && luogoEntry.supports && luogoEntry.supports.length > 0) {
+        console.log(`🎯 Compatibilità inversa: luogo "${luogoEntry.label}" supporta [${luogoEntry.supports.join(', ')}] - ${actionCodes.length} azioni compatibili`);
+      }
+    }
     
-    // 2. Estrai luogo compatibile
+    let actionChoice = locked['azione'] && actionCodes.includes(locked['azione']) ? locked['azione'] : weightedChoice(actionCodes);
+    
+    // 2. Estrai luogo compatibile con l'azione
     const luogoCodes = allOptions['luogo'] || [];
-    const filteredLuogoCodes = filterByLevel(luogoCodes, 'luogo');
+    let filteredLuogoCodes = filterByLevel(luogoCodes, 'luogo');
+    
+    // Funzione per verificare compatibilità azione-luogo
+    function isActionLocationCompatible(actionCode, locationCode) {
+      const actionEntry = mapping[actionCode];
+      const locationEntry = mapping[locationCode];
+      
+      if (!actionEntry || !locationEntry) return true; // Se mancano dati, considera compatibile
+      
+      const actionNeeds = actionEntry.needs || [];
+      const locationSupports = locationEntry.supports || [];
+      
+      // Se l'azione non ha needs specifici, è compatibile con qualsiasi luogo
+      if (actionNeeds.length === 0) return true;
+      
+      // Controlla i tag rilevanti per la compatibilità
+      const relevantTags = ['outdoor', 'public', 'group', '3p', 'dp', 'bondage', 'acqua', 'superficie', 'spazio_minimo', 'sospensione', 'doccia'];
+      
+      for (const tag of actionNeeds) {
+        if (relevantTags.includes(tag)) {
+          // Se l'azione richiede un tag, il luogo deve supportarlo
+          if (!locationSupports.includes(tag)) {
+            return false;
+          }
+        }
+      }
+      
+      return true;
+    }
+    
+    // Filtra i luoghi in base alla compatibilità con l'azione scelta
+    let compatibleLuoghi = filteredLuogoCodes.filter(luogoCode => 
+      isActionLocationCompatible(actionChoice, luogoCode)
+    );
+    
+    // Mostra info sulla compatibilità se applicata
+    const actionEntry = mapping[actionChoice];
+    if (actionEntry && actionEntry.needs && actionEntry.needs.length > 0) {
+      const relevantNeeds = actionEntry.needs.filter(tag => 
+        ['outdoor', 'public', 'group', '3p', 'dp', 'bondage', 'acqua', 'superficie', 'spazio_minimo', 'sospensione', 'doccia'].includes(tag)
+      );
+      if (relevantNeeds.length > 0 && compatibleLuoghi.length < filteredLuogoCodes.length) {
+        console.log(`🎯 Compatibilità applicata: azione "${actionEntry.label}" richiede [${relevantNeeds.join(', ')}] - ${compatibleLuoghi.length}/${filteredLuogoCodes.length} luoghi compatibili`);
+      }
+    }
+    
+    // Se non ci sono luoghi compatibili, usa tutti i luoghi filtrati per livello
+    if (compatibleLuoghi.length === 0) {
+      compatibleLuoghi = filteredLuogoCodes;
+      console.log(`⚠️ Nessun luogo compatibile trovato per l'azione "${actionEntry?.label}", usando tutti i luoghi disponibili`);
+    }
+    
     let luogoChoice;
     if (locked['luogo'] && filteredLuogoCodes.includes(locked['luogo'])) {
       luogoChoice = locked['luogo'];
-      if (!isCompatible(actionChoice, luogoChoice)) {
-        const compatibili = filteredLuogoCodes.filter(l => isCompatible(actionChoice, l));
-        luogoChoice = compatibili[0] || filteredLuogoCodes[0] || null;
+      // Se il luogo bloccato non è compatibile, cerca un compatibile
+      if (!isActionLocationCompatible(actionChoice, luogoChoice)) {
+        luogoChoice = compatibleLuoghi.length > 0 ? weightedChoice(compatibleLuoghi) : filteredLuogoCodes[0];
       }
     } else {
-      const compatibili = filteredLuogoCodes.filter(l => isCompatible(actionChoice, l));
-      luogoChoice = compatibili.length ? weightedChoice(compatibili) : weightedChoice(filteredLuogoCodes);
+      luogoChoice = weightedChoice(compatibleLuoghi);
     }
     
     // 3. Estrai le altre categorie normalmente
@@ -1416,7 +1675,6 @@ async function spin() {
       const filtered = filterByLevel(opts, cat);
       codes[cat] = locked[cat] && filtered.includes(locked[cat]) ? locked[cat] : weightedChoice(filtered);
     });
-    
     // Simula la risposta del backend
     const data = {
       codes,
@@ -1508,6 +1766,7 @@ document.addEventListener('click', (e) => {
 
 // Alla fine del caricamento iniziale, mostra le card vuote con la struttura giusta
 window.addEventListener('DOMContentLoaded', () => {
+  expertMode = false;
   loadMapping().then(loadAllOptions).then(() => {
     renderEmptyCards();
   });
