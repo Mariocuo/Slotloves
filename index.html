@@ -422,34 +422,57 @@
   }
 
   @media (max-width: 768px) {
+    body {
+      padding: 1rem 0.5rem 2rem;
+    }
+    
     #cards {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(3, auto);
       gap: 1.5rem;
+      padding: 0 0.5rem;
     }
     
     .card {
+      width: 100%;
       max-width: 170px;
+      min-height: 180px;
+    }
+    
+    .main-title img {
+      width: 100px;
+      height: 100px;
+    }
+    
+    .main-title div {
+      font-size: 2rem;
     }
   }
 
   @media (max-width: 480px) {
+    body {
+      padding: 0.8rem 0.3rem 1.5rem;
+    }
+    
     #cards {
       grid-template-columns: 1fr;
       gap: 1rem;
+      padding: 0 0.3rem;
     }
     
     .card {
-      max-width: 200px;
+      width: 100%;
+      max-width: 280px;
+      min-height: 160px;
     }
 
     #feedback {
-      gap: 5rem;
-      margin-top: 2rem;
+      gap: 4rem;
+      margin-top: 1.5rem;
     }
 
     .feedback-row::after {
-      bottom: -2.5rem;
+      bottom: -2rem;
       width: 60px;
     }
 
@@ -463,14 +486,45 @@
       padding: 0.8rem 1.6rem;
       font-size: 0.9rem;
     }
+    
+    .main-title img {
+      width: 80px;
+      height: 80px;
+    }
+    
+    .main-title div {
+      font-size: 1.8rem;
+    }
   }
 
-  @media (max-width: 600px) {
-    .card, .card.expanded {
-      width: 98vw;
-      min-width: 0;
-      max-width: 99vw;
-      min-height: 180px;
+  @media (max-width: 360px) {
+    body {
+      padding: 0.5rem 0.2rem 1rem;
+    }
+    
+    .card {
+      max-width: 260px;
+      min-height: 150px;
+      padding: 1rem;
+    }
+    
+    .main-title img {
+      width: 70px;
+      height: 70px;
+    }
+    
+    .main-title div {
+      font-size: 1.6rem;
+    }
+    
+    #levelSel {
+      font-size: 0.9rem;
+      min-width: 100px;
+      padding: 0.5rem 1.8rem 0.5rem 0.6rem;
+    }
+    
+    .switch-label {
+      font-size: 0.95rem;
     }
   }
 
@@ -702,6 +756,24 @@
     max-height: 90vh !important;
     overflow-y: auto !important;
   }
+  
+  @media (max-width: 768px) {
+    .card.zoomed {
+      transform: translate(-50%, -50%) scale(1.1) !important;
+      padding: 1.5rem !important;
+      max-width: 95vw !important;
+      max-height: 85vh !important;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card.zoomed {
+      transform: translate(-50%, -50%) scale(1) !important;
+      padding: 1rem !important;
+      max-width: 98vw !important;
+      max-height: 80vh !important;
+    }
+  }
   body.no-scroll {
     overflow: hidden !important;
   }
@@ -725,6 +797,47 @@
     border-radius: 50%;
     background: rgba(255,255,255,0.5);
     z-index: 15;
+  }
+
+  .zoomed-tips-container {
+    position: fixed;
+    z-index: 1010;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(40,30,60,0.97);
+    color: #fff;
+    padding: 2rem;
+    border-radius: 18px;
+    box-shadow: 0 16px 64px 0 rgba(40,30,60,0.32), 0 2px 8px rgba(127,92,255,0.18);
+    max-width: 90vw;
+    max-height: 90vh;
+    overflow-y: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: left;
+    transition: transform 0.28s cubic-bezier(.4,1.4,.6,1);
+  }
+  
+  @media (max-width: 768px) {
+    .zoomed-tips-container {
+      padding: 1.5rem;
+      max-width: 95vw;
+      max-height: 85vh;
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .zoomed-tips-container {
+      padding: 1rem;
+      max-width: 98vw;
+      max-height: 80vh;
+      font-size: 1rem;
+      border-radius: 12px;
+    }
   }
 </style>
 </head>
