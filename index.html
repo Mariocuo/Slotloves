@@ -1571,13 +1571,21 @@ async function spin() {
     }
     // Funzione per filtrare azioni di gruppo se richiesto
     function filterByGroup(options, category) {
-      if (category !== 'azione' || !spinPart) return options;
+      if (category !== 'azione') return options;
+      
       return options.filter(code => {
         const mappingEntry = mapping[code];
-        if (!mappingEntry || typeof mappingEntry !== 'object') return false;
+        if (!mappingEntry || typeof mappingEntry !== 'object') return true; // Se non c'è mapping, include
         const needs = mappingEntry.needs || [];
-        // Include azioni che hanno group, 3p o dp nei needs
-        return Array.isArray(needs) && (needs.includes('group') || needs.includes('3p') || needs.includes('dp'));
+        const hasGroupTags = Array.isArray(needs) && (needs.includes('group') || needs.includes('3p') || needs.includes('dp'));
+        
+        if (spinPart) {
+          // Checkbox ATTIVO: mostra solo azioni con group, 3p, dp
+          return hasGroupTags;
+        } else {
+          // Checkbox DISATTIVO: esclude azioni con group, 3p, dp
+          return !hasGroupTags;
+        }
       });
     }
     // --- LOGICA COMPATIBILITÀ MIGLIORATA ---
