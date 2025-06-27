@@ -1,56 +1,64 @@
 {
-  "azione_001": {
-    "label": "Bacio sulle labbra",
-    "explanation": "Avvicinati lentamente, posa le mani ai lati del suo viso e dai un bacio morbido soffermandoti a sentirne il respiro.",
-    "level": "L1"
-  },
-  "azione_002": {
-    "label": "Carezza dolce",
-    "explanation": "Con il dorso delle dita sfiora la guancia del partner seguendo la linea del mento e scendendo sul collo con piccoli cerchi.",
-    "level": "L1"
-  },
-  "azione_003": {
-    "label": "Abbraccio nudo",
-    "explanation": "Spogliatevi dell’essenziale, stringetevi a petto nudo e restate fermi per percepire il battito reciproco che rallenta.",
-    "level": "L1",
-    "needs": ["superficie"]
-  },
-  "azione_004": {
-    "label": "Accarezzare i capelli",
-    "explanation": "Siedi dietro al partner, intreccia le dita tra i suoi capelli e massaggia la nuca con movimenti circolari lenti.",
-    "level": "L1"
-  },
-  "azione_005": {
-    "label": "Bacio sul collo",
-    "explanation": "Inclina leggermente la sua testa, inspira il profumo e posa le labbra sotto l’orecchio alternando piccoli baci a lievi succhi.",
-    "level": "L1"
-  },
-  "azione_006": {
-    "label": "Tenersi per mano",
-    "explanation": "Intreccia le dita alle sue, stringi e traccia l’interno del palmo con il pollice per aumentare la connessione emotiva.",
-    "level": "L1"
-  },
-  "azione_007": {
-    "label": "Sussurri all’orecchio",
-    "explanation": "Avvicina le labbra al suo orecchio e pronuncia parole d’apprezzamento a bassa voce per far correre un brivido.",
-    "level": "L1"
-  },
-  "azione_008": {
-    "label": "Slow dancing",
-    "explanation": "Metti una canzone lenta, abbraccia la sua vita e dondolatevi lasciando che i corpi trovino un’unica oscillazione.",
-    "level": "L1",
-    "needs": ["spazio_minimo"]
-  },
-  "azione_009": {
-    "label": "Massaggio schiena",
-    "explanation": "Fallo stendere a pancia in giù, scalda poche gocce d’olio tra le mani e premi i pollici lungo i lati della colonna lentamente.",
-    "level": "L1",
-    "needs": ["superficie"]
-  },
-  "azione_010": {
-    "label": "Baci a cascata",
-    "explanation": "Parti dalla spalla destra e scendi con baci leggeri fino al gomito, poi risali sul petto e ripeti sull’altro lato.",
-    "level": "L1"
+    "azione_001": {
+      "label": "Bacio sulle labbra",
+      "explanation": "Un bacio lento, senza fretta, dove ogni secondo è un invito. Le labbra si sfiorano, si trovano, si riconoscono.",
+      "level": "L1",
+      "tips": "Chiudi gli occhi un istante prima, avvicinati lentamente e lascia che siano le labbra a parlare. Prova a fermarti a millimetri da quelle del partner prima di toccarle, solo per assaporare l’attesa. A volte un bacio può accendere più di mille carezze."
+    },
+    "azione_002": {
+      "label": "Sfiorare il collo",
+      "explanation": "Passa delicatamente le dita sul collo del partner, seguendo la linea che scende dietro l’orecchio fino alla clavicola.",
+      "level": "L1",
+      "tips": "Il collo è una delle zone più elettriche del corpo: avvicinati da dietro, senza dire nulla, e inizia a esplorare con tocchi leggeri. Soffia appena dopo aver sfiorato: l’effetto brivido è assicurato."
+    },
+    "azione_003": {
+      "label": "Abbraccio a pelle",
+      "explanation": "Stringetevi in un abbraccio con il corpo nudo, lasciando che il calore e il battito raccontino il desiderio.",
+      "level": "L1",
+      "needs": ["superficie"],
+      "tips": "Fallo in piedi, appena svegli, oppure sdraiatɜ su un tappeto. Non serve parlare: basta respirare insieme. È un abbraccio che scioglie, predispone, risveglia qualcosa di profondo."
+    },
+    "azione_004": {
+      "label": "Sguardo fisso",
+      "explanation": "Sedetevi uno di fronte all’altro e guardatevi negli occhi per almeno un minuto, senza dire nulla.",
+      "level": "L1",
+      "tips": "Può sembrare semplice, ma è potente. Prova ad aggiungere un sorriso appena accennato, o a far scivolare una mano verso la gamba del partner mentre lo sguardo continua. È un gioco silenzioso che prepara l'intimità."
+    },
+    "azione_005": {
+      "label": "Accarezzare la schiena",
+      "explanation": "Con le dita o con il palmo della mano, segui lentamente la colonna vertebrale del partner.",
+      "level": "L1",
+      "tips": "Fallo da dietro, mentre è sedutɜ o sdraiatɜ. Ogni tocco deve essere lento, quasi impercettibile. Prova a cambiare ritmo o usare le unghie con leggerezza per provocare una scossa."
+    },
+    "azione_006": {
+      "label": "Bacio sulla spalla",
+      "explanation": "Avvicinati lentamente e lascia un bacio sulla spalla scoperta, con le labbra morbide e un tempo sospeso.",
+      "level": "L1",
+      "tips": "Scegli un momento inaspettato, come mentre sta facendo qualcosa. Solleva lentamente la maglietta o sposta la spallina, baciala, poi allontanati senza dire nulla. L’effetto sorpresa resta sotto pelle."
+    },
+    "azione_007": {
+      "label": "Mano nella mano",
+      "explanation": "Intreccia le dita alla sua mano e stringi con intenzione, come a dire ‘ti voglio qui ora’.",
+      "level": "L1",
+      "tips": "Non limitarti al gesto: gioca con le dita, accarezza il palmo, esplora ogni curva. Anche solo una mano può diventare un intero preliminare, se ci metti attenzione e lentezza."
+    },
+    "azione_008": {
+      "label": "Testa sul petto",
+      "explanation": "Appoggia la testa sul petto del partner e resta lì in silenzio, sentendo il battito rallentare.",
+      "level": "L1",
+      "tips": "Fallo sul divano, in un momento di calma. Aggiungi una mano che accarezza la schiena o le gambe. Questo gesto trasmette fiducia, e prepara la pelle all’intimità che arriva dopo."
+    },
+    "azione_009": {
+      "label": "Massaggio delicato",
+      "explanation": "Usa i polpastrelli per sciogliere le tensioni nelle spalle, nel collo o nella schiena.",
+      "level": "L1",
+      "tips": "Inizia con delicatezza, senza fretta. Puoi usare una crema profumata o un olio leggero. Concentrati su un punto alla volta, e poi resta in silenzio a sentire il corpo che si rilassa sotto le mani."
+    },
+    "azione_010": {
+      "label": "Parole sussurrate",
+      "explanation": "Avvicina le labbra all’orecchio del partner e sussurra qualcosa di dolce, o di appena malizioso.",
+      "level": "L1",
+      "tips": "Può essere un ricordo, un desiderio, o una promessa. L’importante è il tono: basso, lento, con il respiro che accarezza. Le parole dette all’orecchio restano addosso per ore."  
   },
   "azione_011": {
     "label": "Respiri sincronizzati",

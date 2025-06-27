@@ -60,6 +60,7 @@
 
   .card {
     width: 200px;
+    min-height: 200px;
     aspect-ratio: 1;
     padding: 1.25rem;
     border-radius: 18px;
@@ -68,13 +69,97 @@
     box-shadow: 0 4px 16px rgba(127,92,255,0.08), 0 2px 8px rgba(0,0,0,0.06);
     text-align: center;
     position: relative;
-    transition: transform 0.25s, box-shadow 0.25s;
+    transition: transform 0.25s, box-shadow 0.25s, background 0.3s, width 0.35s cubic-bezier(.4,1.4,.6,1), min-height 0.35s cubic-bezier(.4,1.4,.6,1);
     border: 1.2px solid rgba(127,92,255,0.10);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    perspective: 900px;
+    cursor: pointer;
+  }
+
+  .card.expanded {
+    width: 340px;
+    min-height: 260px;
+    z-index: 20;
+    box-shadow: 0 12px 48px rgba(127,92,255,0.18), 0 4px 16px rgba(0,0,0,0.12);
+  }
+
+  .card .card-front, .card .card-back {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100%; height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    transition: background 0.3s;
+  }
+
+  .card .card-back {
+    background: rgba(40,30,60,0.97);
+    color: #fff;
+    transform: rotateY(180deg);
+    padding: 1.2rem 1.1rem 1.1rem 1.1rem;
+    font-size: 1.05rem;
+    text-align: left;
+    box-shadow: 0 8px 32px rgba(127,92,255,0.18);
+    min-height: 180px;
+    height: auto;
+    max-height: 80vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .card.flipped .card-front {
+    transform: rotateY(180deg);
+  }
+
+  .card.flipped .card-back {
+    transform: rotateY(0deg);
+  }
+
+  .card .tips-tooltip {
+    display: none;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(40,30,60,0.72);
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    border-radius: 18px;
+    pointer-events: auto;
+    transition: opacity 0.25s;
+    cursor: pointer;
+  }
+
+  .card:hover .tips-tooltip {
+    display: flex;
+    opacity: 1;
+    animation: fadeIn 0.2s;
+  }
+
+  .card.zoomed .tips-tooltip {
+    display: none !important;
+  }
+
+  .card.flipped .tips-tooltip {
+    display: none !important;
+  }
+
+  .card:hover:not(.flipped) {
+    background: rgba(40,30,60,0.13);
+    box-shadow: 0 8px 32px rgba(40,30,60,0.13);
   }
 
   .card:hover {
@@ -125,6 +210,7 @@
     border-radius: 50%;
     background: rgba(255,255,255,0.5);
     transition: all 0.2s;
+    z-index: 15;
   }
 
   .lock-btn:hover {
@@ -150,6 +236,7 @@
     justify-content: center;
     border-radius: 50%;
     background: rgba(255,255,255,0.5);
+    z-index: 15;
   }
 
   .card-heart:hover {
@@ -181,6 +268,7 @@
     align-items: center;
     justify-content: center;
     padding: 0;
+    z-index: 15;
   }
 
   .info-btn:hover {
@@ -374,6 +462,15 @@
     .fb-btn.osare {
       padding: 0.8rem 1.6rem;
       font-size: 0.9rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .card, .card.expanded {
+      width: 98vw;
+      min-width: 0;
+      max-width: 99vw;
+      min-height: 180px;
     }
   }
 
@@ -576,6 +673,59 @@
     transform: scale(1.2);
     transition: all 0.15s;
   }
+
+  /* Overlay per card espansa */
+  .overlay-card-zoom {
+    position: fixed;
+    top: 0; left: 0; width: 100vw; height: 100vh;
+    background: rgba(40,30,60,0.22);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.18s;
+  }
+  .card.zoomed {
+    position: fixed !important;
+    z-index: 1010 !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) scale(1.25) !important;
+    box-shadow: 0 16px 64px 0 rgba(40,30,60,0.32), 0 2px 8px rgba(127,92,255,0.18) !important;
+    transition: transform 0.28s cubic-bezier(.4,1.4,.6,1), box-shadow 0.28s, left 0s, top 0s;
+    background: rgba(255,255,255,0.98) !important;
+    pointer-events: auto;
+    padding: 2rem !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    max-width: 90vw !important;
+    max-height: 90vh !important;
+    overflow-y: auto !important;
+  }
+  body.no-scroll {
+    overflow: hidden !important;
+  }
+
+  .card-dislike {
+    position: absolute;
+    bottom: 0.75rem;
+    left: 0.75rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.2s;
+    background: none;
+    border: none;
+    padding: 0;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.5);
+    z-index: 15;
+  }
 </style>
 </head>
 <body>
@@ -651,10 +801,15 @@ async function loadAllOptions() {
     const data = await response.json();
     console.log('Loaded options:', data.options); // Debug log
     allOptions = data.options || {};
-    renderEmptyCards();
+    // Non chiamare più renderEmptyCards qui
+    document.getElementById('spinBtn').disabled = false;
+    document.getElementById('spinBtn').style.opacity = '1';
   } catch (error) {
     console.error('Error loading options:', error);
+    // Mostra comunque le card vuote
     renderEmptyCards();
+    document.getElementById('spinBtn').disabled = true;
+    document.getElementById('spinBtn').style.opacity = '0.7';
   }
 }
 
@@ -664,11 +819,19 @@ function renderEmptyCards() {
     const card = document.createElement('div');
     card.className = 'card';
     card.setAttribute('data-backend', cat);
-    card.innerHTML = `<div class="lock-btn">🔓</div>
-                    <button class="info-btn" style="display: none;">❓</button>
-                    <h3>${cat}</h3><p>...</p>
-                    <button class="card-heart" style="display: none;">❤️</button>
-                    <div class="explanation-box"></div>`;
+    card.innerHTML = `<div class="card-front">
+      <div class="lock-btn">🔓<\/div>
+      <button class="info-btn" style="display: none;">❓<\/button>
+      <h3>${cat}<\/h3>
+      <div class="slot-container"><div class="slot-reel"><div class="slot-item">...<\/div><\/div><\/div>
+      <button class="card-heart" style="display: none;">❤️<\/button>
+      <div class="explanation-box"></div>
+      <div class="tips-tooltip">Consigli<\/div>
+    <\/div>
+    <div class="card-back">
+      <div style="font-size:1.15em;font-weight:600;margin-bottom:0.7em;">Consigli<\/div>
+      <div style="white-space:pre-line;">Nessun consiglio disponibile.<\/div>
+    <\/div>`;
     card.querySelector('.lock-btn').style.visibility = 'hidden';
     card.querySelector('.info-btn').style.visibility = 'hidden';
     cardsDiv.appendChild(card);
@@ -757,39 +920,74 @@ function renderCards(data){
     if (cat === "partecipanti" && !showPartecipanti) return;
     let label = getLabel(code);
     let explanation = '';
-    if (mapping && mapping[code] && typeof mapping[code] === 'object' && mapping[code].explanation) {
-      explanation = mapping[code].explanation;
-    } else {
-      explanation = 'Ops, ci hai beccati: qui manca la spiegazione!';
+    let tips = '';
+    if (mapping && mapping[code] && typeof mapping[code] === 'object') {
+      explanation = mapping[code].explanation || '';
+      tips = mapping[code].tips || '';
     }
-    // Bottoni feedback: cuoricino in basso a destra, cacchina in basso a sinistra
     let feedbackBtns = `
       <button class=\"card-dislike\" style=\"position:absolute;bottom:8px;left:8px;font-size:1.4em;background:none;border:none;cursor:pointer;\">💩</button>
       <button class=\"card-heart\" style=\"position:absolute;bottom:8px;right:8px;font-size:1.4em;background:none;border:none;cursor:pointer;\">❤️</button>
     `;
-    // Card HTML: info-btn e explanation-box sono SEMPRE presenti
     const card=document.createElement('div');
     card.className='card'+(locked[cat]?' locked':'');
     card.setAttribute('data-backend', cat);
     card.style.position = 'relative';
-    card.innerHTML=`<div class=\"lock-btn\">${locked[cat]?'🔒':'🔓'}<\/div>
-                    <button class=\"info-btn\">❓<\/button>
-                    <h3>${cat}<\/h3><p>${label}<\/p>
-                    ${feedbackBtns}
-                    <div class=\"explanation-box\">${explanation}<\/div>`;
+    card.innerHTML = `
+      <div class=\"card-front\">
+        <div class=\"lock-btn\">${locked[cat]?'🔒':'🔓'}<\/div>
+        <button class=\"info-btn\">❓<\/button>
+        <h3>${cat}<\/h3>
+        <div class=\"slot-container\"><div class=\"slot-reel\"><div class=\"slot-item\">${label}<\/div><\/div><\/div>
+        ${feedbackBtns}
+        <div class=\"explanation-box\">${explanation}<\/div>
+        <div class=\"tips-tooltip\">Consigli<\/div>
+      <\/div>
+      <div class=\"card-back\">
+        <div style=\"font-size:1.15em;font-weight:600;margin-bottom:0.7em;\">Consigli</div>
+        <div style=\"white-space:pre-line;\">${tips ? tips : 'Nessun consiglio disponibile.'}<\/div>
+      <\/div>
+    `;
     cardsDiv.appendChild(card);
-    // Attiva stato feedback
     const fb = getFeedback(code);
     if (fb.like > 0) card.querySelector('.card-heart').classList.add('active');
     if (fb.dislike > 0) card.querySelector('.card-dislike').classList.add('active');
     if (fb.osare > 0) card.querySelector('.card-dare').classList.add('active');
-    // ContextKey per combinazioni: per luogo passo azione, per altre categorie puoi estendere
     let contextKey = null;
     if (cat === 'luogo' && data.codes['azione']) contextKey = data.codes['azione'];
     attachFeedbackButtons(card, code, contextKey);
+    // Gestione zoom/flip/consigli - LOGICA SEMPLIFICATA E FUNZIONANTE
+    card.onclick = function(e) {
+      console.log('Card clicked!', e.target); // Debug
+      
+      // Se click su lock, info, feedback: non fare nulla
+      if (e.target.closest('.lock-btn') || e.target.closest('.info-btn') || e.target.closest('.card-heart') || e.target.closest('.card-dislike')) {
+        console.log('Click su bottoni, ignoro'); // Debug
+        return;
+      }
+      
+      // Se la card è già zoomata
+      if (card.classList.contains('zoomed')) {
+        // Se click su tips-tooltip (Consigli): solo flip
+        if (e.target.closest('.tips-tooltip')) {
+          console.log('Click su Consigli in overlay, faccio flip'); // Debug
+          e.stopPropagation();
+          card.classList.toggle('flipped');
+          return;
+        }
+        // Altrimenti chiudi
+        console.log('Card già zoomata, chiudo'); // Debug
+        closeZoomedCard();
+        return;
+      }
+      
+      // Altrimenti, apri overlay/zoom (primo click)
+      console.log('Apro overlay/zoom'); // Debug
+      openZoomedCard(card);
+    };
   });
   activateExplanationListeners();
-  activateLockListeners(); // Attiva i listener sui bottoni di lock
+  activateLockListeners();
   feedbackDiv.style.display='block';
 }
 
@@ -812,75 +1010,72 @@ function easeOutBack(t) {
 async function startSpinningAnimation(finalChoices) {
   if (!allOptions) return;
   const cards = document.querySelectorAll('.card');
-  const spinDuration = 3000; // 3 secondi totali
-  const itemHeight = 40;
-  const repeat = 4; // quante volte ripetere le opzioni per effetto rullo
+  const spinDuration = 2000; // durata totale animazione (ms)
+  const cycles = 18; // numero di "giri" minimi prima di fermarsi
+  const itemHeight = 40; // deve corrispondere a .slot-item height
   const animationPromises = [];
   cards.forEach((card, index) => {
     const backendCategory = card.getAttribute('data-backend');
-    // Se la card è bloccata, salta l'animazione
     if (locked[backendCategory]) {
-      animationPromises.push(Promise.resolve()); // Promise già risolta per card bloccate
+      animationPromises.push(Promise.resolve());
       return;
     }
-    
-    // Pulisci la card
-    let oldSlot = card.querySelector('.slot-container');
-    if (oldSlot) oldSlot.remove();
-    let oldP = card.querySelector('p');
-    if (oldP) oldP.remove();
-    // Dati
+    const slotContainer = card.querySelector('.slot-container');
+    const slotReel = card.querySelector('.slot-reel');
+    if (!slotContainer || !slotReel) return;
     const options = allOptions[backendCategory] || [];
     const finalChoice = finalChoices.codes[backendCategory];
-    // Crea la sequenza del rullo (usa label del mapping)
+    // Costruisci la sequenza: tutte le opzioni ripetute + la finale
     let sequence = [];
-    for (let i = 0; i < repeat; i++) sequence = sequence.concat(options);
+    for (let i = 0; i < cycles; i++) sequence.push(options[i % options.length]);
     sequence.push(finalChoice);
-    // Crea DOM
-    const slotContainer = document.createElement('div');
-    slotContainer.className = 'slot-container';
-    const reel = document.createElement('div');
-    reel.className = 'slot-reel';
-    sequence.forEach(option => {
-      const item = document.createElement('div');
-      item.className = 'slot-item';
-      let label = getLabel(option);
-      item.textContent = label;
-      reel.appendChild(item);
+    // Popola la slot-reel con gli elementi
+    slotReel.innerHTML = '';
+    sequence.forEach(code => {
+      const div = document.createElement('div');
+      div.className = 'slot-item';
+      div.textContent = getLabel(code);
+      slotReel.appendChild(div);
     });
-    slotContainer.appendChild(reel);
-    card.appendChild(slotContainer);
-    // Forza reflow
-    reel.offsetHeight;
-    // Animazione
+    // Animazione fluida con requestAnimationFrame
+    let start = null;
+    let totalDistance = itemHeight * (sequence.length - 1);
+    let currentY = 0;
+    let lastFrame = 0;
+    function easeOutCubic(t) { return 1 - Math.pow(1 - t, 3); }
     animationPromises.push(new Promise(resolve => {
-      setTimeout(() => {
-        reel.style.transition = 'transform 1s linear';
-        reel.style.transform = `translateY(-${(sequence.length - 6) * itemHeight}px)`;
-        setTimeout(() => {
-          reel.style.transition = 'transform 2s cubic-bezier(0.1, 0.7, 0.1, 1)';
-          reel.style.transform = `translateY(-${(sequence.length - 1) * itemHeight}px)`;
-          setTimeout(() => {
-            slotContainer.remove();
-            const p = document.createElement('p');
-            let label = getLabel(finalChoice);
-            p.textContent = label;
-            card.appendChild(p);
-            // Aggiorna explanation box
-            let explanation = '';
-            if (mapping && mapping[finalChoice] && typeof mapping[finalChoice] === 'object' && mapping[finalChoice].explanation) {
-              explanation = mapping[finalChoice].explanation;
-            } else {
-              explanation = 'Ops, ci hai beccati: qui manca la spiegazione!';
-            }
-            let explanationBox = card.querySelector('.explanation-box');
-            if (explanationBox) explanationBox.innerHTML = explanation;
-            activateExplanationListeners();
-            activateLockListeners(); // Riapplica anche i listener dei lock
-            resolve();
-          }, 2000);
-        }, 1000);
-      }, 0);
+      function animateSlotReel(ts) {
+        if (!start) { start = ts; lastFrame = ts; }
+        let elapsed = ts - start;
+        let t = Math.min(elapsed / spinDuration, 1);
+        let eased = easeOutCubic(t);
+        let y = eased * totalDistance;
+        slotReel.style.transform = `translateY(-${y}px)`;
+        if (t < 1) {
+          requestAnimationFrame(animateSlotReel);
+        } else {
+          // Fine animazione: mostra solo la scelta estratta
+          slotReel.innerHTML = '';
+          const div = document.createElement('div');
+          div.className = 'slot-item';
+          div.textContent = getLabel(finalChoice);
+          slotReel.appendChild(div);
+          slotReel.style.transform = 'translateY(0)';
+          // Aggiorna explanation box
+          let explanation = '';
+          if (mapping && mapping[finalChoice] && typeof mapping[finalChoice] === 'object' && mapping[finalChoice].explanation) {
+            explanation = mapping[finalChoice].explanation;
+          } else {
+            explanation = 'Ops, ci hai beccati: qui manca la spiegazione!';
+          }
+          let explanationBox = card.querySelector('.explanation-box');
+          if (explanationBox) explanationBox.innerHTML = explanation;
+          activateExplanationListeners();
+          activateLockListeners();
+          resolve();
+        }
+      }
+      requestAnimationFrame(animateSlotReel);
     }));
   });
   await Promise.all(animationPromises);
@@ -1197,6 +1392,83 @@ document.addEventListener('click', (e) => {
     }
   });
 });
+
+// Alla fine del caricamento iniziale, mostra le card vuote con la struttura giusta
+window.addEventListener('DOMContentLoaded', () => {
+  loadMapping().then(loadAllOptions).then(() => {
+    renderEmptyCards();
+  });
+});
+
+// Funzioni overlay zoom - VERSIONE CORRETTA
+function openZoomedCard(card) {
+  console.log('Opening zoomed card'); // Debug
+  
+  // Crea overlay
+  let overlay = document.createElement('div');
+  overlay.className = 'overlay-card-zoom';
+  overlay.onclick = function(e) {
+    if (e.target === overlay) {
+      closeZoomedCard();
+    }
+  };
+  document.body.appendChild(overlay);
+  
+  // Estrai solo il testo dei consigli dalla card
+  const cardBack = card.querySelector('.card-back');
+  let tipsText = 'Nessun consiglio disponibile.';
+  
+  if (cardBack) {
+    // Trova il div che contiene il testo dei consigli (il secondo div)
+    const tipsDiv = cardBack.querySelector('div:last-child');
+    if (tipsDiv) {
+      tipsText = tipsDiv.textContent || tipsDiv.innerText || 'Nessun consiglio disponibile.';
+    }
+  }
+  
+  // Crea un contenitore per i consigli in grande
+  let tipsContainer = document.createElement('div');
+  tipsContainer.className = 'zoomed-tips-container';
+  tipsContainer.style.cssText = `
+    position: fixed;
+    z-index: 1010;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(40,30,60,0.97);
+    color: #fff;
+    padding: 2rem;
+    border-radius: 18px;
+    box-shadow: 0 16px 64px 0 rgba(40,30,60,0.32), 0 2px 8px rgba(127,92,255,0.18);
+    max-width: 90vw;
+    max-height: 90vh;
+    overflow-y: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: left;
+    transition: transform 0.28s cubic-bezier(.4,1.4,.6,1);
+  `;
+  
+  // Aggiungi il contenuto dei consigli
+  tipsContainer.innerHTML = `
+    <div style="font-size:1.4em;font-weight:600;margin-bottom:1em;text-align:center;">Consigli</div>
+    <div style="white-space:pre-line;">${tipsText}</div>
+  `;
+  
+  overlay.appendChild(tipsContainer);
+  document.body.classList.add('no-scroll');
+}
+
+function closeZoomedCard() {
+  console.log('Closing zoomed card'); // Debug
+  let overlay = document.querySelector('.overlay-card-zoom');
+  if (!overlay) return;
+  
+  overlay.remove();
+  document.body.classList.remove('no-scroll');
+}
 </script>
 </body>
 </html> 
