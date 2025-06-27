@@ -609,7 +609,7 @@
       "needs": []
     },
     "azione_090": {
-      "label": "Scopate in cima a una salita o su una roccia panoramica",
+      "label": "Scopate ad alta quota",
       "explanation": "Arrivate in un punto alto, spogliati quel tanto che basta e prendilo in un abbraccio selvaggio.",
       "level": "L4",
       "tips": "Il panorama è la vostra platea. Il fiato corto della camminata si confonde con i sospiri. Mettiti a cavalcioni, lascia che il vento vi tocchi. Sei in cima al mondo, e anche dentro di te c’è un picco.",
@@ -985,7 +985,7 @@
     "explanation": "Prenditi un amante e obbliga il tuo uomo a toccarsi senza intervenire.",
     "level": "L6",
     "tips": "Guardalo mentre geme, digli quanto sei bagnata e che non è per lui. Se ti chiede di fermarti, sorridi e vai più forte.",
-    "needs": ["cuckold"]
+    "needs": ["cuckold","group"]
   },
   "azione_144": {
     "label": "Fatti legare e usa solo la bocca con tre uomini",
