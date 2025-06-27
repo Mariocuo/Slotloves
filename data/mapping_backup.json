@@ -1,0 +1,3203 @@
+{
+    "azione_001": {
+      "label": "Bacio sulle labbra",
+      "explanation": "Un bacio lento, senza fretta, dove ogni secondo è un invito. Le labbra si sfiorano, si trovano, si riconoscono.",
+      "level": "L1",
+      "tips": "Chiudi gli occhi un istante prima, avvicinati lentamente e lascia che siano le labbra a parlare. Prova a fermarti a millimetri da quelle del partner prima di toccarle, solo per assaporare l’attesa. A volte un bacio può accendere più di mille carezze."
+    },
+    "azione_002": {
+      "label": "Sfiorare il collo",
+      "explanation": "Passa delicatamente le dita sul collo del partner, seguendo la linea che scende dietro l’orecchio fino alla clavicola.",
+      "level": "L1",
+      "tips": "Il collo è una delle zone più elettriche del corpo: avvicinati da dietro, senza dire nulla, e inizia a esplorare con tocchi leggeri. Soffia appena dopo aver sfiorato: l’effetto brivido è assicurato."
+    },
+    "azione_003": {
+      "label": "Abbraccio a pelle",
+      "explanation": "Stringetevi in un abbraccio con il corpo nudo, lasciando che il calore e il battito raccontino il desiderio.",
+      "level": "L1",
+      "needs": ["superficie"],
+      "tips": "Fallo in piedi, appena svegli, oppure sdraiatɜ su un tappeto. Non serve parlare: basta respirare insieme. È un abbraccio che scioglie, predispone, risveglia qualcosa di profondo."
+    },
+    "azione_004": {
+      "label": "Sguardo fisso",
+      "explanation": "Sedetevi uno di fronte all’altro e guardatevi negli occhi per almeno un minuto, senza dire nulla.",
+      "level": "L1",
+      "tips": "Può sembrare semplice, ma è potente. Prova ad aggiungere un sorriso appena accennato, o a far scivolare una mano verso la gamba del partner mentre lo sguardo continua. È un gioco silenzioso che prepara l'intimità."
+    },
+    "azione_005": {
+      "label": "Accarezzare la schiena",
+      "explanation": "Con le dita o con il palmo della mano, segui lentamente la colonna vertebrale del partner.",
+      "level": "L1",
+      "tips": "Fallo da dietro, mentre è sedutɜ o sdraiatɜ. Ogni tocco deve essere lento, quasi impercettibile. Prova a cambiare ritmo o usare le unghie con leggerezza per provocare una scossa."
+    },
+    "azione_006": {
+      "label": "Bacio sulla spalla",
+      "explanation": "Avvicinati lentamente e lascia un bacio sulla spalla scoperta, con le labbra morbide e un tempo sospeso.",
+      "level": "L1",
+      "tips": "Scegli un momento inaspettato, come mentre sta facendo qualcosa. Solleva lentamente la maglietta o sposta la spallina, baciala, poi allontanati senza dire nulla. L’effetto sorpresa resta sotto pelle."
+    },
+    "azione_007": {
+      "label": "Mano nella mano",
+      "explanation": "Intreccia le dita alla sua mano e stringi con intenzione, come a dire ‘ti voglio qui ora’.",
+      "level": "L1",
+      "tips": "Non limitarti al gesto: gioca con le dita, accarezza il palmo, esplora ogni curva. Anche solo una mano può diventare un intero preliminare, se ci metti attenzione e lentezza."
+    },
+    "azione_008": {
+      "label": "Testa sul petto",
+      "explanation": "Appoggia la testa sul petto del partner e resta lì in silenzio, sentendo il battito rallentare.",
+      "level": "L1",
+      "tips": "Fallo sul divano, in un momento di calma. Aggiungi una mano che accarezza la schiena o le gambe. Questo gesto trasmette fiducia, e prepara la pelle all’intimità che arriva dopo."
+    },
+    "azione_009": {
+      "label": "Massaggio delicato",
+      "explanation": "Usa i polpastrelli per sciogliere le tensioni nelle spalle, nel collo o nella schiena.",
+      "level": "L1",
+      "tips": "Inizia con delicatezza, senza fretta. Puoi usare una crema profumata o un olio leggero. Concentrati su un punto alla volta, e poi resta in silenzio a sentire il corpo che si rilassa sotto le mani."
+    },
+    "azione_010": {
+      "label": "Parole sussurrate",
+      "explanation": "Avvicina le labbra all’orecchio del partner e sussurra qualcosa di dolce, o di appena malizioso.",
+      "level": "L1",
+      "tips": "Può essere un ricordo, un desiderio, o una promessa. L’importante è il tono: basso, lento, con il respiro che accarezza. Le parole dette all’orecchio restano addosso per ore."  
+  },
+  "azione_011": {
+    "label": "Respiri sincronizzati",
+    "explanation": "Sdraiati faccia a faccia, appoggia la mano sul suo petto e chiedi di respirare al tuo ritmo finché inspirate all’unisono.",
+    "level": "L1"
+  },
+  "azione_012": {
+    "label": "Bacio sul dorso della mano",
+    "explanation": "Porta la sua mano alle labbra, mantieni lo sguardo e sfiora la pelle con un bacio fermo per un gesto di adorazione.",
+    "level": "L1"
+  },
+  "azione_013": {
+    "label": "Coccole sul divano",
+    "explanation": "Sedetevi vicini, intreccia le gambe alle sue e esplora braccia e schiena con tocchi leggeri senza fretta.",
+    "level": "L1",
+    "needs": ["superficie"]
+  },
+  "azione_014": {
+    "label": "Bacio farfalla",
+    "explanation": "Avvicina il tuo viso al suo e sfiora le ciglia con le tue: un gioco innocente che scioglie la tensione iniziale.",
+    "level": "L1"
+  },
+  "azione_015": {
+    "label": "Preparare tè insieme",
+    "explanation": "Scegliete un infuso, bollite l’acqua e versatela insieme: il vapore caldo crea complicità prima di tornare alle coccole.",
+    "level": "L1"
+  },
+  "azione_016": {
+    "label": "Doccia insieme",
+    "explanation": "Entrate nella cabina uno di fronte all’altro; insapona il partner lentamente e risciacqualo seguendo l’acqua con le mani.",
+    "level": "L1",
+    "needs": ["doccia", "acqua"]
+  },
+  "azione_017": {
+    "label": "Carezza interno braccio",
+    "explanation": "Sfiora con la punta delle dita la pelle tra polso e ascella: è una zona sensibile che provoca brividi inaspettati.",
+    "level": "L1"
+  },
+  "azione_018": {
+    "label": "Ascoltare musica abbracciati",
+    "explanation": "Sedete schiena-contro-petto con cuffie condivise; lasciate che il ritmo calmi il respiro mentre vi accarezzate.",
+    "level": "L1"
+  },
+  "azione_019": {
+    "label": "Bacio sulla spalla",
+    "explanation": "Scosta la spallina, posa un bacio lento sul deltoide e assapora il sussulto che segue.",
+    "level": "L1"
+  },
+  "azione_020": {
+    "label": "Passeggiata mano nella mano",
+    "explanation": "Uscite per qualche minuto d’aria fresca camminando allo stesso passo con le dita intrecciate.",
+    "level": "L1"
+  },
+  "azione_021": {
+    "label": "Penetrazione lenta",
+    "explanation": "Sistematevi in missionario e guida l’ingresso con calma; mantieni un ritmo profondo e dolce, sincronizzando i respiri per percepire ogni movimento.",
+    "level": "L2",
+    "needs": ["superficie"]
+  },
+  "azione_022": {
+    "label": "Frottage con vestiti",
+    "explanation": "Strusciatevi corpo a corpo lasciando parte dei vestiti addosso; il contrasto dei tessuti sui punti caldi aumenta l’attesa prima di spogliarsi del tutto.",
+    "level": "L2"
+  },
+  "azione_023": {
+    "label": "Sesso orale soft",
+    "explanation": "Posizionati tra le cosce del partner, usa la punta della lingua per cerchi lenti alternati a succhi delicati; calibra la pressione in base ai suoi gemiti.",
+    "level": "L2"
+  },
+  "azione_024": {
+    "label": "Posizione cucchiaio sensuale",
+    "explanation": "Penetrazione laterale con corpi aderenti; una mano esplora il petto o il clitoride mentre il bacino spinge con dolce costanza.",
+    "level": "L2",
+    "needs": ["superficie"]
+  },
+  "azione_025": {
+    "label": "Lingua e capezzoli",
+    "explanation": "Solleva il seno e disegna piccoli cerchi sull’areola con la lingua, alternando succhi per stimolare il capezzolo.",
+    "level": "L2"
+  },
+  "azione_026": {
+    "label": "Spanking leggero",
+    "explanation": "Dai colpetti con la mano aperta sulle natiche; dopo ogni schiaffo carezza la zona per diffondere il calore e intensificare il piacere.",
+    "level": "L2",
+    "needs": ["pain"]
+  },
+  "azione_027": {
+    "label": "Bacio profondo con lingua",
+    "explanation": "Inizia con labbra socchiuse, poi esplora lentamente la sua bocca; alterna movimenti circolari a succhi languidi del labbro inferiore.",
+    "level": "L2"
+  },
+  "azione_028": {
+    "label": "Sedersi sulle ginocchia",
+    "explanation": "Fai sedere il partner e accomodati a cavalcioni: controlla ritmo e profondità mantenendo lo sguardo fisso per amplificare l’intimità.",
+    "level": "L2",
+    "needs": ["superficie"]
+  },
+  "azione_029": {
+    "label": "Quickie dolce",
+    "explanation": "Appoggiati a una parete o tavolo per pochi minuti di penetrazione rapida, accompagnata da baci e carezze continue.",
+    "level": "L2",
+    "needs": ["superficie"]
+  },
+  "azione_030": {
+    "label": "Stimolazione manuale clitoridea",
+    "explanation": "Disegna un otto rovesciato sul clitoride con due dita; varia pressione e pause per aumentare la sensibilità e costruire l’orgasmo.",
+    "level": "L2"
+  },
+  "azione_031": {
+    "label": "Tirare leggero i capelli",
+    "explanation": "Afferra una ciocca vicino alle radici, solleva la testa del partner mentre lo baci per enfatizzare il controllo.",
+    "level": "L2"
+  },
+  "azione_032": {
+    "label": "Succhiare il lobo",
+    "explanation": "Avvolgi il lobo tra labbra e denti, alternando un morso leggero a carezze con la lingua; il contrasto genera brividi immediati.",
+    "level": "L2"
+  },
+  "azione_033": {
+    "label": "Lingua sul basso ventre",
+    "explanation": "Parti dall’ombelico e scendi lentamente verso l’inguine senza toccare i genitali; la suspense farà fremere il partner.",
+    "level": "L2"
+  },
+  "azione_034": {
+    "label": "Orgasmo guidato a parole",
+    "explanation": "Dai istruzioni precise durante la stimolazione: quando respirare, contrarre i muscoli e lasciarsi andare; la voce diventa comando.",
+    "level": "L2"
+  },
+  "azione_035": {
+    "label": "Penetrazione seduti fronte a fronte",
+    "explanation": "Sedetevi a gambe incrociate uno di fronte all’altra; la penetrazione avviene tenendovi per le spalle, favorendo contatto visivo costante.",
+    "level": "L2",
+    "needs": ["superficie"]
+  },
+  "azione_036": {
+    "label": "Gioco capezzoli mani e bocca",
+    "explanation": "Pinza delicatamente un capezzolo tra due dita mentre l’altro viene leccato; alterna i ruoli per raddoppiare la stimolazione.",
+    "level": "L2"
+  },
+  "azione_037": {
+    "label": "Palpeggiare i fianchi",
+    "explanation": "Afferra i fianchi del partner durante baci o penetrazione, guidandone ritmo e profondità per trasmettere desiderio.",
+    "level": "L2"
+  },
+  "azione_038": {
+    "label": "Teasing con punta lingua",
+    "explanation": "Sfiora con la punta della lingua la pelle sopra i genitali senza mai toccarli; arretra ogni volta che il partner avanza.",
+    "level": "L2"
+  },
+  "azione_039": {
+    "label": "Cuscino sotto bacino",
+    "explanation": "Posiziona un cuscino sotto la zona lombare per sollevare il bacino; l’angolo rende la penetrazione più profonda.",
+    "level": "L2",
+    "needs": ["superficie"]
+  },
+  "azione_040": {
+    "label": "Bacio umido sul seno",
+    "explanation": "Riscalda il capezzolo con il fiato, poi avvolgilo con la bocca umida alternando succhi e movimenti circolari della lingua.",
+    "level": "L2"
+  },
+  "azione_041": {
+    "label": "Doggy style vigoroso",
+    "explanation": "Fai piegare il partner a quattro zampe, afferra i fianchi e spingi con ritmo deciso alternando colpi profondi a carezze sulla schiena.",
+    "level": "L3",
+    "needs": ["superficie"]
+  },
+  "azione_042": {
+    "label": "Spanking medio con mano",
+    "explanation": "Colpisci le natiche con la mano aperta finché la pelle diventa calda, quindi massaggia per far diffondere il bruciore piacevole.",
+    "level": "L3",
+    "needs": ["pain"]
+  },
+  "azione_043": {
+    "label": "Facesitting deciso",
+    "explanation": "Siediti sul viso del partner controllando il ritmo del respiro; usa le mani per guidare la testa mentre ricevi piacere orale.",
+    "level": "L3",
+    "needs": ["superficie"]
+  },
+  "azione_044": {
+    "label": "Dirty-talk esplicito",
+    "explanation": "Racconta al partner cosa desideri in dettaglio, usando parole crude che descrivono ogni gesto; la verbalizzazione aumenta la tensione.",
+    "level": "L3"
+  },
+  "azione_045": {
+    "label": "Bondage base con foulard",
+    "explanation": "Lega i polsi del partner sopra la testa con un foulard morbido, mantenendo libertà di movimento limitata ma confortevole.",
+    "level": "L3",
+    "needs": ["bondage"]
+  },
+  "azione_046": {
+    "label": "Penetrazione profonda",
+    "explanation": "Spingiti fino al limite ad ogni affondo, fermandoti qualche secondo per far percepire la pienezza, poi riprendi con ritmo costante.",
+    "level": "L3",
+    "needs": ["superficie"]
+  },
+  "azione_047": {
+    "label": "Edging ripetuto",
+    "explanation": "Porta il partner vicino all’orgasmo tre volte interrompendo la stimolazione all’ultimo momento; il culmine finale sarà esplosivo.",
+    "level": "L3"
+  },
+  "azione_048": {
+    "label": "Vibratore durante sesso",
+    "explanation": "Appoggia un bullet sul clitoride o sul frenulo mentre penetri: la doppia stimolazione amplifica le sensazioni di entrambi.",
+    "level": "L3",
+    "needs": ["oggetto"]
+  },
+  "azione_049": {
+    "label": "Frottage nudi lubrificato",
+    "explanation": "Coprite di olio i vostri corpi e strusciatevi pelle contro pelle, scivolando l’uno sull’altro senza penetrare subito.",
+    "level": "L3",
+    "needs": ["lubrificante"]
+  },
+  "azione_050": {
+    "label": "Morsi marcati sul collo",
+    "explanation": "Afferra la pelle tra i denti e lascia un segno visibile; lenisci con la lingua per trasformare il dolore in brivido.",
+    "level": "L3",
+    "needs": ["pain"]
+  },
+  "azione_051": {
+    "label": "Gioco di potere con ordini",
+    "explanation": "Dai comandi chiari su posizioni e movimenti; il partner obbedisce immediatamente aumentando la tensione erotica.",
+    "level": "L3"
+  },
+  "azione_052": {
+    "label": "Penetrazione contro il muro",
+    "explanation": "Sollevando una gamba del partner, spingi contro la parete per colpi rapidi e profondi; l’appoggio verticale cambia l’angolazione.",
+    "level": "L3",
+    "needs": ["superficie"]
+  },
+  "azione_053": {
+    "label": "Stimolazione anale soft",
+    "explanation": "Usa un dito o un piccolo plug con abbondante lubrificante, massaggiando lentamente lo sfintere per abituarlo alla sensazione.",
+    "level": "L3",
+    "needs": ["anal", "lubrificante"]
+  },
+  "azione_054": {
+    "label": "Cowgirl invertita energica",
+    "explanation": "Il partner si siede sopra rivolto verso i tuoi piedi; controlla profondità e ritmo con movimenti circolari dei fianchi.",
+    "level": "L3",
+    "needs": ["superficie"]
+  },
+  "azione_055": {
+    "label": "Succhiare le dita",
+    "explanation": "Prendi due dita del partner e succhiale lentamente, mantenendo il contatto visivo per suggerire ciò che potresti fare altrove.",
+    "level": "L3"
+  },
+  "azione_056": {
+    "label": "Sesso in piedi",
+    "explanation": "Penetrazione verticale con il partner spinto contro una parete, alternando colpi veloci e profondi a pause con baci intensi.",
+    "level": "L3",
+    "needs": ["superficie"]
+  },
+  "azione_057": {
+    "label": "Stimolazione prostatica manuale",
+    "explanation": "Introduci un dito ben lubrificato e massaggia la parete anteriore a piccoli movimenti circolari per stimolare il punto P.",
+    "level": "L3",
+    "needs": ["anal", "lubrificante"]
+  },
+  "azione_058": {
+    "label": "Penetrazione rapida",
+    "explanation": "Accordatevi per un ritmo molto veloce; il partner respira a colpi brevi mentre tu mantieni costante la velocità.",
+    "level": "L3",
+    "needs": ["superficie"]
+  },
+  "azione_059": {
+    "label": "Facesitting prolungato",
+    "explanation": "Siediti sul viso del partner e muoviti a tuo piacimento, controllando pressione e accesso; regola il respiro dell’altro con cenni.",
+    "level": "L3",
+    "needs": ["superficie"]
+  },
+  "azione_060": {
+    "label": "Orgasm control a comando",
+    "explanation": "Il partner può venire solo quando glielo concedi; mantieni il controllo con parole ferme e una mano che impone il ritmo.",
+    "level": "L3"
+  },
+  "azione_061": {
+    "label": "Bondage shibari base",
+    "explanation": "Esegui una legatura estetica su torace e braccia limitando i movimenti; la costrizione aumenta la resa dei sensi.",
+    "level": "L4",
+    "needs": ["bondage", "sospensione"]
+  },
+  "azione_062": {
+    "label": "Choking leggero",
+    "explanation": "Applica una mano sul collo del partner esercitando pressione controllata per pochi secondi, poi rilascia ma resta in contatto.",
+    "level": "L4",
+    "needs": ["pain"]
+  },
+  "azione_063": {
+    "label": "Anal profondo",
+    "explanation": "Usa dildo o penetrazione con abbondante lubrificante; procedi lentamente fino alla profondità desiderata, mantenendo respiro calmo.",
+    "level": "L4",
+    "needs": ["anal", "lubrificante"]
+  },
+  "azione_064": {
+    "label": "Spanking paddle forte",
+    "explanation": "Impugna un paddle in cuoio e colpisci le natiche con colpi decisi a ritmo costante; alterna colpi su entrambe le guance.",
+    "level": "L4",
+    "needs": ["pain"]
+  },
+  "azione_065": {
+    "label": "Dominazione dura",
+    "explanation": "Stabilisci regole rigide, usa tono autoritario e non accettare esitazioni; la fermezza crea un’eccitante dinamica di potere.",
+    "level": "L4"
+  },
+  "azione_066": {
+    "label": "Edge & denial estremo",
+    "explanation": "Porta il partner all’orlo dell’orgasmo cinque o più volte, fermandoti ogni volta per prolungare la frustrazione erotica.",
+    "level": "L4"
+  },
+  "azione_067": {
+    "label": "Double penetration toy",
+    "explanation": "Combina penetrazione vaginale con dildo anale o viceversa; usa molto lubrificante e coordina i movimenti per stimolazione simultanea.",
+    "level": "L4",
+    "needs": ["oggetto", "lubrificante"]
+  },
+  "azione_068": {
+    "label": "Faceslapping consensuale",
+    "explanation": "Dai schiaffi leggeri sul volto del partner, subito seguiti da carezze; mantieni il contatto visivo per assicurarti del consenso.",
+    "level": "L4",
+    "needs": ["pain"]
+  },
+  "azione_069": {
+    "label": "Electro-play base",
+    "explanation": "Collega elettrodi TENS a bassa intensità su capezzoli o cosce; aumenta lentamente il voltaggio finché il partner reagisce con brividi.",
+    "level": "L4",
+    "needs": ["oggetto"]
+  },
+  "azione_070": {
+    "label": "Wax-play caldo/freddo",
+    "explanation": "Fai gocciolare cera calda a distanza moderata, poi passa un cubetto di ghiaccio sulla stessa zona creando un contrasto termico.",
+    "level": "L4",
+    "needs": ["oggetto", "pain"]
+  },
+  "azione_071": {
+    "label": "Penetrazione rough",
+    "explanation": "Usa movimenti forti e rapidi, afferrando i fianchi del partner per guidare la profondità; mantieni l’intensità costante.",
+    "level": "L4",
+    "needs": ["superficie"]
+  },
+  "azione_072": {
+    "label": "Immobilizzazione completa",
+    "explanation": "Lega polsi e caviglie ai quattro angoli del letto; il corpo esposto è suscettibile a carezze, baci o colpi a tua discrezione.",
+    "level": "L4",
+    "needs": ["bondage", "superficie"]
+  },
+  "azione_073": {
+    "label": "Orgasm forzato con wand",
+    "explanation": "Applica un wand vibrante sul clitoride o glande e mantienilo fermo finché il partner raggiunge orgasmi ripetuti incontrollabili.",
+    "level": "L4",
+    "needs": ["oggetto"]
+  },
+  "azione_074": {
+    "label": "Punizione flogger",
+    "explanation": "Usa un flogger in suede o cuoio per sferzare spalle e natiche con serie di colpi crescenti; alterna carezze per modulare la sensazione.",
+    "level": "L4",
+    "needs": ["pain"]
+  },
+  "azione_075": {
+    "label": "Gioco respiro controllato",
+    "explanation": "Copri parzialmente la bocca del partner o usa una mano sul naso per brevi pause di respiro, sempre con segnali di sicurezza concordati.",
+    "level": "L4",
+    "needs": ["pain"]
+  },
+  "azione_076": {
+    "label": "Inserti anali larghi",
+    "explanation": "Inserisci plug di diametro generoso con tanto lubrificante; lascia che il partner si abitui prima di iniziare movimenti delicati.",
+    "level": "L4",
+    "needs": ["anal", "oggetto", "lubrificante"]
+  },
+  "azione_077": {
+    "label": "Dominazione verbale estrema",
+    "explanation": "Usa un tono duro e termini espliciti per impartire ordini; il linguaggio crudo rinforza la dinamica dominante-sottomesso.",
+    "level": "L4"
+  },
+  "azione_078": {
+    "label": "Sottomissione totale",
+    "explanation": "Il partner sottomesso accetta ogni comando senza parlare; stabilisci un gesto-safe-word per sicurezza e conduci l’intera sessione.",
+    "level": "L4"
+  },
+  "azione_079": {
+    "label": "Punizione orgasmo negato",
+    "explanation": "Vieta al partner di raggiungere l’orgasmo per tutta la sessione; ogni tentativo viene interrotto o seguito da lieve punizione.",
+    "level": "L4"
+  },
+  "azione_080": {
+    "label": "Penetrazione multipla straps",
+    "explanation": "Usa straps o toy doppi per stimolare più orifizi; coordina i movimenti per evitare disagi e massimizzare il riempimento.",
+    "level": "L4",
+    "needs": ["oggetto", "lubrificante"]
+  },
+  "azione_081": {
+    "label": "Fisting lento",
+    "explanation": "Inserisci la mano in modo graduale con abbondante lubrificante, rispettando i segnali del partner e fermandoti appena avverti resistenza.",
+    "level": "L5",
+    "needs": ["anal", "lubrificante"]
+  },
+  "azione_082": {
+    "label": "Electro-play avanzato",
+    "explanation": "Applica elettrodi a pinza su genitali o capezzoli e usa un controller pulsato con pattern complessi per stimolazioni a più frequenze.",
+    "level": "L5",
+    "needs": ["oggetto"]
+  },
+  "azione_083": {
+    "label": "Gangbang consensuale",
+    "explanation": "Organizza più partner che si alternano a stimolare la stessa persona; definisci confini e segnale di stop chiaro prima di iniziare.",
+    "level": "L5"
+  },
+  "azione_084": {
+    "label": "Humiliation play hardcore",
+    "explanation": "Usa parole degradanti e pose sottomesse; assicurati che il partner trovi eccitante la dinamica di umiliazione consensuale.",
+    "level": "L5"
+  },
+  "azione_085": {
+    "label": "Vac-bed latex",
+    "explanation": "Sigilla il partner in un sacco di lattice aspirando l’aria; la pressione costante immobilizza completamente lasciando solo fori essenziali.",
+    "level": "L5",
+    "needs": ["bondage", "sospensione"]
+  },
+  "azione_086": {
+    "label": "Suspension bondage",
+    "explanation": "Sospendi il corpo con corde e supporti adeguati; alterna rotazioni leggere a stimolazioni dei punti esposti.",
+    "level": "L5",
+    "needs": ["bondage", "sospensione"]
+  },
+  "azione_087": {
+    "label": "Needle play light",
+    "explanation": "Inserisci aghi sterili superficialmente su petto o cosce formando un motivo estetico; rimuovili lentamente per intensificare la sensazione.",
+    "level": "L5",
+    "needs": ["pain"]
+  },
+  "azione_088": {
+    "label": "Choking profondo",
+    "explanation": "Applica pressione più intensa sul collo del partner per qualche secondo; rilascia e lascia che il sangue ritorni per euforia naturale.",
+    "level": "L5",
+    "needs": ["pain"]
+  },
+  "azione_089": {
+    "label": "Spanking estremo cane bamboo",
+    "explanation": "Usa una canna di bambù per colpire glutei e cosce lasciando segni evidenti; passa una crema lenitiva tra una serie e l’altra.",
+    "level": "L5",
+    "needs": ["pain"]
+  },
+  "azione_090": {
+    "label": "Orgia kink privata",
+    "explanation": "Partecipa con più partner a scene varie in un ambiente controllato; definisci limiti, safe-word e igiene prima di iniziare.",
+    "level": "L5"
+  },
+  "azione_091": {
+    "label": "Pegging strap-on prolungato",
+    "explanation": "Indossa uno strap-on e penetra il partner anale con ritmo che varia da lento a martellante, aggiungendo gioco verbale dominante.",
+    "level": "L5",
+    "needs": ["anal", "oggetto", "lubrificante"]
+  },
+  "azione_092": {
+    "label": "Macchina del sesso",
+    "explanation": "Posiziona il partner su una macchina a spinta alternata regolando velocità e profondità; sorveglia costantemente il comfort.",
+    "level": "L5",
+    "needs": ["oggetto", "lubrificante"]
+  },
+  "azione_093": {
+    "label": "CBT intenso",
+    "explanation": "Applica corde, pesi o pinze sui genitali maschili alternando tensione e rilascio controllati per massimizzare la sensibilità.",
+    "level": "L5",
+    "needs": ["pain"]
+  },
+  "azione_094": {
+    "label": "Chastity lock 24h",
+    "explanation": "Chiudi il partner in una gabbia di castità e trattieni la chiave per un giorno intero per un gioco di controllo prolungato.",
+    "level": "L5",
+    "needs": ["oggetto"]
+  },
+  "azione_095": {
+    "label": "Edge denial 1h",
+    "explanation": "Stimola il partner quasi fino all’orgasmo per un’ora intera senza lasciarlo venire, poi decidi se concedere o prolungare ancora.",
+    "level": "L5"
+  },
+  "azione_096": {
+    "label": "Double fisting toy",
+    "explanation": "Utilizza due grossi toy o mani con abbondante lubrificante, procedendo in modo graduale e monitorando costantemente il comfort.",
+    "level": "L5",
+    "needs": ["anal", "oggetto", "lubrificante"]
+  },
+  "azione_097": {
+    "label": "Dominare schiavi multipli",
+    "explanation": "Gestisci due o più sottomessi impartendo ordini differenti; coordina le azioni per mantenere alta la tensione su tutti.",
+    "level": "L5"
+  },
+  "azione_098": {
+    "label": "Streaming live privato",
+    "explanation": "Trasmetti la sessione a un pubblico selezionato online, impostando angoli di ripresa che mostrino solo ciò che desiderate condividere.",
+    "level": "L5"
+  },
+  "azione_099": {
+    "label": "Croce di Sant'Andrea",
+    "explanation": "Fissa il partner sulla croce X con polsi e caviglie legati; il corpo esposto è pronto per flogging, cera o semplici carezze.",
+    "level": "L5",
+    "needs": ["bondage", "superficie"]
+  },
+  "azione_100": {
+    "label": "Vacuum pumping estremo",
+    "explanation": "Applica una pompa a vuoto su zona erogena (pene, capezzoli o vulva) e aumenta gradualmente la pressione per vasodilatazione intensa.",
+    "level": "L5",
+    "needs": ["oggetto"]
+  },
+  "azione_null": {
+    "label": "qui non devi fare nulla",
+    "explanation": "",
+    "level": ""
+  },
+  "outfit_001": {
+    "label": "T-shirt oversize",
+    "explanation": "La tua maglietta preferita, lunga fino a metà coscia: informale e rassicurante, invita a essere sollevata con un sorriso.",
+    "level": "L1"
+  },
+  "outfit_002": {
+    "label": "Pigiama morbido",
+    "explanation": "Completo in cotone leggero, facile da sbottonare; perfetto per transizioni lente dal relax al contatto pelle.",
+    "level": "L1"
+  },
+  "outfit_003": {
+    "label": "Felpa e leggings",
+    "explanation": "Combinazione da divano: elastica sui fianchi, calda sulle braccia; si sfila in un attimo per lasciare braccia libere alle carezze.",
+    "level": "L1"
+  },
+  "outfit_004": {
+    "label": "Camicia di lui",
+    "explanation": "Indossa solo la sua camicia slacciata: crea un effetto “rubata dal suo armadio” dal fascino innocente.",
+    "level": "L1"
+  },
+  "outfit_005": {
+    "label": "Maglione oversize",
+    "explanation": "Lana soffice che scopre una spalla quando ti muovi: ideale per serate fredde e baci improvvisi sul collo.",
+    "level": "L1"
+  },
+  "outfit_006": {
+    "label": "Leggings basic",
+    "explanation": "Aderenti ma opachi, definiscono le curve senza scoprirle, lasciando al partner il piacere di sfilarteli lentamente.",
+    "level": "L1"
+  },
+  "outfit_007": {
+    "label": "Accappatoio in spugna",
+    "explanation": "Morbido e avvolgente, si apre con un solo nodo: perfetto dopo la doccia condivisa o per una coccola improvvisa.",
+    "level": "L1"
+  },
+  "outfit_008": {
+    "label": "Calzini divertenti",
+    "explanation": "Motivi colorati che invitano a spogliarsi partendo dai piedi, tra risate e carezze leggere.",
+    "level": "L1"
+  },
+  "outfit_009": {
+    "label": "Short sportivi",
+    "explanation": "Tessuto tecnico leggero, elastico sui glutei; basta un gesto per farli scivolare a terra.",
+    "level": "L1"
+  },
+  "outfit_010": {
+    "label": "Top spalline sottili",
+    "explanation": "Scollatura a V e stoffa morbida; un dito sotto la spallina e il gioco è fatto.",
+    "level": "L1"
+  },
+  "outfit_011": {
+    "label": "Vestaglia di cotone",
+    "explanation": "Si chiude con una cintura morbida e si apre con un delicato tiro: ideale per massaggi d’olio a sorpresa.",
+    "level": "L1"
+  },
+  "outfit_012": {
+    "label": "Jeans e cintura",
+    "explanation": "Il classico quotidiano: il piacere sta nel ritmo lento con cui slacci ogni bottone.",
+    "level": "L1"
+  },
+  "outfit_013": {
+    "label": "Cardigan soffice",
+    "explanation": "Ampio, senza bottoni, lascia intravedere la pelle nuda quando ti pieghi per un bacio.",
+    "level": "L1"
+  },
+  "outfit_014": {
+    "label": "Canottiera basic",
+    "explanation": "Cotta di cotone che scivola facilmente sulla pelle, perfetta da sollevare per baci sull’addome.",
+    "level": "L1"
+  },
+  "outfit_015": {
+    "label": "Gonna lunga fluida",
+    "explanation": "Tessuto leggero che ondeggia a ogni passo e solleva facilmente per un tocco curioso.",
+    "level": "L1"
+  },
+  "outfit_016": {
+    "label": "Boxer del partner",
+    "explanation": "Indossare la sua biancheria crea un mix di intimità e malizia: elastico morbido, facile da togliere.",
+    "level": "L1"
+  },
+  "outfit_017": {
+    "label": "Leggings in cotone",
+    "explanation": "Comfort totale e silhouette definita; un invito a carezze sulle cosce.",
+    "level": "L1"
+  },
+  "outfit_018": {
+    "label": "Tuta felpata",
+    "explanation": "Zip frontale che si abbassa centimetro dopo centimetro, rivelando lentamente la pelle nuda.",
+    "level": "L1"
+  },
+  "outfit_019": {
+    "label": "Calze al ginocchio",
+    "explanation": "Aggiungono un tocco school-girl soft; perfette da sfilare con lentezza, un bacio alla volta.",
+    "level": "L1"
+  },
+  "outfit_020": {
+    "label": "Vestito estivo leggero",
+    "explanation": "Spalline sottili e tessuto svolazzante: basta sollevarlo per far scorrere mani sulle gambe nude.",
+    "level": "L1"
+  },
+  "outfit_021": {
+    "label": "Lingerie in cotone",
+    "explanation": "Reggiseno e slip coordinati, comodi ma seducenti; il dettaglio pizzo suggerisce che sotto la morbidezza c’è altro.",
+    "level": "L2"
+  },
+  "outfit_022": {
+    "label": "Vestaglia di seta",
+    "explanation": "Scivola sulle curve come acqua; ogni movimento fa brillare il tessuto e lascia intuire i contorni del corpo.",
+    "level": "L2"
+  },
+  "outfit_023": {
+    "label": "Shorts di jeans strappati",
+    "explanation": "Orli sfilacciati rivelano la pelle delle cosce; perfetti per un tocco improvviso sull’interno gamba.",
+    "level": "L2"
+  },
+  "outfit_024": {
+    "label": "Camicia sbottonata",
+    "explanation": "Solo pochi bottoni chiusi al centro: la tela ideale per baci dall’ombelico alla gola.",
+    "level": "L2"
+  },
+  "outfit_025": {
+    "label": "Bralette in pizzo",
+    "explanation": "Copre ma non nasconde: il disegno floreale invita a seguire i contorni con le dita.",
+    "level": "L2"
+  },
+  "outfit_026": {
+    "label": "Calzini al ginocchio rigati",
+    "explanation": "Aggiungono un tocco playful: tirarli giù lentamente fa salire la tensione.",
+    "level": "L2"
+  },
+  "outfit_027": {
+    "label": "Gonna morbida senza intimo",
+    "explanation": "Un solo strato di tessuto tra mani curiose e pelle nuda: basta sollevarla per nuove scoperte.",
+    "level": "L2"
+  },
+  "outfit_028": {
+    "label": "Body basic",
+    "explanation": "Abbraccia ogni curva; bottoncini all’inguine pronti a scattare con un tocco deciso.",
+    "level": "L2"
+  },
+  "outfit_029": {
+    "label": "Leggings lucidi",
+    "explanation": "Tessuto che riflette la luce e definisce i glutei: irresistibile da accarezzare verso l’alto.",
+    "level": "L2"
+  },
+  "outfit_030": {
+    "label": "Crop-top elasticizzato",
+    "explanation": "Lascia scoperta una fascia di addome: pelle esposta ideale per baci a sorpresa.",
+    "level": "L2"
+  },
+  "outfit_031": {
+    "label": "Slip microfibra senza cuciture",
+    "explanation": "Spariscono sotto i vestiti, ma lisciano la pelle invitando a scorrere la mano lungo le forme.",
+    "level": "L2"
+  },
+  "outfit_032": {
+    "label": "Kimono corto satin",
+    "explanation": "Maniche ampie e cintura sottile si aprono in un gesto; il tessuto scivola rivelando la pelle con eleganza.",
+    "level": "L2"
+  },
+  "outfit_033": {
+    "label": "Reggiseno sportivo aperto dietro",
+    "explanation": "Zip frontale che si abbassa lentamente, liberando il petto in un clic.",
+    "level": "L2"
+  },
+  "outfit_034": {
+    "label": "Giarrettiera singola",
+    "explanation": "Un dettaglio sensuale che attira lo sguardo lungo la coscia fino all’orlo delle calze.",
+    "level": "L2"
+  },
+  "outfit_035": {
+    "label": "Mini dress aderente",
+    "explanation": "Tessuto stretch che fascia tutto: basta sollevarlo per scoprire che sotto non c’è nulla.",
+    "level": "L2"
+  },
+  "outfit_036": {
+    "label": "Accappatoio di seta",
+    "explanation": "Più leggero dell’aria, si apre con un soffio; perfetto dopo un bagno caldo a due.",
+    "level": "L2"
+  },
+  "outfit_037": {
+    "label": "Calze autoreggenti semplici",
+    "explanation": "Pizzo discreto e silicone interno: il partner vorrà far scorrere le dita lungo la balza.",
+    "level": "L2"
+  },
+  "outfit_038": {
+    "label": "Bikini micro",
+    "explanation": "Triangoli minimi legati da lacci: ogni nodo sciolto aumenta l’attenzione pelle.",
+    "level": "L2"
+  },
+  "outfit_039": {
+    "label": "Body sheer glitter",
+    "explanation": "Rete semitrasparente con bagliori sottili; ideale sotto luci soffuse.",
+    "level": "L2"
+  },
+  "outfit_040": {
+    "label": "Calzini in pizzo traforato",
+    "explanation": "Trama floreale che invita a baci delicati sulle caviglie.",
+    "level": "L2"
+  },
+  "outfit_041": {
+    "label": "Lingerie pizzo nero",
+    "explanation": "Set balconcino e brasiliana che incornicia le curve con trasparenze strategiche.",
+    "level": "L3"
+  },
+  "outfit_042": {
+    "label": "Reggicalze & autoreggenti",
+    "explanation": "Clip metalliche che tintinnano a ogni passo, guidando lo sguardo lungo le gambe.",
+    "level": "L3"
+  },
+  "outfit_043": {
+    "label": "Body trasparente",
+    "explanation": "Tulle leggerissimo che rivela più di quanto nasconde; zip al cavallo per accesso immediato.",
+    "level": "L3"
+  },
+  "outfit_044": {
+    "label": "Babydoll corto",
+    "explanation": "Spalline sottili, coppe a triangolo e orlo che sfiora i glutei: un invito a sollevarlo con un singolo gesto.",
+    "level": "L3"
+  },
+  "outfit_045": {
+    "label": "Bustier steccato",
+    "explanation": "Ridisegna la vita e spinge il seno, lacci posteriori che il partner potrà stringere lentamente.",
+    "level": "L3"
+  },
+  "outfit_046": {
+    "label": "Slip brasiliano pizzo",
+    "explanation": "Taglio alto che mette in risalto i glutei; il pizzo lascia intravedere la pelle.",
+    "level": "L3"
+  },
+  "outfit_047": {
+    "label": "Catsuit mesh",
+    "explanation": "Rete a maglia larga che avvolge tutto il corpo lasciando accesso ovunque.",
+    "level": "L3"
+  },
+  "outfit_048": {
+    "label": "Mini gonna vinile",
+    "explanation": "Lucida e aderente, scricchiola leggermente a ogni passo aggiungendo atmosfera kinky.",
+    "level": "L3"
+  },
+  "outfit_049": {
+    "label": "Negligé satin",
+    "explanation": "Seta lucida che scivola sulle curve; lo spacco laterale rivela la coscia a ogni movimento.",
+    "level": "L3"
+  },
+  "outfit_050": {
+    "label": "Giarrettiera singola latex",
+    "explanation": "Striscia di lattice lucido che aderisce alla coscia, perfetta per essere tirata leggermente.",
+    "level": "L3"
+  },
+
+  "outfit_051": {
+    "label": "Top rete trasparente",
+    "explanation": "Morbida fishnet che svela i capezzoli; indossalo senza reggiseno per un effetto elettrizzante.",
+    "level": "L3"
+  },
+  "outfit_052": {
+    "label": "Giarrettiera quadrupla",
+    "explanation": "Quattro cinturini regolabili che disegnano geometrie sexy sulle cosce.",
+    "level": "L3"
+  },
+  "outfit_053": {
+    "label": "Mutandine laccetti",
+    "explanation": "Nodo laterale che si scioglie con un tiro, facendo cadere il tessuto in un attimo.",
+    "level": "L3"
+  },
+  "outfit_054": {
+    "label": "Body latex aperto",
+    "explanation": "Lattice lucido con aperture strategiche: brilla e accentua ogni curva.",
+    "level": "L3"
+  },
+  "outfit_055": {
+    "label": "Set lingerie rossa fuoco",
+    "explanation": "Colore appassionato, pizzo che avvolge seno e fianchi, pronto a incendiarsi al primo tocco.",
+    "level": "L3"
+  },
+  "outfit_056": {
+    "label": "Bikini micro string",
+    "explanation": "Triangoli minimi, lacci sottilissimi: copre solo l’essenziale lasciando poco all’immaginazione.",
+    "level": "L3"
+  },
+  "outfit_057": {
+    "label": "Crop-top latex",
+    "explanation": "Tessuto aderente che riflette la luce; zip frontale per uno strip-tease in un gesto.",
+    "level": "L3"
+  },
+  "outfit_058": {
+    "label": "Shorts jeans senza intimo",
+    "explanation": "Ogni piegamento mostra la mancanza di tessuto sotto: provocazione garantita.",
+    "level": "L3"
+  },
+  "outfit_059": {
+    "label": "Cintura reggicalze",
+    "explanation": "Solo la cintura con clip che aspettano calze o mani curiose.",
+    "level": "L3"
+  },
+  "outfit_060": {
+    "label": "Catsuit fishnet integrale",
+    "explanation": "Maglia elasticizzata che segue ogni curva lasciando accessi liberi.",
+    "level": "L3"
+  },
+  "outfit_061": {
+    "label": "Body latex lucido",
+    "explanation": "Zip dal collo al pube, brilla come vernice fresca: ogni goccia d’olio lo rende ancora più scivoloso.",
+    "level": "L4"
+  },
+  "outfit_062": {
+    "label": "Corsetto stringato rigido",
+    "explanation": "Riduce la vita e fa respirare a piccoli sospiri; perfetto per un ruolo dominante.",
+    "level": "L4"
+  },
+  "outfit_063": {
+    "label": "Harness pelle",
+    "explanation": "Cinghie regolabili che incorniciano petto e busto; anelli metallici pronti per ganci o guinzagli.",
+    "level": "L4"
+  },
+  "outfit_064": {
+    "label": "Pasties e nient’altro",
+    "explanation": "Copricapezzoli adesivi, magari a forma di X: lasciano il seno libero a baci e morsi.",
+    "level": "L4"
+  },
+  "outfit_065": {
+    "label": "Mutandine crotchless",
+    "explanation": "Aperte al cavallo per accesso immediato: non serve sfilarle.",
+    "level": "L4"
+  },
+  "outfit_066": {
+    "label": "Calze lattice lucide",
+    "explanation": "Aderiscono come una seconda pelle; lubrificarle rende ogni carezza iper-sensibile.",
+    "level": "L4"
+  },
+  "outfit_067": {
+    "label": "Harness a gabbia seno",
+    "explanation": "Cinge il busto con strisce strette che evidenziano il seno e limitano i movimenti.",
+    "level": "L4"
+  },
+  "outfit_068": {
+    "label": "Gonna lattice aderente",
+    "explanation": "Mini che fascia totalmente; basta arrotolarla per scoprire i glutei lucidissimi.",
+    "level": "L4"
+  },
+  "outfit_069": {
+    "label": "Collare pelle con anello",
+    "explanation": "Simbolo di sottomissione o potere; l’anello frontale pronto per un guinzaglio.",
+    "level": "L4"
+  },
+  "outfit_070": {
+    "label": "Guanti opera latex",
+    "explanation": "Arrivano oltre il gomito, perfetti per scivolare su pelle nuda lasciando tracce lucide.",
+    "level": "L4"
+  },
+  "outfit_071": {
+    "label": "Tuta fishnet integrale",
+    "explanation": "Rete a grandi maglie che costringe a toccare pelle attraverso spiragli eccitanti.",
+    "level": "L4"
+  },
+  "outfit_072": {
+    "label": "Cappuccio bondage lycra",
+    "explanation": "Oscura la vista ma lascia bocca libera; aumenta la tensione sensoriale.",
+    "level": "L4"
+  },
+  "outfit_073": {
+    "label": "Straps bondage corpo",
+    "explanation": "Cinghie regolabili che stringono busto e cosce, pronte per essere agganciate.",
+    "level": "L4"
+  },
+  "outfit_074": {
+    "label": "Top vinile zip totale",
+    "explanation": "Si apre dal collo al ventre con un solo gesto; il suono della zip fa salire il battito.",
+    "level": "L4"
+  },
+  "outfit_075": {
+    "label": "Stivali over-knee",
+    "explanation": "Tacco alto e cuoio lucido che fascia la gamba fino a metà coscia: posture subito più audaci.",
+    "level": "L4"
+  },
+
+  "outfit_076": {
+    "label": "Mutandine aperte dietro",
+    "explanation": "Taglio che scopre totalmente i glutei, perfetto per spanking.",
+    "level": "L4"
+  },
+  "outfit_077": {
+    "label": "Pettorina harness torace",
+    "explanation": "Struttura a H che sottolinea spalle e petto, pronta per agganciare moschettoni.",
+    "level": "L4"
+  },
+  "outfit_078": {
+    "label": "Catsuit latex integrale",
+    "explanation": "Copre dalla gola alle caviglie; zip strategiche permettono accesso mirato.",
+    "level": "L4"
+  },
+  "outfit_079": {
+    "label": "Collant rete strappati",
+    "explanation": "Lacerazioni ad arte che lasciano la pelle a portata di mano e lingua.",
+    "level": "L4"
+  },
+  "outfit_080": {
+    "label": "Harness coscia doppio",
+    "explanation": "Cinturini gemelli su ogni coscia, collegati a un anello centrale per tirare e dominare.",
+    "level": "L4"
+  },
+  "outfit_081": {
+    "label": "Catsuit latex head-to-toe",
+    "explanation": "Include cappuccio e guanti: una seconda pelle lucida che imprigiona ogni respiro e movimento.",
+    "level": "L5"
+  },
+  "outfit_082": {
+    "label": "Cappuccio bondage bocca sola",
+    "explanation": "Oscura completamente il volto lasciando solo la bocca esposta per giochi di controllo respiro e parole.",
+    "level": "L5"
+  },
+  "outfit_083": {
+    "label": "Harness full-body pelle",
+    "explanation": "Intricata rete di cinghie che fascia tutto il corpo, ideale per agganci a corde o catene.",
+    "level": "L5"
+  },
+  "outfit_084": {
+    "label": "Corsetto vita vespa rigido",
+    "explanation": "Stringe drasticamente la vita, costringendo a piccoli respiri che amplificano ogni sensazione.",
+    "level": "L5"
+  },
+  "outfit_085": {
+    "label": "Boots platform estreme",
+    "explanation": "Alzano di oltre 15 cm: il passo diventa una sfilata dominante a ogni passo rimbombante.",
+    "level": "L5"
+  },
+  "outfit_086": {
+    "label": "Strisce nastro bondage",
+    "explanation": "Nastro PVC che aderisce a pelle o latex senza colla: perfetto per fasciature totali rapide.",
+    "level": "L5"
+  },
+  "outfit_087": {
+    "label": "Uniforme domina PVC",
+    "explanation": "Giacca corta e minigonna lucida con bottoni metallici: autorità visuale istantanea.",
+    "level": "L5"
+  },
+  "outfit_088": {
+    "label": "Strapon harness completo",
+    "explanation": "Imbrago regolabile con dildo intercambiabile: pronto a invertire i ruoli di penetrazione.",
+    "level": "L5"
+  },
+  "outfit_089": {
+    "label": "Gioielli pesi capezzoli",
+    "explanation": "Clip regolabili con catenella e pesetti che tirano verso il basso dando stimolazione costante.",
+    "level": "L5"
+  },
+  "outfit_090": {
+    "label": "Maschera gas fetish",
+    "explanation": "Copre naso e bocca, filtri rimovibili: accentua il controllo del respiro e aggiunge estetica industriale.",
+    "level": "L5"
+  },
+  "outfit_091": {
+    "label": "Full body latex zip crotch",
+    "explanation": "Tuta totale con cerniere multiple per accesso selettivo; lucida come vinile bagnato.",
+    "level": "L5"
+  },
+  "outfit_092": {
+    "label": "Top catena metallica",
+    "explanation": "Maglie metalliche fredde sulla pelle, tintinnano a ogni tocco amplificando il senso di esposizione.",
+    "level": "L5"
+  },
+  "outfit_093": {
+    "label": "Plug tail costume",
+    "explanation": "Plug anale con coda (volpe, cavallo o gatto) per giochi pet-play avanzati.",
+    "level": "L5"
+  },
+  "outfit_094": {
+    "label": "Catsuit zip strategiche",
+    "explanation": "Zip parallele su seno, inguine e glutei: ogni apertura diventa una scelta di esposizione.",
+    "level": "L5"
+  },
+  "outfit_095": {
+    "label": "Croptop maglia metallica",
+    "explanation": "Anelli d’acciaio finissimi che riflettono la luce: difficile da slacciare, invitante da sollevare.",
+    "level": "L5"
+  },
+  "outfit_096": {
+    "label": "Guanti latex borchiati",
+    "explanation": "Arrivano al bicipite con file di borchie: mix di eleganza e pericolo visivo.",
+    "level": "L5"
+  },
+  "outfit_097": {
+    "label": "Gonna rete micro",
+    "explanation": "Maglia larghissima quasi invisibile, copre appena l’inguine lasciando trasparire ogni movimento.",
+    "level": "L5"
+  },
+  "outfit_098": {
+    "label": "Harness seno a gabbia metallica",
+    "explanation": "Cerchi d’acciaio che incorniciano il busto, collegati da catene a un anello centrale.",
+    "level": "L5"
+  },
+  "outfit_099": {
+    "label": "Tuta gomma pressurizzata",
+    "explanation": "Sistema a zip ermetiche che può comprimere o espandere la pressione sul corpo a comando.",
+    "level": "L5"
+  },
+  "outfit_100": {
+    "label": "Full body fishnet aperto",
+    "explanation": "Rete integrale con ampie aperture su seno e inguine: zero barriere tra mani, lingua e pelle.",
+    "level": "L5"
+  },
+  "outfit_null": {
+    "label": "qui non devi fare nulla",
+    "explanation": "",
+    "level": ""
+  },
+
+  "luogo_001": {
+    "label": "Letto matrimoniale",
+    "explanation": "Il classico intramontabile: morbido, stabile e sempre pronto a nuove lenzuola da sgualcire.",
+    "level": "L1",
+    "supports": ["superficie"]
+  },
+  "luogo_002": {
+    "label": "Divano del salotto",
+    "explanation": "Cuscini abbondanti, schienale per inclinazioni audaci; comfort informale per coccole estese.",
+    "level": "L1",
+    "supports": ["superficie"]
+  },
+  "luogo_003": {
+    "label": "Doccia calda",
+    "explanation": "Getto d’acqua avvolgente, pareti scivolose; perfetta per saponi profumati e mani che esplorano.",
+    "level": "L1",
+    "supports": ["doccia", "acqua"]
+  },
+  "luogo_004": {
+    "label": "Tappeto del salotto",
+    "explanation": "Morbido sotto le ginocchia, spazio sufficiente a stendersi e rotolare tra risate e carezze.",
+    "level": "L1",
+    "supports": ["superficie", "spazio_minimo"]
+  },
+  "luogo_005": {
+    "label": "Sedia robusta",
+    "explanation": "Schienale alto e seduta stabile: ideale per baci da seduti o per legare i polsi con foulard.",
+    "level": "L1",
+    "supports": ["superficie"]
+  },
+  "luogo_006": {
+    "label": "Vasca da bagno",
+    "explanation": "Acqua calda, bolle e pelle che scivola: invita a massaggi sotto il livello dell’acqua.",
+    "level": "L1",
+    "supports": ["acqua", "doccia"]
+  },
+  "luogo_007": {
+    "label": "Balcone al tramonto",
+    "explanation": "Aria tiepida e luce dorata; ottimo per un bacio lento con vista.",
+    "level": "L1",
+    "supports": ["public"]
+  },
+  "luogo_008": {
+    "label": "Poltrona reclinabile",
+    "explanation": "Si inclina quanto basta per un massaggio o un abbraccio da dietro.",
+    "level": "L1",
+    "supports": ["superficie"]
+  },
+  "luogo_009": {
+    "label": "Tenda da campeggio",
+    "explanation": "Spazio ridotto che costringe i corpi a toccarsi in ogni movimento; romanticismo sotto le stelle.",
+    "level": "L1",
+    "supports": ["spazio_minimo"]
+  },
+  "luogo_010": {
+    "label": "Amaca in giardino",
+    "explanation": "Oscilla dolcemente cullando i corpi; perfetta per baci lenti e mani che esplorano.",
+    "level": "L1",
+    "supports": ["superficie"]
+  },
+  "luogo_011": {
+    "label": "Pavimento con cuscini",
+    "explanation": "Un nido di cuscini sparsi: libertà di muoversi senza paura di cadere.",
+    "level": "L1",
+    "supports": ["superficie", "spazio_minimo"]
+  },
+  "luogo_012": {
+    "label": "Libreria di casa",
+    "explanation": "Tra scaffali di libri e il profumo di carta: baci silenziosi dal sapore proibito.",
+    "level": "L1",
+    "supports": ["superficie"]
+  },
+  "luogo_013": {
+    "label": "Tappeto yoga",
+    "explanation": "Spessore giusto per posizioni a terra, ideale per stretching sensuale a due.",
+    "level": "L1",
+    "supports": ["superficie"]
+  },
+  "luogo_014": {
+    "label": "Finestra socchiusa",
+    "explanation": "Una brezza leggera che rinfresca la pelle nuda mentre ci si sfiora in punta di piedi.",
+    "level": "L1",
+    "supports": ["public"]
+  },
+  "luogo_015": {
+    "label": "Camera degli ospiti",
+    "explanation": "Letto extra ma intimità invariata: il fascino di sentirsi clandestini in casa propria.",
+    "level": "L1",
+    "supports": ["superficie"]
+  },
+  "luogo_016": {
+    "label": "Studio di casa",
+    "explanation": "Scrivania libera e sedia girevole: un invito a idee creative lontano dal letto.",
+    "level": "L1",
+    "supports": ["superficie"]
+  },
+  "luogo_017": {
+    "label": "Terrazza chiusa",
+    "explanation": "Pareti di vetro che mostrano il cielo ma proteggono dagli sguardi: voyeurismo soft garantito.",
+    "level": "L1",
+    "supports": ["public"]
+  },
+  "luogo_018": {
+    "label": "Sedile posteriore auto",
+    "explanation": "Cuscini raccolti, finestrini appannati: un ritorno ai limiti adolescenziali.",
+    "level": "L1",
+    "supports": ["public", "superficie"]
+  },
+  "luogo_019": {
+    "label": "Piscina privata",
+    "explanation": "Acqua tiepida per carezze subacquee, bordo piscina per appoggi rapidi.",
+    "level": "L1",
+    "supports": ["acqua", "doccia"]
+  },
+  "luogo_020": {
+    "label": "Corridoio semibuio",
+    "explanation": "Lunga parete su cui premere il partner per un bacio improvviso.",
+    "level": "L1",
+    "supports": ["public", "superficie"]
+  },
+  "luogo_021": {
+    "label": "Tavolo cucina",
+    "explanation": "Superficie solida all’altezza giusta; farina e passione inclusi.",
+    "level": "L2",
+    "supports": ["superficie"]
+  },
+  "luogo_022": {
+    "label": "Lavatrice ferma",
+    "explanation": "Piano vibrante leggero, perfetto per un quickie un po’ scomodo e molto divertente.",
+    "level": "L2",
+    "supports": ["superficie"]
+  },
+  "luogo_023": {
+    "label": "Box doccia vetro",
+    "explanation": "Pareti trasparenti che mostrano ciò che l’acqua scorre a coprire.",
+    "level": "L2",
+    "supports": ["doccia", "acqua"]
+  },
+  "luogo_024": {
+    "label": "Scala interna",
+    "explanation": "Gradini come sedili improvvisati, corrimano utile per afferrare fianchi.",
+    "level": "L2",
+    "supports": ["superficie"]
+  },
+  "luogo_025": {
+    "label": "Panca palestra domestica",
+    "explanation": "Schienale regolabile e morsetti… ma per allenare altri muscoli.",
+    "level": "L2",
+    "supports": ["superficie"]
+  },
+    "luogo_026": {
+      "label": "Terrazza notte",
+      "explanation": "Sotto le stelle, con vento tiepido che accarezza pelle nuda: brividi garantiti.",
+      "level": "L2",
+      "supports": ["public"]
+    },
+    "luogo_027": {
+      "label": "Spogliatoio casa",
+      "explanation": "Specchio a figura intera e sedile basso: perfetto per un cambio d’abito piccante.",
+      "level": "L2",
+      "supports": ["superficie"]
+    },
+    "luogo_028": {
+      "label": "Sauna domestica",
+      "explanation": "Calore umido che apre i pori e accende i sensi; sudore condiviso is the new lingerie.",
+      "level": "L2",
+      "supports": ["superficie", "acqua"]
+    },
+    "luogo_029": {
+      "label": "Bagno singolo pubblico",
+      "explanation": "Porta chiusa a chiave e luce al neon: rischio minimo, adrenalina massima.",
+      "level": "L2",
+      "supports": ["public", "superficie", "doccia"]
+    },
+    "luogo_030": {
+      "label": "Letto ad acqua",
+      "explanation": "Onde che amplificano ogni spinta: attenzione alla coordinazione… o al naufragio.",
+      "level": "L2",
+      "supports": ["superficie"]
+    },
+    "luogo_031": {
+      "label": "Poltrona reclinabile ufficio",
+      "explanation": "Schienale basculante perfetto per inginocchiarsi davanti o dietro.",
+      "level": "L2",
+      "supports": ["superficie"]
+    },
+    "luogo_032": {
+      "label": "Tappeto palestra",
+      "explanation": "Denso, antiurto: ottimo per posizioni acrobatiche senza lividi.",
+      "level": "L2",
+      "supports": ["superficie"]
+    },
+    "luogo_033": {
+      "label": "Camerino negozio",
+      "explanation": "Tenda che non chiude mai del tutto: audio ovattato, rischio scoperta crescente.",
+      "level": "L2",
+      "supports": ["public", "superficie"]
+    },
+    "luogo_034": {
+      "label": "Balcone hotel alto",
+      "explanation": "Vista mozzafiato e parapetto alto: esibizionismo sicuro, brivido reale.",
+      "level": "L2",
+      "supports": ["public"]
+    },
+    "luogo_035": {
+      "label": "Panca parco notte",
+      "explanation": "Luogo quasi deserto: grilli, vento tra gli alberi e mani esploratrici.",
+      "level": "L2",
+      "supports": ["public", "superficie"]
+    },
+    "luogo_036": {
+      "label": "Jacuzzi hotel",
+      "explanation": "Idromassaggio e luci soffuse: bolle coprono i movimenti più audaci.",
+      "level": "L2",
+      "supports": ["acqua", "doccia"]
+    },
+    "luogo_037": {
+      "label": "Sedile conducente auto",
+      "explanation": "Volante che ostruisce e stimola creatività di movimento.",
+      "level": "L2",
+      "supports": ["public", "superficie"]
+    },
+    "luogo_038": {
+      "label": "Balcone vista città",
+      "explanation": "Vetri a tutta altezza: resti coperto solo se vuoi; la città è testimone silente.",
+      "level": "L2",
+      "supports": ["public"]
+    },
+    "luogo_039": {
+      "label": "Camera hotel lusso",
+      "explanation": "Letto king, specchio soffitto, room service post-sesso incluso.",
+      "level": "L2",
+      "supports": ["superficie"]
+    },
+    "luogo_040": {
+      "label": "Sedile posteriore taxi",
+      "explanation": "Corsa lunga, vetro divisorio: per mani sotto la giacca e sorrisi trattenuti.",
+      "level": "L2",
+      "supports": ["public", "superficie"]
+    },
+    "luogo_041": {
+      "label": "Corridoio condominio",
+      "explanation": "Eco di passi può farsi imminente: gioco di silenzi e sospiri trattenuti.",
+      "level": "L3",
+      "supports": ["public", "superficie"]
+    },
+    "luogo_042": {
+      "label": "Scale antincendio deserte",
+      "explanation": "Metallo freddo, vista città tra grate: urban kink al volo.",
+      "level": "L3",
+      "supports": ["public", "superficie"]
+    },
+    "luogo_043": {
+      "label": "Bagno pubblico singolo",
+      "explanation": "Porta chiusa, specchio neon, atmosfera borderline: vietato starci troppo.",
+      "level": "L3",
+      "supports": ["public", "superficie", "doccia"]
+    },
+    "luogo_044": {
+      "label": "Parco serale appartato",
+      "explanation": "Fruscio foglie, luce lampione distante: abbastanza buio per osare, abbastanza luce per farsi vedere.",
+      "level": "L3",
+      "supports": ["public"]
+    },
+    "luogo_045": {
+      "label": "Spiaggia isolata notte",
+      "explanation": "Onde che coprono gemiti e sabbia fresca sotto i piedi nudi.",
+      "level": "L3",
+      "supports": ["public", "superficie", "acqua"]
+    },
+    "luogo_046": {
+      "label": "Ascensore fermo",
+      "explanation": "Pochi metri quadri, specchio e luci di emergenza: tempo sospeso ideale per un quickie adrenalinico.",
+      "level": "L3",
+      "supports": ["public", "spazio_minimo", "superficie"]
+    },
+    "luogo_047": {
+      "label": "Garage aperto",
+      "explanation": "Odore di benzina, cemento fresco: vibrazioni meccaniche e rischio scoperta reale.",
+      "level": "L3",
+      "supports": ["public", "superficie"]
+    },
+    "luogo_048": {
+      "label": "Pannello davanti al camino",
+      "explanation": "Fuoco vivo illumina corpi sudati; calore che invita a spogliarsi ancora di più.",
+      "level": "L3",
+      "supports": ["superficie"]
+    },
+    "luogo_049": {
+      "label": "Bosco appartato",
+      "explanation": "Profumo di resina, muschio soffice: natura complice di morsi e graffi.",
+      "level": "L3",
+      "supports": ["public", "superficie"]
+    },
+    "luogo_050": {
+      "label": "Sauna pubblica semi-vuota",
+      "explanation": "Vapore denso, accappatoi stretti sul corpo nudo: chi entra potrebbe vedere ma non troppo.",
+      "level": "L3",
+      "supports": ["public", "acqua", "superficie"]
+    },
+  
+    "luogo_051": {
+      "label": "Jacuzzi party",
+      "explanation": "Acqua gorgogliante in mezzo a sconosciuti: mani sotto la superficie sono un segreto condiviso.",
+      "level": "L3",
+      "supports": ["public", "acqua", "doccia"]
+    },
+    "luogo_052": {
+      "label": "Balcone vista città alta",
+      "explanation": "Ringhiera trasparente e vento forte: vestiti che svolazzano, adrenalina che sale.",
+      "level": "L3",
+      "supports": ["public"]
+    },
+    "luogo_053": {
+      "label": "Ascensore panoramico",
+      "explanation": "Pareti di vetro, luci della città: ogni piano salito un bacio più profondo.",
+      "level": "L3",
+      "supports": ["public", "spazio_minimo"]
+    },
+    "luogo_054": {
+      "label": "Playground notturno",
+      "explanation": "Altalena che diventa sedile, scivolo come piano d’appoggio: infanzia rimixata hot.",
+      "level": "L3",
+      "supports": ["public", "superficie"]
+    },
+    "luogo_055": {
+      "label": "Cabina fotografica",
+      "explanation": "Tenda semiaperta, flash che cattura espressioni, seduta strettissima da condividere.",
+      "level": "L3",
+      "supports": ["public", "spazio_minimo", "superficie"]
+    },
+    "luogo_056": {
+      "label": "Molo sul lago",
+      "explanation": "Legno umido, onde leggere che battono contro: suoni naturali coprono gemiti bassi.",
+      "level": "L3",
+      "supports": ["public", "superficie", "acqua"]
+    },
+    "luogo_057": {
+      "label": "Tetto edificio",
+      "explanation": "Vista 360°, vento che spazza, rischio zero se si resta bassi (o quasi).",
+      "level": "L3",
+      "supports": ["public", "superficie"]
+    },
+    "luogo_058": {
+      "label": "Studio fotografico nudo",
+      "explanation": "Fondali bianchi, luci calde: ogni posa un click, ogni pausa un bacio.",
+      "level": "L3",
+      "supports": ["superficie"]
+    },
+    "luogo_059": {
+      "label": "Pista da ballo after-hours",
+      "explanation": "Musica bassa, luci lampeggianti residue, pavimento appiccicoso e corpi stanchi ma caldi.",
+      "level": "L3",
+      "supports": ["public", "superficie"]
+    },
+    "luogo_060": {
+      "label": "Bagagliaio SUV",
+      "explanation": "Sedili abbattuti, tappetino morbido e portellone socchiuso: privacy improvvisata on the road.",
+      "level": "L3",
+      "supports": ["public", "superficie"]
+    },
+    "luogo_061": {
+      "label": "Club privato",
+      "explanation": "Luci rosse, gabbia in sala: regole soft, libertà hard.",
+      "level": "L4",
+      "supports": ["public", "superficie"]
+    },
+    "luogo_062": {
+      "label": "Backstage concerto",
+      "explanation": "Cavi, casse e un divano sfondato: vibra ancora l’eco della musica mentre i corpi trovano un nuovo ritmo.",
+      "level": "L4",
+      "supports": ["public", "superficie"]
+    },
+    "luogo_063": {
+      "label": "Parcheggio sotterraneo",
+      "explanation": "L’eco dei passi rimbalza tra colonne e portiere semiaperte: motore spento, adrenalina accesa.",
+      "level": "L4",
+      "supports": ["public", "superficie"]
+    },
+    "luogo_064": {
+      "label": "Localino kink serata soft",
+      "explanation": "Croce, altalena, catene: attrezzatura light per iniziare esplorazioni BDSM.",
+      "level": "L4",
+      "supports": ["superficie", "bondage"]
+    },
+    "luogo_065": {
+      "label": "Dungeon privato",
+      "explanation": "Arredi in pelle, supporti di acciaio: la fantasia diventa realtà sotto luci soffuse.",
+      "level": "L4",
+      "supports": ["superficie", "bondage", "sospensione"]
+    },
+    "luogo_066": {
+      "label": "Stanza con specchi ovunque",
+      "explanation": "Ogni angolo riflette corpi intrecciati, moltiplicando la scena sotto ogni prospettiva.",
+      "level": "L4",
+      "supports": ["superficie"]
+    },
+    "luogo_067": {
+      "label": "Stanza sauna gay affollata",
+      "explanation": "Vapore spesso, corpi che si sfiorano: anonimato bollente e opportunità infinite.",
+      "level": "L4",
+      "supports": ["public", "acqua", "superficie"]
+    },
+    "luogo_068": {
+      "label": "Playroom a tema medical",
+      "explanation": "Lettino ginecologico, lampade fredde: atmosfera clinica che amplifica ogni palpito.",
+      "level": "L4",
+      "supports": ["superficie", "bondage"]
+    },
+    "luogo_069": {
+      "label": "Croce di Sant'Andrea",
+      "explanation": "Salda al muro, pronta a ospitare polsi e caviglie in X: corpo esposto a gioco di potere.",
+      "level": "L4",
+      "supports": ["superficie", "bondage"]
+    },
+    "luogo_070": {
+      "label": "Stanza gomma pressurizzata",
+      "explanation": "Pareti latex, pavimento che appiccica, pompa per creare pressione: sensazione avvolgente totale.",
+      "level": "L4",
+      "supports": ["superficie", "bondage"]
+    },
+    "luogo_071": {
+      "label": "Studio tatuaggi chiuso",
+      "explanation": "Odore di inchiostro e alcool, pelle nuda su lettino sterile: peccato e arte si fondono.",
+      "level": "L4",
+      "supports": ["superficie"]
+    },
+    "luogo_072": {
+      "label": "Altalena sex sospesa",
+      "explanation": "Struttura in acciaio e cinghie regolabili: perfetta per penetrazioni profonde oscillanti.",
+      "level": "L4",
+      "supports": ["superficie", "sospensione"]
+    },
+    "luogo_073": {
+      "label": "Playroom luci UV",
+      "explanation": "Corpi dipinti che brillano al neon: ogni tocco lascia scia luminosa sulla pelle.",
+      "level": "L4",
+      "supports": ["superficie"]
+    },
+    "luogo_074": {
+      "label": "Salotto gomma gonfiabile",
+      "explanation": "Mobili PVC ad aria: ogni movimento produce scricchiolio che amplifica tensione.",
+      "level": "L4",
+      "supports": ["superficie"]
+    },
+    "luogo_075": {
+    "label": "Sauna gay affollata",
+    "explanation": "Vapore, occhi curiosi e mani anonime: confidare nel buio e nel caldo.",
+    "level": "L4",
+    "supports": ["public", "superficie", "acqua"]
+  },
+  "luogo_076": {
+    "label": "Pedana club fetish",
+    "explanation": "Barre per bondage, specchi a pavimento: performance al centro dell’attenzione.",
+    "level": "L4",
+    "supports": ["public", "superficie", "bondage"]
+  },
+  "luogo_077": {
+    "label": "Bagno discoteca",
+    "explanation": "Porta chiudibile, musica che pompa fuori: battiti cardiaci e bassi si confondono.",
+    "level": "L4",
+    "supports": ["public", "superficie"]
+  },
+  "luogo_078": {
+    "label": "Camera streaming live",
+    "explanation": "Webcam in ogni angolo, luce ring: lo show è sempre in onda per chi ha il link.",
+    "level": "L4",
+    "supports": ["superficie", "public"]
+  },
+  "luogo_079": {
+    "label": "Locale dark room",
+    "explanation": "Buio totale, corpi che si incontrano a tatto; ciò che conta è sentire, non vedere.",
+    "level": "L4",
+    "supports": ["public"]
+  },
+  "luogo_080": {
+    "label": "Capsula trasparente",
+    "explanation": "Una bolla di plexiglass sospesa: ogni gesto è in vetrina ma protetto dal suono esterno.",
+    "level": "L4",
+    "supports": ["public", "sospensione", "superficie"]
+  },
+  "luogo_081": {
+    "label": "Dungeon BDSM completo",
+    "explanation": "Arredi professionali: gabbie, suspension frame, tavolo di tortura.",
+    "level": "L5",
+    "supports": ["bondage", "sospensione", "superficie"]
+  },
+  "luogo_082": {
+    "label": "Dark room club hardcore",
+    "explanation": "Buio quasi totale, corridoi angusti, mani sconosciute che esplorano senza volto.",
+    "level": "L5",
+    "supports": ["public"]
+  },
+  "luogo_083": {
+    "label": "Stanza specchi soffitto e pavimento",
+    "explanation": "Ogni angolo riflette corpi intrecciati, zero privacy totale esibizione.",
+    "level": "L5",
+    "supports": ["superficie", "public"]
+  },
+  "luogo_084": {
+    "label": "Palco show privato",
+    "explanation": "Lucernari sopra, pubblico selezionato sotto: ogni atto diventa performance.",
+    "level": "L5",
+    "supports": ["public", "superficie"]
+  },
+  "luogo_085": {
+    "label": "Croce sospensione acciaio",
+    "explanation": "Fissata al soffitto: il corpo resta appeso pronto a qualsiasi stimolazione.",
+    "level": "L5",
+    "supports": ["bondage", "sospensione", "superficie"]
+  },
+  "luogo_086": {
+    "label": "Stanza vacuum latex",
+    "explanation": "Sacchi di lattice e pompe d’aria che immobilizzano in totale sottomissione sensoriale.",
+    "level": "L5",
+    "supports": ["bondage", "superficie"]
+  },
+  "luogo_087": {
+    "label": "Studio film hard",
+    "explanation": "Telecamere, luci da set, regista che guida le scene: professional porn vibes.",
+    "level": "L5",
+    "supports": ["public", "superficie"]
+  },
+  "luogo_088": {
+    "label": "Stanza gabbia esposizione",
+    "explanation": "Gabbia di metallo al centro: il corpo è visibile a 360° ma impossibilitato a muoversi.",
+    "level": "L5",
+    "supports": ["bondage", "superficie", "public"]
+  },
+  "luogo_089": {
+    "label": "Spazio bondage sospensione",
+    "explanation": "Anelli al soffitto e trave portante: perfetto per shibari sospesi full-body.",
+    "level": "L5",
+    "supports": ["sospensione", "bondage", "superficie"]
+  },
+  "luogo_090": {
+    "label": "Letto girevole palco",
+    "explanation": "Piattaforma motorizzata che ruota lentamente mostrando ogni angolazione ai presenti.",
+    "level": "L5",
+    "supports": ["public", "superficie"]
+  },
+  "luogo_091": {
+    "label": "Stanza gomma pressurizzata totale",
+    "explanation": "Pareti e pavimento in latex teso; pressione d’aria regolabile che stringe e massaggia il corpo.",
+    "level": "L5",
+    "supports": ["bondage", "superficie"]
+  },
+  "luogo_092": {
+    "label": "Vac-bed sospeso",
+    "explanation": "Sacco a vuoto appeso: il partner resta immobilizzato e sollevato.",
+    "level": "L5",
+    "supports": ["sospensione", "bondage", "superficie"]
+  },
+  "luogo_093": {
+    "label": "Altalena sex industriale",
+    "explanation": "Struttura in metallo, catene robuste: swing penetrativo in tutte le direzioni.",
+    "level": "L5",
+    "supports": ["sospensione", "superficie", "bondage"]
+  },
+  "luogo_094": {
+    "label": "Gabbia metallica grande",
+    "explanation": "Spazio sufficiente per stare in piedi o in ginocchio: il suono delle sbarre amplifica la sensazione di prigionia.",
+    "level": "L5",
+    "supports": ["bondage", "public"]
+  },
+  "luogo_095": {
+    "label": "Palco show pubblico kink",
+    "explanation": "Lucidatrici luci stroboscopiche, pubblico urlante: la scena non è per timidi.",
+    "level": "L5",
+    "supports": ["public", "superficie"]
+  },
+  "luogo_096": {
+    "label": "Stanza gomma sottovuoto",
+    "explanation": "Camera depressurizzata che comprime il corpo contro membrane di latex.",
+    "level": "L5",
+    "supports": ["bondage", "superficie"]
+  },
+  "luogo_097": {
+    "label": "Capsula trasparente sospesa",
+    "explanation": "Bolla plexiglass appesa a catene: ogni movimento visibile a 360°.",
+    "level": "L5",
+    "supports": ["public", "sospensione", "superficie"]
+  },
+  "luogo_098": {
+    "label": "Altalena sex ceiling-mount",
+    "explanation": "Fissata a trave robusta: penetrazioni profondissime mentre il partner oscilla.",
+    "level": "L5",
+    "supports": ["sospensione", "superficie"]
+  },
+  "luogo_099": {
+    "label": "Tavolo croce rovesciata",
+    "explanation": "Corpo legato in posizione inversa X, accessibile da tutti i lati per punizioni e carezze.",
+    "level": "L5",
+    "supports": ["bondage", "superficie"]
+  },
+  "luogo_100": {
+    "label": "Carrozza treno notturno aperta",
+    "explanation": "Vagone con tendina semiaperta: rumoroso e vibrante, un set perfetto per esibizionisti esperti.",
+    "level": "L5",
+    "supports": ["public", "superficie"]
+  },
+  "luogo_null": {
+    "label": "qui non devi fare nulla",
+    "explanation": "",
+    "level": ""
+  },
+    "energia_001": {
+      "label": "Dolce e compassionevole",
+      "explanation": "Gestualità delicata, voci soffuse e sorrisi continui: tutto è avvolgente come una coperta calda.",
+      "level": "L1"
+    },
+    "energia_002": {
+      "label": "Giocosa e leggera",
+      "explanation": "Risatine, solletico leggero e sguardi maliziosi che stuzzicano senza mai superare il limite.",
+      "level": "L1"
+    },
+    "energia_003": {
+      "label": "Romantica lenta",
+      "explanation": "Baci lunghi, mani intrecciate e respiri profondi sincronizzati.",
+      "level": "L1"
+    },
+    "energia_004": {
+      "label": "Intima silenziosa",
+      "explanation": "Poche parole, solo carezze e sguardi che parlano al posto della voce.",
+      "level": "L1"
+    },
+    "energia_005": {
+      "label": "Rassicurante",
+      "explanation": "Toni morbidi, frasi d’incoraggiamento e abbracci che stringono forte prima di ogni passo più audace.",
+      "level": "L1"
+    },
+    "energia_006": {
+      "label": "Curiosa e lenta",
+      "explanation": "Esplorazione attenta di ogni centimetro di pelle con mani e sussurri, senza fretta di arrivare al dunque.",
+      "level": "L1"
+    },
+    "energia_007": {
+      "label": "Attenta al respiro",
+      "explanation": "Inspirare ed espirare all’unisono per creare connessione e calma condivisa.",
+      "level": "L1"
+    },
+    "energia_008": {
+      "label": "Coccolosa",
+      "explanation": "Sfregare nasi, stringersi e dondolare come in un abbraccio senza tempo.",
+      "level": "L1"
+    },
+    "energia_009": {
+      "label": "Gentile e premurosa",
+      "explanation": "Domande su comfort e consenso accompagnano ogni carezza.",
+      "level": "L1"
+    },
+    "energia_010": {
+      "label": "Sensuale slow-tempo",
+      "explanation": "Movimenti rallentati al ritmo di musica soft, labbra che si sfiorano come per caso.",
+      "level": "L1"
+    },
+    "energia_011": {
+      "label": "Affettuosa",
+      "explanation": "Parole dolci e complimenti sussurrati che fanno arrossire e sorridere.",
+      "level": "L1"
+    },
+    "energia_012": {
+      "label": "Scoperta giocosa",
+      "explanation": "Indovinelli sul corpo: ‘Dove sto toccando adesso?’ seguiti da risatine e baci.",
+      "level": "L1"
+    },
+    "energia_013": {
+      "label": "Pacata",
+      "explanation": "Movimenti lenti, lunghi sospiri e pause frequenti per godere del momento.",
+      "level": "L1"
+    },
+    "energia_014": {
+      "label": "Sorridente",
+      "explanation": "Ogni gesto viene accompagnato da sorrisi compiaciuti e occhi luminosi.",
+      "level": "L1"
+    },
+    "energia_015": {
+      "label": "Accudente",
+      "explanation": "Coprire il partner con una coperta dopo un brivido, offrire acqua, pettinare i capelli con le dita.",
+      "level": "L1"
+    },
+    "energia_016": {
+      "label": "Meditativa",
+      "explanation": "Silenzio condiviso, mani unite sul petto e focus sui battiti del cuore.",
+      "level": "L1"
+    },
+    "energia_017": {
+      "label": "Vibrante ma soffusa",
+      "explanation": "Piccoli brividi e pelle d’oca, ma sempre avvolti da gentilezza.",
+      "level": "L1"
+    },
+    "energia_018": {
+      "label": "Rilassante",
+      "explanation": "Toni bassi, luci calde e movimenti distesi per alleviare ogni tensione.",
+      "level": "L1"
+    },
+    "energia_019": {
+      "label": "Calorosa",
+      "explanation": "Abbracci lunghi che sciolgono la giornata, respirando l’uno nell’altro.",
+      "level": "L1"
+    },
+    "energia_020": {
+      "label": "Delicatamente seduttiva",
+      "explanation": "Piccoli morsi alle labbra, carezze su collo e orecchie senza fretta.",
+      "level": "L1"
+    },
+    "energia_021": {
+      "label": "Sensuale decisa",
+      "explanation": "Movimenti più audaci ma ancora lenti, pressione delle mani che guida i fianchi con sicurezza.",
+      "level": "L2"
+    },
+    "energia_022": {
+      "label": "Romantica con mordente",
+      "explanation": "Baci più lunghi che sfociano in piccoli morsi sul labbro.",
+      "level": "L2"
+    },
+    "energia_023": {
+      "label": "Canalizzata sulla voce",
+      "explanation": "Istruzioni sussurrate su dove vuole le tue mani e la tua bocca.",
+      "level": "L2"
+    },
+    "energia_024": {
+      "label": "Giochi di respiro lievi",
+      "explanation": "Avvicinare bocca a bocca e respirare l’aria dell’altro, creando attesa prima di un bacio profondo.",
+      "level": "L2"
+    },
+    "energia_025": {
+      "label": "Stuzzicante",
+      "explanation": "Brevi tocchi che si ritirano subito, lasciando il partner a inseguire la mano.",
+      "level": "L2"
+    },
+    "energia_026": {
+      "label": "Alternanza dolce–piccante",
+      "explanation": "Carezze tenere interrotte da schiaffetti leggeri sui glutei.",
+      "level": "L2"
+    },
+    "energia_027": {
+      "label": "Respiri accelerati",
+      "explanation": "Il ritmo del respiro sale mentre le mani esplorano sotto i vestiti.",
+      "level": "L2"
+    },
+    "energia_028": {
+      "label": "Guidata dalla musica",
+      "explanation": "Movimenti al tempo di una traccia R&B sensuale, cambiando ritmo quando il beat aumenta.",
+      "level": "L2"
+    },
+    "energia_029": {
+      "label": "Gioco di complimenti",
+      "explanation": "Ogni tocco è accompagnato da elogio, accrescendo fiducia e desiderio.",
+      "level": "L2"
+    },
+    "energia_030": {
+      "label": "Ritmo ondeggiante",
+      "explanation": "Pelvi che si sfregano con movimento costante, crescendo lentamente d’intensità.",
+      "level": "L2"
+    },
+    "energia_031": {
+      "label": "Focus sul contatto visivo",
+      "explanation": "Non distogliere lo sguardo mentre le mani percorrono il corpo del partner.",
+      "level": "L2"
+    },
+    "energia_032": {
+      "label": "Teasing verbale",
+      "explanation": "Promesse sussurrate di ciò che verrà dopo, mantenendo la suspense.",
+      "level": "L2"
+    },
+    "energia_033": {
+      "label": "Baci ritmati",
+      "explanation": "Serie di tre baci rapidi, pausa, poi uno lungo, ripetendo con variazioni.",
+      "level": "L2"
+    },
+    "energia_034": {
+      "label": "Tocco danza",
+      "explanation": "Mani che seguono il profilo del partner come coreografia lenta.",
+      "level": "L2"
+    },
+    "energia_035": {
+      "label": "Intento e controllo",
+      "explanation": "Il conduttore indica con la mano dove il partner deve posarsi o muoversi.",
+      "level": "L2"
+    },
+    "energia_036": {
+      "label": "Giochi di temperatura soft",
+      "explanation": "Cubetto di ghiaccio che disegna una traccia seguita da un bacio caldo.",
+      "level": "L2"
+    },
+    "energia_037": {
+      "label": "Sorpresa improvvisa",
+      "explanation": "Passare da carezze lente a bacio profondo afferrando fianchi con decisione.",
+      "level": "L2"
+    },
+    "energia_038": {
+      "label": "Movimento fluido",
+      "explanation": "Spostarsi da seduti a sdraiati senza interrompere mai il contatto.",
+      "level": "L2"
+    },
+    "energia_039": {
+      "label": "Parole affamate",
+      "explanation": "Descrivere cosa si vuole con dettagli leggermente espliciti, tenendo il partner sul filo.",
+      "level": "L2"
+    },
+    "energia_040": {
+      "label": "Melodia crescente",
+      "explanation": "L’intensità sale come il crescendo in una canzone: inizio lento, culmine deciso.",
+      "level": "L2"
+    },
+    "energia_041": {
+      "label": "Piccante e decisa",
+      "explanation": "Movimenti rapidi, pressioni forti sulle zone erogene, morsi leggeri.",
+      "level": "L3"
+    },
+    "energia_042": {
+      "label": "Dirty-talk costante",
+      "explanation": "Parole esplicite guidano ogni gesto; il silenzio non è ammesso.",
+      "level": "L3"
+    },
+    "energia_043": {
+      "label": "Alternanza rallenta–spingi",
+      "explanation": "Ritmi veloci seguiti da rallentamenti bruschi per creare spasmi di desiderio.",
+      "level": "L3"
+    },
+    "energia_044": {
+      "label": "Contatto visivo fisso",
+      "explanation": "Non distogliere lo sguardo mentre i corpi si muovono in modo sempre più audace.",
+      "level": "L3"
+    },
+    "energia_045": {
+      "label": "Spanking ritmato",
+      "explanation": "Serie di colpi su glutei in crescendo, misurati, con pause per accarezzare.",
+      "level": "L3"
+    },
+    "energia_046": {
+      "label": "Dominazione soft",
+      "explanation": "Comandi chiari ma tono affettuoso; il partner obbedisce con sorriso complice.",
+      "level": "L3"
+    },
+    "energia_047": {
+      "label": "Respiri rapidi condivisi",
+      "explanation": "Gemiti trattenuti a labbra unite, respirando l’aria dell’altro.",
+      "level": "L3"
+    },
+    "energia_048": {
+      "label": "Tono di sfida",
+      "explanation": "Provocazioni verbali che invitano a superare i limiti con sorriso sicuro.",
+      "level": "L3"
+    },
+    "energia_049": {
+      "label": "Ritmo di batteria",
+      "explanation": "Bacino si muove al tempo di beat veloci; ogni colpo un boato di piacere.",
+      "level": "L3"
+    },
+    "energia_050": {
+      "label": "Morsi appassionati",
+      "explanation": "Denti che afferrano pelle di spalla, coscia, seno lasciando impronta calda.",
+      "level": "L3"
+    },
+    "energia_051": {
+      "label": "Gioco di potere esplicito",
+      "explanation": "Frasi su chi comanda e chi obbedisce con tono fermo.",
+      "level": "L3"
+    },
+    "energia_052": {
+      "label": "Sfida resistenza",
+      "explanation": "Vedere chi resiste più a lungo senza venire, con provocazioni costanti.",
+      "level": "L3"
+    },
+    "energia_053": {
+      "label": "Parole crude",
+      "explanation": "Nessuna censura nel descrivere fantasie e desideri reciproci.",
+      "level": "L3"
+    },
+    "energia_054": {
+      "label": "Controllo ritmo musicale",
+      "explanation": "Cambiare intensità in base al drop di una traccia dance.",
+      "level": "L3"
+    },
+    "energia_055": {
+      "label": "Punzecchi, poi coccoli",
+      "explanation": "Unghie che graffiano leggero seguite da baci lenitivi sulla stessa linea.",
+      "level": "L3"
+    },
+    "energia_056": {
+      "label": "Voce bassa dominante",
+      "explanation": "Ordini dati quasi in un ringhio, per vibrazione autoritaria nell’orecchio.",
+      "level": "L3"
+    },
+    "energia_057": {
+      "label": "Scuoti e blocca",
+      "explanation": "Scatti di movimento alternati a immobilizzazioni improvvise per sorpresa erotica.",
+      "level": "L3"
+    },
+    "energia_058": {
+      "label": "Edging volontario",
+      "explanation": "Il partner chiede di fermarsi e riprendere secondo un countdown prestabilito.",
+      "level": "L3"
+    },
+    "energia_059": {
+      "label": "Battito accelerato",
+      "explanation": "Palpi polso o giugulare per sentire il cuore che impazzisce mentre spingi oltre.",
+      "level": "L3"
+    },
+    "energia_060": {
+      "label": "Provocazioni continue",
+      "explanation": "Ogni carezza è seguita da frase su ciò che accadrà dopo, creando anticipazione costante.",
+      "level": "L3"
+    },
+    "energia_061": {
+      "label": "Dominazione intensa",
+      "explanation": "Comandi perentori, tono fermo e nessuna esitazione nell’imporre ritmo e posizioni.",
+      "level": "L4"
+    },
+    "energia_062": {
+      "label": "Sottomissione totale",
+      "explanation": "Il partner resta in attesa di ordini, mani dietro la schiena o legate.",
+      "level": "L4"
+    },
+    "energia_063": {
+      "label": "Punizione orgasm denial",
+      "explanation": "Negare l’orgasmo ripetutamente come disciplina erotica.",
+      "level": "L4"
+    },
+    "energia_064": {
+      "label": "Ritmo martellante",
+      "explanation": "Movimenti rapidi e continui, quasi senza pause, fino a tremore muscolare.",
+      "level": "L4"
+    },
+    "energia_065": {
+      "label": "Schiaffi controllati",
+      "explanation": "Slap su viso o seno con intensità misurata e consenso stabilito.",
+      "level": "L4"
+    },
+    "energia_066": {
+      "label": "Choking leggero",
+      "explanation": "Pressione sulla gola per pochi secondi seguita da rilascio e bacio di conforto.",
+      "level": "L4"
+    },
+    "energia_067": {
+      "label": "Comandi numerati",
+      "explanation": "Il dominante conta le spinte o gli schiaffi, aumentando la suspense sui prossimi colpi.",
+      "level": "L4"
+    },
+    "energia_068": {
+      "label": "Sessione senza parole",
+      "explanation": "Solo gesti e segni; la comunicazione è fatta di sguardi e comandi tattili.",
+      "level": "L4"
+    },
+    "energia_069": {
+      "label": "Gioco temperatura intensa",
+      "explanation": "Cera calda seguita da ghiaccio, alternanza che manda la pelle in confusione sensoriale.",
+      "level": "L4"
+    },
+    "energia_070": {
+      "label": "Ritmo fanatico",
+      "explanation": "Nessuna pausa concessa; obiettivo: travolgere il partner fino al cedimento delle gambe.",
+      "level": "L4"
+    },
+    "energia_071": {
+      "label": "Edge incontrollato",
+      "explanation": "Il partner non sa quando finirai il gioco: resta sospeso in un limbo di piacere.",
+      "level": "L4"
+    },
+    "energia_072": {
+      "label": "Grida controllate",
+      "explanation": "Incoraggiare il partner a vocalizzare forte, poi zittirlo con un bacio o una mano.",
+      "level": "L4"
+    },
+    "energia_073": {
+      "label": "Sfida resistenza fisica",
+      "explanation": "Posizioni impegnative sostenute a lungo, spingendo i limiti muscolari.",
+      "level": "L4"
+    },
+    "energia_074": {
+      "label": "Tono insulto-affetto",
+      "explanation": "Alternare parole dure a lodi, confondendo e accendendo i sensi insieme.",
+      "level": "L4"
+    },
+    "energia_075": {
+      "label": "Rituale di fiducia",
+      "explanation": "Il sottomesso benda gli occhi e lascia che il dominante agisca liberamente.",
+      "level": "L4"
+    },
+    "energia_076": {
+      "label": "Contact improv selvaggio",
+      "explanation": "Corpi che si spingono, si sollevano e rotolano sul pavimento dominandosi.",
+      "level": "L4"
+    },
+    "energia_077": {
+      "label": "Respiri mozzati",
+      "explanation": "Il dominante decide quando il partner può riprendere fiato, dosando brevi pause.",
+      "level": "L4"
+    },
+    "energia_078": {
+      "label": "Conto alla rovescia",
+      "explanation": "Fissare un timer prima di concedere piacere, aumentando l’ansia erotica.",
+      "level": "L4"
+    },
+    "energia_079": {
+      "label": "Vox command harsh",
+      "explanation": "Tono ruvido, parole brevi: ogni comando suona come ordine militare.",
+      "level": "L4"
+    },
+    "energia_080": {
+      "label": "Pace dopo tempesta",
+      "explanation": "Sessione intensa seguita da abbraccio stretto e sussurri di cura.",
+      "level": "L4"
+    },
+    "energia_081": {
+      "label": "Hardcore domination",
+      "explanation": "Tono di comando non negoziabile, zero pause finché il safeword non viene usato.",
+      "level": "L5"
+    },
+    "energia_082": {
+      "label": "Humiliation play",
+      "explanation": "Parole degradanti scelte d’accordo che spingono il partner oltre la vergogna consensuale.",
+      "level": "L5"
+    },
+    "energia_083": {
+      "label": "Pain & pleasure mix",
+      "explanation": "Scudisciate alternate a carezze orgasmiche; contrasti forti e rapidi.",
+      "level": "L5"
+    },
+    "energia_084": {
+      "label": "Total submission",
+      "explanation": "Il sottomesso è un oggetto: niente movimenti volontari, solo ciò che il dominante concede.",
+      "level": "L5"
+    },
+    "energia_085": {
+      "label": "Frenesia animalesca",
+      "explanation": "Gemiti gutturali, morsi profondi, graffi che lasciano segni visibili.",
+      "level": "L5"
+    },
+    "energia_086": {
+      "label": "Electro-rush",
+      "explanation": "Scariche elettriche pulsate sui punti erogeni mentre il partner è immobilizzato.",
+      "level": "L5"
+    },
+    "energia_087": {
+      "label": "Breath-play estremo",
+      "explanation": "Controllo completo del respiro con maschera o mano; pausa prolungata secondo limiti stabiliti.",
+      "level": "L5"
+    },
+    "energia_088": {
+      "label": "Edge marathon",
+      "explanation": "Diverse ore di negazione orgasmica con stimolazioni continue finché il partner implora.",
+      "level": "L5"
+    },
+    "energia_089": {
+      "label": "Multi-partner control",
+      "explanation": "Un dominante guida più sottomessi coordinando azioni simultanee.",
+      "level": "L5"
+    },
+    "energia_090": {
+      "label": "Public show kink",
+      "explanation": "Esibirsi davanti a estranei in un locale fetish, tra applausi e sguardi affamati.",
+      "level": "L5"
+    },
+    "energia_091": {
+      "label": "Degradation lash",
+      "explanation": "Insulti espliciti e sputi consensuali, spiazzando il partner nel piacere umiliante.",
+      "level": "L5"
+    },
+    "energia_092": {
+      "label": "Fisting stamina",
+      "explanation": "Penetrazione a mano completa, mantenuta finché il partner accetta la pienezza estrema.",
+      "level": "L5"
+    },
+    "energia_093": {
+      "label": "Impact continuous",
+      "explanation": "Sessione di colpi senza soste su varie zone del corpo usando diversi strumenti.",
+      "level": "L5"
+    },
+    "energia_094": {
+      "label": "Knife-play sicuro",
+      "explanation": "Lama fredda che sfiora pelle, taglia abiti ma non la carne; timore ed eccitazione si fondono.",
+      "level": "L5"
+    },
+    "energia_095": {
+      "label": "Suspension long-time",
+      "explanation": "Sospensioni shibari che durano decine di minuti, corpo in vibrazione continua.",
+      "level": "L5"
+    },
+    "energia_096": {
+      "label": "Extreme temperature",
+      "explanation": "Cera bollente subito seguita da spray ghiaccio o cubetti sulla stessa zona.",
+      "level": "L5"
+    },
+    "energia_097": {
+      "label": "Objectification",
+      "explanation": "Il partner diventa mobile o supporto, restando immobile in posizione scomoda.",
+      "level": "L5"
+    },
+    "energia_098": {
+      "label": "Crowd control",
+      "explanation": "Il dominante dirige una gangbang, distribuendo ruoli e ritmi.",
+      "level": "L5"
+    },
+    "energia_099": {
+      "label": "Vac-bed isolation",
+      "explanation": "Totale immobilità in sacca di lattice depressurizzata, solo piccole aperture per respiro o stimolazione.",
+      "level": "L5"
+    },
+    "energia_100": {
+      "label": "Total power exchange 24h",
+      "explanation": "Dominante gestisce ogni aspetto della giornata del sub: abbigliamento, postura, orgasmo e cibo.",
+      "level": "L5"
+    },
+    
+    "energia_null": {
+      "label": "qui non devi fare nulla",
+      "explanation": "",
+      "level": ""
+    },
+    "oggetto_001": {
+      "label": "Piuma solletico",
+      "explanation": "Leggera e soffice, perfetta per stuzzicare la pelle del partner dalle caviglie al collo.",
+      "level": "L1"
+    },
+    "oggetto_002": {
+      "label": "Cubetto di ghiaccio",
+      "explanation": "Un semplice cubo d’acqua congelata che regala brividi se fatto scorrere su labbra e capezzoli.",
+      "level": "L1"
+    },
+    "oggetto_003": {
+      "label": "Olio da massaggio neutro",
+      "explanation": "Scalda fra le mani e fai scivolare le dita sul corpo per un rilassamento totale.",
+      "level": "L1"
+    },
+    "oggetto_004": {
+      "label": "Cuscino wedge",
+      "explanation": "Cuscino a spigolo che solleva il bacino o il petto, migliorando l’angolazione nella penetrazione.",
+      "level": "L1"
+    },
+    "oggetto_005": {
+      "label": "Specchio portatile",
+      "explanation": "Piccolo specchio da mano per osservare le reazioni del partner in punti nascosti.",
+      "level": "L1"
+    },
+    "oggetto_006": {
+      "label": "Scrunchie di seta",
+      "explanation": "Elastico morbido per legare i capelli… o polsi, in modo soft e improvvisato.",
+      "level": "L1"
+    },
+    "oggetto_007": {
+      "label": "Gel lubrificante neutro",
+      "explanation": "A base d’acqua, migliora ogni carezza e riduce attrito senza alterare il sapore.",
+      "level": "L1"
+    },
+    "oggetto_008": {
+      "label": "Foulard di seta",
+      "explanation": "Si trasforma in benda per gli occhi o legatura di polsi in un attimo.",
+      "level": "L1"
+    },
+    "oggetto_009": {
+      "label": "Candela profumata",
+      "explanation": "Accesa crea atmosfera; la cera tiepida può sfiorare la pelle per un brivido leggerissimo.",
+      "level": "L1"
+    },
+    "oggetto_010": {
+      "label": "Cuffie musicali condivise",
+      "explanation": "Una canzone sensuale in due auricolari per muoversi allo stesso ritmo.",
+      "level": "L1"
+    },
+    "oggetto_011": {
+      "label": "Set pennelli make-up",
+      "explanation": "Le setole morbide accarezzano aree sensibili come interno cosce e ascelle.",
+      "level": "L1"
+    },
+    "oggetto_012": {
+      "label": "Fascia elastica fitness",
+      "explanation": "Da passare intorno ai fianchi per tirare il partner più vicino durante i baci.",
+      "level": "L1"
+    },
+    "oggetto_013": {
+      "label": "Spray menta acqua",
+      "explanation": "Nebulizzato su capezzoli o labbra dona un pizzicorino rinfrescante.",
+      "level": "L1"
+    },
+    "oggetto_014": {
+      "label": "Coperta morbida",
+      "explanation": "Avvolge in un nido caldo dove esplorare carezze lente senza distrazioni.",
+      "level": "L1"
+    },
+    "oggetto_015": {
+      "label": "Penna a sfera",
+      "explanation": "Per scrivere parole sul corpo che il partner dovrà ripassare con la lingua.",
+      "level": "L1"
+    },
+    "oggetto_016": {
+      "label": "Palloncino gonfio",
+      "explanation": "Le vibrazioni sottili quando lo strofini sulla pelle fanno ridere e eccitare insieme.",
+      "level": "L1"
+    },
+    "oggetto_017": {
+      "label": "Nastro adesivo carta",
+      "explanation": "Delicato sulla pelle: traccia percorsi labili da strappare lentamente.",
+      "level": "L1"
+    },
+    "oggetto_018": {
+      "label": "Anello silicone dita",
+      "explanation": "Indossalo sul dito per amplificare la pressione durante la stimolazione esterna.",
+      "level": "L1"
+    },
+    "oggetto_019": {
+      "label": "Ventaglio mano",
+      "explanation": "Soffia aria fresca dopo baci caldi, alternando temperatura e sensazione.",
+      "level": "L1"
+    },
+    "oggetto_020": {
+      "label": "Cuscino ghiaccio gel",
+      "explanation": "Compresa fredda da passare sul corpo dopo un massaggio caldo per contrasto soft.",
+      "level": "L1"
+    },
+    "oggetto_021": {
+      "label": "Blindfold seta",
+      "explanation": "Coprendo gli occhi, amplifica tatto e udito: ogni carezza diventa imprevedibile.",
+      "level": "L2"
+    },
+    "oggetto_022": {
+      "label": "Bullet vibratore",
+      "explanation": "Vibrazioni puntuali per clitoride, capezzoli o frenulo; discreto e silenzioso.",
+      "level": "L2"
+    },
+    "oggetto_023": {
+      "label": "Palline vaginali",
+      "explanation": "Indossate durante la serata stimolano il pavimento pelvico a ogni passo.",
+      "level": "L2"
+    },
+    "oggetto_024": {
+      "label": "Manette peluche",
+      "explanation": "Limitano i movimenti senza far male: gioco di potere soft ideale per principianti.",
+      "level": "L2"
+    },
+    "oggetto_025": {
+      "label": "Anello fallico morbido",
+      "explanation": "Mantiene erezione più a lungo e intensifica l’orgasmo con lieve pressione alla base.",
+      "level": "L2"
+    },
+    "oggetto_026": {
+      "label": "Lubrificante aromatizzato",
+      "explanation": "Gusto fragola o vaniglia: perfetto per cunnilingus o fellatio extra-golosi.",
+      "level": "L2"
+    },
+    "oggetto_027": {
+      "label": "Dildo piccolo silicone",
+      "explanation": "Forma anatomica e morbidezza media: ideale per prime esplorazioni interne.",
+      "level": "L2"
+    },
+    "oggetto_028": {
+      "label": "Guanti di seta",
+      "explanation": "Il tessuto scivola sulla pelle riducendo l’attrito e aumentando il calore del contatto.",
+      "level": "L2"
+    },
+    "oggetto_029": {
+      "label": "Crop leggero",
+      "explanation": "Asta flessibile con punta soffice per colpetti stimolanti su cosce e glutei.",
+      "level": "L2"
+    },
+    "oggetto_030": {
+      "label": "Plug anale piccolo",
+      "explanation": "Diametro ridotto e base larga: entry-level con sicurezza garantita.",
+      "level": "L2"
+    },
+    "oggetto_031": {
+      "label": "Gel riscaldante",
+      "explanation": "Attivato dal massaggio, dona calore progressivo alle zone erogene.",
+      "level": "L2"
+    },
+    "oggetto_032": {
+      "label": "Collare morbido",
+      "explanation": "Simbolo di appartenenza: chi lo indossa si fida di chi tiene il guinzaglio immaginario.",
+      "level": "L2"
+    },
+    "oggetto_033": {
+      "label": "Pinze capezzoli regolabili",
+      "explanation": "Pressione modulabile tramite vite; dal pizzico lieve al morso deciso.",
+      "level": "L2"
+    },
+    "oggetto_034": {
+      "label": "Mini wand portatile",
+      "explanation": "Testina piccola ma potente, ricaricabile via USB: orgasmi on-the-go.",
+      "level": "L2"
+    },
+    "oggetto_035": {
+      "label": "Cera basso punto fusione",
+      "explanation": "Si scioglie a 40 °C: scotta in modo piacevole e sicuro per wax-play soft.",
+      "level": "L2"
+    },
+    "oggetto_036": {
+      "label": "Massaggiatore scalp",
+      "explanation": "Dita metalliche rilassano la cute creando brividi su tutto il corpo.",
+      "level": "L2"
+    },
+    "oggetto_037": {
+      "label": "Anello fallico vibrante",
+      "explanation": "Combina pressione alla base con vibrazioni sul clitoride durante la penetrazione.",
+      "level": "L2"
+    },
+    "oggetto_038": {
+      "label": "Spray commestibile",
+      "explanation": "Nebulizza gusto cioccolato o menta su pelle da leccare pezzo per pezzo.",
+      "level": "L2"
+    },
+    "oggetto_039": {
+      "label": "Corda cotone 5 m",
+      "explanation": "Morbida sulla pelle, perfetta per legature semplici di polsi o cosce.",
+      "level": "L2"
+    },
+    "oggetto_040": {
+      "label": "Specchio corpo intero mobile",
+      "explanation": "Posizionalo accanto al letto per guardare ogni dettaglio dell’azione da più angoli.",
+      "level": "L2"
+    },
+    "oggetto_041": {
+      "label": "Wand massaggiatore grande",
+      "explanation": "Motore potente e testina larga: orgasmi quasi garantiti in pochi minuti.",
+      "level": "L3"
+    },
+    "oggetto_042": {
+      "label": "Plug anale medio",
+      "explanation": "Diametro intermedio, realizzato in acciaio per sensazione di pienezza e freschezza iniziale.",
+      "level": "L3"
+    },
+    "oggetto_043": {
+      "label": "Paddle cuoio classico",
+      "explanation": "Superficie piatta che distribuisce il colpo lasciando un calore diffuso.",
+      "level": "L3"
+    },
+    "oggetto_044": {
+      "label": "Gag ball ventilata",
+      "explanation": "Sfere con fori per respiro; riduce la parola ma non il fiato.",
+      "level": "L3"
+    },
+    "oggetto_045": {
+      "label": "Rope jute 10 m",
+      "explanation": "Fibre ruvide che aumentano attrito su pelle; ideale per shibari base.",
+      "level": "L3"
+    },
+    "oggetto_046": {
+      "label": "Pinze capezzoli catena",
+      "explanation": "Collegate da catena che può essere tirata per intensificare pressione.",
+      "level": "L3"
+    },
+    "oggetto_047": {
+      "label": "Vibratore telecomandato",
+      "explanation": "Inseribile con remote control a distanza: perfetto per giochi in pubblico.",
+      "level": "L3"
+    },
+    "oggetto_048": {
+      "label": "Frustino equitazione",
+      "explanation": "Punta rigida e precisione millimetrica: colpi netti su cosce o glutei.",
+      "level": "L3"
+    },
+    "oggetto_049": {
+      "label": "Plug coda volpe",
+      "explanation": "Coda soffice ancorata a plug; aggiunge elemento pet-play visivo e tattile.",
+      "level": "L3"
+    },
+    "oggetto_050": {
+      "label": "Cera bicolore hot & cold",
+      "explanation": "Duo di candele a 50 °C (caldo) e 35 °C (tiepido) per alternanza termica sul corpo.",
+      "level": "L3"
+    },
+      "oggetto_051": {
+        "label": "Harness petto H",
+        "explanation": "Cinghie che evidenziano torace e schiena, anello centrale per guinzaglio.",
+        "level": "L3"
+      },
+      "oggetto_052": {
+        "label": "Anello fallico metallico",
+        "explanation": "Acciaio lucido non elastico: mantiene erezione e accresce il senso di costrizione.",
+        "level": "L3"
+      },
+      "oggetto_053": {
+        "label": "Lubrificante effetto freddo",
+        "explanation": "Sensazione ice-kiss dopo pochi secondi di contatto su pelle e mucose.",
+        "level": "L3"
+      },
+      "oggetto_054": {
+        "label": "Dildo vetro medio",
+        "explanation": "Superficie dura e liscia, si scalda o raffredda per giochi di temperatura.",
+        "level": "L3"
+      },
+      "oggetto_055": {
+        "label": "Flogger suede 30 code",
+        "explanation": "Code morbide che sferzano lasciando arrossamento diffuso e sicuro.",
+        "level": "L3"
+      },
+      "oggetto_056": {
+        "label": "Collare pelle D-ring",
+        "explanation": "Anello frontale per agganciare guinzagli o corde; segnala appartenenza.",
+        "level": "L3"
+      },
+      "oggetto_057": {
+        "label": "Vibro-plug ricaricabile",
+        "explanation": "Combina sensazione di pienezza e vibrazioni multiple controllate via app.",
+        "level": "L3"
+      },
+      "oggetto_058": {
+        "label": "Frusta nove code",
+        "explanation": "Code sottili che lasciano segni lineari; intensità media-alta.",
+        "level": "L3"
+      },
+      "oggetto_059": {
+        "label": "Mask occhi latex",
+        "explanation": "Oscura la vista e avvolge la testa in odore di gomma, amplificando respiro e suoni.",
+        "level": "L3"
+      },
+      "oggetto_060": {
+        "label": "Plume tickler lungo",
+        "explanation": "Piumino montato su asta lunga per solleticare zone irraggiungibili.",
+        "level": "L3"
+      },
+      "oggetto_061": {
+        "label": "Plug anale largo",
+        "explanation": "Diametro generoso per senso di riempimento intenso, base a gioiello.",
+        "level": "L4"
+      },
+      "oggetto_062": {
+        "label": "Cane bamboo",
+        "explanation": "Bastone sottile e rigido: colpi secchi che lasciano segno e calore immediato.",
+        "level": "L4"
+      },
+      "oggetto_063": {
+        "label": "Electro-stim base kit",
+        "explanation": "Centralina e pad adesivi per scariche a intensità regolabile sui muscoli.",
+        "level": "L4"
+      },
+      "oggetto_064": {
+        "label": "Strapon harness regolabile",
+        "explanation": "Imbrago pelle con dildo intercambiabile; ribalta i ruoli di penetrazione.",
+        "level": "L4"
+      },
+      "oggetto_065": {
+        "label": "Vacuum pump penis",
+        "explanation": "Cilindro con pompa manuale per vasodilatazione e sensibilità aumentata.",
+        "level": "L4"
+      },
+      "oggetto_066": {
+        "label": "Gag bit silicone",
+        "explanation": "Barra morbida tra i denti, lascia bava fuoriuscire aumentando senso di sottomissione.",
+        "level": "L4"
+      },
+      "oggetto_067": {
+        "label": "Paddle acrilico trasparente",
+        "explanation": "Colpo secco e sonoro, permette di vedere la pelle che si colora a ogni smack.",
+        "level": "L4"
+      },
+      "oggetto_068": {
+        "label": "Rope jute 20 m",
+        "explanation": "Per legature shibari elaborate, fibra ruvida che morde la pelle aumentando adrenalina.",
+        "level": "L4"
+      },
+      "oggetto_069": {
+        "label": "Hook anale acciaio",
+        "explanation": "Gancio metallico collegabile a corde per sospensioni parziali thrilling.",
+        "level": "L4"
+      },
+      "oggetto_070": {
+        "label": "Pinze labbra vaginali",
+        "explanation": "Clamp a vite per labbra: pressione intensa controllata, collegabili a pesi.",
+        "level": "L4"
+      },
+      "oggetto_071": {
+        "label": "Cera 55 °C colore scuro",
+        "explanation": "Temperatura più alta per shock termico marcato; il colore mostra i rivoli sul corpo.",
+        "level": "L4"
+      },
+      "oggetto_072": {
+        "label": "Gabbia castità maschile",
+        "explanation": "Blocca l’erezione tenendo la chiave lontana: gioco di controllo prolungato.",
+        "level": "L4"
+      },
+      "oggetto_073": {
+        "label": "Skin-safe stapler",
+        "explanation": "Punti superficiali temporanei su pelle per body-modification temporanea.",
+        "level": "L4"
+      },
+      "oggetto_074": {
+        "label": "Bastone flogger catene",
+        "explanation": "Catene sottili producono tintinnio e colpi metallici su schiena e glutei.",
+        "level": "L4"
+      },
+      "oggetto_075": {
+        "label": "Vac-bed lattice",
+        "explanation": "Sacco che sigilla il corpo sotto vuoto lasciando solo orifizi scelti liberi.",
+        "level": "L4"
+      },
+      "oggetto_076": {
+        "label": "Plug anale vibrante largo",
+        "explanation": "Riempie e vibra in profondità, comandato via telecomando.",
+        "level": "L4"
+      },
+      "oggetto_077": {
+        "label": "Suspension frame acciaio",
+        "explanation": "Struttura autoportante per sospensioni complete senza fissaggi a soffitto.",
+        "level": "L4"
+      },
+      "oggetto_078": {
+        "label": "Shock collar telecomando",
+        "explanation": "Collare che invia impulsi elettrici controllati a distanza: addestramento kink avanzato.",
+        "level": "L4"
+      },
+      "oggetto_079": {
+        "label": "Dildo doppia penetrazione",
+        "explanation": "Forma Y per stimolare contemporaneamente vagina e ano o due partner insieme.",
+        "level": "L4"
+      },
+      "oggetto_080": {
+        "label": "Lubrificante silicone fisting",
+        "explanation": "Altissima scorrevolezza, lunga durata: indispensabile per giochi di pienezza estrema.",
+        "level": "L4"
+      },
+      "oggetto_081": {
+        "label": "Dildo XXL realistico",
+        "explanation": "Diametri oltre 6 cm per espansione estrema; richiede preparazione e molto lubrificante.",
+        "level": "L5"
+      },
+      "oggetto_082": {
+        "label": "Fist-dildo branch",
+        "explanation": "Replica di mano e avambraccio in silicone, per fisting profondo progressivo.",
+        "level": "L5"
+      },
+      "oggetto_083": {
+        "label": "Sesso-machine spinta variabile",
+        "explanation": "Motore regolabile 100–400 colpi/min, bracci intercambiabili per diversi toy.",
+        "level": "L5"
+      },
+      "oggetto_084": {
+        "label": "Stretcher anale a petali",
+        "explanation": "Alette che si aprono dall’interno dilatando lo sfintere a diametri estremi.",
+        "level": "L5"
+      },
+      "oggetto_085": {
+        "label": "Needle play kit sterile",
+        "explanation": "Set di aghi 22-gauge, guanti e salviette: per body-modification temporanea.",
+        "level": "L5"
+      },
+      "oggetto_086": {
+        "label": "Canna singletail",
+        "explanation": "Frusta a coda singola in cuoio che lascia strisce decise sulla pelle.",
+        "level": "L5"
+      },
+      "oggetto_087": {
+        "label": "Gancio anale sospensione",
+        "explanation": "Spessore consistente con anello per corde: unisce plug, bondage e sospensione.",
+        "level": "L5"
+      },
+      "oggetto_088": {
+        "label": "Electro plug anale",
+        "explanation": "Conduce impulsi elettrici all’interno, intensità da formicolio a contrazione forte.",
+        "level": "L5"
+      },
+      "oggetto_089": {
+        "label": "Vacuum pump seno",
+        "explanation": "Campane acriliche che risucchiano e ingrandiscono temporaneamente i seni.",
+        "level": "L5"
+      },
+      "oggetto_090": {
+        "label": "Speculum metallico",
+        "explanation": "Apre vagina o ano, offrendo vista voyeuristica e accesso a giochi medical kink.",
+        "level": "L5"
+      },
+      "oggetto_091": {
+        "label": "Macchina impalatrice",
+        "explanation": "Asta motorizzata con corsa lunga per penetrazioni profonde e ritmiche.",
+        "level": "L5"
+      },
+      "oggetto_092": {
+        "label": "Chastity belt femminile",
+        "explanation": "Acciaio inossidabile che blocca accesso a vulva e ano, chiusura con lucchetto.",
+        "level": "L5"
+      },
+      "oggetto_093": {
+        "label": "Gabbia castità 24 h silicone",
+        "explanation": "Design ergonomico per uso prolungato; può essere sigillata con tag numerato.",
+        "level": "L5"
+      },
+      "oggetto_094": {
+        "label": "Pesi capezzoli 250 g",
+        "explanation": "Carichi che tirano verso il basso creando tensione costante sulle pinze.",
+        "level": "L5"
+      },
+      "oggetto_095": {
+        "label": "Frusta cuoio 24 code",
+        "explanation": "Lascia segni paralleli e bruciore che dura minuti: per sessioni impact avanzate.",
+        "level": "L5"
+      },
+      "oggetto_096": {
+        "label": "Gabbia metallo corpo intero",
+        "explanation": "Costringe in piedi o in ginocchio, impedendo ogni movimento libero.",
+        "level": "L5"
+      },
+      "oggetto_097": {
+        "label": "Bastone cane carbonio",
+        "explanation": "Rigido e leggerissimo, colpi sibilanti che lasciano linee rosse perfette.",
+        "level": "L5"
+      },
+      "oggetto_098": {
+        "label": "Electro shock collar pro",
+        "explanation": "Livelli da vibrazione a scarica forte, controllabile via app o telecomando.",
+        "level": "L5"
+      },
+      "oggetto_099": {
+        "label": "Vac-bed standing",
+        "explanation": "Versione verticale: corpo sigillato in posizione eretta, libera solo aree scelte.",
+        "level": "L5"
+      },
+      "oggetto_100": {
+        "label": "Tavolo tortura regolabile",
+        "explanation": "Supporti per polsi, caviglie e addome; inclinazione motorizzata, accesso totale al corpo immobilizzato.",
+        "level": "L5"
+      },
+      
+      "oggetto_null": {
+        "label": "qui non devi fare nulla",
+        "explanation": "",
+        "level": ""
+      },
+      "extra_001": {
+        "label": "Playlist chill R&B",
+        "explanation": "Avvia una scaletta di brani soft a volume basso: il ritmo guida movimenti lenti e respirazione condivisa.",
+        "level": "L1"
+      },
+      "extra_002": {
+        "label": "Luci a candela",
+        "explanation": "Spegnere le lampade e lasciare solo candele: ombre danzanti che avvolgono i corpi in bagliore caldo.",
+        "level": "L1"
+      },
+      "extra_003": {
+        "label": "Doccia finale insieme",
+        "explanation": "Concludere con acqua tiepida che lava oli e baci salati, prolungando la carezza anche oltre il gioco.",
+        "level": "L1"
+      },
+      "extra_004": {
+        "label": "Safe-word scelta insieme",
+        "explanation": "Stabilite una parola semplice per fermarsi; aumenta fiducia e permette di lasciarsi andare senza timori.",
+        "level": "L1"
+      },
+      "extra_005": {
+        "label": "Selfie ricordo",
+        "explanation": "Scattate una foto di baci o mani intrecciate (volti esclusi) da conservare come segreto di coppia.",
+        "level": "L1"
+      },
+      "extra_006": {
+        "label": "Timer carezze 5′",
+        "explanation": "Impostate un conto alla rovescia; finché suona ci si dedica solo a coccole, senza fretta di ‘andare oltre’.",
+        "level": "L1"
+      },
+      "extra_007": {
+        "label": "Baci a occhi chiusi",
+        "explanation": "Per cinque minuti vietato guardarsi: tutti i sensi concentrati su labbra e pelle.",
+        "level": "L1"
+      },
+      "extra_008": {
+        "label": "Tè caldo post sessione",
+        "explanation": "Preparare una tazza fumante da bere nudi a letto: rituale di cura e chiusura morbida.",
+        "level": "L1"
+      },
+      "extra_009": {
+        "label": "Stenditi sul petto",
+        "explanation": "Momento di quiete: testa sul torace, ascolta il battito rallentare mentre le dita disegnano cerchi.",
+        "level": "L1"
+      },
+      "extra_010": {
+        "label": "Massaggio mani reciproco",
+        "explanation": "Spremi una noce di crema e dedica attenzione solo a palmi, dita e polsi del partner, poi scambiatevi.",
+        "level": "L1"
+      },
+      "extra_011": {
+        "label": "Cuscini a nido",
+        "explanation": "Costruite un piccolo fortino di cuscini: uno spazio protetto dove esplorare senza distrazioni esterne.",
+        "level": "L1"
+      },
+      "extra_012": {
+        "label": "Profumo sul cuscino",
+        "explanation": "Spruzza una sola goccia della tua fragranza sulla federa del partner: rimarrà anche dopo la notte.",
+        "level": "L1"
+      },
+      "extra_013": {
+        "label": "Parole dolci sussurrate",
+        "explanation": "Almeno tre frasi di gratitudine o apprezzamento prima di iniziare: crea atmosfera emotiva densa.",
+        "level": "L1"
+      },
+      "extra_014": {
+        "label": "Carezze a turno",
+        "explanation": "Chi riceve resta immobile per due minuti; poi si invertiscono i ruoli, mantenendo equilibrio di attenzioni.",
+        "level": "L1"
+      },
+      "extra_015": {
+        "label": "Benda profumata",
+        "explanation": "Imbevi la benda di qualche goccia di lavanda: oscurare vista e stimolare olfatto insieme.",
+        "level": "L1"
+      },
+      "extra_016": {
+        "label": "Gioco ‘caldo/freddo’",
+        "explanation": "Il partner cerca la tua mano sulla pelle seguendo indizi verbali ‘più caldo / più freddo’.",
+        "level": "L1"
+      },
+      "extra_017": {
+        "label": "Leggere poesia erotica",
+        "explanation": "Recita versi sensuali ripetendo le parole chiave vicino all’orecchio, accentuandone il significato con tocchi.",
+        "level": "L1"
+      },
+      "extra_018": {
+        "label": "Playlist binaurale relax",
+        "explanation": "Cuffie condivise con battiti 60 Hz che sincronizzano onde cerebrali e battito cardiaco.",
+        "level": "L1"
+      },
+      "extra_019": {
+        "label": "Scambio massaggio piedi",
+        "explanation": "Uno massaggia archi plantari dell’altro: relax totale prima di alzare il ritmo.",
+        "level": "L1"
+      },
+      "extra_020": {
+        "label": "Bacio ogni parola",
+        "explanation": "Ogni volta che uno dice ‘desidero’, l’altro regala un bacio in un punto diverso.",
+        "level": "L1"
+      },
+      "extra_021": {
+        "label": "Stop-watch teasing 10′",
+        "explanation": "Cronometro: vietato penetrare prima di dieci minuti di solo petting intensissimo.",
+        "level": "L2"
+      },
+      "extra_022": {
+        "label": "Occhi negli specchi",
+        "explanation": "Posiziona uno specchio laterale: guardate cosa accade da prospettiva insolita, senza voltare la testa.",
+        "level": "L2"
+      },
+      "extra_023": {
+        "label": "Baci numerati",
+        "explanation": "Contate a voce i baci sul corpo: chi sbaglia numero subisce un colpetto amichevole.",
+        "level": "L2"
+      },
+      "extra_024": {
+        "label": "Cambio abiti a turno",
+        "explanation": "Vestitevi e spogliatevi a vicenda lentamente, descrivendo cosa vi piace di ogni capo che cade.",
+        "level": "L2"
+      },
+      "extra_025": {
+        "label": "Cubetti ghiaccio lingua",
+        "explanation": "Pezzo di ghiaccio sulle labbra prima di un bacio profondo: shock termico leggero e stimolante.",
+        "level": "L2"
+      },
+      "extra_026": {
+        "label": "Parole proibite",
+        "explanation": "Scegliete tre parole vietate (es. ‘più forte’): chi le pronuncia subisce un piccolo pegno sensuale.",
+        "level": "L2"
+      },
+      "extra_027": {
+        "label": "Countdown sospiri",
+        "explanation": "Uno inspira vicino all’orecchio dell’altro e trattiene fiato per 3–2–1 prima di mordere piano il lobo.",
+        "level": "L2"
+      },
+      "extra_028": {
+        "label": "Lubrificante aromi frutta",
+        "explanation": "Copritevi di gusto mango o fragola e assaggiate a turno fino a tornare alla pelle nuda.",
+        "level": "L2"
+      },
+      "extra_029": {
+        "label": "Gioco ‘non toccare X’",
+        "explanation": "Vietato stimolare la zona scelta (es. capezzoli) per 5′, aumentando desiderio concentrato lì.",
+        "level": "L2"
+      },
+      "extra_030": {
+        "label": "Musica a caso shuffle",
+        "explanation": "Lasciate che il brano successivo decida ritmo: lento? carezze; veloce? colpi rapidi.",
+        "level": "L2"
+      },
+      "extra_031": {
+        "label": "Morsi dolci alternati",
+        "explanation": "Ogni carezza è seguita da un morso lieve in zona vicina, generando brividi e sorpresa.",
+        "level": "L2"
+      },
+      "extra_032": {
+        "label": "Sfida respiro 4-7-8",
+        "explanation": "Inspirare 4 s, trattenere 7, espirare 8 mentre si stimola lentamente clitoride o glande.",
+        "level": "L2"
+      },
+      "extra_033": {
+        "label": "Bendato indovina oggetto",
+        "explanation": "Sfiora la pelle bendata con 3 accessori diversi: il partner deve indovinare cos’era.",
+        "level": "L2"
+      },
+      "extra_034": {
+        "label": "Richiesta permesso",
+        "explanation": "Prima di baciare una nuova zona, chiedere ‘posso?’ aumentando tensione consensuale.",
+        "level": "L2"
+      },
+      "extra_035": {
+        "label": "Carezze lente cronometro",
+        "explanation": "Ogni carezza deve durare almeno 30 secondi dalla punta delle dita al polso.",
+        "level": "L2"
+      },
+      "extra_036": {
+        "label": "Gioco fotografie polaroid",
+        "explanation": "Scattate foto di dettagli (mani, schiena) e montate un collage ricordo post-sessione.",
+        "level": "L2"
+      },
+      "extra_037": {
+        "label": "Sfida gemiti bassi",
+        "explanation": "Chi geme sopra il sussurro perde e deve ‘pagare’ con 30 secondi di stimolazione supplica.",
+        "level": "L2"
+      },
+      "extra_038": {
+        "label": "Timer cambio posizione 5′",
+        "explanation": "Ogni cinque minuti sveglia: cambiare posizione mantenendo il contatto, senza perdere intimità.",
+        "level": "L2"
+      },
+      "extra_039": {
+        "label": "Descrizione sensazioni",
+        "explanation": "Obbligo di descrivere a voce cosa si prova a ogni nuova carezza: aiuta a sintonizzarsi.",
+        "level": "L2"
+      },
+      "extra_040": {
+        "label": "Baci al buio totale",
+        "explanation": "Spegnere tutto, nessuna fonte luminosa: affidarsi solo al tatto e all’udito.",
+        "level": "L2"
+      },
+      "extra_041": {
+        "label": "Dirty-talk continuo",
+        "explanation": "Per cinque minuti non è permesso restare in silenzio: descrivete in dettaglio ogni fantasia e gesto.",
+        "level": "L3"
+      },
+      "extra_042": {
+        "label": "Sussurri ordini",
+        "explanation": "Il dominante impartisce comandi in voce bassissima accanto all’orecchio del sub.",
+        "level": "L3"
+      },
+      "extra_043": {
+        "label": "Plug in pubblico",
+        "explanation": "Inserire un pequeno plug e uscire a cena, sapendo che sarà lì a ogni passo.",
+        "level": "L3"
+      },
+      "extra_044": {
+        "label": "Edge 3 volte",
+        "explanation": "Portare il partner vicino all’orgasmo e fermarsi tre volte prima di concedere il culmine.",
+        "level": "L3"
+      },
+      "extra_045": {
+        "label": "Sculacciata ogni gemito",
+        "explanation": "Ogni volta che il sub geme, riceve uno schiaffo su gluteo: impara a trattenersi (o no!).",
+        "level": "L3"
+      },
+      "extra_046": {
+        "label": "Control remoto vibrazione",
+        "explanation": "Dominante tiene il telecomando del toy mentre sub resta vestito: vibrazioni imprevedibili.",
+        "level": "L3"
+      },
+      "extra_047": {
+        "label": "Ghiaccio su capezzoli",
+        "explanation": "Cubetto diretto sui capezzoli poi subito boca calda: shock termico intenso.",
+        "level": "L3"
+      },
+      "extra_048": {
+        "label": "Sfida foto hot",
+        "explanation": "Scattare 5 foto intime con telefono del partner e inviarle solo a lui/lei come ricordo segreto.",
+        "level": "L3"
+      },
+      "extra_049": {
+        "label": "Parole proibite hard",
+        "explanation": "Stilate 3 parole volgari: chi le pronuncia deve subire 10 frustate leggere.",
+        "level": "L3"
+      },
+      "extra_050": {
+        "label": "Colpo paddle segnale",
+        "explanation": "Paddle su coscia come ‘via libera’ per passare dal soft al penetrativo deciso.",
+        "level": "L3"
+      },
+      "extra_051": {
+        "label": "Doctor role-play base",
+        "explanation": "Visita medica immaginaria con guanti e lampadina pen light, esplorando ogni riflesso e reazione.",
+        "level": "L3"
+      },
+      "extra_052": {
+        "label": "Strip-dice game",
+        "explanation": "Tira dado: numero pari toglie capo a chi ha lanciato, dispari lo toglie l’altro.",
+        "level": "L3"
+      },
+      "extra_053": {
+        "label": "Stimolazione doppia mano-toy",
+        "explanation": "Un partner usa dita, l’altro un vibratore sullo stesso punto alternando pressione.",
+        "level": "L3"
+      },
+      "extra_054": {
+        "label": "Countdown orgasmo 60s",
+        "explanation": "Quando il dominante dice ‘ora’, il sub ha 60 s per venire o verrà fermato di nuovo.",
+        "level": "L3"
+      },
+      "extra_055": {
+        "label": "Schiaffi viso consensuali",
+        "explanation": "Palmata delicata su guancia come segnale di sottomissione accettata.",
+        "level": "L3"
+      },
+      "extra_056": {
+        "label": "Bendato posizione sorpresa",
+        "explanation": "Il sub bendato viene guidato in una nuova stanza o posizione senza sapere dove finirà.",
+        "level": "L3"
+      },
+      "extra_057": {
+        "label": "Spalmare miele",
+        "explanation": "Stendere uno strato sottile su petto o pube e leccarlo via lentamente.",
+        "level": "L3"
+      },
+      "extra_058": {
+        "label": "Giochi ombra torcia",
+        "explanation": "Unica luce una torcia: proiettate ombre dei corpi sul muro mentre vi toccate.",
+        "level": "L3"
+      },
+      "extra_059": {
+        "label": "Sfida parole sporche",
+        "explanation": "A turno dire una frase sempre più esplicita: chi arrossisce perde e subisce punizione.",
+        "level": "L3"
+      },
+      "extra_060": {
+        "label": "Orgasmo simultaneo richiesto",
+        "explanation": "I partner devono arrivare insieme, fermandosi o accelerando per sincronizzarsi.",
+        "level": "L3"
+      },
+      "extra_061": {
+        "label": "Punizione paddle 20",
+        "explanation": "Serie di 20 colpi numerati a voce dal sub; errore di conteggio raddoppia colpi.",
+        "level": "L4"
+      },
+      "extra_062": {
+        "label": "Choking a intervalli",
+        "explanation": "Pressione sul collo per 3 s, rilascio per 3; si ripete finché il sub trema di desiderio.",
+        "level": "L4"
+      },
+      "extra_063": {
+        "label": "Edge & denial 5×",
+        "explanation": "Porta il partner sull’orlo dell’orgasmo e fermati per cinque volte prima di concedere il culmine finale.",
+        "level": "L4"
+      },
+      "extra_064": {
+        "label": "Benda + musica alta",
+        "explanation": "Benda sugli occhi e cuffie: il sub perde vista e suoni reali, restano solo tatto e colpi di paddle.",
+        "level": "L4"
+      },
+      "extra_065": {
+        "label": "Humiliation verbale",
+        "explanation": "Parole degradanti scelte in anticipo: il dominante le usa per accendere la vergogna erotica.",
+        "level": "L4"
+      },
+      "extra_066": {
+        "label": "Pesi capezzoli",
+        "explanation": "Aggancia pesetti da 100 g alle pinze: il tiro lento amplifica ogni movimento del busto.",
+        "level": "L4"
+      },
+      "extra_067": {
+        "label": "Wax & ice rapidi",
+        "explanation": "Goccia di cera a 55 °C seguita subito da cubetto di ghiaccio: shock termico intenso.",
+        "level": "L4"
+      },
+      "extra_068": {
+        "label": "Comando numeri spinte",
+        "explanation": "Il dominante decide quante spinte rapide (es. 25); il sub le conta ad alta voce senza errore, pena ricominciare.",
+        "level": "L4"
+      },
+      "extra_069": {
+        "label": "Deprivazione sensi combo",
+        "explanation": "Benda, tappi orecchie e rumore bianco: il sub percepisce solo tocco, calore e profumo.",
+        "level": "L4"
+      },
+      "extra_070": {
+        "label": "Doppio timer vibro",
+        "explanation": "Due vibratori su punti diversi, accesi e spenti da timer sfalsati, creando onde di piacere incrociate.",
+        "level": "L4"
+      },
+      "extra_071": {
+        "label": "Safeword fisico",
+        "explanation": "Il sub tiene una pallina: se la lascia cadere la scena si interrompe; utile con gag o museruola.",
+        "level": "L4"
+      },
+      "extra_072": {
+        "label": "Gag ball voyeur",
+        "explanation": "Il sub con gag viene mostrato a distanza (foto o video) a un osservatore consenziente.",
+        "level": "L4"
+      },
+      "extra_073": {
+        "label": "Cambio ruolo improvviso",
+        "explanation": "A metà sessione dominante e sottomesso si scambiano i ruoli senza preavviso.",
+        "level": "L4"
+      },
+      "extra_074": {
+        "label": "Cera messaggio segreto",
+        "explanation": "Il dominante scrive una parola con cera calda sul petto del sub, che dovrà indovinarla.",
+        "level": "L4"
+      },
+      "extra_075": {
+        "label": "Stimolazione prostatica focus",
+        "explanation": "Sessione di 15 minuti dedicata solo a punto P con dita o toy, vietando ogni altra stimolazione.",
+        "level": "L4"
+      },
+      "extra_076": {
+        "label": "Sfida posizione yoga",
+        "explanation": "Il sub mantiene una posa yoga complessa mentre riceve stimoli: cedimento = punizione leggera.",
+        "level": "L4"
+      },
+      "extra_077": {
+        "label": "Collare e guinzaglio",
+        "explanation": "Il dominante conduce il sub a carponi per la stanza, fermandosi a ogni tirata per carezza o schiaffo.",
+        "level": "L4"
+      },
+      "extra_078": {
+        "label": "Counting spanking",
+        "explanation": "Ogni colpo numerato; sbagliare il conteggio riporta al numero 1, prolungando la punizione.",
+        "level": "L4"
+      },
+      "extra_079": {
+        "label": "Luci strobo e musica techno",
+        "explanation": "Ambiente da club: flash rapidi e beat duro per penetrazioni al ritmo martellante.",
+        "level": "L4"
+      },
+      "extra_080": {
+        "label": "Bondage 30′ immobilità",
+        "explanation": "Il sub viene legato e lasciato immobile per mezz’ora, mentre il dominante decide se stimolare o solo osservare.",
+        "level": "L4"
+      },
+      "extra_081": {
+        "label": "Vac-bed totale",
+        "explanation": "Il sub viene sigillato in sacco di lattice a vuoto, privato di movimento; il dominante stimola solo le aperture.",
+        "level": "L5"
+      },
+      "extra_082": {
+        "label": "Electro tormento pro",
+        "explanation": "Sequenza di impulsi elettrici variabili su genitali e capezzoli per 15 minuti.",
+        "level": "L5"
+      },
+      "extra_083": {
+        "label": "Needle grid",
+        "explanation": "Aghi sterili disposti a griglia su cosce o petto, creando pattern estetico e sensazione pungente.",
+        "level": "L5"
+      },
+      "extra_084": {
+        "label": "Fisting obbligato",
+        "explanation": "Il dominante penetra lentamente con l’intera mano finché il sub accetta la pienezza; safeword sempre pronta.",
+        "level": "L5"
+      },
+      "extra_085": {
+        "label": "Public stage show",
+        "explanation": "Sessione performativa su palco fetish con pubblico che applaude e incita.",
+        "level": "L5"
+      },
+      "extra_086": {
+        "label": "Orgia guidata",
+        "explanation": "Il dominante orchestra più partner attorno al sub, distribuendo stimoli multipli simultanei.",
+        "level": "L5"
+      },
+      "extra_087": {
+        "label": "Breathplay con sacchetto",
+        "explanation": "Brevi pause di respiro usando sacchetto microforato controllato dal dominante.",
+        "level": "L5"
+      },
+      "extra_088": {
+        "label": "Sex-machine maratona",
+        "explanation": "Macchina impalatrice in funzione continua 30 minuti; velocità variabile a piacere del dominante.",
+        "level": "L5"
+      },
+      "extra_089": {
+        "label": "Chastity 48 h",
+        "explanation": "Il sub indossa gabbia di castità sigillata e non può rimuoverla per due giorni.",
+        "level": "L5"
+      },
+      "extra_090": {
+        "label": "Plug XXL day",
+        "explanation": "Plug anale extra-large indossato per una giornata intera sotto i vestiti, con check di sicurezza periodici.",
+        "level": "L5"
+      },
+      "extra_091": {
+        "label": "Doppia sospensione",
+        "explanation": "Il sub viene appeso per polsi e caviglie, completamente esposto, mentre il dominante stimola a piacere.",
+        "level": "L5"
+      },
+      "extra_092": {
+        "label": "Pain ladder",
+        "explanation": "Dieci colpi crescenti con cane di bamboo: ogni scalino più forte finché il sub usa safeword o arriva in cima.",
+        "level": "L5"
+      },
+      "extra_093": {
+        "label": "Knife-play caldo",
+        "explanation": "Lama scaldata alla fiamma scivola a millimetri dalla pelle: brividi adrenalinici senza tagli.",
+        "level": "L5"
+      },
+      "extra_094": {
+        "label": "One-hundred cane strikes",
+        "explanation": "Cento colpi contati di bastone sottile su glutei e cosce, con pause per massaggio, poi ripresa.",
+        "level": "L5"
+      },
+      "extra_095": {
+        "label": "Edge denial 24 h",
+        "explanation": "Il sub viene stimolato a intervalli regolari senza mai venire per un’intera giornata.",
+        "level": "L5"
+      },
+      "extra_096": {
+        "label": "Gabbia 6 h",
+        "explanation": "Il sub trascorre sei ore in gabbia metallica con solo acqua e cuscino, sotto sorveglianza costante.",
+        "level": "L5"
+      },
+      "extra_097": {
+        "label": "Watersports consensuali",
+        "explanation": "Giochi con urina su telo impermeabile pre-disposto, eseguiti con accordo chiaro.",
+        "level": "L5"
+      },
+      "extra_098": {
+        "label": "Multi-sub service",
+        "explanation": "Un singolo dominante riceve attenzioni contemporanee da due o più sottomessi coordinati.",
+        "level": "L5"
+      },
+      "extra_099": {
+        "label": "Orgy livestream privato",
+        "explanation": "La scena di gruppo viene trasmessa solo a spettatori selezionati via link criptato.",
+        "level": "L5"
+      },
+      "extra_100": {
+        "label": "Branding leggero",
+        "explanation": "Ferro caldo inciso per pochi secondi sulla pelle (o versione ghiaccio spray) lasciando marchio simbolico.",
+        "level": "L5"
+      },
+      "extra_null": {
+        "label": "non devi fare nulla qui",
+        "explanation": "non devi fare nulla qui"
+      }
+    }
+    
+    
